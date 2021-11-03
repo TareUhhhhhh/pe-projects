@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1200 630" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <rect id="Artboard1" x="0" y="0" width="1200" height="630" style="fill:none;"/>
+    <clipPath id="_clip1">
+        <rect id="Artboard11" serif:id="Artboard1" x="0" y="0" width="1200" height="630"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <path d="M402,100C402,100 242,333.1 242,433C242,521.306 313.694,593 402,593C490.306,593 605.779,493.262 551,424C419,257.1 402,100 402,100Z" style="fill:rgb(255,9,0);"/>
+        <g transform="matrix(1,0,0,1,89,54)">
+            <path d="M402,100C402,100 242,333.1 242,433C242,521.306 313.694,593 402,593C490.306,593 605.779,493.262 551,424C419,257.1 402,100 402,100Z" style="fill:rgb(125,17,17);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,398,-5)">
+            <path d="M402,100C402,100 378,232.1 274,420C231.237,497.261 313.694,593 402,593C490.306,593 534.229,510.699 551,424C574,305.1 402,100 402,100Z" style="fill:rgb(172,62,62);"/>
+        </g>
+        <g transform="matrix(1,0,0,1.07895,80,-31)">
+            <ellipse cx="211" cy="551" rx="63" ry="57" style="fill:rgb(86,52,31);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,252,63)">
+            <ellipse cx="211" cy="551" rx="63" ry="57" style="fill:rgb(86,52,31);"/>
+        </g>
+        <g transform="matrix(1.23698,0.389768,-0.655579,2.08057,416.011,-327.99)">
+            <rect x="128" y="380" width="116" height="54" style="fill:rgb(86,52,31);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,293,48)">
+            <path d="M402,100C402,100 378,232.1 274,420C231.237,497.261 313.694,593 402,593C490.306,593 534.229,510.699 551,424C574,305.1 402,100 402,100Z" style="fill:rgb(255,225,0);"/>
+        </g>
+        <g>
+            <g transform="matrix(0.772727,-0.634738,0.634738,0.772727,241.304,326.995)">
+                <ellipse cx="211" cy="551" rx="63" ry="57" style="fill:rgb(86,52,31);"/>
+            </g>
+            <g transform="matrix(0.772727,-0.634738,0.66356,0.807815,394.885,242.986)">
+                <ellipse cx="211" cy="551" rx="63" ry="57" style="fill:rgb(86,52,31);"/>
+            </g>
+            <g transform="matrix(1.20325,-0.483977,0.814036,2.02384,287.683,-145.913)">
+                <rect x="128" y="380" width="116" height="54" style="fill:rgb(86,52,31);"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,182,3)">
+            <path d="M402,100C402,100 374,159.1 270,347C227.237,424.261 313.694,593 402,593C490.306,593 534.229,510.699 551,424C574,305.1 402,100 402,100Z" style="fill:rgb(255,110,0);"/>
+        </g>
+        <g transform="matrix(0.958587,-0.284801,0.30565,1.02876,130.444,94.3848)">
+            <ellipse cx="211" cy="551" rx="63" ry="57" style="fill:rgb(86,52,31);"/>
+        </g>
+        <g transform="matrix(0.958587,-0.284801,0.297733,1.00211,314.896,111.286)">
+            <ellipse cx="211" cy="551" rx="63" ry="57" style="fill:rgb(86,52,31);"/>
+        </g>
+        <g transform="matrix(1.29676,0.0213323,-0.0358803,2.18112,367.15,-288.72)">
+            <rect x="128" y="380" width="116" height="54" style="fill:rgb(86,52,31);"/>
+        </g>
+    </g>
+</svg>

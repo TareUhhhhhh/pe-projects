@@ -1,0 +1,146 @@
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	vertical-align: middle;
+	border: 2px solid red; 
+}
+
+body {
+	margin: 0;
+	background-color: #eae8db;
+	vertical-align: middle;	
+	background: url('https://post.healthline.com/wp-content/uploads/2020/04/458490-These-Are-the-12-Best-Dumbbells-to-Use-At-Home-According-to-A-Trainer_1296x728-header_body.jpg') rgba(0, 0, 0, 0.6);
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+}
+
+header img{
+	max-width: 200px;
+	padding: 10px;
+}
+
+.intro img {
+	display: inline-block;
+}
+
+.inner-column {
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+}
+
+section {
+	/*margin: 50px 0;*/
+	/*text-align: center;*/
+}
+
+h1 {
+	display: inline-block;
+	font-size: 40px;
+	font-family: serif;
+	font-weight: 200;
+	/*border: 2px inset gray;*/
+	padding: 13px;
+	max-width: 8ch;
+}
+
+p, li {
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+a {
+	font-family: sans-serif;
+	font-size: 32px;
+	font-weight: 200;
+	text-decoration: none;
+	padding: 25px;
+	color: #eae8db;
+}
+
+nav {
+	display: inline-block;
+}
+
+main {
+	/*margin-top: 10px;*/
+}
+
+header {
+	min-height: 400px;
+	/*padding: 100px;*/
+	color: #eae8db;
+/*	text-align: center;
+*/}
+
+p {
+	display: inline-block;
+	font-style: italic;
+	max-width: 43ch;
+	padding: 5px;
+}
+
+.intro {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.intro p {
+	display: inline-block;
+	max-width: 68ch;
+}
+
+.our-work {
+	background-color: rgba(0, 0, 0, 0.6);
+	min-height: 500px;
+	color: #eae8db;
+}
+
+.our-work h1, .our-work p {
+	vertical-align: middle;
+}
+
+.our-work img {
+	margin: 10px;
+	max-width: 25vw;
+}
+
+span {
+	color: black;
+}
+
+footer {
+	margin: 45px;
+	background-color: #4c5859;
+}
+
+footer p {
+	display: block;
+	font-size: 14px;
+}
+
+.contact {
+	padding: 10px;
+	background-color: rgba(25, 32, 32, 0.7)
+	/*background-color: #4c5859;*/
+}
+
+ul, li {
+	background-color: rgba(163, 167, 179, 0.7);
+}
+
+ul {
+	padding: 5px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  list-style: none;
+}

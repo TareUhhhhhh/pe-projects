@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background:  lightblue;
+}
+
+h1 {
+	color: #ababad;
+}
+
+h2 {
+
+}
+
+a {
+	color: #67707b;
+	text-decoration: none;
+}
+
+.tara {
+	padding: 20px;
+	border: 2px solid cyan;
+	max-width:  10vw;
+}

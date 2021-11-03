@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	background-color: #eae8db;
+	text-align:  center;
+	font-family: sans-serif;
+	font-weight: 200;
+}
+
+header {
+	background: url('https://assets.website-files.com/60ae5b037bf038b14b93720b/60dcb30b85c1c32fe636d42e_people%207.JPG') rgba(0, 0, 0, 0.7);
+	background-size: cover;
+	background-blend-mode: multiply;
+	color: #eae8db;
+	min-height: 800px;
+	vertical-align: middle;
+}
+
+header a {
+	color: #eae8db;
+	text-decoration: none;
+	padding: 10px;
+}
+
+h1, h2, h3, p {
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+.logo {
+	max-width: 25vw;
+}
+
+header .welcome {
+	padding-top: 200px;
+}
+
+.gallery img {
+	object-fit: cover;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+
+.reserve {
+	padding-top: 100px;
+	background: url(https://assets.website-files.com/60ae5b037bf038b14b93720b/60ae69d6768af20d75347206_E61A8877%2Bdark.jpg);
+	background-size: cover;
+	color: #eae8db;
+	min-height: 400px;
+}
+
+.inner-column {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gallery .inner-column {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu-locations {
+	padding: 150px 0 150px 0;
+}
+
+.about {
+	padding-top: 50px;
+	background: url(https://assets.website-files.com/60ae5b037bf038b14b93720b/60ae72b442432574b4ed2359_pattern.png);
+	color: #eae8db;
+	height: 500px;
+	margin-bottom: 0;
+}
+
+.about h1 {
+	float: left;
+	max-width: 16ch;
+}
+
+.careers {
+	margin-top: 0;
+	background: url(https://assets.website-files.com/60ae5b037bf038b14b93720b/60ae752f39e8be82ed9fcd04_bg2.png);
+}
+
+.new-location, .new-location h3 { 
+	background-color: #91a71f;
+	font-size: 28px;
+	font-weight: 300;
+	color: #3c3f37;
+	height: 50px;
+}
+
+.new-location a {
+	color: inherit;
+	font-weight: 300;
+}
+
+footer {
+	padding: 70px;
+	background-color: #1f2020;
+	color: #ebe8db;
+	min-height: 400px;
+}
+
+.hours {
+	float: left;
+}
+
+.social-media {
+	float: right;
+}
