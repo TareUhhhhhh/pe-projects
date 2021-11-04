@@ -1,1 +1,16 @@
-style.css
+@import 'meyer-reset.css';
+@import 'setup.css'
+
+header {
+	padding: 10px;
+}
+
+.about {
+	padding: 20px;
+}
+
+.inner-column {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
