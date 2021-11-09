@@ -68,6 +68,20 @@ h2 {
 	padding: 15px 18px;
 }
 
+.site-footer {
+	background: #484951;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+footer nav a {
+	color: #c2c6cc;
+	display: block;
+	background: transparent;
+}
+
 @media (min-width: 900px) {
 	body {
 		
