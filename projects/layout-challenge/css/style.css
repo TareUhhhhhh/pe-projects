@@ -33,16 +33,20 @@ p {
 }
 
 nav a {
-	display: inline;
-	margin: 5px;
+	display: inline-block;
+	/*margin: 5px;*/
 	padding: 10px;
 	font-size: 18px;
 	background: rgba(255,255,255,0.6);
 }
 
+header nav a + a {
+	margin-left: 5px;
+}
+
 header {
-	margin: 18px;
-	padding-top: 20px;
+	margin: /*18px*/;
+	padding: 20px 18px;
 	position: sticky;
 	top: 0;
 }
@@ -54,7 +58,7 @@ header {
 
 .contact {
 	background: rgba(0, 0, 0, .4);
-	color: white;
+	color: #dddfe4;
 	/*text-shadow: -1px 1px 0 gray;*/
 }
 
