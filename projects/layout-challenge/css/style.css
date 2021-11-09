@@ -1,0 +1,81 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+html {
+	background: wheat;
+}
+
+body {
+	font-family: sans-serif;
+	background-image: url('https://www.altitude1260.com.au/wp-content/uploads/2018/10/Planning-A-Trip-To-The-Snowy-Mountains.jpg');
+	background-size: cover;
+}
+
+h1 {
+	font-family: Georgia;
+	font-size: 42px;
+	font-weight: 700;
+	padding: 25px 18px;
+	text-align: center;
+}
+
+p {
+	padding: 15px 18px;
+	font-size: 18px;
+	line-height: 1.3;
+	letter-spacing: 0.04em;
+}
+
+.inner-column {
+	max-width: 78ch;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav a {
+	display: inline;
+	margin: 5px;
+	padding: 10px;
+	font-size: 18px;
+	background: rgba(255,255,255,0.6);
+}
+
+header {
+	margin: 18px;
+	padding-top: 20px;
+	position: sticky;
+	top: 0;
+}
+
+.about {
+	background: #142c4c;
+	color: #b1bbc5;
+}
+
+.contact {
+	background: rgba(0, 0, 0, .4);
+	color: white;
+	/*text-shadow: -1px 1px 0 gray;*/
+}
+
+h2 {
+	font-family: Georgia;
+	font-size: 36px;
+	padding: 15px 18px;
+}
+
+@media (min-width: 900px) {
+	body {
+		
+	}
+
+	.contact {
+		background: rgba(0, 0, 0, .4);
+		text-shadow: -1px 1px 0 black;
+	}
+
+	header {
+		/*color: #63cf9e;*/
+		/*text-shadow: -1px 1px 0 black;*/
+	}
+}
