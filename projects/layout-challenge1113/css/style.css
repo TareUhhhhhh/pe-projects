@@ -68,6 +68,10 @@ a:hover {
 	border-radius: 0%;
 }
 
+.about picture {
+	display: none;
+}
+
 p {
 	display: inline-block;
 	padding: 15px;
@@ -119,9 +123,15 @@ footer div nav {
 		flex-direction: row;
 	}
 
+	footer .inner-column{
+		position: relative;
+		bottom: 0;
+	}
+
 	footer div nav {
 		display: flex;
 		flex-direction: row;
+		position: absolute;
 	}
 
 	.content {
@@ -158,6 +168,18 @@ footer div nav {
 		height: 35vh;
 	}
 
+	.about picture {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		position: relative;
+	}
+
+	.about picture svg {
+		width: 200px;
+		position: absolute;
+	}
+
 	section div {
 		display: flex;
 		flex-direction: row;
@@ -169,6 +191,10 @@ footer div nav {
 		flex-direction: column;
 		justify-content: space-between;
 		align-items: center;
+	}
+
+	.content {
+		height: 500px;
 	}
 
 	.info {
