@@ -171,9 +171,11 @@ footer div nav {
 
 	.about picture {
 		display: flex;
-		flex-direction: row;
-		justify-content: flex-start;
+		height: 200px;
+		width: 200px;
 		position: absolute;
+		top: 5px;
+		left: 8px;
 	}
 
 	.about picture svg {
