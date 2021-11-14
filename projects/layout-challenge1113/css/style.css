@@ -166,18 +166,21 @@ footer div nav {
 
 	.about {
 		height: 35vh;
+		position: relative;
 	}
 
 	.about picture {
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
-		position: relative;
+		position: absolute;
 	}
 
 	.about picture svg {
-		width: 200px;
-		position: absolute;
+		max-width: 200px;
+		position: relative;
+		top: 20%;
+		right: 10%;
 	}
 
 	section div {
