@@ -1,0 +1,31 @@
+@import “meyer-reset.css”;
+
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+
+a p {
+	display: inline-block;
+	color: lightgray;
+}
+
+body {
+	background: cyan;
+}
+
+picture {
+	display: inline-block;
+}
+
+img {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
