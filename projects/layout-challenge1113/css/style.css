@@ -228,14 +228,14 @@ footer div nav {
 		height: 35vh;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: flex-start;
 		align-items: center;
 		max-width: 250px;
 	}
 
 	article img {
-		height: 125px;
-		width: 100%;
+		width: 125px;
+		height: 100%;
 	}
 
 	.info a {
