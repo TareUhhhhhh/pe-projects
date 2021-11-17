@@ -1,0 +1,95 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+body {
+	font-family: sans-serif;
+}
+
+header {
+	padding: 15px;
+}
+
+.inner-column {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	padding: 15px;
+	font-family: Georgia;
+	color: #487E96;
+	font-size: 28px;
+	font-weight: 500;
+}
+
+h2 {
+	padding: 15px;
+	font-family: Georgia;
+	font-size: 32px;
+}
+
+p {
+	padding: 15px;
+}
+
+a {
+	padding: 15px;
+	font-family: Georgia;
+	color: #165977;
+	text-decoration: none;
+}
+
+a:hover {
+	color: cyan;
+}
+
+.site-header {
+	background: rgba(255, 255, 255, 0.6);
+}
+
+.header-content {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.header-nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+}
+
+.logo {
+	border-radius: 50%;
+	max-width: 100px;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
