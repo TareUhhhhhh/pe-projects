@@ -2,23 +2,21 @@
 @import 'setup.css';
 
 body {
-	font-family: sans-serif;
-	margin: 10px;
-	padding: 15px;
+	font-family: Arial;
 }
 
 header {
-	padding: 10px;
+	padding: 15px;
 }
 
 .inner-column {
-	max-width: 800px;
+	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 h1 {
-	padding: 5px;
+	padding: 15px;
 	font-family: Georgia;
 	color: #487E96;
 	font-size: 48px;
@@ -28,13 +26,14 @@ h1 {
 
 h2 {
 	padding: 15px;
-	font-family: Georgia;
 	font-size: 32px;
-/*	border: 1px inset cyan;
-*/}
+}
+
+p {
+	padding: 15px;
+}
 
 a {
-	font-family: Georgia;
 	color: #165977;
 	text-decoration: none;
 }
