@@ -2,7 +2,7 @@
 @import 'setup.css';
 
 body {
-	font-family: sans-serif;
+	font-family: Helvetica;
 }
 
 header {
@@ -10,7 +10,7 @@ header {
 }
 
 .inner-column {
-	max-width: 900px;
+	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -26,11 +26,14 @@ h1 {
 h2 {
 	padding: 15px;
 	font-family: Georgia;
-	font-size: 32px;
+	font-size: 25px;
+	font-weight: 500;
 }
 
 p {
 	padding: 15px;
+	font-size: 18px;
+	font-weight: 200;
 }
 
 a {
@@ -41,7 +44,9 @@ a {
 }
 
 a:hover {
-	color: cyan;
+	text-decoration: none;
+	color: #15c0bc;
+	text-shadow: 2px 2px black;
 }
 
 .site-header {
@@ -67,12 +72,144 @@ a:hover {
 	height: 100%;
 }
 
+.about img {
+	padding: 15px;
+}
 
+.content {
+	background: rgba(255, 255, 255, 0.6);
+}
 
+.info img {
+	padding: 15px;
+	border-radius: 50%;
+	max-width: 90px;
+	height: 90px;
+}
 
+article a {
+	text-decoration: underline;
+	text-decoration-style: double;
+}
 
+footer {
+	height: 100px;
+}
 
+svg {
+	display: none;
+}
 
+@media (min-width: 600px) {
+	.about .inner-column {
+		max-width: 700px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.about img {
+		max-width: 50%;
+	}
+
+	.about h1 {
+		font-size: 22px;
+	}
+
+	.info {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.info img {
+		max-width: 150px;
+		height: 150px;
+	}
+
+	footer nav {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.content {
+		position: relative;
+		overflow: hidden;
+	}
+
+	content p {
+		max-width: 400px;
+	}
+
+	.content svg {
+		opacity: 40%;
+		display: flex;
+		position: absolute;
+		bottom: -80px;
+		right: -130px;
+	}
+}
+
+@media (min-width: 850px) {
+	.about .inner-column {
+		max-width: 900px;
+		align-items: flex-start;
+	}
+
+	.about h1 {
+		font-size: 32px;
+	}
+
+	.about img {
+		max-width: 60%;
+	}
+
+	content {
+		max-width: 900px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.info {
+		flex-direction: column;
+		align-items: center;
+		width: 30%;
+	}
+
+	.info img {
+		max-width: 125px;
+		height: 125px;
+	}
+
+	.info-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	svg {
+		display: flex;
+		opacity: 30%;
+	}
+
+	.about {
+		position: relative;
+		overflow: hidden;
+	}
+
+	.about .ellipses {
+		position: absolute;
+		bottom: -40px;
+		left: -130px;
+	}
+
+	.rectangle {
+		position: absolute;
+		bottom: -120px;
+		left: 70%;
+	}
+
+}
 
 
 
