@@ -6,7 +6,6 @@ body {
 }
 
 header {
-	padding: 15px;
 }
 
 .inner-column {
@@ -18,8 +17,8 @@ header {
 h1 {
 	padding: 15px;
 	font-family: Georgia;
-	color: #487E96;
-	font-size: 48px;
+	color: #165977;
+	font-size: 32px;
 	text-align: center;
 	font-weight: 700;
 }
@@ -34,10 +33,41 @@ p {
 }
 
 a {
+	padding: 15px;
 	color: #165977;
 	text-decoration: none;
+	background: ;
 }
 
 a:hover {
 	color: cyan;
 }
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
