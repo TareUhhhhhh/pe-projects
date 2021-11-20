@@ -8,7 +8,7 @@
 		<title>Tara's Index of Files</title>
 		<meta name='description' content="Tara Haskamp - A Growing and Aspiring Web Developer">
 		<meta property='og:image' content='boilerplate/images/default.jpg'>
-		<link rel="stylesheet" href="boilerplate/css/style.css">
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<header>
@@ -21,15 +21,3 @@
 	</header>
 
 	<main>
-		<div class='inner-column'>
-			<h1>My Fun Projects</h1>
-			
-				<a href="challenge-1/index.html">Challenge</a>
-			
-				<a href="choose-adventure/1.html">Choose Your adventure!</a>
-			
-				<a href="challenge-1/projects/four-page-with-style/index.html">Updated 4 Page</a>
-		</div>
-	</main>
-
-</html>
