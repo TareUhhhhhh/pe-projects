@@ -1,3 +1,4 @@
+/*CSS RESET*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,7 +43,7 @@ table {
 	border-spacing: 0;
 }
 
-
+/*STYLE SHEET*/
 * {
 	box-sizing: border-box;
 	scroll-behavior: smooth;
@@ -69,7 +70,7 @@ body {
 }
 
 nav a {
-	padding: 40px;
+	/*padding: 40px;*/
 	text-decoration: none;
 	margin-bottom: 20px;
 	color: #eae8db;
@@ -91,8 +92,6 @@ nav a {
 
 .outro-img {
 	max-width: 275px;
-	display: inline-block;
-	float: right;
 }
 
 .inner-column {
@@ -106,7 +105,7 @@ nav a {
 	display: block;
 	background-color: rgba(0, 0, 0, 0.6);
 	color: #eae8db;
-	padding: 20px;
+	padding: 15px;
 }
 
 .our-work p {
@@ -118,7 +117,7 @@ nav a {
 }
 
 h1 {
-	margin: 15px 0;
+	padding: 15px 0;
 	font-size: 42px;
 }
 
