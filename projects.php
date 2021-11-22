@@ -1,22 +1,6 @@
 	<section class='projects'>
 		<div class='inner-column'>
 			<h1>My Projects</h1>
-			
-			<section class="boilerplate">
-				<h2>Boilerplate</h2>
-
-				<a href="boilerplate/index.html">Boilerplate</a>
-
-				<p>This project was to set up a basic boilerplate template to use for a quick start to future projects. It incorporates HTML, metadata and a basix index setup. It also uses CSS, including a Meyer Reset doc.</p>
-			</section>
-
-			<section class="challenge1">
-				<h2>First Challenge</h2>
-
-				<a href="challenge-1/index.html">Challenge #1</a>
-
-				<p>This was our first challenge - to set up a basic folder structure to be able to use relative file names. This makes it so that both local and online versions will work correctly and can easily be adjusted.</p>
-			</section>
 
 			<section class="adventure">
 				<h2>Choose Your Own Adventure</h2>
