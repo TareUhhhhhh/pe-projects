@@ -11,13 +11,15 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 
-	<header>
-		<div class="inner-column">
-			<nav>
-				<a href='#about'>About Tara</a>
-				<a href='#projects'>Projects</a>
-			</nav>
-		</div>
-	</header>
+	<body>
 
-	<main>
+		<header>
+			<div class="inner-column">
+				<nav>
+					<a href='#about'>About Tara</a>
+					<a href='#projects'>Projects</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
