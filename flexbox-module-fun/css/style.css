@@ -1,0 +1,273 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+body {
+	font-family: Arial;
+}
+
+header {
+}
+
+.inner-column {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	padding: 15px;
+	font-family: Georgia;
+	color: #165977;
+	font-size: 32px;
+	text-align: center;
+	font-weight: 700;
+}
+
+h2 {
+	padding: 15px;
+	font-size: 32px;
+}
+
+p {
+	padding: 15px;
+}
+
+a {
+	padding: 15px;
+	color: #165977;
+	text-decoration: none;
+	background: ;
+}
+
+a:hover {
+	color: cyan;
+}
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+/*FLEXBOX STYLE*/
+* {
+	box-sizing: border-box;
+}
+
+flexy {
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+top {
+	padding: 10px;
+	background: #c88a71;
+	display: flex;
+	flex-direction: column-reverse;
+	gap: 10px;
+}
+
+hat {
+	padding: 10px;
+	background: #4c0e0e;
+	color: white;
+	display: flex;
+}
+
+glasses {
+	padding: 10px;
+	background: white;
+	display: flex;
+	flex-direction: row;
+ 	justify-content: space-around; 
+	align-items: center;
+	gap: 10px;
+}
+
+lenses {
+	padding: 10px;
+	background: gray;
+	color: white;
+}
+
+middle {
+	padding: 10px;
+/* 	background: #c88a71; */
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+scarf {
+	padding: 10px;
+	background-image: linear-gradient(#000, white);
+	display: flex;
+	gap: 10px;
+}
+
+jacket {
+	padding: 10px;
+	background: purple;
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+hands {
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+mittens {
+	padding: 10px;
+	background: #259061;
+	color: black;
+	display: flex;
+}
+
+bottom {
+	padding: 10px;
+/* 	background: #c88a71; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+}
+
+pants {
+	padding: 10px;
+	background: #6c70e3;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+undies {
+	padding: 10px;
+	background: black;
+	color: gray;
+}
+
+feet {
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+shoes {
+	padding: 10px;
+	background: lime;
+	display: flex;
+}
+
+socks {
+	padding: 10px;
+	background: white;
+	display: flex;
+}
+
+message {
+	display: block;
+	color: transparent;
+}
+
+hint {
+	margin: 20px;
+}
+
+@media (min-width: 700px) {
+	flexy {
+		flex-direction: row;
+	}
+	
+	top {
+		flex-direction: row-reverse;
+	}
+	
+	glasses {
+		flex-direction: column;
+	}
+	
+	middle {
+		flex-direction: row;
+	}
+	
+	scarf {
+		align-items: center;
+	}
+	
+	jacket {
+		flex-direction: row;
+	}
+	
+	hands {
+		flex-direction: column;
+	}
+	
+	bottom {
+		flex-direction: row;
+	}
+	
+	pants {
+		flex-direction: row;
+	}
+
+	undies {
+		align-items: center;
+	}
+	
+	feet {
+		flex-direction: column;
+	}
+	
+	shoes {
+		flex-direction: row-reverse;
+	}
+	
+	message {
+		margin: 20px;
+		padding: 10px;
+		font-size: 42px;
+		text-align: center;
+		color: black;
+		border: 5px dashed black;
+	}
+
+	.squish {
+		margin: 20px;
+		padding: 10px;
+		font-size: 28px;
+		text-align: center;
+		color: black;
+		border: 2px inset black;
+	}
+
+	h1, hint {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
