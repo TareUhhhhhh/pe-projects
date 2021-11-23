@@ -26,6 +26,14 @@
 				<p>This was to help us familiarize ourselves with the @media query in CSS to adjust how a website looks based on the width of the browser.</p>
 			</section>
 
+			<section class="fell-over">
+				<h2>Flexbox Module Fun!</h2>
+
+				<a href="flexbox-module-fun/index.html">I Fell Over!</a>
+
+				<p>When we first learned about Flex Box, we were also told about the *secret* that we can create our own elements. So I got a little creative and made a person! I also used the media query to have a little fun when the browser adjusted.</p>
+			</section>
+
 			<section class="responsive">
 				<h2>Responsive Layout Challenge</h2>
 
