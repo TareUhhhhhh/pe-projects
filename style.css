@@ -6,13 +6,27 @@ body {
 }
 
 header {
+	padding-top: 15px;
+	position: sticky;
+	background-color: #155977;
+	color: white;
+}
+
+header a {
+	color: white;
 }
 
 .inner-column {
-	max-width: 800px;
+	max-width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/*.about .inner-column {
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}*/
 
 h1 {
 	padding: 15px;
@@ -36,6 +50,13 @@ h3 {
 p {
 	padding: 15px;
 	font-size: 16px;
+	/*max-width: 70ch;*/
+	line-height: 1.4;
+	text-align: justify;
+}
+
+p + p {
+	padding-top: 3px;
 }
 
 a + p {
@@ -50,6 +71,7 @@ p a {
 
 a {
 	padding: 15px;
+	padding-top: 5px;
 	color: #165977;
 	text-decoration: none;
 }
@@ -64,15 +86,24 @@ header nav {
 	gap: 10px;
 }
 
-section {
+section section {
 	margin: 15px;
 	padding: 5px;
 	border: 2px inset gray;
 }
 
+.contact h1 {
+	text-align: left;
+}
 
+footer, footer a {
+	background-color: #155977;
+	color: white;
+}
 
-
+footer nav {
+	display: flex;
+}
 
 
 
