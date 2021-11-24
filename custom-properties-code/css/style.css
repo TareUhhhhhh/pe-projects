@@ -1,0 +1,118 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+body {
+	font-family: Arial;
+	font-size: 16px;
+	--space: 15px;
+	--dark: #083b4f;
+	--light: #e8e8e8;
+	--highlight: #268a88;
+	--neutral: #484a4c;
+	background-color: var(--light);
+	line-height: 1.4;
+}
+
+header {
+}
+
+.inner-column {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	padding: var(--space);
+	font-family: Georgia;
+	color: var(--dark);
+	font-size: 32px;
+	text-align: center;
+	font-weight: 700;
+}
+
+h2 {
+	padding: var(--space);	
+	color: var(--dark);
+	font-size: 28px;
+	font-weight: 300;
+}
+
+h3 {
+	padding: var(--space);
+	color: var(--dark);
+	font-size: 22px;
+}
+
+p {
+	padding: var(--space);
+	max-width: 80ch;
+	color: var(--neutral);
+	text-align: justify;
+	letter-spacing: 0.04em;
+}
+
+a {
+	padding: var(--space);
+	color: var(--highlight);
+	text-decoration: none;
+	letter-spacing: 0.04em;
+}
+
+a:hover {
+	color: var(--neutral);
+}
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+ul {
+	padding-left: var(--space);
+	padding-bottom: var(--space);
+	color: var(--neutral);
+	list-style: inside;
+	letter-spacing: 0.04em;
+}
+
+li {
+}
+
+p + p {
+	padding-top: 3px;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: var(--dark);
+	}
+
+	h1, h2, h3 {
+		color: var(--highlight);
+	}
+
+	p, ul {
+		color: var(--light);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
