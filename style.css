@@ -22,11 +22,9 @@ header a {
 	margin-right: auto;
 }
 
-/*.about .inner-column {
-	max-width: 750px;
-	margin-left: auto;
-	margin-right: auto;
-}*/
+.about {
+	padding-top: 20px;
+}
 
 h1 {
 	padding: 15px;
@@ -96,7 +94,12 @@ section section {
 	text-align: left;
 }
 
+.contact {
+	padding-bottom: 20px;
+}
+
 footer, footer a {
+	padding: 10px 15px;
 	background-color: #155977;
 	color: white;
 }
