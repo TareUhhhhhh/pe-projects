@@ -10,6 +10,14 @@
 				<p>This was an extra project that I decided to take on and have some fun with my son. This exercise helped to instill file structure as well as mapping out paths to understand the best way to set up a website with multiple pages.</p>
 			</section>
 
+			<section class="custom-properties">
+				<h2>Custom Properties and Light/Dark theme</h2>
+
+				<a href="custom-properties-code" target='custom-properties-code'>Custom Properties</a>
+
+				<p>Intro to custom properties in CSS. This was an exciting new tool to add to my arsenal! Not only can I easily incorporate a set theme of colors throughout (and easily update them), but I can also more easily adjust for light and dark mode user preferences!</p>
+			</section>
+
 			<section class="mock-client">
 				<h2>Mock Client - Homebodies</h2>
 
