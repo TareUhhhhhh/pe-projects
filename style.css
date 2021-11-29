@@ -3,6 +3,12 @@
 
 body {
 	font-family: Arial;
+	--light: #cdcbc5;
+	--dark: #373962;
+	--highlight: #bb816e;
+	--lowlight: #714342;
+	--feature: #31412d;
+	--secondary: #064e6a;
 }
 
 header {
