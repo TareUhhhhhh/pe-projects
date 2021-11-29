@@ -3,9 +3,7 @@
 <section class="about">
 
 	<svg class='ellipses' height="150" width="500">
-	  <ellipse cx="240" cy="100" rx="220" ry="30"/>
-	  <ellipse cx="220" cy="70" rx="190" ry="20"/>
-	  <ellipse cx="210" cy="45" rx="170" ry="15"/>
+	  <ellipse cx="140" cy="100" rx="80" ry="80"/>
 	</svg>
 
 	<div class="inner-column">
@@ -15,11 +13,11 @@
 	</div>
 
 	<svg class='rectangle' width="400" height="180">
-	  <rect x="50" y="20" rx="20" ry="20" width="150" height="150"/>
+	  <ellipse cx="240" cy="90" rx="80" ry="80"/>
 	</svg>
 </section>
 
-<section class="content">
+<section class="content" id='content'>
 	<div class="inner-column">
 		<content>
 			<article class="info">
@@ -63,10 +61,42 @@
 	</div>
 
 	<svg class='ellipses' height="150" width="500">
-	  <ellipse cx="240" cy="100" rx="220" ry="30"/>
-	  <ellipse cx="220" cy="70" rx="190" ry="20"/>
-	  <ellipse cx="210" cy="45" rx="170" ry="15"/>
+	  <ellipse cx="340" cy="80" rx="80" ry="80"/>
 	</svg>
 </section>
 
+
+<section class="article-footer">
+	
+</section>
+
+
+<section class="plan-options" id='plan-options'>
+	<div class="inner-column">
+		<content>
+			
+		</content>
+	</div>
+</section>
 <?php include ('footer.php'); ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
