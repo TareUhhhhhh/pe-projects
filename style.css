@@ -136,7 +136,7 @@ div .console {
 	color: var(--light);
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
 	div .console {
 		flex-direction: row;
 		align-items: center;
