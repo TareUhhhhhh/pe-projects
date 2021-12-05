@@ -29,6 +29,10 @@ header nav {
 	margin-right: auto;
 }
 
+section {
+	height: 105vh;
+}
+
 .intro h2 {
 	padding-left: 5vw;
 	padding-top: 200px;
