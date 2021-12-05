@@ -1,0 +1,159 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+html {
+	background-color: #111;
+}
+
+body {
+	--space: 30px;
+	--big-space: 60px;
+	--little-space: 5px;
+	font-family: Helvetica;
+	color: #fffdf9;
+	font-family: Avenir;
+}
+
+header {
+	padding: var(--space);
+}
+
+header nav {
+	font-size: 26px;
+	font-weight: 600;
+}
+
+.inner-column {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.intro h2 {
+	padding: var(--space);
+	font-size: 10vw;
+	font-weight: 400;
+	max-width: 12ch;
+}
+
+.intro p {
+	padding: var(--big-space);
+	font-size: 24px;
+	font-weight: 400;
+}
+
+p {
+	padding: var(--space);
+	font-size: 24px;
+	font-weight: 400;
+}
+
+a {
+	color: #fffdf9;
+	text-decoration: none;
+	background: ;
+}
+
+details {
+	padding-left: var(--space);
+}
+
+details p {
+	padding: var(--little-space);
+	font-size: 16px;
+	font-weight: 200;
+}
+
+ul {
+	padding: var(--little-space);
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 1.4;
+	list-style-type: none;
+}
+
+li {
+	padding-left: var(--space);
+}
+
+ul li:before {
+	content: '\2014';
+	position: absolute;
+	margin-left: -20px;
+}
+
+summary p {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.join-us {
+	font-size: 26px;
+}
+
+h4 {
+	padding: var(--space);
+}
+
+h2 {
+	padding: var(--space);
+	font-size: 10vw;
+	font-weight: 400;
+}
+
+h2 + h2 {
+	padding-top: 0px;
+}
+
+social, copyright, footer nav {
+	display: block;
+	padding-left: var(--space);
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+social {
+	padding-top: 0px;
+	padding-bottom: 50px;
+}
+
+footer p {
+	font-size: 18px;
+}
+
+/*FLEXBOX*/
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+footer nav {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;	
+	padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
