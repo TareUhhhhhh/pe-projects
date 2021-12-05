@@ -30,7 +30,8 @@ header nav {
 }
 
 .intro h2 {
-	padding: var(--space);
+	padding-left: 5vw;
+	padding-top: 200px;
 	font-size: 10vw;
 	font-weight: 400;
 	max-width: 12ch;
@@ -38,6 +39,7 @@ header nav {
 
 .intro p {
 	padding: var(--big-space);
+	padding-bottom
 	font-size: 24px;
 	font-weight: 400;
 }
