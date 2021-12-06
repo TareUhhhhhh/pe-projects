@@ -52,8 +52,16 @@ header nav {
 	gap: 10px;
 }
 
+/*BG*/
 
+.intro picture {
+	position: fixed;
+	opacity: .4;
+}
 
+.intro {
+	background: rgba(0, 0, 0, .8);
+}
 
 
 
