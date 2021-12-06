@@ -3,11 +3,11 @@
 
 body {
 	--black: #111;
-	--white: #9c9b99;
-	font-family: Arial;
-}
-
-header {
+	--white: #e2e4ed;
+	--space: 30px;
+	font-family: Trebuchet MS;
+	color: var(--white);
+	line-height: 1.3;
 }
 
 .inner-column {
@@ -17,25 +17,26 @@ header {
 }
 
 h1 {
-	padding: 15px;
-	font-family: Georgia;
+	padding: var(--space);
 	color: var(--white);
 	font-size: 32px;
 	text-align: center;
-	font-weight: 700;
+	font-weight: 200;
+	letter-spacing: .02em;
+	font-style: italic;
 }
 
 h2 {
-	padding: 15px;
+	padding: var(--space);
 	font-size: 32px;
 }
 
 p {
-	padding: 15px;
+	padding: var(--space);
 }
 
 a {
-	padding: 15px;
+	padding: var(--space);
 	color: var(--white);
 	text-decoration: none;
 	background: ;
