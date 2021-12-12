@@ -2,10 +2,10 @@
 
 		<section class="about" id='about'>
 			<div class="inner-column">
-				<h1>The United Sites of Tara</h1>
+				<h1>United Sites of&nbsp;Tara</h1>
 
 				<div class="console">
-					<h2>A little info <em>about</em> Tara</h2>
+					<h2>A little info <em>about</em>&nbsp;Tara</h2>
 					
 					<content>
 						<p>Currently a student / mentee / learner at Perpetual Education, learning all about the wonderful world of web design and development. Ultimately my goal is to obtain a job as a front end or back end web developer.</p>
