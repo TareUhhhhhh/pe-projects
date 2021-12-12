@@ -24,7 +24,7 @@
 			<div class="inner-column">
 				<h1>Reach Out!</h1>
 
-				<h3>Questions? Feedback? Want to know more or just chat about website development?</h3>
+				<p>Questions? Feedback? Want to know more or just chat about website development?</p>
 
 				<p>Email: tara.haskamp@gmail.com</p>
 
