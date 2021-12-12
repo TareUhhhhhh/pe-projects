@@ -63,15 +63,5 @@
 
 				<p>We were challenged to find a website to replicate with a fairly limited HTML and CSS knowledge. We hadn't learned flex box or positioning at this point. I chose to do a local restaurant that I enjoy. <a href='https://www.thirdstreetsocial.com/'>Here</a> is the original website that mine is based on.</p>
 			</section>
-
-		<!-- 	<section class="four-page">
-				<h2>Four Page</h2>
-
-				<a class='here' href="challenge-1/projects/four-page-with-style">Updated 4 Page</a>
-
-				<p>This was another project for building basic folder structure.</p>
-			</section> -->
-			
 		</div>
 	</section>
-</main>
