@@ -23,10 +23,6 @@ body {
 	background-color: var(--light);
 }
 
-main {
-	flex-grow: 1;
-}
-
 header, footer {
 	padding: var(--space);
 	color: var(--darkgray);
@@ -39,6 +35,7 @@ em {
 
 header a, footer a {
 	font-family: var(--serif);
+	font-size: 20px;
 	color: var(--dark);
 }
 
@@ -53,7 +50,7 @@ header a:hover, footer a:hover {
 }
 
 .about {
-	padding: var(--space);
+	padding-bottom: var(--space);
 	color: var(--light);
 	background: rgba(0, 0, 0, .7);
 }
@@ -67,7 +64,7 @@ h1 {
 	font-family: var(--serif);
 	color: var(--darkgray);
 	font-size: 34px;
-	font-weight: 700;
+	font-weight: 400;
 	letter-spacing: 0.02em;
 }
 
@@ -76,7 +73,7 @@ h2 {
 	padding: var(--space);
 	color: var(--darkgray);
 	font-size: 24px;
-	font-weight: 400;
+	font-weight: 200;
 	letter-spacing: 0.02em;
 	line-height: 1.4;
 }
@@ -114,20 +111,12 @@ p a {
 a {
 	font-family: var(--sans);
 	padding: var(--space);
-	/*padding-top: var(--space);*/
 	color: var(--dark);
 	text-decoration: none;
 }
 
 a:hover {
 	color: var(--green);
-}
-
-header nav {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	gap: 10px;
 }
 
 section section {
@@ -146,20 +135,35 @@ section section {
 	background: rgba(0, 0, 0, 0.2);
 }
 
-footer nav {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	gap: 10px;
+/*FLEX*/
+main {
+	flex-grow: 1;
 }
 
+section section {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
 
-/*FLEX*/
+header nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 10px;
+}
 
 div .console {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+}
+
+footer nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
 }
 
 @media (min-width: 600px) {
@@ -171,8 +175,12 @@ div .console {
 		font-size: 48px;
 	}
 
+	.about h1 {
+		text-align: center;
+	}
+
 	h2 {
-		font-size: 36px;
+		font-size: 28px;
 	}
 
 	div .console {
@@ -182,6 +190,31 @@ div .console {
 
 	div .console h2 {
 		text-align: center;
+	}
+
+	header nav {
+		justify-content: flex-end;
+	}
+
+	section section {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	section > p, .item-content p {
+		max-width: 50ch;
+		flex-grow: 1;
+	}
+
+	.item-title {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.item-title h2 {
+		font-size: 20px;
+		font-weight: 200;
 	}
 }
 
