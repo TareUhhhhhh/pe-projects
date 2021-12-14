@@ -51,9 +51,15 @@ header a:hover, footer a:hover {
 
 .about {
 	padding-bottom: var(--space);
+	height: 60vh;
 	color: var(--light);
 	background: rgba(0, 0, 0, .7);
 }
+
+/*.about div {
+	display: flex;
+	flex-direction: column;
+}*/
 
 .about h1, .about h2 {
 	color: var(--lightgray);
