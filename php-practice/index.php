@@ -1,6 +1,4 @@
-<p>PHP madlibs</p>
-
-<p>(x3)</p>
+<p>PHP practice sheet</p>
 
 <?php 
 	$nounOne = "butterfly";
@@ -14,15 +12,6 @@
 
 	echo "<p>Today, every student has a computer small enough to fit into their " . $nounOne . ". You can solve any math problem by simply pushing the computer’s little " . $pluralNounOne . ". Computers can add, multiply, divide, and " . $verbOne . ". They can also " . $verbTwo . "better than a human. Some computers have their own " . $bodyPart . "s. Others have a/an " . $adjectiveOne . " screen that shows all kinds of " . $pluralNounTwo . " and " . $adjectiveTwo . " figures.</p>"
 ?>
-
-<p>
-	Today, every student has a computer small enough to fit into their <?php echo $nounOne; ?>. You can solve any math problem by simply pushing the computer’s little <?php echo $pluralNounOne; ?>. Computers can add, multiply, divide, and <?php echo $verbOne; ?>. They can also <?php echo $verbTwo; ?> better than a human. Some computers have their own <?php echo $bodyPart; ?>s. Others have a/an <?php echo $adjectiveOne; ?> screen that shows all kinds of <?php echo $pluralNounTwo; ?> and <?php echo $adjectiveTwo; ?> figures.
-</p>
-
-<p>
-	Today, every student has a computer small enough to fit into their <?=$nounOne?>. You can solve any math problem by simply pushing the computer’s little <?=$pluralNounOne?>. Computers can add, multiply, divide, and <?=$verbOne?>. They can also <?=$verbTwo?> better than a human. Some computers have their own <?=$bodyPart?>s. Others have a/an <?=$adjectiveOne?> screen that shows all kinds of <?=$pluralNounTwo?> and <?=$adjectiveTwo?> figures.
-</p>
-
 
 <?php 
 
@@ -64,25 +53,64 @@ need vacations more than kids because parents are always very
 hours every day all year making enough <?=$nounSeven?>s to pay
 for the vacation.</p>
 
-
-
-
-
-
 <?php
 
 	$firstName = Tara;
 	$lastName = Haskamp;
 	$fullName = $firstName . " " . $lastName;
 
-	echo "<h1>First Name: " . $firstName . "</h1> <h1> Last Name: " . $lastName . "</h1> <h1>Full Name: " . $fullName . "</h1>"
+	echo "<p>First Name: " . $firstName . "</p> <p> Last Name: " . $lastName . "</p> <p>Full Name: " . $fullName . "</p>"
 
 ?>
 
+<?php
+
+	$totalStudents = 27;
+	$absentStudents = 2;
+	$presentStudents = $totalStudents - $absentStudents;
+
+?>
+
+<h1>Total Students in class today: <?=$presentStudents?></h1>
+
+<?php 
+
+	$age = 32;
+
+	if ($age < 5) {
+	echo "<h2>Free kids meal for you!</h2>";
+}	else if ($age > 65) {
+	echo "<h2>Senior Citizen AARP discount!</h2>";
+}	else {
+	echo "<h2>Standard Price applies</h2>";
+}
+
+?>
+
+<?php 
+
+	$house = "clean";
+	$dishes = "clean";
+	$laundry = "clean";
+	$time = 4;
+	$mood = "relaxed";
+
+	if ($house == "clean" && $dishes == "clean" && $laundry == "clean" && $time < 6) {
+		echo "It's time for Netflix & chill!";
+	} else {
+
+	}
+
+?>
+
+<h2>Since the house is <?=$house?>, the dishes are <?=$dishes?>, the laundry is <?=$laundry?>, and it is <?=$time?>:00, I am <?=$mood?>!</h2>
 
 
+<?php
 
+	$ = ;
 
+?>
 
 
 
