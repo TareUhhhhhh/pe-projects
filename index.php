@@ -12,7 +12,7 @@
 
 						<p>This is my "business card" site used as a portfolio of sorts to showcase the work that I am currently working on or have finished.</p>
 
-						<p>It is a constant work in progress and will be updated as more projects are completed!</p>
+						<p>It is a constant work in progress and will be updated as more projects are completed. So stay tuned!</p>
 					</content>
 				</div>
 			</div>

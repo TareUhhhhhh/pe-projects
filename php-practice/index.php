@@ -71,18 +71,18 @@ for the vacation.</p>
 
 ?>
 
-<h1>Total Students in class today: <?=$presentStudents?></h1>
+<p>Total Students in class today: <?=$presentStudents?></p>
 
 <?php 
 
 	$age = 32;
 
 	if ($age < 5) {
-	echo "<h2>Free kids meal for you!</h2>";
+	echo "<p>Free kids meal for you!</p>";
 }	else if ($age > 65) {
-	echo "<h2>Senior Citizen AARP discount!</h2>";
+	echo "<p>Senior Citizen AARP discount!</p>";
 }	else {
-	echo "<h2>Standard Price applies</h2>";
+	echo "<p>Standard Price applies</p>";
 }
 
 ?>
@@ -103,14 +103,56 @@ for the vacation.</p>
 
 ?>
 
-<h2>Since the house is <?=$house?>, the dishes are <?=$dishes?>, the laundry is <?=$laundry?>, and it is <?=$time?>:00, I am <?=$mood?>!</h2>
+<p>Since the house is <?=$house?>, the dishes are <?=$dishes?>, the laundry is <?=$laundry?>, and it is <?=$time?>:00, I am <?=$mood?>!</p>
+
 
 
 <?php
 
-	$ = ;
+	$practiceArray = ["Grayson", true, 32, "Hershel", "play video games"];
+	$son = $practiceArray[0];
+	$currentlyWorking = $practiceArray[1];
+	$currentAge = $practiceArray[2];
+	$cat = $practiceArray[3];
+	$fun = $practiceArray[4];
+
+	echo "<h1>Hi there! I'm Tara and I am " . $currentAge . " years old. My son " . $son . " and I like to " . $fun . " together. I also have a cat named " . $cat . ".</h1"
 
 ?>
+
+
+
+<?php
+
+	$animal = [
+		"fur" => "none"
+		"legs" => "none",
+		"scales" => "yes",
+		"color" => ["green", "black", "various", "orange"],
+	];
+
+	if ($animal[0] = true && $animal[1] > 1 && $animal[2] == false) {
+		echo "<h1>This animal is " . $animal[3[3]] . " in color and is a mammal!</h1>";
+	} else if ($animal[0] = false && $animal[1] < 1 && $animal[2] == true) {
+		echo "<h1>Look out! It's a " . $animal[3[2]] . " snake!</h1>";
+	} else {
+
+	};
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
