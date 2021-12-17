@@ -1,0 +1,75 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+body {
+	--black: #111;
+	--white: #9c9b99;
+	font-family: Arial;
+}
+
+header {
+}
+
+.inner-column {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	padding: 15px;
+	font-family: Georgia;
+	color: var(--white);
+	font-size: 32px;
+	text-align: center;
+	font-weight: 700;
+}
+
+h2 {
+	padding: 15px;
+	font-size: 32px;
+}
+
+p {
+	padding: 15px;
+}
+
+a {
+	padding: 15px;
+	color: var(--white);
+	text-decoration: none;
+	background: ;
+}
+
+a:hover {
+	color: cyan;
+}
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
