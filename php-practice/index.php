@@ -116,27 +116,26 @@ for the vacation.</p>
 	$cat = $practiceArray[3];
 	$fun = $practiceArray[4];
 
-	echo "<h1>Hi there! I'm Tara and I am " . $currentAge . " years old. My son " . $son . " and I like to " . $fun . " together. I also have a cat named " . $cat . ".</h1"
+	echo "<h1>Hi there! I'm Tara and I am " . $currentAge . " years old. My son " . $son . " and I like to " . $fun . " together. I also have a cat named " . $cat . ".</h1>"
 
 ?>
-
 
 
 <?php
 
 	$animal = [
-		"fur" => "none"
-		"legs" => "none",
-		"scales" => "yes",
+		"fur" => true,
+		"legs" => 2,
+		"scales" => false,
 		"color" => ["green", "black", "various", "orange"],
 	];
 
-	if ($animal[0] = true && $animal[1] > 1 && $animal[2] == false) {
-		echo "<h1>This animal is " . $animal[3[3]] . " in color and is a mammal!</h1>";
-	} else if ($animal[0] = false && $animal[1] < 1 && $animal[2] == true) {
-		echo "<h1>Look out! It's a " . $animal[3[2]] . " snake!</h1>";
+	if ($animal["fur"] == true && $animal["legs"] > 1 && $animal["scales"] == false) {
+		echo "<h1>This animal has " . $animal["legs"] . " legs and is a mammal!</h1>";
+	} else if ($animal["fur"] == false && $animal["legs"] < 1 && $animal["scales"] == true) {
+		echo "<h1>Look out! It's a snake!</h1>";
 	} else {
-
+		echo "<h1>I'm not sure what the animal is...</h1>";
 	};
 
 ?>
