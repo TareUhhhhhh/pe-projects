@@ -1,16 +1,13 @@
+
 <?php
-
-	$info = [37, "banana", true, "Jigglypuff"];
-
-	echo "I would like to eat " . $info[0] . " " . $info[1] . "s.";
-
 
 	$codey = [
 		"id" => 6597,
 		"name" => "Codey",
-		"favoriteFood" => "Mountain Dew Code Red",
+		"favoriteFood" => "coleslaw",
 		"age" => 7,
 		"adopted" => true,
+		"portrait" => "https://peprojects.dev/images/portrait.jpg"
 	];
 
 	$limabean = [
@@ -19,6 +16,7 @@
 		"favoriteFood" => "lima beans",
 		"age" => 4,
 		"adopted" => false,
+		"portrait" => "https://peprojects.dev/images/portrait.jpg"
 	];
 
 	$reads = [
@@ -27,24 +25,19 @@
 		"favoriteFood" => "lasagna",
 		"age" => 9,
 		"adopted" => false,
+		"portrait" => "https://peprojects.dev/images/portrait.jpg"
 	];
 
-	$monsters = [$codey, $lima, $reads];
-
-	$story = $monster["name"] . " is " . $monster["age"] . " years old and his favorite food is " . $monster["favoriteFood"] . ".";
-
-	$template = "<p id=" . $monster["id"] . ">" . $story . "</p>";
+	$monsters = [$codey, $limabean, $reads];
 
 	foreach ($monsters as $monster) {
+
+	$story = $monster["name"] . " is " . $monster["age"] . " years old and loves to eat " . $monster["favoriteFood"] . "!";
+
+	$template = "<p class='monster'" . $monster["id"] . ">" . "<img src=" . $monster["portrait"] . "width=200>" . $story . "</p>";
+
 		echo $template;
 	}
 
-	$pets = ["Alfred", "Luna", "Michonne", "Hershel"];
+	
 
-		echo "<ol>";
-
-	foreach ($pets as $pet) {
-		echo "<li>" . $pet . "</li>";
-	}
-
-		echo "</ol>";
