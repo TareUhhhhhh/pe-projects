@@ -1,10 +1,8 @@
 @import 'meyer-reset.css';
 @import 'setup.css';
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 body {
-	display: flex;
-	flex-direction: column;
 	font-family: Arial;
 	--light: #cdcbc5;
 	--dark: #373962;
@@ -17,10 +15,10 @@ body {
 	--blue: #1b6a89;
 	--lightgray: #b3b3b4;
 	--darkgray: #47454d;
-	--space: 10px;
+	--space: 15px;
 	--serif: 'Roboto Slab', serif;
 	--sans: 'Poppins', sans-serif;
-	background-color: var(--light);
+	background-color: var(--darkgray);
 }
 
 header, footer {
@@ -50,10 +48,11 @@ header a:hover, footer a:hover {
 }
 
 .about {
+	margin-top: 100px;
 	padding-bottom: var(--space);
 	height: 60vh;
 	color: var(--light);
-	background: rgba(0, 0, 0, .7);
+	/*background: rgba(0, 0, 0, .7);*/
 }
 
 /*.about div {
@@ -61,17 +60,20 @@ header a:hover, footer a:hover {
 	flex-direction: column;
 }*/
 
-.about h1, .about h2 {
-	color: var(--lightgray);
-}
-
 h1 {
 	padding: var(--space);
 	font-family: var(--serif);
 	color: var(--darkgray);
-	font-size: 34px;
+	font-size: 60px;
 	font-weight: 400;
 	letter-spacing: 0.02em;
+}
+
+.about h1 {
+	color: var(--lightgray);
+	margin-bottom: 30px;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: clamp(10vw, 12vw, 15vw);
 }
 
 h2 {
@@ -181,8 +183,13 @@ footer nav {
 		font-size: 48px;
 	}
 
+	.about {
+		margin-top: 200px;
+	}
+
 	.about h1 {
-		text-align: center;
+		font-size: 90px;
+		margin-bottom: 50px;
 	}
 
 	h2 {

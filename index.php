@@ -1,12 +1,10 @@
-		<?php include('header.php');?>
+<?php include('header.php');?> 
 
 		<section class="about" id='about'>
 			<div class="inner-column">
-				<h1>United Sites of&nbsp;Tara</h1>
+				<h1>TareUhhhhhh</h1>
 
 				<div class="console">
-					<h2>A little info <em>about</em>&nbsp;Tara</h2>
-					
 					<content>
 						<p>Currently a student / mentee / learner at Perpetual Education, learning all about the wonderful world of web design and development. Ultimately my goal is to obtain a job as a front end or back end web developer.</p>
 
@@ -18,9 +16,10 @@
 			</div>
 		</section>
 
-		<?php include('projects.php');?>
+	<!-- 	<?php include('projects.php');?>
 
-		<section class="contact" id='contact'>
+
+	<section class="contact" id='contact'>
 			<div class="inner-column">
 				<h1>Reach Out!</h1>
 
@@ -30,11 +29,11 @@
 
 				<p>GitHub: <a href='https://github.com/TareUhhhhhh' target='https://github.com/TareUhhhhhh'>TareUhhhhhh</a></p>
 			</div>
-		</section>
+		</section> -->
 
 		</main>
 
-		<?php include('footer.php');?>
+	<!-- 	<?php include('footer.php');?> -->
 
 	</body>
 

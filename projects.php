@@ -36,7 +36,7 @@
 				<p>This was our first project working with a "client" that had their own wishes and individual needs for their business. I chose a personal training couple who helps to customize home gyms as well as provide workout plans. This involved asking questions and making sure the essential functions were met.</p>
 			</section>
 
-			<!-- <section class="mountains">
+			<section class="mountains">
 				<div class="item-title">
 					<h2>Mountain Layout</h2>
 
@@ -44,7 +44,7 @@
 				</div>
 
 				<p>This was to help us familiarize ourselves with the @media query in CSS to adjust how a website looks based on the width of the browser.</p>
-			</section> -->
+			</section>
 
 			<section class="fell-over">
 				<div class="item-title">
@@ -57,11 +57,6 @@
 			</section>
 
 			<section class="responsive">
-				<!-- <h2>Responsive Layout</h2>
-
-				<a href="layout-challenge1113" target='responsive'>Responsive Layout Challenge</a>
-
-				<p>This was our chance to show our understanding of Flex Box and positioning. Using the @media query to adjust for browser width, we made functional changes at each breakpoint, including some background flourishes.</p> -->
 
 				<div class="item-title">
 					<h2>Responsive Layout Refresh</h2>

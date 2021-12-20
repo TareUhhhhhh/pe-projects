@@ -16,7 +16,7 @@
 
 	<body>
 
-		<header>
+<!-- 		<header>
 			<div class="inner-column">
 				<nav>
 					<a href='#about'>About Tara</a>
@@ -26,6 +26,6 @@
 					<a href='#contact'>Contact</a>
 				</nav>
 			</div>
-		</header>
+		</header> -->
 
 		<main>
