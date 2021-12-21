@@ -1,5 +1,7 @@
 <?php include('head.php');?>
 
+<body>
+
 <section class='bones'>
 	<?php include('crossbones.svg');?>
 </section>

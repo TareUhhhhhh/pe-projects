@@ -13,5 +13,3 @@
 		<meta property='og:image' content='boilerplate/images/default.jpg'>
 		<link rel="stylesheet" href="style.css">
 	</head>
-
-	<body>
