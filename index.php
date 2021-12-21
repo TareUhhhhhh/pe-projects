@@ -1,12 +1,15 @@
 <?php include('header.php');?> 
 
+<?php include('bone.svg');?>
+
+
 		<section class="about" id='about'>
 			<div class="inner-column">
 				<h1>TareUhhhhhh</h1>
 
 				<div class="console">
 					<content>
-						<p>Currently a student / mentee / learner at Perpetual Education, learning all about the wonderful world of web design and development. Ultimately my goal is to obtain a job as a front end or back end web developer.</p>
+						<p>Currently attending <a href="https://perpetual.education/">Perpetual Education</a>, learning all about the wonderful world of web design and development. Ultimately my goal is to obtain a job as a front end or back end web developer.</p>
 
 						<p>This is my "business card" site used as a portfolio of sorts to showcase the work that I am currently working on or have finished.</p>
 
