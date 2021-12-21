@@ -52,13 +52,7 @@ header a:hover, footer a:hover {
 	padding-bottom: var(--space);
 	height: 60vh;
 	color: var(--light);
-	/*background: rgba(0, 0, 0, .7);*/
 }
-
-/*.about div {
-	display: flex;
-	flex-direction: column;
-}*/
 
 h1 {
 	padding: var(--space);
@@ -119,8 +113,15 @@ p a {
 a {
 	font-family: var(--sans);
 	padding: var(--space);
-	color: var(--dark);
+	color: var(--light);
 	text-decoration: none;
+}
+
+svg {
+	position: sticky;
+	offset: 100px 100px;
+	top: 60px;
+	transform: rotate(150deg);
 }
 
 a:hover {
