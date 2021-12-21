@@ -1,9 +1,11 @@
-<?php include('header.php');?> 
+<?php include('head.php');?>
 
-<?php include('bone.svg');?>
+<section class='bones'>
+	<?php include('crossbones.svg');?>
+</section>
 
-
-		<section class="about" id='about'>
+<main>
+	<section class="about" id='about'>
 			<div class="inner-column">
 				<h1>TareUhhhhhh</h1>
 
@@ -13,31 +15,15 @@
 
 						<p>This is my "business card" site used as a portfolio of sorts to showcase the work that I am currently working on or have finished.</p>
 
-						<p>It is a constant work in progress and will be updated as more projects are completed. So stay tuned!</p>
+						<p>It is a constant work in progress and will be updated as more <a href="projects.php">projects</a> are completed. So stay tuned!</p>
 					</content>
 				</div>
 			</div>
 		</section>
 
-	<!-- 	<?php include('projects.php');?>
-
-
-	<section class="contact" id='contact'>
-			<div class="inner-column">
-				<h1>Reach Out!</h1>
-
-				<p>Questions? Feedback? Want to know more or just chat about website development?</p>
-
-				<p>Email: tara.haskamp@gmail.com</p>
-
-				<p>GitHub: <a href='https://github.com/TareUhhhhhh' target='https://github.com/TareUhhhhhh'>TareUhhhhhh</a></p>
-			</div>
-		</section> -->
-
-		</main>
+		<!-- <?php include('contact.php');?> -->
 
 	<!-- 	<?php include('footer.php');?> -->
-
+		</main>
 	</body>
-
 </html>

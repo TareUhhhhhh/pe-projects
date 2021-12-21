@@ -15,7 +15,7 @@ body {
 	--blue: #1b6a89;
 	--lightgray: #b3b3b4;
 	--darkgray: #47454d;
-	--space: 15px;
+	--space: 10px;
 	--serif: 'Roboto Slab', serif;
 	--sans: 'Poppins', sans-serif;
 	background-color: var(--darkgray);
@@ -23,8 +23,8 @@ body {
 
 header, footer {
 	padding: var(--space);
-	color: var(--darkgray);
-	background: rgba(0, 0, 0, 0.4);
+	color: var(--lightgray);
+	/*background: rgba(0, 0, 0, 0.4);*/
 }
 
 em {
@@ -33,8 +33,8 @@ em {
 
 header a, footer a {
 	font-family: var(--serif);
-	font-size: 20px;
-	color: var(--dark);
+	font-size: 16px;
+	color: var(--lightgray);
 }
 
 header a:hover, footer a:hover {
@@ -117,11 +117,25 @@ a {
 	text-decoration: none;
 }
 
-svg {
-	position: sticky;
-	offset: 100px 100px;
+/*svg {
+	display: inline;
+	position: relative;
 	top: 60px;
+	width: 60vw;
+	right: 140px;
 	transform: rotate(150deg);
+}*/
+
+.bones {
+	position: absolute;
+	bottom: -10%;
+	width: 60vw;
+	right: -24%;
+	/*transform: rotate(150deg);*/
+}
+
+.bones svg {
+	position: relative;
 }
 
 a:hover {
@@ -135,12 +149,14 @@ section section {
 }
 
 .contact h1 {
+	font-size: 28px;
 	text-align: left;
+	color: var(--lightgray);
 }
 
 .contact {
-	padding-bottom: var(--space);
-	color: var(--darkgray);
+	padding: var(--space);
+	color: var(--lightgray);
 	background: rgba(0, 0, 0, 0.2);
 }
 
@@ -159,7 +175,7 @@ header nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	gap: 10px;
+	/*gap: 7px;*/
 }
 
 div .console {
