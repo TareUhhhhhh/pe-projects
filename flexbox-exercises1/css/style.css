@@ -1,14 +1,10 @@
 @import 'meyer-reset.css';
 @import 'setup.css';
+@import 'basic.css';
 
+/*MAIN SETUP*/
 body {
-	font-family: sans-serif;
 	margin: 10px;
-	padding: 15px;
-}
-
-header {
-	padding: 10px;
 }
 
 .inner-column {
@@ -17,32 +13,65 @@ header {
 	margin-right: auto;
 }
 
-h1 {
-	padding: 10px;
-	font-family: Georgia;
-	color: #487E96;
-	font-size: 48px;
-	text-align: center;
-	font-weight: 700;
+div h1 {
+	font-size: 38px;
 }
 
-h2 {
-	padding: 10px;
-	font-family: Georgia;
-	font-size: 32px;
-/*	border: 1px inset cyan;
-*/}
-
-p {
-	padding: 10px;
+article {
+	border: 2px solid black;
+	margin-top: 20px;
+	width: 100%;
+	height: 400px;
 }
 
-a {
-	font-family: Georgia;
-	color: #165977;
-	text-decoration: none;
+
+
+/*DIV SETUP & COLORS*/
+div {
+	min-height: 80px;
+	min-width: 100px;
+	padding-top: 25px;
+	padding-left: 20px;
 }
 
-a:hover {
-	color: cyan;
+.blue {
+	background: #2e3193;
 }
+
+.red {
+	background: #932e2e;
+}
+
+.orange {
+	background: #eca151;
+}
+
+.yellow {
+	background: #f0d432;
+}
+
+
+/*FLEXBOX GOODNESS*/
+
+/*BASIC IMPORTED*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
