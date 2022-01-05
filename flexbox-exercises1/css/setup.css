@@ -13,11 +13,11 @@ a {
 
 a p {
 	display: inline;
-	color: lightgray;
 }
 
-body {
-	background: cyan;
+p a {
+	display: inline-block;
+	text-decoration: underline;
 }
 
 picture {
