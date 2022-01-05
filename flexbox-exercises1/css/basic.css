@@ -1,0 +1,57 @@
+.one {
+	display: flex;
+	flex-direction: row;
+}
+
+.two {
+	display: flex;
+	flex-direction: column;
+}
+
+.three {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+}
+
+.four {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: flex-start;
+}
+
+.five {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.six {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.seven {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.eight {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.nine {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.ten {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
