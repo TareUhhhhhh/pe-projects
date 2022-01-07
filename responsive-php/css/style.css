@@ -2,11 +2,12 @@
 @import 'setup.css';
 
 body {
+	--space: 15px;
 	font-family: Helvetica;
 }
 
 header {
-	padding: 15px;
+	padding: var(--space);
 }
 
 .inner-column {
@@ -16,7 +17,7 @@ header {
 }
 
 h1 {
-	padding: 15px;
+	padding: var(--space);
 	font-family: Georgia;
 	color: #487E96;
 	font-size: 28px;
@@ -24,20 +25,20 @@ h1 {
 }
 
 h2 {
-	padding: 15px;
+	padding: var(--space);
 	font-family: Georgia;
 	font-size: 25px;
 	font-weight: 500;
 }
 
 p {
-	padding: 15px;
+	padding: var(--space);
 	font-size: 18px;
 	font-weight: 200;
 }
 
 a {
-	padding: 15px;
+	padding: var(--space);
 	font-family: Georgia;
 	color: #165977;
 	text-decoration: none;
@@ -47,6 +48,14 @@ a:hover {
 	text-decoration: none;
 	color: #15c0bc;
 	text-shadow: 2px 2px black;
+}
+
+li {
+	padding: var(--space);
+}
+
+li + li {
+	padding-top: 2px;
 }
 
 .site-header {
@@ -73,7 +82,7 @@ a:hover {
 }
 
 .about img {
-	padding: 15px;
+	padding: var(--space);
 }
 
 .content {
@@ -81,7 +90,7 @@ a:hover {
 }
 
 .info img {
-	padding: 15px;
+	padding: var(--space);
 	border-radius: 50%;
 	max-width: 90px;
 	height: 90px;
@@ -94,6 +103,11 @@ article a {
 
 footer {
 	height: 100px;
+	background: rgba(0, 0, 0, .68);
+}
+
+footer a {
+	color: #3bb6b7;
 }
 
 svg {
