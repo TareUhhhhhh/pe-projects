@@ -3,8 +3,7 @@
 		<footer class="site-footer">
 			<div class="inner-column">
 				<nav>
-					<a href="#">Home</a>
-					<a href="#info">Info</a>
+					<a href="index.php">Home</a>
 				</nav>
 			</div>
 		</footer>
