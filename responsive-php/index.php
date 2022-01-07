@@ -70,14 +70,6 @@
 	
 </section>
 
-
-<section class="plan-options" id='plan-options'>
-	<div class="inner-column">
-		<content>
-			
-		</content>
-	</div>
-</section>
 <?php include ('footer.php'); ?>
 
 
