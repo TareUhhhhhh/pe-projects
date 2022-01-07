@@ -11,10 +11,12 @@ body {
 	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+	border: none;
 }
 
 div h1 {
 	font-size: 38px;
+	padding-top: 30px;
 }
 
 article {
@@ -28,10 +30,9 @@ article {
 
 /*DIV SETUP & COLORS*/
 div {
-	min-height: 80px;
-	min-width: 100px;
-	padding-top: 25px;
-	padding-left: 20px;
+	padding: 15px;
+	border: 1px solid gray;
+	border-radius: 10px;
 }
 
 .blue {
@@ -47,7 +48,15 @@ div {
 }
 
 .yellow {
-	background: #f0d432;
+	background: #ffed98;
+}
+
+.pink, .pink1 {
+	background: #ff99ff;
+}
+
+.green, .green1, .green2 {
+	background: #58cd83;
 }
 
 
@@ -55,17 +64,95 @@ div {
 
 /*BASIC IMPORTED*/
 
+/*CHALLENGE 1*/
+.challenge1 {
+	min-height: 700px;
+	padding: 5px;
+	background: #eca151;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	gap: 10px;
+}
 
+.challenge1 .yellow1 {
+	min-width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+}
 
+.green1 {
+	min-height: 15%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 10px;
+}
 
+.challenge1 .pink1 {
+	min-width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 10px;
+}
 
+.green2 {
+	min-height: 35%;
+	display: flex;
+	flex-direction: row;
+}
 
+.green2 .pink {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 10px;
+}
 
+.green2 .blue {
+	display: flex;
+	flex-direction: row-reverse;
+}
 
+.yellow2 {
+	min-width: 25%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
 
+.yellow2 .green1 {
+	display: flex;
+	flex-direction: row;
+}
 
+.yellow2 .green2 {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
 
+.green2 .pink1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
 
+div .blue7 {
+	width: 10%;
+}
+
+.yellow2 .pink {
+	width: 100%;
+}
+
+.yellow2 .green1 .pink {
+	width: 10%;
+}
 
 
 
