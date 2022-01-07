@@ -1,0 +1,120 @@
+* {
+	--orange: #eca151;
+	--yellow: #ffed98;
+	--green: #58cd83;
+	--pink: #ff99ff;
+	--blue: #2e3193;
+}
+
+.challenge2 {
+	background: var(--orange);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	height: 600px;
+}
+
+.challenge2 .yellow1, .challenge2 .yellow2 {
+	background: var(--yellow);
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.challenge2 .yellow1 {
+	height: 75%;
+	width: 40%;
+}
+
+.challenge2 .yellow2 {
+	height: 50%;
+}
+
+.challenge2 .green1, .challenge2 .green2 {
+	background: var(--green);
+	display: flex;
+	flex-direction: row;
+	height: 50%;
+	gap: 10px;
+}
+
+.challenge2 .green1 {
+	align-items: center;
+}
+
+.challenge2 .pink1, .challenge2 .pink2 {
+	background: var(--pink);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+}
+
+.challenge2 .pink1 {
+	width: 70%;
+	height: 100%;
+}
+
+.challenge2 .blue1, .challenge2 .blue2, .challenge2 .blue4 {
+	background: var(--blue);
+}
+
+.challenge2 .pink3, .challenge2 .pink4 {
+	background: var(--pink);
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.challenge2 .pink3 {
+	width: 60%;
+}
+
+.challenge2 .blue3 {
+	background: var(--blue);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	height: 40%;
+}
+
+.challenge2 .red {
+	height: 100%;
+}
+
+.challenge2 .green3 {
+	background: var(--green);
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	height: 45%;
+}
+
+.challenge2 .green4 {
+	background: var(--green);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.challenge2 .pink5, .challenge2 .pink6, .challenge2 .pink7 {
+	background: var(--pink);
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
