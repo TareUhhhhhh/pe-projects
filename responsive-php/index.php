@@ -1,7 +1,6 @@
 <?php include('header.php');?>
 
 <section class="about">
-
 	<svg class='ellipses' height="150" width="500">
 	  <ellipse cx="140" cy="100" rx="80" ry="80"/>
 	</svg>
@@ -30,6 +29,7 @@
 					</p>
 
 					<a href="https://www.vox.com/future-perfect/21536524/cats-dogs-feline-philosophy-john-gray">Wisdom</a>
+				</section>
 			</article>
 
 			<article class="info">
@@ -65,10 +65,22 @@
 	</svg>
 </section>
 
+<section class="more-goodies">
+	<div class="inner-column">
+		<article class='great-names'>
+			<h2>For some great feline name ideas, check out these resources.</h2>
 
-<section class="article-footer">
-	
+		<a href="great-names.php">Great Names!</a>
+		</article>
+
+		<article class='necessities'>
+			<h2>When you bring a new feline friend into your family, there are a lot of items they need!</h2>
+
+		<a href="necessities.php">Don't forget the poop scooper! (Or do!)</a>
+		</article>
+	</div>
 </section>
+	
 
 <?php include ('footer.php'); ?>
 
