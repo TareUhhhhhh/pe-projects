@@ -37,3 +37,5 @@
 		</div>
 	</div>
 </article>
+
+<?php include('challenge2.php'); ?>
