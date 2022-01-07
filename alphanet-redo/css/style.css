@@ -1,0 +1,80 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+@import 'student.css';
+
+/*SITEWIDE STANDARDS*/
+* {
+	--space: 20px;
+	--headline: 'Dosis', Sans-Serif;
+	--standard: 'Titillium Web', Sans-Serif;
+}
+
+/*BASIC FONT INFO
+Font-Family: 'Dosis', Sans-Serif;
+Font-Size: 48px;
+Font-Family: 'Titillium Web', Sans-Serif;
+Font-Size: 16px;*/
+
+body {
+	padding: var(--space);
+}
+
+main {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-gap: 1em;
+}
+
+
+/*STYLE*/
+header h1 {
+	font-family: var(--headline);
+	font-size: 44px;
+	font-weight: 500;
+	padding-bottom: var(--space);
+}
+
+.student {
+	border: 1px inset gray;
+	border-radius: var(--space);
+	padding: 15px;
+}
+
+.student h1 {
+	font-family: var(--headline);
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.student p {
+	font-family: var(--standard);
+	padding: var(--space) 0;
+	font-weight: 300;
+}
+
+.student a {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
