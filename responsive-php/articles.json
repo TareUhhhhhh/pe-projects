@@ -1,0 +1,31 @@
+[
+	{
+		"article": "info-content",
+		"img": "https://pettraxinc.com/wp-content/uploads/2018/10/catlazy2.jpg",
+		"section": "info-content",
+		"title": "Laid Back",
+		"text": "Sometimes cats are super laid back and just lie around the house all day. Many you will find near a window or door soaking up the sunshine and warmth. Some are even avid bird watchers.",
+		"link": "https://www.vox.com/future-perfect/21536524/cats-dogs-feline-philosophy-john-gray",
+		"link-text": "Wisdom"
+	},
+
+	{
+		"article": "info-content",
+		"img": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2019%2F05%2Fgrumpy-cat-2-2000.jpg",
+		"section": "info-content",
+		"title": "Grumpy Cats",
+		"text": "The late, beloved, Grumpy Cat is the face of how many see all feline friends. Mad at the world and full of hiss and vinegar. Contrary to that face, Tardar Sauce (her actual name) was a sweet and friendly little ball of fluff.",
+		"link": "https://www.treehugger.com/grumpy-cat-isnt-so-cranky-after-all-4864049",
+		"link-text": "Cranky"
+	},
+
+	{
+		"article": "info-content",
+		"img": "https://www.purina.com/sites/g/files/auxxlc196/files/styles/kraken_generic_max_width_480/public/Abyssinian_body_7.jpg?itok=oi_7JqLe",
+		"section": "info-content",
+		"title": "Playful Kitties!",
+		"text": "Who doesn't love to watch a little furball bat a little jingling ball across the floor?? Or darting back and forth trying to catch the red dot of a laser pointer. They exhibit such a carefree playfulness right before stretching out into a catnap.",
+		"link": "https://www.israel21c.org/cat2see-lets-you-play-with-your-cat-remotely/",
+		"link-text": "Play!"
+	}
+],
