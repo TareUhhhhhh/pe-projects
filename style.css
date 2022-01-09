@@ -19,6 +19,7 @@ body {
 	--serif: 'Roboto Slab', serif;
 	--sans: 'Poppins', sans-serif;
 	background-color: var(--darkgray);
+	overflow: hidden;
 }
 
 header, footer {
@@ -128,14 +129,19 @@ a {
 
 .bones {
 	position: absolute;
-	bottom: -10%;
+	top: -10%;
 	width: 60vw;
 	right: -24%;
+	overflow: hidden;
 	/*transform: rotate(150deg);*/
 }
 
 .bones svg {
 	position: relative;
+}
+
+.console {
+	/*background: rgba(0, 0, 0, 0.7);*/
 }
 
 a:hover {
