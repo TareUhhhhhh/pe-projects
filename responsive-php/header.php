@@ -18,7 +18,8 @@
 
 					<nav class='header-nav'>
 						<a href='index.php'>Home</a>
-						<a href='.info'>Info</a>
+						<a href='great-names.php'>Names</a>
+						<a href='necessities.php'>Needs</a>
 					</nav>
 				</section>
 			</div>
