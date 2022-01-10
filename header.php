@@ -2,7 +2,7 @@
 <header>
 	<div class="inner-column">
 		<nav>
-			<a href='../'>About Tara</a>
+			<a href='index.php'>About Tara</a>
 			
 			<a href='projects.php'>Projects</a>
 
