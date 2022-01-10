@@ -1,0 +1,265 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body {
+	font-family: Arial;
+	--light: #cdcbc5;
+	--dark: #373962;
+/*	--highlight: #bb816e;
+	--lowlight: #714342;
+	--feature: #31412d;
+	--secondary: #064e6a;*/
+	--green: #1a896f;
+	--red: #891a67;
+	--blue: #1b6a89;
+	--lightgray: #b3b3b4;
+	--darkgray: #47454d;
+	--space: 10px;
+	--serif: 'Roboto Slab', serif;
+	--sans: 'Poppins', sans-serif;
+	background-color: var(--darkgray);
+	overflow: hidden;
+}
+
+header, footer {
+	padding: var(--space);
+	color: var(--lightgray);
+	/*background: rgba(0, 0, 0, 0.4);*/
+}
+
+em {
+	font-weight: 300;
+}
+
+header a, footer a {
+	font-family: var(--serif);
+	font-size: 16px;
+	color: var(--lightgray);
+}
+
+header a:hover, footer a:hover {
+	color: var(--red);
+}
+
+.inner-column {
+	max-width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about {
+	margin-top: 100px;
+	padding-bottom: var(--space);
+	height: 60vh;
+	color: var(--light);
+}
+
+h1 {
+	padding: var(--space);
+	font-family: var(--serif);
+	color: var(--darkgray);
+	font-size: 60px;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+}
+
+.about h1 {
+	color: var(--lightgray);
+	margin-bottom: 30px;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: clamp(10vw, 12vw, 15vw);
+}
+
+h2 {
+	font-family: var(--serif);
+	padding: var(--space);
+	color: var(--darkgray);
+	font-size: 24px;
+	font-weight: 200;
+	letter-spacing: 0.02em;
+	line-height: 1.4;
+}
+
+.projects h2 {
+	font-family: var(--serif);
+	padding: var(--space);
+	font-size: 20px;
+	font-weight: 400;
+}
+
+p {
+	font-family: var(--sans);
+	padding: var(--space);
+	font-size: 16px;
+	font-weight: 200;
+	max-width: 70ch;
+	line-height: 1.4;
+}
+
+p + p {
+	padding-top: 3px;
+}
+
+a + p {
+	padding-top: 5px;
+}
+
+p a {
+	/*link inside of a paragraph*/
+	display: inline;
+	padding: 0px;
+}
+
+a {
+	font-family: var(--sans);
+	padding: var(--space);
+	color: var(--light);
+	text-decoration: none;
+}
+
+/*svg {
+	display: inline;
+	position: relative;
+	top: 60px;
+	width: 60vw;
+	right: 140px;
+	transform: rotate(150deg);
+}*/
+
+.bones {
+	position: absolute;
+	top: -10%;
+	width: 60vw;
+	right: -24%;
+	overflow: hidden;
+	/*transform: rotate(150deg);*/
+}
+
+.bones svg {
+	position: relative;
+}
+
+.console {
+	/*background: rgba(0, 0, 0, 0.7);*/
+}
+
+a:hover {
+	color: var(--green);
+}
+
+section section {
+	margin: var(--space);
+	padding: 5px;
+	border: 2px inset gray;
+}
+
+.contact h1 {
+	font-size: 28px;
+	text-align: left;
+	color: var(--lightgray);
+}
+
+.contact {
+	padding: var(--space);
+	color: var(--lightgray);
+	background: rgba(0, 0, 0, 0.2);
+}
+
+/*FLEX*/
+main {
+	flex-grow: 1;
+}
+
+section section {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/*gap: 7px;*/
+}
+
+div .console {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+footer nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+}
+
+@media (min-width: 600px) {
+	body {
+		--space: 20px;
+	}
+
+	h1 {
+		font-size: 48px;
+	}
+
+	.about {
+		margin-top: 200px;
+	}
+
+	.about h1 {
+		font-size: 90px;
+		margin-bottom: 50px;
+	}
+
+	h2 {
+		font-size: 28px;
+	}
+
+	div .console {
+		flex-direction: row;
+		align-items: center;
+	}
+
+	div .console h2 {
+		text-align: center;
+	}
+
+	header nav {
+		justify-content: flex-end;
+	}
+
+	section section {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	section > p, .item-content p {
+		max-width: 50ch;
+		flex-grow: 1;
+	}
+
+	.item-title {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.item-title h2 {
+		font-size: 20px;
+		font-weight: 200;
+	}
+}
+
+
+
+
+
+
+
+
+
+
