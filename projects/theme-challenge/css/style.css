@@ -3,9 +3,9 @@
 
 *, nav, .masthead, a {
 	--small: 10px;
-	--medium: 20px;
+	--medium: 30px;
 	--large: 50px;
-}
+}	
 
 body * {
 	border: 2px solid blue;
