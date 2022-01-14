@@ -43,6 +43,5 @@
 				<a href="#" class="button">Read More</a>
 			</article>
 		</section>
-
 	</div>
 </section>
