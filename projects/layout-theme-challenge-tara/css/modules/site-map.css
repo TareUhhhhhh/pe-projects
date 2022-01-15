@@ -6,9 +6,15 @@ site-map {
   padding-bottom: 120px;
   /* */
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.user-menu h3, .legal-menu h3 {
+  font-style: italic;
+  padding-top: var(--medium);
+  padding-left: var(--small);
 }
 
 site-map .logo {
