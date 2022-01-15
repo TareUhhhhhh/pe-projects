@@ -15,6 +15,13 @@ graphic-diptych text-content {
   display: block;
 }
 
+graphic-diptych .intro-voice {
+  font-size: clamp(36px, 6vw, 76px);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
+ 
 @media (min-width: 660px) {
   graphic-diptych {
     flex-direction: row;
