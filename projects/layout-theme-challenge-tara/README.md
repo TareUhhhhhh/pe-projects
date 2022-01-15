@@ -19,7 +19,7 @@ A paragraph with...
 
 You READ it. "Read Me!"
 
-When you first get to a project, this is the "how to" for getting set up and helpful instruction on how to parse the file structure and get thigns up and running.
+When you first get to a project, this is the "how to" for getting set up and helpful instruction on how to parse the file structure and get things up and running.
 
 ## Requirements
 
