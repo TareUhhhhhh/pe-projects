@@ -33,7 +33,8 @@ graphic-diptych .intro-voice {
   }
 
   graphic-diptych picture {
-    order: 2;
+    display: none;
+    /* order: 2;*/
     /* OR you could use flex-direction row-reverse */
     /* it depends on the situation */
   }
