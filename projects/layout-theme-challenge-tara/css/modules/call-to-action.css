@@ -9,6 +9,10 @@ call-to-action {
   align-items: flex-start;
 }
 
+.help-us {
+  color: #2e4654;
+}
+
 call-to-action a {
   margin-top:  20px;
 }

@@ -8,6 +8,7 @@ graphic-diptych {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  color: #2e4654;
 }
 
 graphic-diptych text-content {

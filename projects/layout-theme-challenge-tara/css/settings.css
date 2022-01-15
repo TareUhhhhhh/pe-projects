@@ -1,9 +1,14 @@
 /* SETTINGS  ("variables" in our case) */
 html {
-	--black: #111111;
-	--white: #FFFFFF;
-	--color: #9ec9eb;
-	--highlight: #aadee9;
+	--black: #353535;
+	--white: #e3e3e2;
+	--color: #111416; 
+	--highlight: #2e4654;
+	--dark: #071c27;
+	--small: 10px;
+	--medium: 20px;
+	--large: 60px;
+	--huge: 100px;
 }
 /* you can make more! */
 
