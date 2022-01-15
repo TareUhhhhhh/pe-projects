@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 
 .loud-voice	{
-	font-family: sans-serif;
-	font-size: clamp(36px, 5vw, 60px);
+	font-family: 'Orbitron', sans-serif;
+	font-size: clamp(36px, 5vw, 74px);
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
 }
 @media (min-width: 600px) {
 	.loud-voice {
@@ -10,22 +13,22 @@
 }
 
 .intro-voice	{
-	font-family: sans-serif;
+	font-family: 'Orbitron',sans-serif;
 	font-size: 40px;
 }
 
 .attention-voice	{
-	font-family: sans-serif;
+	font-family: 'Orbitron',sans-serif;
 	font-size: 30px;
 }
 
 .something-for-site-map-headings {
-	/* */
+	font-family: 'Exo 2', sans-serif;
 }
 
-.calm-voice {
-	font-family: sans-serif;
-	font-size: 1rem;
+.calm-voice, span {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 1.2rem;
 	line-height: 1.4;
 }
 
