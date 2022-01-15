@@ -113,3 +113,8 @@ html {
 	max-width:  60px;
 }
 
+.site-footer a {
+	font-family:  'Exo 2', sans-serif;
+	text-transform: uppercase;
+}
+
