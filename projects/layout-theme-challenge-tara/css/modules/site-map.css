@@ -35,6 +35,16 @@ site-map a {
 @media (min-width:  700px) {
   site-map nav {
     width:  50%;
+@media (min-width: 400px) {
+  site-map {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 700px) {
+  .site-menu {
+  flex-direction: row;
+  align-items: center;
   }
 }
 
