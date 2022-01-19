@@ -23,6 +23,11 @@ graphic-diptych .intro-voice {
 }
  
 @media (min-width: 660px) {
+  .welcome {
+    background-image: url("https://peprojects.dev/alpha-3/tara/projects/layout-theme-challenge-tara/images/skel-vert.jpg");
+    background-size: cover;
+  }
+
   graphic-diptych {
     flex-direction: row;
     align-items: center;
