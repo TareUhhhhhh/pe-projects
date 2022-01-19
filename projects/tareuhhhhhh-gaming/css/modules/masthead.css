@@ -1,0 +1,45 @@
+
+mast-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*align-items: center;*/
+}
+
+mast-head nav {
+  display: flex;
+  flex-direction: row;
+  /*flex-wrap: wrap;*/
+}
+
+mast-head .logo {
+  /*display: block;*/
+  max-width:  60px;
+}
+
+mast-head a {
+  font-family: 'Lato' sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  padding:  10px;
+}
+
+.site-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 600px) {
+  .site-menu {
+    flex-direction: row;
+    align-items: center;
+}
+
+  mast-head {
+    align-items: center;
+  }
+
+  mast-head a {
+    font-size: 22px;
+  }
+}

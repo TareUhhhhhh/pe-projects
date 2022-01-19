@@ -1,0 +1,49 @@
+
+article-card {
+  display: block;
+/*  padding-top: 40px;
+  padding-bottom: 40px;*/
+  /* */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+article-card picture:nth-of-type(1) {
+  content: url('https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming/images/controller.jpg');
+}
+
+article-card h2 {
+  max-width: 99%;
+  position: absolute;
+  top: 10%;
+}
+
+article-card p {
+  max-width: 80%;
+  position: absolute;
+  top: 25%;
+}
+
+article-card a {
+  position: absolute;
+  top: 68%;
+}
+
+article-card picture {
+  max-width: 85vw;
+}
+
+article-card .attention-voice {
+  font-size: 24px;
+  letter-spacing: -1px;
+  word-spacing: 1px;
+}
+
+article-card a {
+  margin-top: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: var(--color);
+}
