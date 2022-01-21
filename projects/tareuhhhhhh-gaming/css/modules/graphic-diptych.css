@@ -1,9 +1,9 @@
 
 graphic-diptych {
   display: block;
-  padding:  20px;
-  padding-top: 4vh;
-  padding-bottom: 4vh;
+  padding:  3px;
+ /* padding-top: 2vh;
+  padding-bottom: 2vh;*/
   /* */
   display: flex;
   flex-direction: column;
@@ -15,18 +15,32 @@ graphic-diptych text-content {
   color: white;
 }
 
+/*graphic-diptych picture {
+  content: url('https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming/images/skeleton.jpg');
+}*/
+
 @media (min-width: 660px) {
+  .welcome {
+    background-image: url('https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming/images/skeleton.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+  }
+
   graphic-diptych {
     flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
+    min-height: 70vh;
   }
 
-  graphic-diptych :is(picture, text-content) {
+  graphic-diptych :is(text-content) {
     width: 50%;
   }
 
   graphic-diptych picture {
-    order: 2;
+    display: none;
+    /*order: 2;*/
     /* OR you could use flex-direction row-reverse */
     /* it depends on the situation */
   }
