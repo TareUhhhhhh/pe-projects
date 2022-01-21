@@ -8,31 +8,32 @@ article-card {
   flex-direction: column;
   align-items: flex-start;
   position: relative;
+  max-width: 300px;
 }
 
-article-card picture:nth-of-type(1) {
-  content: url('https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming/images/controller.jpg');
+article-card img {
+  content: url('https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming/images/gaming.jpg');
+  opacity: 20%;
+  background-color: var(--blue);
+  max-width: 100%;
+}
+
+article-card:hover {
+  background-color: var(--blue);
 }
 
 article-card h2 {
   max-width: 99%;
   position: absolute;
   top: 10%;
+  left: 10px;
 }
 
 article-card p {
   max-width: 80%;
   position: absolute;
   top: 25%;
-}
-
-article-card a {
-  position: absolute;
-  top: 68%;
-}
-
-article-card picture {
-  max-width: 85vw;
+  left: 10px;
 }
 
 article-card .attention-voice {
@@ -43,8 +44,13 @@ article-card .attention-voice {
 
 article-card a {
   margin-top: 20px;
-  font-weight: 200;
   font-weight: 300;
   text-transform: uppercase;
-  color: var(--color);
+  background-color: var(--blue);
+  border-radius: 3px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 68%;
+  left: 10px;
+  color: var(--darkgray);
 }

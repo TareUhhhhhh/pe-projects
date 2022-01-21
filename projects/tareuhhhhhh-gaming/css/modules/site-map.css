@@ -6,8 +6,8 @@ site-map {
   padding-bottom: 120px;
   /* */
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /*flex-wrap: wrap;*/
   justify-content: space-between;
 }
 
@@ -28,13 +28,17 @@ site-map a {
   text-decoration: none;
 }
 
-@media (min-width:  700px) {
+@media (min-width: 700px) {
+  site-map {
+    flex-direction: row;
+  }
+
   site-map nav {
     width:  50%;
   }
 }
 
-@media (min-width:  900px) {
+@media (min-width: 900px) {
   site-map nav {
     width:  25%;
   }

@@ -56,6 +56,7 @@ body {
 	z-index: 1;
 	/*box-shadow: 0 2px 5px 0px rgba(0,0,0,.4);*/
 }
+
 .site-header inner-column {
 	padding: 14px;
 }
@@ -82,9 +83,10 @@ body {
 
 
 .get-involved {
-	background-color: rgba(1, 158, 216, 0.5);
+	background-color: rgba(1, 158, 216, .50);
 	color: white;
-	background-image: url('https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming/images/skeleton.jpg');
+	background-image: url('');
+
   /*background-image:  url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");*/
 } /* interesting way to include the whole image in your CSS */
 
@@ -92,8 +94,8 @@ body {
 	/*max-width:  700px;*/
 }
 
-.get-involved call-to-action {
-
+.get-involved a {
+	background-color: var(--lightgray);
 }
 
 
@@ -102,13 +104,17 @@ body {
 }
 
 .help-us {
-  background-color: var(--blue);
+  background-color: rgba(1, 158, 216, .5);
   color: white;
 }
 
 .site-footer {
 	background-color: var(--darkgray);
 	color: var(--white);
+}
+
+.site-footer p {
+	font-weight: 200;
 }
 
 .site-footer .logo {
