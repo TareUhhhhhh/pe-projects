@@ -49,11 +49,13 @@ body {
 
 
 /* SITE SECTIONS */
-.site-header {
-	position: sticky;
-	top: 0;
-	z-index: 1;
-	/*box-shadow: 0 2px 5px 0px rgba(0,0,0,.4);*/
+@media (min-width: 600px) {
+	.site-header {
+		position: sticky;
+		top: 0;
+		z-index: 1;
+		/*box-shadow: 0 2px 5px 0px rgba(0,0,0,.4);*/
+	}
 }
 
 .site-header inner-column {
@@ -93,6 +95,16 @@ body {
 	background-color: var(--lightgray);
 }
 
+
+.call-to-action {
+	position: relative;
+}
+
+.back-to-top {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
 
 .stuff {
   

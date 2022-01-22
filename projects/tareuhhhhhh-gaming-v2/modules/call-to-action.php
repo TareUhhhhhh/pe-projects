@@ -1,5 +1,6 @@
 
 <call-to-action>
+	<a class='back-to-top' href="#">Back to top</a>
 
 	<h2 class='attention-voice'>This module is a "call to action"</h2>
 
