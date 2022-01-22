@@ -8,18 +8,18 @@
 		</a>
 
 		<a href='#'>
-			<span>Some&nbsp;page</span>
+			<span>Games</span>
 		</a>
 
 		<a href='#'>
-			<span>"Masthead"</span>
+			<span>News</span>
 		</a>
 	</nav>
 
 
 	<nav class='user-menu'>
 		<a href='#'>
-			<span>Sign-in</span>
+			<span>Account</span>
 		</a>
 	</nav>
 
