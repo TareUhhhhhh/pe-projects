@@ -4,6 +4,7 @@
 	<?php include('head.php'); ?>
 
 	<body>
+		<a id='top' href="#"></a>
 		<header class='site-header'>
 		<inner-column>
 

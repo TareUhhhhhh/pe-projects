@@ -8,7 +8,7 @@
 		</a>
 
 		<a href='#'>
-			<span>Some page</span>
+			<span>Some&nbsp;page</span>
 		</a>
 
 		<a href='#'>

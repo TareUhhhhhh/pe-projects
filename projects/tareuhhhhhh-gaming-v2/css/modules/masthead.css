@@ -1,8 +1,12 @@
 
 mast-head {
+  height: ;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  /*justify-content: space-between;*/
   /*align-items: center;*/
 }
 
@@ -19,14 +23,17 @@ mast-head .logo {
 
 mast-head a {
   font-family: 'Lato' sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 200;
-  padding:  10px;
+  padding:  5px;
 }
 
 .site-menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
 }
 
 @media (min-width: 600px) {

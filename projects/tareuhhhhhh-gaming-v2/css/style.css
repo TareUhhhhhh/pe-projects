@@ -42,7 +42,6 @@ body {
 	background-color: var(--darkgray);
 }
 
-
 /*
 	This the area where you work out your styles 
 	If it makes sense, you can break these out into their own files.
@@ -60,10 +59,6 @@ body {
 .site-header inner-column {
 	padding: 14px;
 }
-
-
-
-
 
 
 
