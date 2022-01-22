@@ -12,7 +12,7 @@
 </inner-column>
 </section>
 
-
+<main>
 
 <section class='get-involved'>
 <inner-column>
@@ -42,6 +42,7 @@
 </inner-column>
 </section>
 
-
+	<a class='back-to-top' href="#">Back to top</a>
+</main>
 
 <?php include('footer.php'); ?>

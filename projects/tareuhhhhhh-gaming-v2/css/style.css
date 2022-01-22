@@ -69,6 +69,7 @@ body {
   background-color: var(--lightgray);
   color: var(--white);
   text-transform: uppercase;
+  letter-spacing: .1em;
 }
 
 .welcome {
@@ -101,9 +102,17 @@ body {
 }
 
 .back-to-top {
-	position: fixed;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: sticky;
 	bottom: 0;
 	right: 0;
+	background-color: var(--lightgray);
+	color: var(--white);
+	padding: 5px 10px;
+	font-weight: 300;
+	border-radius: 3px;
 }
 
 .stuff {
