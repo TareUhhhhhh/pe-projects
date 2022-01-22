@@ -1,0 +1,20 @@
+/* SETTINGS  ("variables" in our case) */
+html {
+	--black: #111111;
+	--white: #FFFFFF;
+	--color: #9ec9eb;
+	--highlight: #aadee9;
+	--darkgray: #292d36;
+	--lightgray: #353944;
+	--blue: #009ed8;
+	--bluish: rgba(27, 88, 115, 1.00);
+}
+/* you can make more! */
+
+
+
+/* USAGE */
+
+.thingy {
+	color:  var(--highlight); /* used as variable */
+}
