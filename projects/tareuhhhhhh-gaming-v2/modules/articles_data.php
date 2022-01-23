@@ -2,33 +2,33 @@
 
 $database = [ // an associative array (Array of key:value pairs)
 	[
-		"heading" => "Article or product",
-		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
+		"heading" => "Why so many h's?",
+		"description" => "I'm not really sure. My friend in high school picked that and it just stuck.",
 		"thumbnail" => "https://peprojects.dev/images/landscape.jpg",
 	],
 	[
-		"heading" => "Destination or option",
-		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
+		"heading" => "Why Tare and not Tear?",
+		"description" => "Well tear has two different sounds and meanings. I don't want my name with an EAR in the middle",
 		"thumbnail" => "https://peprojects.dev/images/landscape.jpg",
 	],
 	[
-		"heading" => "Story or something",
-		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
+		"heading" => "Console or PC!?",
+		"description" => "Don't come for me, but console has always been the go to.",
 		"thumbnail" => "https://peprojects.dev/images/landscape.jpg",
 	],
 	[
-		"heading" => "Banana tandori",
-		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
+		"heading" => "Playstation or Xbox?",
+		"description" => "Playstation for the simple fact that I prefer the controller.",
 		"thumbnail" => "https://peprojects.dev/images/landscape.jpg",
 	],
 	[
-		"heading" => "Bar B Q",
-		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
+		"heading" => "What other consoles?",
+		"description" => "I've got a PS3, PS4 and PS5, as well as a PSVR, plus an SNES, N64, a Wii and TWO Switches!",
 		"thumbnail" => "https://peprojects.dev/images/landscape.jpg",
 	],
 	[
-		"heading" => "Marsala",
-		"description" => "Here's a little info to help you understand if this is a thing you want to know about.",
+		"heading" => "What's with the Q&A?",
+		"description" => "I'm not sure. It wasn't intended to be. It just kind of happened.",
 		"thumbnail" => "https://peprojects.dev/images/landscape.jpg",
 	],
 ];

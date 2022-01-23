@@ -2,9 +2,9 @@
 <articles-intro>
 
   <header>
-    <h2 class='attention-voice'>This is an "Article grid" module. This is its heading.</h2>
+    <h2 class='attention-voice'>Latest News</h2>
 
-    <p class='calm-voice'>Again, we totally just made that up. It's a box with boxes in it.</p>
+    <p class='intro calm-voice'>These aren't real games. So there isn't ACTUALLY any news. How about a Q&A with our lead developer and CEO? Tara!</p>
   </header>
 
   <article-grid>
