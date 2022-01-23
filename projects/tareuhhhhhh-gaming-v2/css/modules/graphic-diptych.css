@@ -13,6 +13,7 @@ graphic-diptych {
 graphic-diptych text-content {
   display: block;
   color: white;
+  background: var(--bluish);
   padding: 20px;
 }
 
