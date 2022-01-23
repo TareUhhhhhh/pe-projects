@@ -7,11 +7,16 @@ articles-intro {
 }
 
 articles-intro .attention-voice {
-  letter-spacing: -1px;
+  /*letter-spacing: -1px;*/
 }
 
 articles-intro header {
   margin-bottom: 40px;
+}
+
+articles-intro .intro {
+  font-size: 22px;
+  max-width: 30em;
 }
 
 articles-intro article-grid {
