@@ -59,7 +59,7 @@ body {
 }
 
 .site-header inner-column {
-	padding: 14px;
+	padding: 4px;
 }
 
 
@@ -117,6 +117,12 @@ body {
 
 .stuff {
   
+}
+
+iframe {
+	margin-top: 40px;
+	max-width: 300px;
+	max-height: 120px;
 }
 
 .help-us {

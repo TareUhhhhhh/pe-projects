@@ -13,6 +13,7 @@ graphic-diptych {
 graphic-diptych text-content {
   display: block;
   color: white;
+  padding: 20px;
 }
 
 /*graphic-diptych picture {
@@ -23,7 +24,8 @@ graphic-diptych text-content {
   .welcome {
     background-image: url('https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming/images/skeleton.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: left center;
+    background-attachment: fixed;
     overflow: hidden;
   }
 
