@@ -55,8 +55,8 @@ for the vacation.</p>
 
 <?php
 
-	$firstName = Tara;
-	$lastName = Haskamp;
+	$firstName = "Tara";
+	$lastName = "Haskamp";
 	$fullName = $firstName . " " . $lastName;
 
 	echo "<p>First Name: " . $firstName . "</p> <p> Last Name: " . $lastName . "</p> <p>Full Name: " . $fullName . "</p>"
@@ -116,7 +116,12 @@ for the vacation.</p>
 	$cat = $practiceArray[3];
 	$fun = $practiceArray[4];
 
-	echo "<h1>Hi there! I'm Tara and I am " . $currentAge . " years old. My son " . $son . " and I like to " . $fun . " together. I also have a cat named " . $cat . ".</h1>"
+	echo "<h1>Hi there! I'm Tara and I am " . $currentAge . " years old. My son " . $son . " and I like to " . $fun . " together. I also have a cat named " . $cat . ".</h1>";
+
+
+	$numbers = [52, 37, 42, 19, 17];
+
+	echo "<h1>The first number is " . $numbers[0] . ". The next numbers are " . $numbers[1] . ", " . $numbers[2] . "</h1>";
 
 ?>
 
@@ -150,7 +155,7 @@ for the vacation.</p>
 
 
 
-
+<label for=""></label>
 
 
 
