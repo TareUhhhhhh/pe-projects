@@ -7,4 +7,9 @@
 	<a href='#'>
 		<span>Dare to play?</span>
 	</a>
+
+	<video autoplay loop muted>
+		<source src="https://peprojects.dev/videos/dark.mp4"
+					  type="video/mp4">
+	</video>
 </call-to-action>

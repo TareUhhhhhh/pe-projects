@@ -1,6 +1,6 @@
 
 mast-head {
-  height: ;
+  max-height: 10%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -23,7 +23,7 @@ mast-head .logo {
 
 mast-head a {
   font-family: 'Lato' sans-serif;
-  font-size: 1rem;
+  font-size: .7rem;
   font-weight: 200;
   padding:  5px;
 }

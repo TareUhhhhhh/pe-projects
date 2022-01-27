@@ -2,19 +2,23 @@
 graphic-diptych {
   display: block;
   padding:  3px;
+  background: rgba(0 0 0 .1);
  /* padding-top: 2vh;
   padding-bottom: 2vh;*/
   /* */
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+  /*display: flex;*/
+/*  flex-direction: column;
+  gap: 30px;*/
 }
+
+
 
 graphic-diptych text-content {
   display: block;
   color: white;
-  background: var(--bluish);
   padding: 20px;
+  display: absolute;
+  z-index: 1;
 }
 
 /*graphic-diptych picture {
@@ -22,20 +26,20 @@ graphic-diptych text-content {
 }*/
 
 @media (min-width: 660px) {
-  .welcome {
+ /* .welcome {
     background-image: url('https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming/images/skeleton.jpg');
     background-repeat: no-repeat;
     background-position: left center;
     background-attachment: fixed;
     overflow: hidden;
-  }
+  }*/
 
-  graphic-diptych {
+/*  graphic-diptych {
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
     min-height: 70vh;
-  }
+  }*/
 
   graphic-diptych :is(text-content) {
     width: 50%;

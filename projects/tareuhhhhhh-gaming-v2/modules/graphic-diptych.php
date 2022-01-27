@@ -1,10 +1,6 @@
 
 <graphic-diptych>
 
-	<picture>
-		<img src='https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming/images/skeleton.jpg' alt='$todo'>
-	</picture>
-
 	<text-content>
 		<h1 class='intro-voice'>SPOOPIEST games around!</h1>
 
