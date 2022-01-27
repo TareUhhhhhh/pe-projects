@@ -84,24 +84,26 @@ body {
 .get-involved {
 	background-color: rgba(1, 158, 216, .50);
 	color: white;
+	border: 2px solid red;
+	position: relative;
 
   /*background-image:  url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");*/
 } /* interesting way to include the whole image in your CSS */
 
 .get-involved video {
   display: block;
-
   object-fit: cover;
   width: 100vw;
-  height: 100vh;
-
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   filter: grayscale(1);
   z-index: 0; /* must have position set */
+}
+
+.get-involved h2, .get-involved p, .get-involved a {
+	position: relative;
 }
 
 .get-involved inner-column {
