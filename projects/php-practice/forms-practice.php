@@ -1,5 +1,5 @@
 
-<? php
+<?php
 
 $guests = 0;
 $berries = 0;
