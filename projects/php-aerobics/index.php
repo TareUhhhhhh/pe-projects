@@ -1,5 +1,5 @@
 <style>
-	a {
+	a, h1 {
 		display: block;
 		padding: 10px;
 	}
@@ -13,39 +13,34 @@
 	}
 </style>
 
-<a href="hello-world.php">Hello</a>
-<a href="quotes.php">Quotes</a>
-<a href="mad-lib.php">Mad Lib</a>
-<a href="retirement.php">Retirement</a>
-<a href="rectangle-room.php">Rectangle Room</a>
+<h1>PHP Exercises</h1>
 
+<ol>
+	<li>	<a href="hello-world.php">Hello</a></li>
+
+	<li><a href="quotes.php">Quotes</a></li>
+
+	<li><a href="mad-lib.php">Mad Lib</a></li>
+
+	<li><a href="retirement.php">Retirement</a></li>
+
+	<li><a href="rectangle-room.php">Rectangle Room</a></li>
+
+	<li><a href="simple-math.php">Simple Math</a></li>
+
+	<li><a href="self-checkout.php">Self Checkout</a></li>
+
+	<li><a href="pizza-party.php">Pizza Party</a></li>
+
+	<li><a href="paint-calculator.php">Paint Calculator</a></li>
+
+	<li><a href="currency-conversion.php">Currency Conversion</a></li>	
+</ol>
 
 
 
 <?php
 
-$bands = ["Deftones", "The 1975", "Glass Animals", "Bullet for my Valentine", "Sugarcult", "Killswitch Engage"];
 
-foreach ($bands as $band) {
-	echo "<li>$band</li>";
-}
-
-$numbers = [29, 16, 19, 13, 11, 5, 7, 9];
-
-foreach ($numbers as $number) {
-	// echo "<li>$number</li>";
-}
-
-for ($i=0; $i<=34; $i++) {
-	if ( $i !=12 and $i !=17 and $i != 23 ) {
-		// echo "<li>$i</li>";
-	}
-}
-
-foreach ($numbers as $number) {
-	if ($number<20){
-		// echo "<li>$number</li>";
-	}
-}
 
 ?>
