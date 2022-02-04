@@ -1,12 +1,14 @@
 <?php
+	$name = "";
+	$message = "Fill out the form first!";
+	$submitted = isset($_POST["submitted"]);
 
-	if ( isset($_POST["submitted"] ) ) {
-		if ( isset($_POST["name"] ) ) {
+	if ($submitted) {
+		if ( !empty($_POST["name"]) ) {
 			$name = ($_POST["name"] );
-			echo "<h1>Hello, $name!</h1>";
+			$message = "Hello, $name!";
 		}
 	};
-
 ?>
 
 
@@ -15,8 +17,12 @@
 	<p>Hello, World.</p>
 
 	<label for="name">Your name: </label>
-	<input type="text" name="name">
+	<input id="name" type="text" name="name" value="<?=$name?>" placeholder="Cher">
 
-	<input type="submit" name="submitted">
+	<button name="submitted">
+		Submit
+	</button>
 
 </form>
+
+<h1><?=$message?></h1>
