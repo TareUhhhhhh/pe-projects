@@ -1,0 +1,17 @@
+html {
+	--black: #111;
+	--white: #efefef;
+	--gray: #9c9b99;
+	--color-dark: rgba(60, 94, 106, 1.00);
+	--color-light: rgba(71, 179, 201, 1.00);
+
+	--paper: var(--white);
+	--ink: var(--black);
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		--paper: var(--black);
+		--ink: var(--gray);
+	}
+}

@@ -1,0 +1,11 @@
+.intro h1 {
+	text-align: right;
+	padding-bottom: 20px;
+	font-size: clamp(36px, 8vw, 60px);
+}
+
+@media (min-width: 530px) {
+	.intro h1 {
+		text-align: left;
+	}
+}

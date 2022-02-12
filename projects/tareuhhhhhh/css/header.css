@@ -1,0 +1,30 @@
+header .inner-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.info-nav, .about-nav {
+	display: flex;
+	flex-direction: column;
+}
+
+.about-nav {
+	align-items: flex-end;
+}
+
+header a {
+	padding: 8px 0;
+}
+
+@media (min-width: 530px) {
+	header .inner-column {
+		justify-content: flex-start;
+		gap: 20px;
+	}
+
+	.info-nav, .about-nav {
+		flex-direction: row;
+		gap: 20px;
+	}
+}
