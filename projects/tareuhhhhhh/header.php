@@ -9,7 +9,7 @@
 			<div class="inner-column">
 				<nav class='info-nav'>
 					<a href="index.php">Home</a>
-					<a href="/projects">Projects</a>
+					<a href="projects/index.php">Projects</a>
 					<a href="writing.php">Writing</a>
 				</nav>
 
