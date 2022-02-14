@@ -1,1 +1,1 @@
-goals.php
+@import ('style.css');
