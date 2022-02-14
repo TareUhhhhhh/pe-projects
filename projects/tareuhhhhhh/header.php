@@ -8,7 +8,7 @@
 		<header>
 			<div class="inner-column">
 				<nav class='info-nav'>
-					<a href="#">Home</a>
+					<a href="index.php">Home</a>
 					<a href="/projects">Projects</a>
 					<a href="writing.php">Writing</a>
 				</nav>
