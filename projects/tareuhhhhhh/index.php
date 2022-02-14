@@ -1,8 +1,8 @@
 <?php include('header.php')?>
 
 <?php 
-$pageHeading = $pageData["about"]["title"];
-$pageContent = $pageData["about"]["content"];
+$pageHeading = $pageData["intro"]["title"];
+$pageContent = $pageData["intro"]["content"];
 include('intro.php')?>
 
 
