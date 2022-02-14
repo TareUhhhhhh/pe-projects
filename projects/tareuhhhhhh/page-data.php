@@ -38,6 +38,13 @@ $pageData = [
 				<li></li>
 			</ul>",
 	],
+	"fun" => [
+		"title" => "FUN!",
+		"content" => "
+		<p>I like to have fun and do fun things. That includes making fun stuff!</p>
+		<p>This is where I wanted to display a few of the fun things that I've made. This page is kind of a mix between my Projects and About Me pages. See the work I've done, plus see a bit more of the human side of me. (The fun side!)</p>
+		"
+	]
 ];
 
 // $pageData["about"]["title"]

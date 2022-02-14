@@ -14,8 +14,8 @@
 				</nav>
 
 				<nav class='about-nav'>
-					<a href="/fun">FUN</a>
 					<a href="about-me.php">About Me</a>
+					<a href="fun.php">FUN</a>
 				</nav>
 			</div>
 		</header>
