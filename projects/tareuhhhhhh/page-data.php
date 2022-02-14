@@ -38,6 +38,14 @@ $pageData = [
 				<li></li>
 			</ul>",
 	],
+	"about" => [
+	"title" => "About Me",
+	"content" => "
+		<p>Outside of building websites and creating cool/fun/efficiency things, I'm actually a human being!</p>
+
+		<p>I like to crochet, cross stitch, play video games, paint with watercolor and acrylics, among many other creative endeavors!</p>",
+	],
+
 	"fun" => [
 		"title" => "FUN!",
 		"content" => "
