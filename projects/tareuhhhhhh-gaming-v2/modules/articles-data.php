@@ -8,7 +8,7 @@ $database = [ // an associative array (Array of key:value pairs)
 	],
 	[
 		"heading" => "Why Tare and not Tear?",
-		"description" => "Well tear has two different sounds and meanings. I don't want my name with an EAR in the middle",
+		"description" => "Well tear has two different sounds. I don't want my name with an EAR in the middle",
 		"thumbnail" => "https://peprojects.dev/images/landscape.jpg",
 	],
 	[
