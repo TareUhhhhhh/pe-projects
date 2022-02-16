@@ -2,49 +2,24 @@
 
 <?php include('header.php'); ?>
 
+<?php
+	if ($pageId == "home") {
+		include("pages/home.php");
+	}
+	//IF there is a page - find it's file include("pages/$page.php") $todo
 
+	if ($pageId == "games") {
+		include("pages/games.php");
+	}
 
-<section class='welcome'>
-<inner-column>
+	if ($pageId == "news") {
+		include("pages/news.php");
+	}
 
-	<?php include('modules/graphic-diptych.php'); ?>
+	if ($pageId == "account") {
+		include("pages/account.php");
+	}
+?>
 
-</inner-column>
-</section>
-
-<main>
-
-<section class='get-involved'>
-<inner-column>
-
-	<?php 
-	$ctaHeading = "Our Newest Release";
-	include('modules/call-to-action.php'); ?>
-
-</inner-column>
-</section>
-
-
-
-<section class='stuff'>
-<inner-column>
-	
-	<?php include('modules/articles-intro.php'); ?>
-
-</inner-column>
-</section>
-
-
-
-<section class='help-us'>
-<inner-column>
-
-	<?php include('modules/call-to-action.php'); ?>
-
-</inner-column>
-</section>
-
-	<a class='back-to-top' href="#">Back to top</a>
-</main>
 
 <?php include('footer.php'); ?>
