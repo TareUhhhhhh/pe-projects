@@ -15,13 +15,17 @@
 
 <section class="game-detail">
 	<inner-column>
-		<h1><?=$detail["title"]?></h1>
+		<intro-content>
+			<h1 class='title'><?=$detail["title"]?></h1>
 
-		<picture>
-			<img src="https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming-v2/images/<?=$detail["image"]?>">
-		</picture>
+			<picture class='preview'>
+				<img src="https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming-v2/images/<?=$detail["image"]?>">
+			</picture>
+		</intro-content>
 
-		<p><?=$detail["longDescription"]?></p>
+		<text-content>
+			<p class='description'><?=$detail["longDescription"]?></p>
+		</text-content>
 	</inner-column>
 </section>
 
