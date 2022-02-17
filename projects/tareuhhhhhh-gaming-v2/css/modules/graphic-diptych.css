@@ -35,14 +35,18 @@ graphic-diptych picture {
   }
 
   graphic-diptych {
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
-    justify-content: flex-end;
-    min-height: 70vh;
+    /*justify-content: flex-end;*/
+    /*min-height: 40vh;*/
   }
 
   graphic-diptych :is(text-content) {
     width: 50%;
+  }
+
+  graphic-diptych text-content {
+    order:  2;
   }
 
   graphic-diptych picture {
