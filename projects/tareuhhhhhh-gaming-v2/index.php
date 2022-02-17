@@ -12,6 +12,10 @@
 		include("pages/games.php");
 	}
 
+	if ($pageId == "detail") {
+		include("pages/game-detail.php");
+	}
+
 	if ($pageId == "news") {
 		include("pages/news.php");
 	}
