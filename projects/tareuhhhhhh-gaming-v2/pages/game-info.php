@@ -12,7 +12,7 @@ $games = [
 		],
 		"ageRating" => "M",
 		"description" => "Six friends have to live their boring, everyday lives until after dusk. Who will survive?",
-		"longDescription" => "In a remote work environment, people are strewn across the world and forced tostare at everyone's bored faces and occassional fluffy friend. Amid the awful greenscreen backgrounds of beaches and highrise aparrtments, one of their co-workers has a secret. Will you be able to find out in time?",
+		"longDescription" => "In a remote work environment, people are strewn across the world and forced tostare at everyone's bored faces and occassionally a fluffy friend. Amid the awful greenscreen backgrounds of beaches and highrise apartments, one of their co-workers has a secret. Will you be able to find out in time?",
 		"image" => "spooky.jpg",
 	],
 	[
