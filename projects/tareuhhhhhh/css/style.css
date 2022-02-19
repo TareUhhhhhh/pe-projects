@@ -9,6 +9,9 @@ body {
 	font-family: Arial;
 	background-color: var(--paper);
 	color: var(--ink);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 .inner-column {
@@ -43,6 +46,8 @@ p + p, h2 + p {
 
 p {
 	line-height: 1.3;
+main {
+	flex-grow: 1;
 }
 
 

@@ -1,4 +1,5 @@
-</main>
+		</main>
+		
 		<footer>
 			<div class="inner-column">
 				<h2>Contact</h2>
