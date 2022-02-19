@@ -8,14 +8,14 @@
 		<header>
 			<div class="inner-column">
 				<nav class='info-nav'>
-					<a href="index.php">Home</a>
-					<a href="projects/index.php">Projects</a>
-					<a href="writing.php">Writing</a>
+					<a href="?page=home">Home</a>
+					<a href="?page=projects">Projects</a>
+					<a href="?page=writing">Writing</a>
 				</nav>
 
 				<nav class='about-nav'>
-					<a href="about-me.php">About Me</a>
-					<a href="fun.php">FUN</a>
+					<a href="?page=about">About</a>
+					<a href="?page=fun">Fun</a>
 				</nav>
 			</div>
 		</header>

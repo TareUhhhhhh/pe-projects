@@ -1,6 +1,6 @@
 <?php
 $pageData = [
-	"intro" => [
+	"home" => [
 		"title" => "TareUhhhhh",
 		"content" => "
 			<p>Currently learning all about the wonderful world of web development. Ultimately my goal is to obtain a job as a front end or back end web developer and improve my skillset while working with talented.</p>
@@ -42,7 +42,7 @@ $pageData = [
 	],
 
 	"about" => [
-	"title" => "About Me",
+	"title" => "About",
 	"content" => "
 		<p>Outside of building websites and creating cool/fun/efficiency things, I'm actually a human being!</p>
 
