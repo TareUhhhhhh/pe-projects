@@ -7,7 +7,7 @@
 
 				<p>Questions? Feedback? Want to know more or just chat about website development?</p>
 
-				<p>Email: tara.haskamp@gmail.com</p>
+				<p><a href="mailto:tara@tareuhhhhhh.com" target="email">Email Me!</a></p>
 
 				<p>GitHub: <a href='https://github.com/TareUhhhhhh' target='https://github.com/TareUhhhhhh'>TareUhhhhhh</a></p>
 			</div>
