@@ -154,7 +154,9 @@ iframe {
 }
 
 .site-footer p {
+	font-size: 1.2em;
 	font-weight: 200;
+	line-height: 1.2;
 }
 
 .site-footer .logo {
@@ -178,10 +180,15 @@ game-card p {
 	max-width: 27ch;
 	padding-bottom: 10px;
 	color: white;
+	font-size: 1.2rem;
+	font-weight: 200;
+	line-height: 1.2;
 }
 
 game-card a {
-	color: maroon;
+	color: rgba(134, 37, 36, 1.00);
+	font-size: 1.4rem;
+	font-weight: 300;
 }
 
 game-card + game-card {
