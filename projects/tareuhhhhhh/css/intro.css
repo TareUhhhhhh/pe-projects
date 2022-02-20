@@ -1,11 +1,29 @@
 .intro h1 {
-	text-align: right;
 	padding-bottom: 20px;
 	font-size: clamp(36px, 8vw, 60px);
 }
 
+.intro {
+	margin-top: 4rem;
+}
+
+.intro .inner-column {
+	max-width: 600px;
+}
+
+@media (min-width: 400px) {
+	.intro p {
+		font-size: 1.3rem;
+		font-weight: 200;
+	}
+}
+
 @media (min-width: 530px) {
 	.intro h1 {
-		text-align: left;
+	}
+
+	.intro p {
+		font-size: 1.5rem;
+		font-weight: 200;
 	}
 }
