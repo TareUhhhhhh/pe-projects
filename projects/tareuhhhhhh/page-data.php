@@ -1,19 +1,19 @@
 <?php
 $pageData = [
 	"home" => [
-		"title" => "TareUhhhhh",
+		"title" => "TareUhhhhhh",
 		"content" => "
-			<p>Currently learning all about the wonderful world of web development. Ultimately my goal is to obtain a job as a front end or back end web developer and improve my skillset while working with talented.</p>
+			<p>Currently learning all about the wonderful world of web development. Ultimately my goal is to obtain a job as a front end or back end web developer and improve my skillset while working with skilled and experienced developers.</p>
 
-				<p>This portfolio exists in order to showcase the work that I am currently working on or have completed. It is a constant work in progress and will be updated as more projects are completed. So stay tuned!</p>",
+			<p>This portfolio exists in order to showcase the work that I am currently working on or have completed. It is a constant work in progress and will be updated as more projects are completed. So stay tuned!</p>",
 	],
 
 	"writing" => [
 		"title" => "Writing",
 		"content" => "
-			<p>Currently learning all about the wonderful world of web development. Ultimately my goal is to obtain a job as a front end or back end web developer and improve my skillset while working with talented.</p>
+			<p>Writing on Substack has been a means of communicating and expressing any ideas or thoughts that have popped into my head as I have been along this learning journey.</p>
 
-				<p>This portfolio exists in order to showcase the work that I am currently working on or have completed. It is a constant work in progress and will be updated as more projects are completed. So stay tuned!</p>",
+			<p>Sometimes the information is directly related to web development, sometimes not so much. However, it all relates back to building new skills and confidence for my next steps!</p>",
 	],
 
 	"goals" => [
