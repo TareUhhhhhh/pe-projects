@@ -1,9 +1,3 @@
-<?php include('header.php')?>
-
 <?php 
-$pageHeading = $pageData["writing"]["title"];
-$pageContent = $pageData["writing"]["content"];
-include('intro.php')?>
 
-
-<?php include('footer.php')?>
+echo "NEED TO FILL THIS IN!";
