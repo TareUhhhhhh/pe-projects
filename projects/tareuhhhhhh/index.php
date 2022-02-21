@@ -17,6 +17,12 @@
 
 	include('intro.php');
 
+	if ($activePage != "home") {
+		include($activePage . '.php');
+	}
+
+	// echo $activePage;
+
 	include('footer.php');
 
 ?>
