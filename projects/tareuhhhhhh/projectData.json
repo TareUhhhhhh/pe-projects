@@ -1,0 +1,42 @@
+[
+	{
+		"id": 0,
+		"slug": "project-name",
+		"title": "Project Name",
+		"teaser": "Short description blurb",
+		"description": "Longer description for when there is room.",
+		"photo": "image.jpg",
+		"link": "$todo",
+		"highlights": {
+			"html": true,
+			"css": true,
+			"php": true,
+			"json": false,
+			"svg": false,
+			"animation": false			
+		}
+	},
+	{
+		"id": 1,
+		"slug": "another-project-name",
+		"title": "Another Project Name",
+		"teaser": "Another short description blurb",
+		"description": "Another longer description for when there is room.",
+		"photo": "image.jpg",
+		"link": "$todo",
+		"highlights": {
+			"html": true,
+			"css": true,
+			"php": true,
+			"json": true,
+			"svg": true,
+			"animation": true			
+		}
+	}	
+]
+
+
+	
+
+
+	
