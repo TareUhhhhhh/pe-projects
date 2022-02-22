@@ -1,15 +1,17 @@
+		</main>
 
+		<footer>
+			<div class="inner-column">
+				<h2>Contact</h2>
 
-<footer>
-	<div class="inner-column">
-		<nav>
-			<a href='#about'>About Tara</a>
+				<section class='contact'>
+					<p class="email">Feel free to <a href="mailto:tara@tareuhhhhhh.com" target='email'>email me</a> to chat!</p>
 
-			<a href='#projects'>Projects</a>
+					<p class="substack">You can also check out my writing that is posted to <a href="#" target='substack'>Substack</a>.</p>
 
-			<a href='#contact'>Contact</a>
-		</nav>
-	</div>
-</footer>
-
-
+					<p class="github">I also keep my projects on <a href="#" target='github'>Github</a> if you want to check them out!</p>	
+				</section>
+			</div>
+		</footer>
+	</body>
+</html>

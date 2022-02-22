@@ -1,31 +1,27 @@
-<?php include('head.php');?>
+<?php 
 
-<body>
+	//If there is a "page" value, then assign that to $activePage variable
+	if (isset($_GET["page"])) {
+		$activePage = $_GET["page"];
+	} else {
+		$activePage = "home";
+	}
 
-<section class='bones'>
-	<?php include('crossbones.svg');?>
-</section>
+	include('header.php');
 
-<main>
-	<section class="about" id='about'>
-			<div class="inner-column">
-				<h1>TareUhhhhhh</h1>
+	//when $activePage = Projects - echo Projects info
+	//when $activePage = Writing - echo Writing info
 
-				<div class="console">
-					<content>
-						<p>Currently attending <a href="https://perpetual.education/">Perpetual Education</a>, learning all about the wonderful world of web design and development. Ultimately my goal is to obtain a job as a front end or back end web developer.</p>
+	$pageHeading = $pageData["$activePage"]["title"];
+	$pageContent = $pageData["$activePage"]["content"];
 
-						<p>This is my "business card" site used as a portfolio of sorts to showcase the work that I am currently working on or have finished.</p>
+	include('intro.php');
 
-						<p>It is a constant work in progress and will be updated as more <a href="projects.php">projects</a> are completed. So stay tuned!</p>
-					</content>
-				</div>
-			</div>
-		</section>
+	if ($activePage != "home") {?>
+		<div class="inner-column">
+			<section class="page-content">
+				<?php include($activePage . '.php'); } ?>
+			</section>
+		</div>
 
-		<!-- <?php include('contact.php');?> -->
-
-	<!-- 	<?php include('footer.php');?> -->
-		</main>
-	</body>
-</html>
+<?php include('footer.php');?>

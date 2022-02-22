@@ -38,7 +38,7 @@ $pageData = [
 	"projects" => [
 	"title" => "Projects",
 	"content" => "
-		<p>The variety of peojects that I have worked on include aspects I've learned about HTML, CSS, responsive layouts, PHP, Javascript and SVG.</p>",
+		<p>The variety of projects that I have worked on include aspects I've learned about HTML, CSS, responsive layouts, PHP, Javascript and SVG.</p>",
 	],
 
 	"about" => [

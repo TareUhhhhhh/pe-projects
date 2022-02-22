@@ -12,9 +12,9 @@
 	<project-card>
 		<h2><?=$project["title"]?></h2>
 
-		<!-- <picture>
-			<img src="<?=$project["image"]?>">
-		</picture> -->
+		<picture>
+			<img src='<?=$project["image"]?>'>
+		</picture>
 
 		<!-- <h3><?=$project["highlights"]?></h3> -->
 
