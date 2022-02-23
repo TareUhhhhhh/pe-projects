@@ -1,14 +1,33 @@
 .intro h1 {
 	padding-bottom: 20px;
-	font-size: clamp(36px, 8vw, 60px);
+	font-size: clamp(3rem, 10vw, 90px);
 }
 
 .intro {
-	margin: 4rem 0;
+	margin: 5rem 0;
 }
 
-.intro .inner-column {
-	max-width: 600px;
+.home {
+	margin: 10rem 0;
+}
+
+.intro p {
+	font-size: 16px;
+	max-width: 55ch;
+	line-height: 1.7;
+	letter-spacing: .02em;
+}
+
+.bolded {
+	font-weight: 700;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.intro h1 + p {
+	padding-top: 20px;
 }
 
 @media (min-width: 400px) {
@@ -16,14 +35,19 @@
 		font-size: 1.3rem;
 		font-weight: 200;
 	}
+
+	/*.intro h1 {
+		font-size: 4rem;*/
+	}
 }
 
 @media (min-width: 530px) {
 	.intro h1 {
+
 	}
 
 	.intro p {
-		font-size: 1.5rem;
+		/*font-size: 1.5rem;*/
 		font-weight: 200;
 	}
 }
