@@ -19,7 +19,7 @@
 
 	if ($activePage != "home") {?>
 		<div class="inner-column">
-			<section class="page-content">
+			<section class="page-content <?=$activePage?>">
 				<?php include($activePage . '.php'); } ?>
 			</section>
 		</div>

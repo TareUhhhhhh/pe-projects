@@ -1,7 +1,7 @@
 [
 	{
 		"id": 0,
-		"slug": "tareuhhhhhh-gaming",
+		"slug": "tareuhhhhhh-gaming-v2",
 		"title": "TareUhhhhhh Gaming",
 		"teaser": "Theming Project designed to put together a cohesive site after doing market research into a chosen industry.",
 		"description": "I chose to create a website for a video game developer. As an avid gamer myself, a video game theme was the natural choice for me. I narrowed down 4 websites that had aspects that caught my eye and emulated that through colors, line quality and font choice.",
@@ -22,8 +22,8 @@
 		"title": "Exercises For Programmers",
 		"teaser": "A collection of exercises from the book of the same name by Brian Hogan.",
 		"description": "Brian Hogan's book Exercises For Programmers has a wide variety of exercises for all skill levels and any language. It has been a great tool for me to practice my skills across multiple languages.",
-		"photo": "images/default.jpg",
-		"link": "$todo",
+		"image": "images/default.jpg",
+		"link": "projects/php-aerobics",
 		"highlights": {
 			"html": true,
 			"css": true,

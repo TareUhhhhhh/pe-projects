@@ -3,9 +3,7 @@ $pageData = [
 	"home" => [
 		"title" => "TareUhhhhhh",
 		"content" => "
-			<p>Currently learning all about the wonderful world of web development. Ultimately my goal is to obtain a job as a front end or back end web developer and improve my skillset while working with skilled and experienced developers.</p>
-
-			<p>This portfolio exists in order to showcase the work that I am currently working on or have completed. It is a constant work in progress and will be updated as more projects are completed. So stay tuned!</p>",
+			<p>My <span class='bolded italic'>goal</span> is to obtain a job as a front end or back end <span class='bolded'>web developer</span> and <span class='italic'>improve my skillset</span> while working with experienced developers.</p>",
 	],
 
 	"writing" => [
