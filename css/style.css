@@ -24,11 +24,11 @@ body {
 }
 
 p a {
-	color: var(--color-light);
+	color: var(--color-dark);
 }
 
 a:hover {
-	color: cyan;
+	color: rgba(144, 183, 172, 1.00);
 }
 
 
@@ -41,33 +41,38 @@ main {
 	flex-grow: 1;
 }
 
-svg {
+.crossbones {
 	display: none;
 }
 
-@media (min-width: 900px) {
-	svg {
-		display: block;
-		max-width: 300px;
-		max-height: 100vh;
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		z-index: -1;
-		transform: translate(-20px, 100px);
-		overflow-x: hidden;
-	}
+@media (prefers-color-scheme: dark) {
+	p a {
+	color: var(--color-light);
+}
 
 	.brushstroke {
 			display: none;
 		}
 
+	@media (min-width: 900px) {
+		.crossbones {
+			display: block;
+			border: 2px solid blue;
+			max-width: 300px;
+			max-height: 80vh;
+			position: fixed;
+			bottom: 0;
+			right: 0;
+			z-index: -1;
+			transform: translate(-20px, 80px);
+		}
 }
 
 @media (min-width: 1000px) {
-	svg {
+	.crossbones {
 		max-width: 400px;
 	}
+}
 }
 
 
