@@ -57,7 +57,7 @@ main {
 	@media (min-width: 900px) {
 		.crossbones {
 			display: block;
-			border: 2px solid blue;
+			/*border: 2px solid blue;*/
 			max-width: 300px;
 			max-height: 80vh;
 			position: fixed;
