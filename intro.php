@@ -1,7 +1,6 @@
-<section class="intro">
-	<div class="inner-column">
+<div class="inner-column">
+	<section class="intro <?=$activePage?>">
 		<h1><?=$pageData["$activePage"]["title"]?></h1>
 		<?=$pageContent?>
-	</div>
-</section>
-
+	</section>
+</div>

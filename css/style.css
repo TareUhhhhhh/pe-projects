@@ -1,13 +1,14 @@
 @import 'meyer-reset.css';
 @import 'setup.css';
+@import 'typography.css';
 @import 'settings.css';
 @import 'contact.css';
 @import 'header.css';
 @import 'intro.css';
+@import 'projects.css';
 @import 'footer.css';
 
 body {
-	font-family: Helvetica;
 	background-color: var(--paper);
 	color: var(--ink);
 	min-height: 100vh;
@@ -22,16 +23,6 @@ body {
 	padding: 15px;
 }
 
-h1 {
-	font-family: Times New Roman;
-	font-size: 32px;
-	font-weight: 700;
-}
-
-h2 {
-	font-size: 32px;
-}
-
 p a {
 	color: var(--color-light);
 }
@@ -43,11 +34,6 @@ a:hover {
 
 p + p, h2 + p {
 	margin-top: 1em;
-}
-
-p {
-	line-height: 1.3;
-	/*max-width: 60ch;*/
 }
 
 main {

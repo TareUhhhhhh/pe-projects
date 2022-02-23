@@ -26,6 +26,6 @@ header a {
 
 	.info-nav, .about-nav {
 		flex-direction: row;
-		gap: 20px;
+		gap: 40px;
 	}
 }

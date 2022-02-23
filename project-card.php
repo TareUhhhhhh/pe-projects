@@ -8,20 +8,32 @@
 
 ?>
 
-<div class="inner-column">
-	<project-card>
-		<h2><?=$project["title"]?></h2>
 
-		<picture>
-			<img src='<?=$project["image"]?>'>
-		</picture>
+<project-card>
+	<h2><?=$project["title"]?></h2>
 
-		<!-- <h3><?=$project["highlights"]?></h3> -->
+	<picture>
+		<img src='<?=$project["image"]?>'>
+	</picture>
 
-		<p><?=$project["teaser"]?></p>
+	<!-- <h3><?=$project["highlights"]?></h3> -->
 
-		<p><?=$project["description"]?></p>
+	<p><?=$project["teaser"]?></p>
 
-		<a href="?project=<?=$project["slug"]?>">Link</a>
-	</project-card>
-</div>
+	<p><?=$project["description"]?></p>
+
+	<a href="projects/<?=$project["slug"]?>" target='site'>Link</a>
+</project-card>
+
+
+
+
+
+
+
+
+
+
+
+
+
