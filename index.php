@@ -17,6 +17,8 @@
 
 	include('intro.php');
 
+	include('images/brushstroke-green.svg');
+
 	if ($activePage != "home") {?>
 		<div class="inner-column">
 			<section class="page-content <?=$activePage?>">

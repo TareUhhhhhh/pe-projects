@@ -57,6 +57,11 @@ svg {
 		transform: translate(-20px, 100px);
 		overflow-x: hidden;
 	}
+
+	.brushstroke {
+			display: none;
+		}
+
 }
 
 @media (min-width: 1000px) {
