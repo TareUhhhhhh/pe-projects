@@ -1,0 +1,42 @@
+[
+	{
+		"id": 0,
+		"slug": "$todo",
+		"title": "Falling for Flexbox",
+		"teaser": "A fun project when I first learned about the value of flex box!",
+		"description": "At the same time as learning flexbox, we learned about creating custom html elements. So I started naming the elements as articles of clothing and ",
+		"image": "images/skull.svg",
+		"link": "projects/flexbox-module-fun",
+		"highlights": {
+			"html": true,
+			"css": true,
+			"php": false,
+			"json": false,
+			"svg": false,
+			"animation": false			
+		}
+	},
+	{
+		"id": 1,
+		"slug": "efp",
+		"title": "Exercises For Programmers",
+		"teaser": "A collection of exercises from the book of the same name by Brian Hogan.",
+		"description": "Brian Hogan's book Exercises For Programmers has a wide variety of exercises for all skill levels and any language. It has been a great tool for me to practice my skills across multiple languages.",
+		"image": "images/default.jpg",
+		"link": "projects/php-aerobics",
+		"highlights": {
+			"html": true,
+			"css": true,
+			"php": true,
+			"json": true,
+			"svg": false,
+			"animation": false			
+		}
+	}	
+]
+
+
+	
+
+
+	
