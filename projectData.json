@@ -5,7 +5,7 @@
 		"title": "TareUhhhhhh Gaming",
 		"teaser": "Theming Project designed to put together a cohesive site after doing market research into a chosen industry.",
 		"description": "I chose to create a website for a video game developer. As an avid gamer myself, a video game theme was the natural choice for me. I narrowed down 4 websites that had aspects that caught my eye and emulated that through colors, line quality and font choice.",
-		"photo": "images/skull.jpg",
+		"image": "images/skull.svg",
 		"link": "projects/tareuhhhhhh-gaming-v2",
 		"highlights": {
 			"html": true,

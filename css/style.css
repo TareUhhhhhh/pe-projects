@@ -51,9 +51,33 @@ p {
 }
 
 main {
+	/*position: relative;*/
 	flex-grow: 1;
 }
 
+svg {
+	display: none;
+}
+
+@media (min-width: 900px) {
+	svg {
+		display: block;
+		max-width: 300px;
+		max-height: 100vh;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		z-index: -1;
+		transform: translate(-20px, 100px);
+		overflow-x: hidden;
+	}
+}
+
+@media (min-width: 1000px) {
+	svg {
+		max-width: 400px;
+	}
+}
 
 
 
