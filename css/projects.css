@@ -1,0 +1,46 @@
+project-card {
+	padding: 20px;
+	display: block;
+	margin: 20px 0;
+	border: 2px inset gray;
+}
+
+project-card picture {
+	max-width: 200px;
+}
+
+project-card p {
+	font-size: 18px;
+}
+
+project-card a {
+	display: inline-block;
+	padding: 20px;
+	font-size: 20px;
+	background: var(--ink);
+	color: var(--paper);
+}
+
+project-card h2 {
+	max-width: 60ch;
+	padding-bottom: 20px;
+}
+
+picture + p {
+	padding-top: 20px;
+}
+
+p + a {
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
