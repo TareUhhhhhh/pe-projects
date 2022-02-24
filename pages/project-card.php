@@ -22,7 +22,9 @@
 
 	<p><?=$project["description"]?></p>
 
-	<a href="projects/<?=$project["slug"]?>" target='site'>Link</a>
+	<a href="?page=projects&project=<?=$project["caseStudy"]?>">Case Study</a>
+
+	<a href="<?=$project["link"]?>" target='site'><?=$project["title"]?></a>
 </project-card>
 
 

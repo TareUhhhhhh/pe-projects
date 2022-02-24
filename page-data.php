@@ -33,13 +33,13 @@ $pageData = [
 			</ul>",
 	],
 
-	// "projects" => [
-	// "title" => "Projects",
-	// "content" => "
-	// 	<p>This is a showcase of work that I am currently working on or have completed. It is a constant work in progress and will be updated as more projects are completed.</p>
+	"projects" => [
+	"title" => "Projects",
+	"content" => "
+		<p>This is a showcase of work that I am currently working on or have completed. It is a constant work in progress and will be updated as more projects are completed.</p>
 
-	// 	<p>The variety of projects that I have worked on include aspects I've learned about HTML, CSS, responsive layouts, PHP, Javascript and SVG.</p>",
-	// ],
+		<p>The variety of projects that I have worked on include aspects I've learned about HTML, CSS, responsive layouts, PHP, Javascript and SVG.</p>",
+	],
 
 	"about" => [
 	"title" => "About",
@@ -49,13 +49,13 @@ $pageData = [
 		<p>I like to crochet, cross stitch, play video games, paint with watercolor and acrylics, among many other creative endeavors!</p>",
 	],
 
-	// "fun" => [
-	// 	"title" => "FUN!",
-	// 	"content" => "
-	// 	<p>I like to have fun and do fun things. That includes making fun stuff!</p>
-	// 	<p>This is where I wanted to display a few of the fun things that I've made. This page is kind of a mix between my Projects and About Me pages. See the work I've done, plus see a bit more of the human side of me. (The fun side!)</p>
-	// 	"
-	// ]
+	"fun" => [
+		"title" => "FUN!",
+		"content" => "
+		<p>I like to have fun and do fun things. That includes making fun stuff!</p>
+		<p>This is where I wanted to display a few of the fun things that I've made. This page is kind of a mix between my Projects and About Me pages. See the work I've done, plus see a bit more of the human side of me. (The fun side!)</p>
+		"
+	]
 ];
 
 // $pageData["about"]["title"]

@@ -6,6 +6,7 @@
 	} else {
 		$activePage = "home";
 	}
+
 	include('header.php');
 	include('images/crossbones.svg');
 
@@ -16,13 +17,12 @@
 	$pageContent = $pageData["$activePage"]["content"];
 
 	include('intro.php');
-
 	include('images/brushstroke-green.svg');
 
 	if ($activePage != "home") {?>
 		<div class="inner-column">
 			<section class="page-content <?=$activePage?>">
-				<?php include($activePage . '.php'); } ?>
+				<?php include('pages/' . $activePage . '.php'); } ?>
 			</section>
 		</div>
 
