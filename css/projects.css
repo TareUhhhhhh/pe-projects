@@ -15,8 +15,9 @@ project-card p {
 
 project-card a {
 	display: inline-block;
-	padding: 20px;
-	font-size: 20px;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 3px;
 	background: var(--ink);
 	color: var(--paper);
 }
