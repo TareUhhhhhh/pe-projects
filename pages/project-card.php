@@ -25,7 +25,7 @@
 
 	<a href="?page=projects&project=<?=$project["caseStudy"]?>">Case Study</a>
 
-	<a href="<?=$project["link"]?>" target='site'><?=$project["title"]?></a>
+<!-- 	<a href="<?=$project["link"]?>" target='site'><?=$project["title"]?></a> -->
 </project-card>
 
 
