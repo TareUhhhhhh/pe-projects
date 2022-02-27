@@ -51,9 +51,10 @@ main {
 }
 
 .brushstroke {
+	width: 107%;
 	position: fixed;
 	bottom: -80px;	
-	left: 0;
+	left: -25px;
 	z-index: -1;
 }
 
