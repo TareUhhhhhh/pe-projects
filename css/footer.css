@@ -1,6 +1,7 @@
 footer {
 	margin-top: 4rem;
-	background: rgba(0, 0, 0, .1);
+	background: rgba(144, 183, 172, 0.4);
+	/*overflow: hidden;*/
 }
 
 footer .inner-column {

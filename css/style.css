@@ -8,13 +8,18 @@
 @import 'projects.css';
 @import 'footer.css';
 
+html {
+	overflow-y: scroll;
+}
+
 body {
 	background-color: var(--paper);
 	color: var(--ink);
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-}
+/*	position: relative;
+*/}
 
 .inner-column {
 	max-width: 900px;
@@ -45,6 +50,13 @@ main {
 	display: none;
 }
 
+.brushstroke {
+	position: fixed;
+	bottom: -80px;	
+	left: 0;
+	z-index: -1;
+}
+
 @media (prefers-color-scheme: dark) {
 	p a {
 	color: var(--color-light);
@@ -54,23 +66,23 @@ main {
 			display: none;
 		}
 
-	@media (min-width: 900px) {
+	@media (min-width: 750px) {
 		.crossbones {
 			display: block;
 			/*border: 2px solid blue;*/
-			max-width: 300px;
+			max-width: 30%;
 			max-height: 80vh;
-			position: fixed;
+			position: absolute;
 			bottom: 0;
 			right: 0;
 			z-index: -1;
-			transform: translate(-20px, 80px);
+			/*transform: translate(-20px, 80px);*/
 		}
 }
 
 @media (min-width: 1000px) {
 	.crossbones {
-		max-width: 400px;
+		max-width: 39%;
 	}
 }
 }
