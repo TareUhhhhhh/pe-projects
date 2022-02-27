@@ -19,7 +19,12 @@
 
 	include('intro.php');
 
-	if ($activePage != "home") {?>
+	if ($activePage != "home" && isset($_GET["project"])) {
+		$activeProject = $_GET["project"];
+		include('pages/caseStudy.php');}
+
+	else  if ($activePage != "home") {
+	?>
 		<div class="inner-column">
 			<section class="page-content <?=$activePage?>">
 				<?php include('pages/' . $activePage . '.php'); } ?>
