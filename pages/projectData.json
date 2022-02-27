@@ -15,7 +15,7 @@
 			"json": false,
 			"svg": false,
 			"animation": false			
-		}
+			}
 	},
 	{
 		"id": 1,
@@ -33,8 +33,26 @@
 			"json": true,
 			"svg": false,
 			"animation": false			
-		}
-	}	
+			}
+	},
+	{
+		"id": 2,
+		"slug": "?project=responsive-garden",
+		"title": "Responsive Layout Garden",
+		"teaser": "Responsive Layouts Aplenty",
+		"description": "In an effort to truly master building responsive sites and modules, I have cultivated a garden of various layouts that will look their best on screens of all sizes.",
+		"image": "images/default.jpg",
+		"caseStudy": "responsiveGarden",
+		"link": "projects/responsiveGarden",
+		"highlights": {
+			"html": true,
+			"css": true,
+			"php": true,
+			"json": true,
+			"svg": false,
+			"animation": false			
+			}
+	}
 ]
 
 
