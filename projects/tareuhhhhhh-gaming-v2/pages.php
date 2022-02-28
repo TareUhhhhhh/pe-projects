@@ -5,6 +5,7 @@ $pages = [
 		"id" => "home",
 		"heading" => "Spoopiest games around!!",
 		"intro" => "TareUhhhhhh is the highly-regarded video game developer for spoopy games. With titles like After Dusk and Scare Layers, you won't find better thrills and chills from anyone else.",
+		"image" => "images/skeleton.jpg"
 	],
 	[
 		"id" => "games",

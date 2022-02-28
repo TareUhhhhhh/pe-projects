@@ -11,16 +11,30 @@
 
 	<?php 
 	$ctaHeading = "Our Newest Release";
+	$ctaText = "Action, adventure, drama, thrills, chills and scares! Not the latest Blumhouse film, but an all new game from TareUhhhhhh Gaming! It's called Spoops and Skills!";
 	include('modules/call-to-action.php'); ?>
 
 </inner-column>
+</section>
+
+<section class="our-team">
+	<inner-column>
+		<?php 
+		$pageContent["heading"] = "Meet The Masters";
+		$pageContent["intro"] = "Our team of storytellers, environment creaters and character developers are the best of the best, in our own biased opinion. (That's why we hired them after all!)";
+		$pageContent['image'] = "images/gamer.jpg";
+		include("modules/graphic-diptych.php")?>
+	</inner-column>
 </section>
 
 
 <section class='help-us'>
 <inner-column>
 
-	<?php include('modules/call-to-action.php'); ?>
+	<?php 
+	$ctaHeading = "Not ready for the terror?";
+	$ctaText = "Our developers specialize in the creepy and crawly, but they know their way around the cutesy and adorable as well. Stay tuned for more from the land of Mary Mint and Joy.";
+	include('modules/call-to-action.php'); ?>
 
 </inner-column>
 </section>

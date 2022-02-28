@@ -1,8 +1,7 @@
+<?php 
 
+	include('header.php'); 
 
-<?php include('header.php'); ?>
-
-<?php
 	if ($pageId == "home") {
 		include("pages/home.php");
 	}
@@ -23,7 +22,8 @@
 	if ($pageId == "account") {
 		include("pages/account.php");
 	}
-?>
+
+	// include("pages/" . $pageId['id'] . ".php");
 
 
-<?php include('footer.php'); ?>
+	include('footer.php'); ?>
