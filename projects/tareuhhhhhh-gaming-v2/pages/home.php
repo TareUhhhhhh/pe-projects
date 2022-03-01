@@ -12,6 +12,7 @@
 	<?php 
 	$ctaHeading = "Our Newest Release";
 	$ctaText = "Action, adventure, drama, thrills, chills and scares! Not the latest Blumhouse film, but an all new game from TareUhhhhhh Gaming! It's called Spoops and Skills!";
+	$prompt = "Dare to play?";
 	include('modules/call-to-action.php'); ?>
 
 </inner-column>
@@ -28,12 +29,13 @@
 </section>
 
 
-<section class='help-us'>
+<section class='not-ready'>
 <inner-column>
 
 	<?php 
 	$ctaHeading = "Not ready for the terror?";
 	$ctaText = "Our developers specialize in the creepy and crawly, but they know their way around the cutesy and adorable as well. Stay tuned for more from the land of Mary Mint and Joy.";
+	$prompt = "Care to play?";
 	include('modules/call-to-action.php'); ?>
 
 </inner-column>

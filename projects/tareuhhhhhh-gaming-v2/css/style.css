@@ -133,23 +133,24 @@ body {
 	border-radius: 3px;
 }
 
-.stuff {
-  
-}
-
 iframe {
 	margin-top: 40px;
 	max-width: 300px;
 	max-height: 120px;
 }
 
-.help-us {
-  background-color: rgba(1, 158, 216, .5);
+.not-ready {
+  background-color: rgba(207, 118, 161, 0.6);
   color: white;
+}
+
+.newsletter {
+	color: white;
 }
 
 .site-footer {
 	background-color: var(--darkgray);
+	background: rgba(0, 0, 0, 0.4);
 	color: var(--white);
 }
 

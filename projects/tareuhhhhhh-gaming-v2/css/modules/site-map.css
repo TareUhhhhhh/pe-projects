@@ -5,10 +5,10 @@ site-map {
   padding-top: 40px;
   padding-bottom: 60px;
   /* */
-  display: flex;
-  flex-direction: column;
+/*  display: flex;
+  flex-direction: column;*/
   /*flex-wrap: wrap;*/
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 
 site-map .logo {
@@ -32,15 +32,11 @@ site-map a {
   site-map {
     flex-direction: row;
   }
-
-  site-map nav {
-    width:  50%;
-  }
 }
 
 @media (min-width: 900px) {
   site-map nav {
-    width:  25%;
+    /*width:  25%;*/
   }
 }
 

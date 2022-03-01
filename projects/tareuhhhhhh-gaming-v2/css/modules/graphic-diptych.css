@@ -19,6 +19,10 @@ graphic-diptych text-content {
   z-index: 1;
 }
 
+graphic-diptych picture {
+  padding-top: 15px;
+}
+
 .welcome {
   display: flex;
   flex-direction: row-reverse;
@@ -30,18 +34,19 @@ graphic-diptych text-content {
 
 @media (min-width: 660px) {
   .welcome {
-    background-image: url('https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming/images/skeleton.jpg');
+    min-height: 500px;
+    background-image: url('https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming-v2/images/skeleton.jpg');
     background-repeat: no-repeat;
     background-position: left center;
     background-attachment: fixed;
     overflow: hidden;
   }
 
-  .welcome img {
+  .welcome img, .our-team img {
   display: none;
   }
 
-  .welcome text-content {
+  .welcome text-content, .our-team text-content {
     background: rgba(0, 0, 0, 0.85);
   }
 
@@ -53,12 +58,13 @@ graphic-diptych text-content {
   }
 
   .our-team {
-  background-image: url('https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming/images/gamer.jpg');
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-attachment: fixed;
-  overflow: hidden;
-  }
+    min-height: 400px;
+    background-image: url('https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming-v2/images/gamer.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+    }
 
   graphic-diptych :is(text-content) {
     width: 50%;

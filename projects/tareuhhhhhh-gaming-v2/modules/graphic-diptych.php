@@ -1,6 +1,4 @@
-
 <graphic-diptych>
-
 	<text-content>
 		<h1 class='intro-voice'><?=$pageContent["heading"]?></h1>
 
@@ -10,5 +8,4 @@
 			<img src="<?=$pageContent['image']?>">
 		</picture>
 	</text-content>
-
 </graphic-diptych>

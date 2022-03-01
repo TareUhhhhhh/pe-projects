@@ -22,8 +22,18 @@
 	if ($pageId == "account") {
 		include("pages/account.php");
 	}
+?>
+	<!-- include("pages/" . $pageId['id'] . ".php"); -->
 
-	// include("pages/" . $pageId['id'] . ".php");
+	<section class='newsletter'>
+		<inner-column>
+			<h2 class='attention-voice'>Are you ready for your next scare?</h2>
+
+			<p>Sign up for our newsletter and never miss out on the fun!</p>
+
+			<iframe src="https://tarahaskamp.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+		</inner-column>
+	</section>
 
 
-	include('footer.php'); ?>
+<?=include('footer.php'); ?>

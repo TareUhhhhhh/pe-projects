@@ -31,19 +31,30 @@ mast-head a {
 .site-menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  gap: 15px;
+  gap: 5px;
+}
+
+footer site-map {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+footer .site-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
 }
 
 @media (min-width: 600px) {
-  .site-menu {
-    flex-direction: row;
-    align-items: center;
-}
-
   mast-head {
-    align-items: center;
+    /*align-items: center;*/
   }
 
   mast-head a {
