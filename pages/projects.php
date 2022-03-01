@@ -8,8 +8,18 @@
 
 	//for each project, echo a project card.
 
-	foreach ($projects as $project) {
-		include('pages/project-card.php');
-	}
+	
 
 	// var_dump($projects);
+
+?>
+
+<section class="projects">
+	<div class="inner-column">
+		<?php 
+			foreach ($projects as $project) {
+				include('pages/project-card.php');
+			}
+		?>
+	</div>
+</section>

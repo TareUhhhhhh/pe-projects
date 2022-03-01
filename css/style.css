@@ -58,6 +58,21 @@ main {
 	z-index: -1;
 }
 
+section.page-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+picture + p {
+	padding-top: 20px;
+}
+
+p + a {
+	margin-top: 20px;
+}
+
 @media (prefers-color-scheme: dark) {
 	p a {
 	color: var(--color-light);

@@ -1,5 +1,13 @@
 <?php 
 
+	//GET page template
+	function renderPage($pageName) {
+		$filePath = "pages/$pageName.php";
+		if ($pageName && file_exists($filePath)) {
+			include($filePath);
+		}
+	}
+
 	//If there is a "page" value, then assign that to $activePage variable
 	if (isset($_GET["page"])) {
 		$activePage = $_GET["page"];
@@ -14,21 +22,11 @@
 	//when $activePage = Projects - echo Projects info
 	//when $activePage = Writing - echo Writing info
 
-	$pageHeading = $pageData["$activePage"]["title"];
-	$pageContent = $pageData["$activePage"]["content"];
+	if($activePage != "project") { //If this is not a detail page -- then include intro file
+		include('page-intro.php');
+	}
 
-	include('intro.php');
-
-	if ($activePage != "home" && isset($_GET["project"])) {
-		$activeProject = $_GET["project"];
-		include('pages/caseStudy.php');}
-
-	else  if ($activePage != "home") {
-	?>
-		<div class="inner-column">
-			<section class="page-content <?=$activePage?>">
-				<?php include('pages/' . $activePage . '.php'); } ?>
-			</section>
-		</div>
-
-<?php include('footer.php');?>
+	renderPage($activePage);
+	
+	include('footer.php');
+?>

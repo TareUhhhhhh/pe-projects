@@ -7,13 +7,6 @@ project-card {
 	max-width: 300px;
 }
 
-section.page-content {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	gap: 20px;
-}
-
 project-card picture {
 	max-width: 200px;
 }
@@ -34,14 +27,6 @@ project-card a {
 project-card h2 {
 	max-width: 60ch;
 	padding-bottom: 20px;
-}
-
-picture + p {
-	padding-top: 20px;
-}
-
-p + a {
-	margin-top: 20px;
 }
 
 

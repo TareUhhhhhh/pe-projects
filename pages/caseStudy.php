@@ -1,6 +1,6 @@
 <?php
 	if (isset($_GET["project"])) {
-		$activeCard = $_GET["project"];
+		$activeProject = $_GET["project"];
 	}
 
 	$studyData = file_get_contents('pages/projectData.json');
@@ -14,7 +14,7 @@
 
 			//if project slug or title = query string id - load the case study card - on case-study php -->
 		<div class="inner-column">
-			<section class="page-content <?=$activeCard?>">
+			<section class="page-content <?=$activeProject?>">
 				<?php include('pages/caseCard.php'); ?>
 			</section>
 		</div> 
