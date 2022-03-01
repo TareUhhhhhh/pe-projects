@@ -1,7 +1,7 @@
 <?php
 
 	//Get contents from json file
-	$projectData = file_get_contents('pages/projectData.json');
+	$projectData = file_get_contents('data/projectData.json');
 	$projects = json_decode($projectData, true);
 	//sanity check
 	// echo $projects;

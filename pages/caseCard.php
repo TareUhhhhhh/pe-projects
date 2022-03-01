@@ -1,5 +1,5 @@
 <?php
-	$studyData = file_get_contents('pages/projectData.json');
+	$studyData = file_get_contents('data/projectData.json');
 	$caseData = json_decode($studyData, true);
 
 	foreach($caseData as $case) {

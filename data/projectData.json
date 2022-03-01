@@ -14,7 +14,22 @@
 			"json": false,
 			"svg": false,
 			"animation": false			
+			},
+		"sections": [
+			{
+				"type": "genericText",
+				"heading": "heading goes here",
+				"content": "Paragraph information will go here"
+			},
+			{
+
+				"type": "beforeAndAfter",
+				"heading": "Heading here",
+				"beforeImage": "https://peprojects/dev/images/square.jpg",
+				"afterImage": "https://peprojects/dev/images/square.jpg",
+				"content": "Project description info goes here"
 			}
+		]
 	},
 	{
 		"id": 1,
@@ -31,7 +46,7 @@
 			"json": true,
 			"svg": false,
 			"animation": false			
-			}
+		}
 	},
 	{
 		"id": 2,

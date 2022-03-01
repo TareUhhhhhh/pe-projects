@@ -1,12 +1,5 @@
 <?php 
-
-	//GET page template
-	function renderPage($pageName) {
-		$filePath = "pages/$pageName.php";
-		if ($pageName && file_exists($filePath)) {
-			include($filePath);
-		}
-	}
+	include("functions.php");
 
 	//If there is a "page" value, then assign that to $activePage variable
 	if (isset($_GET["page"])) {
