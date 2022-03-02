@@ -9,7 +9,6 @@
 				</div>
 			</section>
 
-
 			<section class="more-info">
 				<div class="inner-column">
 					<h2>Heading #2</h2>
@@ -18,4 +17,6 @@
 				</div>
 			</section>
 
-<?php include("modules/footer.php");?>
+<?php 
+	include('modules/card-gallery.php');
+	include("modules/footer.php");?>
