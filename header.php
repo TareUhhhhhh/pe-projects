@@ -1,9 +1,29 @@
+<?php 
+	function enableErrorReporting() {
+		error_reporting(E_ALL);
+		ini_set('display_errors', '1');
+	}
+
+	enableErrorReporting();
+	?>
+
 <!doctype html>
 	<?php
-		$theme = "light";
+		$theme = "";
 
-		if (isset($_POST['submit'])){
-			$theme = $_POST['theme'];
+		//If a cookie exists that saved the theme
+		if ( isset($_COOKIE["optedTheme"]) ) {
+			//use that value for the $theme
+			$theme = $_COOKIE["optedTheme"];
+		}
+
+		//If the user has selected a theme, 
+		if ( isset($_POST['userOptedTheme']) ){
+			//get the users selected choice from dropdown
+			$theme = $_POST['theme']; 
+			//set the theme
+			//save theme to the cookie
+			setcookie( "optedTheme", $theme );
 		} 
 	?>
 
@@ -31,12 +51,12 @@
 				<form method="POST">
 					<label for='theme'>Theme</label>
 					<select name="theme" id="theme">
-						<option value=""> -- Choose a theme --</option>
-						<option value="light">Light</option>
-						<option value="dark">Dark</option>
+						<option value="" disabled> -- Choose a theme --</option>
+						<option value="light" <?= ($theme == "light") ? "selected" : "" ?>>Light</option>
+						<option value="dark"<?= ($theme == "dark") ? "selected" : "" ?>>Dark</option>
 					</select>
 
-					<button name='submit'>Submit</button>
+					<button name='userOptedTheme'>Submit</button>
 				</form>
 			</div>
 		</header>
