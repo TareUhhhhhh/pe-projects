@@ -1,6 +1,18 @@
 <?php 
 	include("functions.php");
 
+	// if (!empty($_COOKIE['theme'])){
+	// 	if ($_COOKIE['theme'] == 'dark') {
+	// 	$theme = 'dark';
+	// 	}
+	// 	else if ($_COOKIE['theme'] == 'light') {
+	// 		$theme = 'light';
+	// 	}
+	// 	else {
+	// 		$theme = 'light';
+	// 	}
+	// }
+
 	//If there is a "page" value, then assign that to $activePage variable
 	if (isset($_GET["page"])) {
 		$activePage = $_GET["page"];

@@ -21,6 +21,16 @@ body {
 /*	position: relative;
 */}
 
+body.light {
+	--paper: var(--white);
+	--ink: var(--black);	
+}
+
+body.dark {
+		--paper: var(--black);
+		--ink: var(--gray);
+}
+
 .inner-column {
 	max-width: 900px;
 	margin-left: auto;
