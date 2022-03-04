@@ -4,11 +4,12 @@
 
 ?>
 
-<div class="inner-column">
-	<section class="intro <?=$activePage?>">
+<section class="intro <?=$activePage?>">
+	<div class="inner-column">
 		<h1><?=$pageHeading?></h1>
-		<?=$pageContent?>
-	</section>
-</div>
+		<?=$pageContent?>		
+	</div>
+</section>
+
 
 

@@ -63,12 +63,7 @@
 			"json": true,
 			"svg": false,
 			"animation": false			
-			},
-		"sections": [
-			{
-				"type": 
-			}
-		]
+		}
 	}
 ]
 

@@ -1,12 +1,3 @@
-<?php 
-	function enableErrorReporting() {
-		error_reporting(E_ALL);
-		ini_set('display_errors', '1');
-	}
-
-	enableErrorReporting();
-	?>
-
 <!doctype html>
 	<?php
 		$theme = "";
@@ -38,7 +29,7 @@
 		<header>
 			<div class="inner-column">
 				<nav class='info-nav'>
-					<a href="?page=home">Home</a>
+					<a href="?">Home</a>
 					<!-- <a href="?page=projects">Projects</a> -->
 					<a href="?page=writing">Writing</a>
 				</nav>
