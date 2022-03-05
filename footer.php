@@ -12,6 +12,8 @@
 					<p class="github">I also keep my projects on <a href="https://github.com/TareUhhhhhh" target='github'>Github</a> if you want to check them out!</p>	
 				</section>
 			</div>
+
+			<p>Version 1.1</p>
 		</footer>
 	</body>
 </html>
