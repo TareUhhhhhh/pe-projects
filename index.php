@@ -9,7 +9,6 @@
 	}
 
 	include('header.php');
-	include('images/crossbones.svg');
 
 	//when $activePage = Projects - echo Projects info
 	//when $activePage = Writing - echo Writing info
