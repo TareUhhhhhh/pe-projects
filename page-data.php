@@ -9,7 +9,7 @@ $pageData = [
 	"writing" => [
 		"title" => "Writing",
 		"content" => "
-			<p>Writing on Substack has been a means of communicating and expressing any ideas or thoughts that have popped into my head as I have been along this learning journey.</p>
+			<p>Writing on <a href='https://tarahaskamp.substack.com/' target='substack'>Substack</a> has been a means of communicating and expressing any ideas or thoughts that have popped into my head as I have been along this learning journey.</p>
 
 			<p>Sometimes the information is directly related to web development, sometimes not so much. However, it all relates back to building new skills and confidence for my next steps!</p>",
 	],
