@@ -18,7 +18,15 @@ footer p, footer a {
 	font-size: 1.1rem;
 }
 
-footer, footer .rectangle {
+footer .rectangle {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 56vw;
+	height: 30vh;
+}
+
+footer {
 	position: absolute;
 	bottom: 0;
 	right: 0;
