@@ -18,6 +18,14 @@ footer p, footer a {
 	font-size: 1.1rem;
 }
 
+footer, footer .rectangle {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 56vw;
+	height: 30vh;
+}
+
 @media (min-width: 500px) {
 	footer .inner-column {
 		flex-direction: row;

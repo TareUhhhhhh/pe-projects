@@ -2,7 +2,7 @@
 
 		<footer>
 			<div class="inner-column">
-				<!-- <h2>Contact</h2> -->
+				<?php include('images/rectangle.svg');?>
 
 				<section class='contact'>
 					<p class="email">Feel free to <a href="mailto:tara@tareuhhhhhh.com" target='email'>email me</a> to chat!</p>

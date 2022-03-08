@@ -27,6 +27,8 @@
 
 	<body class='<?php echo $theme; ?>'>
 		<header>
+			<?php include('images/rectangle.svg'); ?>
+			
 			<div class="inner-column">
 				<nav class='info-nav'>
 					<a href="?">Home</a>
