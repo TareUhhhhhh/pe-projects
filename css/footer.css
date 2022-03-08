@@ -19,11 +19,12 @@ footer p, footer a {
 }
 
 footer .rectangle {
+	z-index: -1;
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	width: 56vw;
-	height: 30vh;
+	height: 20vh;
 }
 
 footer {
@@ -31,7 +32,7 @@ footer {
 	bottom: 0;
 	right: 0;
 	width: 56vw;
-	height: 30vh;
+	height: 20vh;
 }
 
 @media (min-width: 500px) {
