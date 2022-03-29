@@ -88,6 +88,13 @@ header .rectangle {
 	fill: white;
 }
 
+.theme-select {
+	max-width: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
 @media (prefers-color-scheme: dark) {
 	p a {
 	color: var(--color-light);

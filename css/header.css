@@ -9,10 +9,6 @@ header .inner-column {
 	flex-direction: column;
 }
 
-.about-nav {
-	align-items: flex-end;
-}
-
 header a {
 	font-size: 20px;
 	font-weight: 200;
