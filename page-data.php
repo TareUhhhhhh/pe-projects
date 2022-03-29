@@ -3,7 +3,7 @@ $pageData = [
 	"home" => [
 		"title" => "TareUhhhhhh",
 		"content" => "
-			<p>My <span class='bolded italic'>goal</span> is to obtain a job as a front end or back end <span class='bolded'>web developer</span> and <span class='italic'>improve my skillset</span> while working with experienced developers.</p>",
+			<p>I am a fun-loving nerd that loves to build new things and improve on already existing, awesome sites. My goal is to obtain a job as a front end <span class='bolded'>web developer</span> and <span class='italic'>improve my skills</span> while working with experienced developers. I'm local to the Kansas City area, but open to remote positions as well.</p>",
 	],
 
 	"writing" => [
