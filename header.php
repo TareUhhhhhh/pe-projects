@@ -30,7 +30,7 @@
 			<div class="inner-column">
 				<nav class='info-nav'>
 					<a href="?">Home</a>
-					<a href="?page=projects">Projects</a>
+					<!-- <a href="?page=projects">Projects</a> -->
 					<a href="?page=writing">Writing</a>
 				</nav>
 
