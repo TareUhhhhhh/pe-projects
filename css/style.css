@@ -21,6 +21,12 @@ body {
 /*	position: relative;
 */}
 
+.grid {
+	display: grid;
+	grid-template-columns: repeat(10, minmax(200px, 1fr));
+	grid-gap: 10px;
+}
+
 body.light {
 	--paper: var(--white);
 	--ink: var(--black);	

@@ -25,7 +25,7 @@
 
 <?php include('page-data.php')?>
 
-	<body class='<?php echo $theme; ?>'>
+	<body class='grid <?php echo $theme; ?>'>
 		<header>
 			<?php include('images/rectangle.svg'); ?>
 			
