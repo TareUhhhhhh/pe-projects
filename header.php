@@ -26,9 +26,7 @@
 <?php include('page-data.php')?>
 
 	<body class='grid <?php echo $theme; ?>'>
-		<header>
-			<?php include('images/rectangle.svg'); ?>
-			
+		<header>			
 			<div class="inner-column">
 				<nav class='info-nav'>
 					<a href="?">Home</a>
