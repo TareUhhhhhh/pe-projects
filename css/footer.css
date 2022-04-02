@@ -18,21 +18,12 @@ footer p, footer a {
 	font-size: 1.1rem;
 }
 
-footer .rectangle {
-	z-index: -1;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 56vw;
-	height: 20vh;
-}
-
 footer {
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	width: 56vw;
-	height: 20vh;
+	max-height: 30vh;
 }
 
 @media (min-width: 500px) {

@@ -8,8 +8,9 @@
 		$activePage = "home";
 	}
 
-	include('images/rectangle.svg');
 	include('header.php');
+	include('images/rectangle.svg');
+
 
 	//when $activePage = Projects - echo Projects info
 	//when $activePage = Writing - echo Writing info
