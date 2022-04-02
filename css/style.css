@@ -58,16 +58,13 @@ p + p, h2 + p {
 }
 
 main {
-	/*position: relative;*/
 	flex-grow: 1;
-	grid-column-start: 2;
-	grid-column-end: 9;
 }
 
 
 .show-code {
 	display: block;
-    font-family: monospace;
+   font-family: monospace;
 	padding: 10px;
 	background-color: #222;
 	color: lime;

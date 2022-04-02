@@ -25,7 +25,7 @@
 
 <?php include('page-data.php')?>
 
-	<body class='grid <?php echo $theme; ?>'>
+	<body class='<?php echo $theme; ?>'>
 		<header>			
 			<div class="inner-column">
 				<nav class='info-nav'>

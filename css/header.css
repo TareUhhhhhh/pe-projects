@@ -4,11 +4,6 @@ header .inner-column {
 	justify-content: space-between;
 }
 
-header {
-	grid-column-start: 2;
-	grid-column-end: 8;
-}
-
 .info-nav, .about-nav {
 	display: flex;
 	flex-direction: column;

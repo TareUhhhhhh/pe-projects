@@ -1,17 +1,15 @@
 		</main>
 
 		<footer>
-			<div class="inner-column">
-				<?php include('images/rectangle.svg');?>
+		<div class="inner-column">
+			<section class='contact'>
+				<p class="email">Feel free to <a href="mailto:tara@tareuhhhhhh.com" target='email'>email me</a> to chat!</p>
 
-				<section class='contact'>
-					<p class="email">Feel free to <a href="mailto:tara@tareuhhhhhh.com" target='email'>email me</a> to chat!</p>
+				<p class="substack">You can also check out my writing that is posted to <a href="https://tarahaskamp.substack.com/" target='substack'>Substack</a>.</p>
 
-					<p class="substack">You can also check out my writing that is posted to <a href="https://tarahaskamp.substack.com/" target='substack'>Substack</a>.</p>
-
-					<p class="github">I also keep my projects on <a href="https://github.com/TareUhhhhhh" target='github'>Github</a> if you want to check them out!</p>	
-				</section>
-			</div>
+				<p class="github">I also keep my projects on <a href="https://github.com/TareUhhhhhh" target='github'>Github</a> if you want to check them out!</p>	
+			</section>
+		</div>
 		</footer>
 	</body>
 </html>
