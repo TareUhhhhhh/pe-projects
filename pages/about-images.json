@@ -4,48 +4,40 @@
 		"image": "../images/about-me/bear-wc3.jpeg"
 	},
 	{
-		"id": 3,
-		"image": "../images/about-me/bugs-wc4.jpeg"
+		"id": 12,
+		"image": "../images/about-me/crochet-hats3.jpeg"
 	},
 	{
-		"id": 4,
-		"image": "../images/about-me/bugs-wc5.jpeg"
+		"id": 2,
+		"image": "../images/about-me/dragonfly-wc.jpeg"
 	},
 	{
 		"id": 5,
 		"image": "../images/about-me/bye-cs3.jpeg"
 	},
 	{
-		"id": 6,
-		"image": "../images/about-me/controllers.jpeg"
-	},
-	{
-		"id": 7,
-		"image": "../images/about-me/controllers2.jpeg"
-	},
-	{
-		"id": 9,
-		"image": "../images/about-me/controllers4.jpeg"
-	},
-	{
-		"id": 10,
-		"image": "../images/about-me/controllers5.jpeg"
-	},
-	{
-		"id": 11,
-		"image": "../images/about-me/controllers6.jpeg"
-	},
-	{
-		"id": 12,
-		"image": "../images/about-me/crochet-hats3.jpeg"
-	},
-	{
-		"id": 13,
-		"image": "../images/about-me/seahorse-wc2.jpeg"
+		"id": 3,
+		"image": "../images/about-me/bee-wc.jpeg"
 	},
 	{
 		"id": 14,
 		"image": "../images/about-me/stocking.jpeg"
+	},
+	{
+		"id": 6,
+		"image": "../images/about-me/butterfly-wc.jpeg"
+	},
+	{
+		"id": 11,
+		"image": "../images/about-me/controllers2.jpeg"
+	},
+	{
+		"id": 8,
+		"image": "../images/about-me/ladybug-wc.jpeg"
+	},
+	{
+		"id": 13,
+		"image": "../images/about-me/seahorse-wc2.jpeg"
 	},
 	{
 		"id": 15,
