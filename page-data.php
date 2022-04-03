@@ -17,14 +17,29 @@ $pageData = [
 	"goals" => [
 		"title" => "GOALS!",
 		"content" => 
-			"<ul>
-				<li>Have a solid understanding of HTML, CSS, PHP and Javascript
-					<ul>
-						<li>Be able to discuss the basics and understand how to read and write it.</li>
-						<li>Be able to recognize and diagnose when there are issues with existing html.</li>
-					</ul>
-				</li>
-				<li>Learn a few frameworks and how they work to improve the ease and use of languages.</li>
+			"<section class='course-goals'>
+				<h2>Course Goals</h2>
+				<ul>
+					<li>Create a well thought out and executed portfolio site to highlight my skills and interests.</li>
+					<li>Have a working knowledge of HTML, CSS, PHP and Javascript
+						<ul>
+							<li>Have the ability to discuss the basics and understand how to read and write each.</li>
+							<li>Be able to recognize and diagnose when there are issues with existing code.</li>
+							<li>Have the understanding to be able to explain issues or ideas in regular conversation so that anyone can understand a conversation about code even without knowing how to code.</li>
+						</ul>
+					</li>
+					<li>Learn a few frameworks and how they work to improve the ease and use of languages.</li>
+				</ul>
+			</section>
+
+			<section class='career-goals'>
+				<h2>Career Goals</h2>
+				<ul>
+
+				</ul>
+			</section>
+
+			<ul>
 				<li>Find a company to work for that is supportive of new developers and provide a productive learning environment.</li>
 				<li>Be able to leverage my extensive customer service skills, as well as previous CRM experience to be an asset to a growing tech company. Anything video game related would be awesome, but my CRM background would make that a great fit for me as well.</li>
 				<li>Understand more about the roles within a web development team and how I can best contribute and work with each of them.</li>
