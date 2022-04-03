@@ -19,11 +19,11 @@ footer p, footer a {
 }
 
 footer {
-	position: absolute;
-	bottom: 0;
+	position: relative;
 	right: 0;
-	width: 56vw;
-	max-height: 30vh;
+	top: 0;
+	/*max-width: 56vw;*/
+	/*min-height: 10vh;*/
 }
 
 @media (min-width: 500px) {
