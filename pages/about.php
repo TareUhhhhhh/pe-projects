@@ -9,12 +9,7 @@
 	<div class="inner-column">
 		<?php
 			foreach($images as $image) {
-			$imgFile = $image["image"];
-
-			echo "
-			<picture>
-				<img src='" . $imgFile . "' alt=''>
-			</picture>";
+			include('modules/image-card.php');
 			}
 		?>
 	</div>
