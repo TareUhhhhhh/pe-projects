@@ -102,13 +102,14 @@ p + a {
 }
 
 .theme-select {
-	max-width: 60px;
+	max-width: 100px;
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
 }
 
 .theme-form button {
+	/*min-width: 100px;*/
 	padding: 5px;
 	font-size: 1rem;
 	background-color: var(--accent);
