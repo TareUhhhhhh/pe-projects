@@ -1,3 +1,10 @@
+project-grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 5px;
+}
+
 project-card {
 	padding: 20px;
 	display: block;
