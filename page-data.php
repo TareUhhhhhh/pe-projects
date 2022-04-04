@@ -3,7 +3,9 @@ $pageData = [
 	"home" => [
 		"title" => "TareUhhhhhh",
 		"content" => "
-			<p>I am a fun-loving nerd that loves to build new things and improve on already existing, awesome sites. My goal is to obtain a job as a front end <span class='bolded'>web developer</span> and <span class='italic'>improve my skills</span> while working with experienced developers. I'm local to the Kansas City area, but open to remote positions as well.</p>",
+			<p>A fun-loving <span class='bolded italic'>nerd</span>&nbsp; that loves to build new things and improve on already existing, <span class='italic'>awesome</span> sites. My ultimate goal is to work with a video game company - creating fun, new games!</p>
+
+			<p>My previous experience working for a CRM software company, in multiple roles and departments, provides a great background for entry-level, <span class='bolded'>front-end web developer</span> roles. I'm local to the Kansas City area, but open to remote positions!</p>",
 	],
 
 	"writing" => [
@@ -44,14 +46,14 @@ $pageData = [
 				<li>Be able to leverage my extensive customer service skills, as well as previous CRM experience to be an asset to a growing tech company. Anything video game related would be awesome, but my CRM background would make that a great fit for me as well.</li>
 				<li>Understand more about the roles within a web development team and how I can best contribute and work with each of them.</li>
 				<li>Practice every day to become more efficient and knowledgable in creating websites!</li>
-				<li>In addition to a supportive company that encourages learning and growh, I truly want to find a company that appreciates and values their employees!</li>
+				<li>In addition to a supportive company that encourages learning and growth, I truly want to find a company that appreciates and values their employees!</li>
 			</ul>",
 	],
 
 	"projects" => [
 	"title" => "Projects",
 	"content" => "
-		<p>This is a showcase of work that I am currently working on or have completed. It is a constant work in progress and will be updated as more projects are completed.</p>
+		<p>The following case studies are a showcase of work that I have completed. It is a constant work in progress and will be updated as more projects are finished.</p>
 
 		<p>The variety of projects that I have worked on include aspects I've learned about HTML, CSS, responsive layouts, PHP, Javascript and SVG.</p>",
 	],
@@ -59,7 +61,7 @@ $pageData = [
 	"about" => [
 	"title" => "About",
 	"content" => "
-		<p>Outside of building websites and creating cool/fun/efficiency things, I'm actually a human being!</p>
+		<p>Outside of building websites and creating cool/fun/efficiency things, I'm actually a human being! I have interests and hobbies ust like anyone else!</p>
 
 		<p>I like to crochet, cross stitch, play video games, paint with watercolor and acrylics, among many other creative endeavors!</p>",
 	],
