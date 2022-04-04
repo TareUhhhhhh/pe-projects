@@ -61,7 +61,7 @@ $pageData = [
 	"about" => [
 	"title" => "About",
 	"content" => "
-		<p>Outside of building websites and creating cool/fun/efficiency things, I'm actually a human being! I have interests and hobbies ust like anyone else!</p>
+		<p>Outside of building websites and creating cool/fun/efficiency things, I'm actually a human being! I have interests and hobbies just like anyone else!</p>
 
 		<p>I like to crochet, cross stitch, play video games, paint with watercolor and acrylics, among many other creative endeavors!</p>",
 	],

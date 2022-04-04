@@ -3,8 +3,7 @@ html {
 	--white: #efefef;
 	--gray: #9c9b99;
 	--color-dark: rgba(60, 94, 106, 1.00);
-	--color-light: rgba(71, 179, 201, 1.00);
-	
+	--color-light: #a7efe3;
 	--paper: var(--white);
 	--ink: var(--black);
 }
@@ -12,9 +11,11 @@ html {
 body.light {
 	--paper: var(--white);
 	--ink: var(--black);	
+	--accent: var(--color-light);
 }
 
 body.dark {
-		--paper: var(--black);
-		--ink: var(--gray);
+	--paper: var(--black);
+	--ink: var(--gray);
+	--accent: var(--color-dark);
 }

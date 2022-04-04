@@ -31,11 +31,13 @@ body {
 body.light {
 	--paper: var(--white);
 	--ink: var(--black);	
+	--inkalt: var(--color-dark);
 }
 
 body.dark {
-		--paper: var(--black);
-		--ink: var(--gray);
+	--paper: var(--black);
+	--ink: var(--gray);
+	--inkalt: var(--color-light);
 }
 
 .inner-column {
@@ -46,7 +48,7 @@ body.dark {
 }
 
 p a {
-	color: var(--color-dark);
+	color: var(--inkalt);
 }
 
 a:hover {
@@ -100,16 +102,23 @@ p + a {
 }
 
 .theme-select {
-	max-width: 50px;
+	max-width: 60px;
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
 }
 
+.theme-form button {
+	padding: 5px;
+	font-size: 1rem;
+	background-color: var(--accent);
+	border: 1px solid var(--ink);
+	border-radius: 5px;
+	color: var(--ink);
+}
+
 @media (prefers-color-scheme: dark) {
-	p a {
-	color: var(--color-light);
-	}
+
 }
 
 @media (min-width: 1000px) {
