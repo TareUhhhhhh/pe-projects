@@ -5,43 +5,43 @@
 	},
 	{
 		"id": 12,
-		"image": "../images/about-me/crochet-hats3.jpeg"
+		"image": "images/about-me/crochet-hats3.jpeg"
 	},
 	{
 		"id": 2,
-		"image": "../images/about-me/dragonfly-wc.jpeg"
+		"image": "images/about-me/dragonfly-wc.jpeg"
 	},
 	{
 		"id": 5,
-		"image": "../images/about-me/bye-cs3.jpeg"
+		"image": "images/about-me/bye-cs3.jpeg"
 	},
 	{
 		"id": 3,
-		"image": "../images/about-me/bee-wc.jpeg"
+		"image": "images/about-me/bee-wc.jpeg"
 	},
 	{
 		"id": 14,
-		"image": "../images/about-me/stocking.jpeg"
+		"image": "images/about-me/stocking.jpeg"
 	},
 	{
 		"id": 6,
-		"image": "../images/about-me/butterfly-wc.jpeg"
+		"image": "images/about-me/butterfly-wc.jpeg"
 	},
 	{
 		"id": 11,
-		"image": "../images/about-me/controllers2.jpeg"
+		"image": "images/about-me/controllers2.jpeg"
 	},
 	{
 		"id": 8,
-		"image": "../images/about-me/ladybug-wc.jpeg"
+		"image": "images/about-me/ladybug-wc.jpeg"
 	},
 	{
 		"id": 13,
-		"image": "../images/about-me/seahorse-wc2.jpeg"
+		"image": "images/about-me/seahorse-wc2.jpeg"
 	},
 	{
 		"id": 15,
-		"image": "../images/about-me/sunflower-wc.jpeg"
+		"image": "images/about-me/sunflower-wc.jpeg"
 	}
 
 ]
