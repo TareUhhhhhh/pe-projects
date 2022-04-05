@@ -1,6 +1,6 @@
 footer {
 	margin-top: 4rem;
-	background: rgba(144, 183, 172, 0.4);
+	background: var(--accent);
 	/*overflow: hidden;*/
 }
 
@@ -30,11 +30,5 @@ footer {
 	footer .inner-column {
 		flex-direction: row;
 		align-items: center;
-	}
-}
-
-@media (prefers-color-scheme: dark) {
-	footer {
-		/*background: rgba(250, 250, 250, .1);*/
 	}
 }
