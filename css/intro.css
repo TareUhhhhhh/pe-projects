@@ -1,6 +1,6 @@
 .intro h1 {
-	padding-bottom: 20px;
-	font-size: 4rem;
+	padding: 20px 0;
+	font-size: 3rem;
 }
 
 .intro {
@@ -32,15 +32,15 @@
 		font-weight: 200;
 	}
 
-	/*.intro h1 {
-		font-size: 4rem;*/
+	.intro h1 {
+		font-size: 4rem;
 	}
 }
 
 @media (min-width: 530px) {
-	.intro h1 {
-
-	}
+	/*.intro h1 {
+		font-size: 4rem;
+	}*/
 
 	.intro p {
 		/*font-size: 1.5rem;*/
