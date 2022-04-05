@@ -15,7 +15,10 @@ footer h2 {
 }
 
 footer p, footer a {
+	color: var(--ink);
+	font: Helvetica;
 	font-size: 1.1rem;
+	font-weight: 200;
 }
 
 footer {
