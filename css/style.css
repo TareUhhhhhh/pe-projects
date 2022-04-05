@@ -108,9 +108,9 @@ p + a {
 	gap: 5px;
 }
 
-.theme-select label, .theme-form button {
-	font-family: Helvetica;
-	font-size: 1rem;
+.theme-select label, .theme-form button, .theme-form select {
+	font-family: 'Raleway';
+	font-size: 1.1rem;
 	font-weight: 200;
 }
 
@@ -120,10 +120,6 @@ p + a {
 	background-color: var(--accent);
 	border: 0.1px solid var(--ink);
 	color: var(--ink);
-}
-
-@media (prefers-color-scheme: dark) {
-
 }
 
 @media (min-width: 1000px) {
