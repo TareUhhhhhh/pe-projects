@@ -108,13 +108,17 @@ p + a {
 	gap: 5px;
 }
 
+.theme-select label, .theme-form button {
+	font-family: Helvetica;
+	font-size: 1rem;
+	font-weight: 200;
+}
+
 .theme-form button {
 	/*min-width: 100px;*/
 	padding: 5px;
-	font-size: 1rem;
 	background-color: var(--accent);
-	border: 1px solid var(--ink);
-	border-radius: 5px;
+	border: 0.1px solid var(--ink);
 	color: var(--ink);
 }
 
