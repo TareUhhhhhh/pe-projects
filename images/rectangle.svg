@@ -1,3 +1,14 @@
 <svg class='grid rectangle'>
   <rect class='rectangle' width="300" height="100" style="fill:var(--accent)" />
+
+  <!-- $todo: this -accent property is only defined on 'light' class currently -->
+
+  <!-- 
+    $todo: the style attribute will override the CSS rules. 
+    Instead, the plain _fill_ attribute would be ideal
+    fill='color'
+    stroke='color' etc.
+  -->
+
+  <!-- also, this should probably be a div / if grid will be used -->
 </svg>

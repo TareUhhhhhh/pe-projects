@@ -9,7 +9,8 @@
 	}
 
 	include('header.php');
-	include('images/rectangle.svg');
+
+	include('images/rectangle.svg'); // $todo: is this part of the header?
 
 
 	//when $activePage = Projects - echo Projects info
