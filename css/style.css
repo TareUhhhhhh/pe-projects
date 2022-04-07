@@ -102,6 +102,12 @@ p + a {
 }
 
 .theme-select {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.theme-select {
 	max-width: 100px;
 	display: flex;
 	flex-direction: column;
@@ -122,8 +128,10 @@ p + a {
 	color: var(--ink);
 }
 
-@media (min-width: 1000px) {
-
+@media (min-width: 500px) {
+	.theme-select {
+		/*position: absolute;*/
+	}
 }
 
 

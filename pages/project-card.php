@@ -10,20 +10,23 @@
 
 
 <project-card>
-	<h2><?=$project["title"]?></h2>
+	<section class='project-intro'>
+		<h2><?=$project["title"]?></h2>
 
-	<picture>
-		<img src='<?=$project["image"]?>'>
-	</picture>
+		<picture>
+			<img src='<?=$project["image"]?>'>
+		</picture>
+	</section>
 
 	<!-- <h3><?=$project["highlights"]?></h3> -->
 
-	<p><?=$project["teaser"]?></p>
+	<section class="project-description">
+		<p><?=$project["teaser"]?></p>
 
-	<p><?=$project["description"]?></p>
+		<p><?=$project["description"]?></p>
 
-
-	<a href="?page=project&project=<?=$project["slug"]?>">Case Study</a>
+		<a href="?page=project&project=<?=$project["slug"]?>">Case Study</a>
+	</section>
 </project-card>
 
 
