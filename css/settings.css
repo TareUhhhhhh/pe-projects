@@ -6,16 +6,17 @@ html {
 	--color-light: #a7efe3;
 	--paper: var(--white);
 	--ink: var(--black);
+	/* $todo: why are some on the HTML and some on the body? */
 }
 
 body.light {
 	--paper: var(--white);
 	--ink: var(--black);	
-	--accent: var(--color-light);
+	--accent: var(--color-light); /* $todo: not declared on the body /only on this classed version */
 }
 
 body.dark {
 	--paper: var(--black);
 	--ink: var(--gray);
-	--accent: var(--color-dark);
+	--accent: var(--color-dark); /* $todo: not declared on the body /only on this classed version */
 }

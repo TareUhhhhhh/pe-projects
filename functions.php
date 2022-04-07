@@ -41,12 +41,12 @@
 	// 	ini_set('display_errors', '1');
 	// }
 
-	// enableErrorReporting();
+	// enableErrorReporting(); // $todo: ^ this can be left - and just the function call be toggled. Or we could put it in it's own file and toggle the import
 
 	function show($things) {
-	echo "<code class='show-code'>";
-	echo '<pre>';
-	print_r($things);
-	echo '</pre>';
-	echo '</code>';
+		echo "<code class='show-code'>";
+		echo '<pre>';
+		print_r($things);
+		echo '</pre>';
+		echo '</code>';
 	}

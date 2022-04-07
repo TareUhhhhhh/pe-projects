@@ -9,8 +9,12 @@
 @import 'footer.css';
 @import 'about.css';
 
+
+/* $todo - maybe this file should be called "site.css" - because it's for the whole "site" ? */
+
+
 html {
-	overflow-y: scroll;
+	overflow-y: scroll; /* $todo is this part of "structure" ? */
 }
 
 body {
@@ -19,8 +23,7 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-/*	position: relative;
-*/}
+}
 
 .grid {
 	display: grid;
@@ -61,7 +64,8 @@ p + p, h2 + p {
 }
 
 main {
-	flex-grow: 1;
+	flex-grow: 1; 
+	/* $todo:  this is out in the middle of no where - what about moving it to a 'structure' type place with all the things that it's dependent on */
 }
 
 

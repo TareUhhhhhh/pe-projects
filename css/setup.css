@@ -1,4 +1,6 @@
-@import “meyer-reset.css”;
+/* @import “meyer-reset.css”; */
+
+/* This has the wrong quotes ^ and also shouldn't be imported again - */
 
 * {
 	box-sizing: border-box;
@@ -29,28 +31,9 @@ img {
 ul {
 	list-style-type: circle;
 	margin-left: 15px;
+	/* $todo: what about when it's a list that you don't want a circle? */
 }
 
 li {
-	padding-top: 5px;
+	padding-top: 5px; /* $todo: - is this a good default? rem? What about the top one? */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

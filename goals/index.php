@@ -1,9 +1,12 @@
-<?php include('header.php')?>
+<?php
 
-<?php 
+include('header.php');
+
 $pageHeading = $pageData["goals"]["title"];
 $pageContent = $pageData["goals"]["content"];
-include('intro.php')?>
 
+include('intro.php');
 
-<?php include('footer.php')?>
+include('footer.php');
+
+?>
