@@ -1,13 +1,12 @@
 @import 'meyer-reset.css';
 @import 'setup.css';
 
+* { outline: 1px solid gray; }
+
 body {
 	--black: #111;
 	--white: #9c9b99;
 	font-family: Arial;
-}
-
-header {
 }
 
 .inner-column {
@@ -38,7 +37,6 @@ a {
 	padding: 15px;
 	color: var(--white);
 	text-decoration: none;
-	background: ;
 }
 
 a:hover {
@@ -50,9 +48,6 @@ header nav {
 	flex-direction: row;
 	gap: 10px;
 }
-
-
-
 
 
 
