@@ -1,0 +1,31 @@
+
+.post-author {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.post-author p {
+	padding: 5px;
+}
+
+.post-author picture {
+	max-width: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+picture {
+	max-width: 400px;
+}
+
+code {
+	margin: 15px;
+	padding: 15px;
+	display: block;
+	border: 2px inset lime;
+	background-color: black;
+	color: lime;
+	font-family: monospace;
+	font-size: 1rem;
+}
