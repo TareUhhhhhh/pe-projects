@@ -7,8 +7,12 @@
 
 body {
 	--black: #111;
-	--white: #9c9b99;
-	font-family: Arial;
+	--darkgray: #5b5b5b;
+	--lightgray: #959393;
+	--white: #d4d0d0;
+	--boldaccent: #012c42;
+	font-family: Helvetica;
+	font-weight: 200;
 }
 
 .inner-column {
@@ -17,42 +21,98 @@ body {
 	margin-right: auto;
 }
 
-h1, h2, h3, p, ol, ul, li {
-	padding: 15px;
+/*SPACING*/
+
+h2, h3, p, ol, ul, blockquote, picture, code {
+	padding: 0.5rem 1.5rem;
 }
 
 h1 {
-	padding: 15px;
-	font-family: Georgia;
-	color: var(--white);
-	font-size: 32px;
-	font-weight: 700;
+	padding: 1rem 1.5rem;
 }
 
-h2 {
-	padding: 15px;
-	font-size: 32px;
+li {
+	padding: 0.25rem 1.5rem;
 }
 
-p {
-	max-width: 72ch;
-	padding: 0 15px;
-	padding-top: 15px;
-	line-height: 1.2;
+p + *, * + p {
+	padding-top: 1.5rem;
 }
 
-p+p {
-	padding: 5px 15px;
+p + p {
+	padding-top: 0.5rem;
 }
 
 a {
-	padding: 15px;
+	padding: 1.5rem;
+}
+
+code {
+	padding: 1.5rem;
+}
+
+section.intro {
+	padding: 2rem;
+}
+
+blockquote {
+	padding: 1rem;
+	margin: 1.5rem 2.5rem;
+	border: 1px solid gray;
+}
+
+
+/*COLOR STYLES*/
+section.intro {
+	background-color: var(--boldaccent);
+	color: var(--lightgray);
+}
+
+section.intro h1 {
 	color: var(--white);
-	text-decoration: none;
+}
+
+h1 {
+	color: var(--black);
+}
+
+a {
+	color: var(--darkgray);
 }
 
 a:hover {
-	color: cyan;
+	color: var(--boldaccent);
+}
+
+
+
+
+/*STYLE STYLES*/
+
+h1 {
+	font-family: Georgia;
+	font-size: 2.4rem;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 2rem;
+	color: var(--gray);
+}
+
+h3 {
+	font-size: 1.5rem;
+	color: var(--gray);
+}
+
+p {
+	font-size: 1rem;
+	max-width: 72ch;
+	line-height: 1.2;
+}
+
+a {
+	text-decoration: none;
 }
 
 header nav {
@@ -61,7 +121,10 @@ header nav {
 	gap: 10px;
 }
 
-
+blockquote {
+	font-size: 1.3rem;
+	font-weight: 200;
+}
 
 
 

@@ -26,21 +26,6 @@
 			include('modules/paragraph.php');
 		?>
 
-		<h3>
-			Heading Level Three
-		</h3>
-
-		<ul>
-			<li>UL Items</li>
-			<li>UL Items</li>
-			<li>UL Items</li>
-			<li>UL Items</li>
-			<li>UL Items</li>
-			<li>UL Items</li>
-			<li>UL Items</li>
-			<li>UL Items</li>
-		</ul>
-
 		<blockquote>
 			"This is a blockquote section. It should stand out from the rest of the page. It says special stuff."
 		</blockquote>
@@ -71,6 +56,24 @@
 			include('modules/h2.php');
 			include('modules/paragraph.php');
 			include('modules/paragraph.php');
+		?>
+
+		<h3>
+			Heading Level Three
+		</h3>
+
+		<ul>
+			<li>UL Items</li>
+			<li>UL Items</li>
+			<li>UL Items</li>
+			<li>UL Items</li>
+			<li>UL Items</li>
+			<li>UL Items</li>
+			<li>UL Items</li>
+			<li>UL Items</li>
+		</ul>
+
+		<?php
 			include('modules/code.php');
 			include('modules/paragraph.php');
 			include('modules/paragraph.php');
