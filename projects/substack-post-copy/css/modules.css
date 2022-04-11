@@ -6,7 +6,7 @@
 }
 
 .post-author p {
-	padding: 5px;
+	padding: 0.25rem;
 }
 
 .post-author picture {
@@ -14,8 +14,8 @@
 	border-radius: 50%;
 	overflow: hidden;
 	padding: 0;
-	margin-left: 15px;
-	margin-right: 5px;
+	margin-left: 1.5rem;
+	margin-right: 0.5rem;
 }
 
 picture {

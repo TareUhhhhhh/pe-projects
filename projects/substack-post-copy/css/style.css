@@ -3,7 +3,7 @@
 @import 'components.css';
 @import 'modules.css';
 
-* { outline: 1px solid gray; }
+/** { outline: 1px solid gray; }*/
 
 body {
 	--black: #111;
@@ -32,11 +32,16 @@ h1 {
 }
 
 li {
-	padding: 0.25rem 1.5rem;
+	margin-left: 1.5rem;
+	padding: 0.25rem;
 }
 
-p + *, * + p {
-	padding-top: 1.5rem;
+p + * {
+	padding-top: 1rem;
+}
+
+* + p, h1 + p {
+	padding-top: 0.25rem;
 }
 
 p + p {
@@ -52,7 +57,7 @@ code {
 }
 
 section.intro {
-	padding: 2rem;
+	padding: 2rem 0;
 }
 
 blockquote {
@@ -91,17 +96,17 @@ a:hover {
 
 h1 {
 	font-family: Georgia;
-	font-size: 2.4rem;
+	font-size: 2.2rem;
 	font-weight: 500;
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	color: var(--gray);
 }
 
 h3 {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	color: var(--gray);
 }
 
@@ -124,6 +129,14 @@ header nav {
 blockquote {
 	font-size: 1.3rem;
 	font-weight: 200;
+}
+
+ol {
+	list-style-type: number;
+}
+
+ul {
+	list-style-type: circle;
 }
 
 
