@@ -17,12 +17,8 @@ body {
 	margin-right: auto;
 }
 
-//SPACING//
-
-li {
-	list-style-type: disc;
+h1, h2, h3, p, ol, ul, li {
 	padding: 15px;
-	color: purple;
 }
 
 h1 {
