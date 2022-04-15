@@ -27,7 +27,7 @@ img {
 	height: auto;
 }
 
-article-title, sub-title, post-info {
+code, post-info {
 	display: block;
 }
 
@@ -35,3 +35,10 @@ article-title, sub-title, post-info {
 	max-width: 50px;
 	border-radius: 50%;
 }
+
+.inner-column {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
