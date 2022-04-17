@@ -1,0 +1,184 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+/** { outline: 1px solid gray; }*/
+
+body {
+	--black: #111;
+	--white: #9c9b99;
+	font-family: Helvetica;
+}
+
+/*SPACING/SIZING*/
+header, section, footer {
+	padding: 1.5rem;
+}
+
+picture {
+	max-width: 600px;
+}
+
+.diptych-section {
+	padding-top: 2rem;
+	padding-right: 15vw;
+}
+
+header picture {
+	max-width: 50px;
+}
+
+section :is(*+*) {
+	margin-top: 1rem;
+}
+
+article + article {
+	margin-top: 3rem;
+}
+
+.article-image {
+	border-radius: 50%;
+	overflow: hidden;
+	max-width: 25%;
+}
+
+footer a + a {
+	margin-top: 1.5rem;
+}
+
+
+
+/*COLOR*/
+.diptych-section {
+	background: rgba(0,0,0, 0.4);
+}
+
+footer {
+	background: rgba(0,0,0,0.8);
+}
+
+/*TYPOGRAPHY*/
+
+h1 {
+	font-family: Georgia;
+	color: var(--white);
+	font-size: 3rem;
+	text-align: center;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+a {
+	color: var(--white);
+	text-decoration: none;
+}
+
+a:hover {
+	color: gray;
+}
+
+/*POSITIONING*/
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+}
+
+.left-circle, .right-circle, .bottom-circle {
+	display: none;
+}
+
+
+
+@media(min-width: 600px) {
+	diptych-section {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 1rem;
+		margin: 2rem 0;
+	}
+	.diptych {
+		max-width: 45%;
+	}
+
+	article {
+		display: flex;
+		flex-direction: row;
+		gap: 1rem;
+	}
+
+	.article-content {
+		max-width: 50%;
+	}
+
+	footer nav {
+		display: flex;
+		flex-direction: row;
+		gap: 1rem;
+	}
+
+	footer a {
+		font-size: 1.5rem;
+	}
+
+	footer a+a {
+		margin-top: 0;
+	}
+}
+
+@media(min-width: 900px) {
+	diptych-section {
+		align-items: center;
+		font-size: 1.5rem;
+	}
+
+	.diptych-section p {
+		margin-top: 0;
+	}
+
+	.articles-section .inner-column {
+		display: flex;
+		flex-direction: row;
+	}
+
+	article {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	article + article {
+		margin-top: 0;
+	}
+
+	.article-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	article p {
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
