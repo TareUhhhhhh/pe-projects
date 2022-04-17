@@ -143,6 +143,10 @@ header nav {
 		margin-top: 0;
 	}
 
+	.diptych-section {
+		padding: 2rem;
+	}
+
 	.articles-section .inner-column {
 		display: flex;
 		flex-direction: row;
