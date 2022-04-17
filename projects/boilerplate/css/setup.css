@@ -5,14 +5,20 @@
 	scroll-behavior: smooth;
 }
 
+body {
+	min-height: 100vh;
+}
+
+.inner-column {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 a {
 	display: block;
 	text-decoration: none;
 	color: inherit;
-}
-
-a p {
-	display: inline;
 }
 
 p a {
@@ -28,4 +34,11 @@ img {
 	display: block;
 	width: 100%;
 	height: auto;
+}
+
+/*SETTINGS*/
+
+body {
+	--black: #111;
+	--white: #9c9b99;
 }
