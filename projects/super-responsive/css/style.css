@@ -7,7 +7,6 @@ body {
 	--black: #111;
 	--white: #9c9b99;
 	font-family: Helvetica;
-	min-height: 100vh;
 }
 
 /*SPACING/SIZING*/
@@ -32,6 +31,10 @@ section :is(*+*) {
 	margin-top: 1rem;
 }
 
+section + section {
+	margin-top: 2rem;
+}
+
 article + article {
 	margin-top: 3rem;
 }
@@ -44,6 +47,7 @@ article + article {
 
 footer a + a {
 	margin-top: 1.5rem;
+	margin-bottom: 3rem;
 }
 
 
@@ -68,7 +72,12 @@ h1 {
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+
+p {
+	font-weight: 200;
 }
 
 a {
@@ -78,6 +87,10 @@ a {
 
 a:hover {
 	color: gray;
+}
+
+.article-content p {
+	max-width: 52ch;
 }
 
 /*POSITIONING*/
@@ -101,8 +114,11 @@ header nav {
 		flex-direction: row;
 		align-items: center;
 		gap: 1rem;
-		margin: 2rem 0;
+		margin: 2rem 3.5rem;
+		margin-right: 0.7rem;
+		padding-right: 1vw;
 	}
+
 	.diptych {
 		max-width: 45%;
 	}
@@ -125,11 +141,27 @@ header nav {
 	}
 
 	footer a {
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 	}
 
 	footer a+a {
 		margin-top: 0;
+		margin-left: 3rem;
+	}
+
+	main {
+		position: relative;
+		overflow: hidden;
+	}
+
+	.bottom-circle {
+		display: inline;
+		position: absolute;
+		opacity: 40%;
+		max-width: 30vw;
+		bottom: 0;
+		right: 0;
+		transform: translate(46%, 20%);
 	}
 }
 
@@ -141,10 +173,6 @@ header nav {
 
 	.diptych-section p {
 		margin-top: 0;
-	}
-
-	.diptych-section {
-		padding: 2rem;
 	}
 
 	.articles-section .inner-column {
@@ -165,13 +193,51 @@ header nav {
 	.article-content {
 		display: flex;
 		flex-direction: column;
-		justify-content: flex-end;
 		align-items: center;
+		max-width: 80%;
 	}
 
 	article p {
 		text-align: center;
 	}
+
+	.article-content a {
+		padding: 1rem;
+		background-color: var(--black);
+		border-bottom: 1px solid gray;
+	}
+
+	.article-image {
+		max-width: 40%;
+	}
+
+	.diptych-section {
+		position: relative;
+		overflow: hidden;
+	}
+
+	.left-circle {
+		display: inline;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		transform: translate(-30%, 23%);
+		opacity: 20%;
+		max-width: 20%;
+		z-index: -1;
+	}
+
+	.right-circle {
+		display: inline;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		transform: translate(-38%, 47%);
+		opacity: 20%;
+		max-width: 20%;
+	}
+
+
 }
 
 
