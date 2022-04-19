@@ -11,10 +11,6 @@ a {
 	color: inherit;
 }
 
-a p {
-	display: inline;
-}
-
 p a {
 	display: inline-block;
 	text-decoration: underline;
@@ -22,10 +18,17 @@ p a {
 
 picture {
 	display: block;
+	border-radius: 10px;
+	overflow: hidden;
 }
 
 img {
 	display: block;
 	width: 100%;
 	height: auto;
+}
+
+p {
+	line-height: 1.3;
+	letter-spacing: 0.01em;
 }

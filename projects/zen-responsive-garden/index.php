@@ -18,5 +18,7 @@
 			</section>
 
 <?php 
+	include('modules/graphic-diptych.php');
+	include('modules/picture-gallery.php');
 	include('modules/card-gallery.php');
 	include("modules/footer.php");?>
