@@ -75,7 +75,7 @@ graphic-diptych .inner-column {
 
 @media (min-width: 400px) {
 	header nav {
-	width: 60%;
+		width: 60%;
 	}
 
 	.intro h1 {
@@ -85,8 +85,16 @@ graphic-diptych .inner-column {
 }
 
 @media (min-width: 500px) {
-	header nav {
+	card {
+		display: flex;
+		flex-direction: row;
+		/*justify-content: flex-start;*/
+		align-items: center;
+		gap: 1rem;
+	}
 
+	.card-content p {
+		max-width: 40ch;
 	}
 }
 

@@ -16,7 +16,7 @@ card {
 	display: flex;
 	flex-direction: column;
 	gap: 0.5rem;
-	max-width: 300px;
+	max-width: 500px;
 	border: 2px solid gray;
 	border-radius: 10px;
 	overflow: hidden;
@@ -29,6 +29,7 @@ card h3 {
 
 card img {
 	border-radius: 10px;
+	max-width: 60%;
 }
 
 card picture + h3 {
