@@ -29,16 +29,20 @@ card h3 {
 
 card img {
 	border-radius: 10px;
-	max-width: 60%;
+	max-width: 400px;
 }
 
 card picture + h3 {
 	margin-top: 1rem;
 }
 
+.card-gallery p + a {
+	margin-top: 1rem;
+}
+
 @media (min-width: 900px) {
 	card {
-		max-width: 200px;
+		max-width: 400px;
 	}
 
 	card h3 {
