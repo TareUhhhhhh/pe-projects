@@ -1,0 +1,141 @@
+
+/*DISPLAY CONSOLE*/
+
+display-console .content {
+	margin-top: 0.5rem;
+}
+
+console-content {
+	display: flex;
+	flex-direction: column;
+}
+
+display-console h1 {
+	text-align: left;
+}
+
+console-content a {
+	text-decoration: underline;
+	display: inline-block;
+}
+
+.content a {
+	font-size: 1.2rem;
+	padding: 1rem;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.3);
+	text-decoration: none;
+}
+
+.content {
+	display: inline-block;
+}
+
+.content p {
+	max-width: 57ch;
+}
+
+.content p + a {
+	margin-top: 0.5rem;
+}
+
+display-console picture {
+	margin: 1rem 0;
+	max-width: 400px;
+}
+
+@media(min-width: 600px) {
+	console-content {
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+
+	display-console picture {
+		max-width: 200px;
+	}
+
+	.content {
+		max-width: 33%;
+	}
+
+	console-content h1 {
+		flex-basis: 100%;
+	}
+}
+
+
+/*PICTURE GALLERY*/
+
+picture-gallery .inner-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.gallery-image {
+	max-width: 400px;
+}
+
+
+/*CARD GALLERY*/
+
+.card-gallery {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.card-gallery .inner-column {
+	max-width: 900px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+card {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	max-width: 500px;
+	border: 2px solid gray;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+card h3 {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+card img {
+	border-radius: 10px;
+	max-width: 400px;
+}
+
+card picture + h3 {
+	margin-top: 1rem;
+}
+
+.card-gallery p + a {
+	margin-top: 1rem;
+}
+
+@media (min-width: 900px) {
+	card {
+		max-width: 400px;
+	}
+
+	card h3 {
+		font-size: 18px;
+	}
+
+	card p {
+		font-size: 16px;
+	}
+}

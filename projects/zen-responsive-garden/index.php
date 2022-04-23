@@ -21,4 +21,5 @@
 	include('modules/graphic-diptych.php');
 	include('modules/picture-gallery.php');
 	include('modules/card-gallery.php');
+	include('modules/display-console.php');
 	include("modules/footer.php");?>

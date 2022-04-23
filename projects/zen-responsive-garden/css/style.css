@@ -1,7 +1,7 @@
 @import 'meyer-reset.css';
 @import 'setup.css';
-@import 'modules/card-gallery.css';
-@import 'modules/picture-gallery.css';
+@import 'modules.css';
+
 
 body {
 	--black: #111;
@@ -73,6 +73,17 @@ graphic-diptych .inner-column {
 	gap: 1rem;
 }
 
+footer {
+	background: rgba(0,0,0,0.2);
+	min-height: 140px;
+}
+
+footer nav {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
 @media (min-width: 400px) {
 	header nav {
 		width: 60%;
@@ -94,6 +105,12 @@ graphic-diptych .inner-column {
 
 	.card-content p {
 		max-width: 40ch;
+	}
+
+	footer nav {
+		flex-direction: row;
+		gap: 3rem;
+		margin-top: 1.5rem;
 	}
 }
 
