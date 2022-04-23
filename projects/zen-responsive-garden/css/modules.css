@@ -1,6 +1,10 @@
 
 /*DISPLAY CONSOLE*/
 
+display-console {
+	min-height: 700px;
+}
+
 display-console .content {
 	margin-top: 0.5rem;
 }
@@ -50,7 +54,7 @@ display-console picture {
 		align-items: center;
 		justify-content: center;
 		flex-wrap: wrap;
-		gap: 1rem;
+		gap: 2rem;
 	}
 
 	display-console picture {
@@ -63,6 +67,7 @@ display-console picture {
 
 	console-content h1 {
 		flex-basis: 100%;
+		text-align: center;
 	}
 }
 
