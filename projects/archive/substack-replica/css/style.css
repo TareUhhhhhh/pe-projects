@@ -56,9 +56,9 @@ ol {
 	list-style-type: number;
 }
 
-* + * {
+/** + * {
 	margin-top: 0.25rem;
-}
+}*/
 
 /*STYLES*/
 
