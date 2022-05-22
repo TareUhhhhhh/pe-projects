@@ -1,9 +1,11 @@
 html {
-	--black: #111;
-	--white: #efefef;
+	--black: #2e2f3a;
+	--white: #ddd4d1;
 	--gray: #d9d7d4;
-	--color-dark: rgba(60, 94, 106, 1.00);
-	--color-light: #a7efe3;
+	--color-dark: #be7f7e;
+	--color-light: #fecdb6;
+	--alt-light: #dbb3b3;
+	--alt-dark: #7d5b4a;
 	--paper: var(--white);
 	--ink: var(--black);
 }
@@ -12,10 +14,12 @@ body.light {
 	--paper: var(--white);
 	--ink: var(--black);	
 	--accent: var(--color-light);
+	--alternate: var(--alt-dark);
 }
 
 body.dark {
 	--paper: var(--black);
 	--ink: var(--gray);
 	--accent: var(--color-dark);
+	--alternate: var(--color-light);
 }
