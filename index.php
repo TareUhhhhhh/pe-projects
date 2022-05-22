@@ -9,7 +9,7 @@
 	}
 
 	include('header.php');
-	include('images/rectangle.svg');
+	// include('images/rectangle.svg');
 
 
 	//when $activePage = Projects - echo Projects info
