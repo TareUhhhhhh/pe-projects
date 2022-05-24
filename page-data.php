@@ -66,6 +66,14 @@ $pageData = [
 		<p>I like to crochet, cross stitch, play video games, paint with watercolor and acrylics, among many other creative endeavors!</p>",
 	],
 
+	"contact" => [
+		"title" => "Contact",
+		"content" => "
+		<p>There are different ways you can get in touch. Here they are.</p>
+		<h2>Email</h2>
+		<p>tara@tareuhhhhhh.com</p>",
+	],
+
 	"fun" => [
 		"title" => "FUN!",
 		"content" => "
