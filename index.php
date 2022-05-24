@@ -20,6 +20,7 @@
 	}
 
 	renderPage($activePage);
-	
-	include('footer.php');
+
+	include('modules/theme-form.php');	
+	// include('footer.php');
 ?>
