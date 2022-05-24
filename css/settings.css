@@ -13,13 +13,13 @@ html {
 body.light {
 	--paper: var(--white);
 	--ink: var(--black);	
-	--accent: var(--color-light);
+	--accent: var(--color-dark);
 	--alternate: var(--alt-dark);
 }
 
 body.dark {
 	--paper: var(--black);
 	--ink: var(--gray);
-	--accent: var(--color-dark);
+	--accent: var(--color-light);
 	--alternate: var(--color-light);
 }

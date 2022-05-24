@@ -75,6 +75,10 @@ p + a {
 	margin-top: 20px;
 }
 
+.intro-content h1 {
+	color: var(--accent);
+}
+
 .career-goals {
 	padding-top: 20px;
 }
