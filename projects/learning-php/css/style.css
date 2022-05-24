@@ -1,10 +1,11 @@
 h1 {
 	font-size: 2rem;
 	font-weight: 500;
+	margin: 50px 0;
 }
 
 h2 {
-	display: inline-block;
+	display: inline;
 	font-size: 1.4rem;
 	font-weight: 400;
 	margin-top: 20px;
@@ -12,7 +13,7 @@ h2 {
 }
 
 h3 {
-	display: inline-block;
+	display: inline;
 	font-size: 1.3rem;
 	font-weight: 300;
 }
@@ -20,6 +21,7 @@ h3 {
 p {
 	font-size: 1.2rem;
 	font-weight: 300;
+	line-height: 1.2;
 }
 
 span {
@@ -29,6 +31,14 @@ span {
 
 h2 + p {
 	margin-top: 5px;
+}
+
+article + article {
+	margin-top: 20px;
+}
+
+section + section {
+	margin-top: 50px;
 }
 
 .inner-column {
