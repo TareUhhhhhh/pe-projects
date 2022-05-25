@@ -1,4 +1,4 @@
-<div class="inner-column">
+<!-- <div class="inner-column"> -->
 	<div class="theme-form">
 		<form method="POST" class='theme-select'>
 			<label for='theme'>Theme</label>
@@ -11,4 +11,4 @@
 			<button name='userOptedTheme'>Submit</button>
 		</form>
 	</div>
-</div>
+<!-- </div> -->
