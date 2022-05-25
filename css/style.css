@@ -112,7 +112,7 @@ p + a {
 }
 
 .theme-form {
-	background-color: var(--white);
+	background-color: var(--paper);
 	border: 0.1px solid var(--ink);
 	padding: 10px;
 }
