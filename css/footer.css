@@ -17,14 +17,15 @@ footer h2 {
 }
 
 footer p, footer a {
-	/*color: var(--alternate);*/
+	color: var(--paper);
 	font: Helvetica;
 	font-size: 1.1rem;
 	font-weight: 200;
 }
 
 footer {
-	position: relative;	right: 0;
+	position: relative;
+	right: 0;
 	top: 0;
 	/*max-width: 56vw;*/
 	/*min-height: 10vh;*/

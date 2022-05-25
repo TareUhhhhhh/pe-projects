@@ -14,7 +14,7 @@ body.light {
 	--paper: var(--white);
 	--ink: var(--black);	
 	--accent: var(--color-dark);
-	--alternate: var(--alt-dark);
+	--alternate: var(--color-dark);
 }
 
 body.dark {
