@@ -37,7 +37,7 @@
 				<nav class='about-nav'>
 					<a href="?page=about">About</a>
 					<!-- <a href="?page=fun">Fun</a> -->
-					<a href="?page=contact">Contact</a>
+					<!-- <a href="?page=contact">Contact</a> -->
 				</nav>
 			</div>
 		</header>

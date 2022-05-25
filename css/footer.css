@@ -1,13 +1,15 @@
 footer {
-	margin-top: 4rem;
+	margin-top: 3rem;
 	background: var(--accent);
 	/*overflow: hidden;*/
+	padding: 3vh 0 7vh 0;
 }
 
 footer .inner-column {
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	align-items: flex-start;
+	gap: 50px;
 }
 
 footer h2 {
@@ -22,8 +24,7 @@ footer p, footer a {
 }
 
 footer {
-	position: relative;
-	right: 0;
+	position: relative;	right: 0;
 	top: 0;
 	/*max-width: 56vw;*/
 	/*min-height: 10vh;*/
@@ -37,5 +38,6 @@ footer a:hover {
 	footer .inner-column {
 		flex-direction: row;
 		align-items: center;
+		justify-content: space-between;
 	}
 }

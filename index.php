@@ -18,9 +18,6 @@
 	if($activePage != "project") { //If this is not a detail page -- then include intro file
 		include('modules/page-intro.php');
 	}
-
 	renderPage($activePage);
-
-	include('modules/theme-form.php');	
-	// include('footer.php');
+	include('footer.php');
 ?>

@@ -111,12 +111,18 @@ p + a {
 	font-weight: 200;
 }
 
+.theme-form {
+	background-color: var(--white);
+	border: 0.1px solid var(--ink);
+	padding: 10px;
+}
+
 .theme-form button {
 	/*min-width: 100px;*/
 	padding: 5px;
 	background-color: var(--accent);
-	border: 0.1px solid var(--ink);
-	color: var(--ink);
+	border: 0.1px solid var(--alternate);
+	color: var(--paper);
 }
 
 @media (min-width: 500px) {

@@ -9,6 +9,8 @@
 
 				<p class="github">I also keep my projects on <a href="https://github.com/TareUhhhhhh" target='github'>Github</a> if you want to check them out!</p>	
 			</section>
+
+		<?php include('modules/theme-form.php');?>
 		</div>
 		</footer>
 	</body>
