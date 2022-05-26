@@ -1,3 +1,4 @@
+<section class="day-two">
 <div class="inner-column">
 	<h1>Day Two Exercises</h1>
 </div>
@@ -39,3 +40,4 @@
 		?>
 	</section>
 </div>
+</section>

@@ -14,6 +14,7 @@
 			<?php 
 			include('lessons/day-one.php'); 
 			include('lessons/day-two.php');
+			include('lessons/day-three.php');
 			?>
 		</main>
 	</body>
