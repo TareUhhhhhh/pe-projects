@@ -80,3 +80,18 @@ h3 + div {
 div + div {
 	margin-top: 10px;
 }
+
+.monsters h2, .monsters h3 {
+	display: block;
+}
+
+picture {
+	display: block;
+	max-width: 500px;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
