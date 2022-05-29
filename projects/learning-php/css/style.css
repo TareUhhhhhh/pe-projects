@@ -64,12 +64,12 @@ section + section {
 	padding: 5px;
 }
 
-.available-home {
+.home {
 	border: 1px solid gray;
 	padding: 5px;
 }
 
-.available-home + .available-home {
+.home + .home {
 	margin-top: 10px;
 }
 
