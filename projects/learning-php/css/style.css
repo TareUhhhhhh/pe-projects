@@ -1,3 +1,10 @@
+@import 'meyer-reset.css';
+
+html {
+	--purple: #7013f6;
+	--cyan: #66defb;
+}
+
 body {
 	font-family: "Helvetica";
 }
@@ -9,19 +16,19 @@ h1 {
 }
 
 h2 {
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 	font-weight: 600;
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
 
 h3 {
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 	font-weight: 300;
 }
 
 h4 {
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	font-weight: 300;
 }
 
@@ -54,6 +61,7 @@ section + section {
 
 .inner-column {
 	margin: 15px;
+	padding: 10px;
 	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;

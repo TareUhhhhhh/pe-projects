@@ -111,60 +111,96 @@
 		</div>
 	</div>
 	</article>
-
-	<article class="monsters">
-	<div class="inner-column">
-		<h3>Monsterz 4 U</h3>
-
-		<?php
-			$monsters = [
-				[
-					"id" => 1,
-					"name" => "Shadow",
-					"age" => 7,
-					"food" => "Popcorn",
-					"hobby" => "Video Games",
-					"photo" => "shadow",
-				],
-				[
-					"id" => 2,
-					"name" => "Mr. Banana",
-					"age" => 5,
-					"food" => "Anything Yellow",
-					"hobby" => "Playing on a yellow swingset",
-					"photo" => "mr-banana",
-				],
-				[
-					"id" => 3,
-					"name" => "Fragoo",
-					"age" => 6,
-					"food" => "Spaghetti with Ragu",
-					"hobby" => "Golfing with the fellas.",
-					"photo" => "fragoo",
-				],
-			];
-
-			foreach ($monsters as $monster) {
-				$id = $monster["id"];
-				$name = $monster["name"];
-				$age = $monster["age"];
-				$food = $monster["food"];
-				$hobby = $monster["hobby"];
-				$photo = $monster["photo"];
-			?>
-
-			<picture><img src="photos/<?=$photo?>.jpg" alt=""></picture>
-			<h2><?=$name?></h2>
-			<h3>Age: <?=$age?> years</h3>
-			<h3>Favorite Food: <?=$food?></h3>
-			<h3>Hobby: <?=$hobby?></h3>
-
-		<?php } ?>
-	</div>
-	</article>
 </section>
 
+<section class="monsters">
+<div class="inner-column">
+	<h2>Monsterz 4 U</h2>
 
+	<?php
+		$monsters = [
+			[
+				"id" => 1,
+				"name" => "Shadow",
+				"age" => 7,
+				"food" => "Popcorn",
+				"hobby" => "Video Games",
+				"photo" => "shadow",
+				"available" => true,
+			],
+			[
+				"id" => 2,
+				"name" => "Mr. Banana",
+				"age" => 5,
+				"food" => "Anything Yellow",
+				"hobby" => "Playing on a yellow swingset",
+				"photo" => "mr-banana",
+				"available" => true,
+			],
+			[
+				"id" => 3,
+				"name" => "Fragoo",
+				"age" => 6,
+				"food" => "Spaghetti with Ragu",
+				"hobby" => "Golfing with the fellas.",
+				"photo" => "fragoo",
+				"available" => false,
+			],
+		];
+
+		foreach ($monsters as $monster) {
+			if ($monster["available"] == true) {
+					$available = "Available!";
+					$status = "available";
+				}
+				else {
+					$available = "Adopted!";
+					$status = "adopted";
+				}
+
+			$id = $monster["id"];
+			$name = $monster["name"];
+			$age = $monster["age"];
+			$food = $monster["food"];
+			$hobby = $monster["hobby"];
+			$photo = $monster["photo"];
+		?>
+
+		<article class="monster <?=$id?> <?=$status?>">
+			<picture><img src="photos/<?=$photo?>.jpg" alt=""></picture>
+
+			<h3><?=$name?></h3>
+
+			<div class="age">
+				<h4>Age: </h4> 
+
+				<p><?=$age?> years</p>
+			</div>
+
+			<div class="food">
+				<h4>Favorite Food: </h4> 
+
+				<p><?=$food?></p>
+			</div>
+
+			<div class="hobby">
+				<h4>Hobby: </h4> 
+
+				<p><?=$hobby?></p>
+			</div>
+
+			<!-- <div class="availability">
+				<h4>Availability: </h4> 
+
+				<p><?=$available?></p>
+			</div> -->
+		</article>
+
+		<a href="#" class="<?=$status?>"><?=$available?></a>
+
+	<?php } ?>
+</div>
+</section>
 
 
 
