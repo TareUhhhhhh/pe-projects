@@ -95,3 +95,64 @@ img {
 	width: 100%;
 	height: auto;
 }
+
+/*MONSTERS*/
+
+.monsters {
+	padding-top: 3vh;
+	background-color: var(--purple);
+	color: var(--cyan);
+}
+
+.monsters h2 {
+	font-size: 3rem;
+}
+
+.monsters h3 {
+font-size: 2rem;
+font-weight: 600;
+}
+
+.monsters h4, .monsters p {
+	display: inline;
+	letter-spacing: 0.02em;
+	font-size: 1.3rem;
+}
+
+.monsters h4 {
+	font-weight: 500;
+}
+
+.adopted {
+	color: black;
+}
+
+.monster picture + h3 {
+	margin-top: 0.5rem;
+}
+
+.monster h3 + div {
+	margin-top: 0.8rem;
+}
+
+a.available {
+	margin: 20px 0;
+	display: inline-block;
+	background-color: var(--cyan);
+	color: var(--purple);
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+a.adopted {
+	margin: 20px 0;
+	display: inline-block;
+	background-color: black;
+	padding: 10px;
+	border-radius: 5px;
+	color: var(--purple);
+	font-weight: 600;
+	text-decoration: none;
+}
