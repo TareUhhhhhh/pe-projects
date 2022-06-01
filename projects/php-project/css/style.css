@@ -1,0 +1,62 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+/** { outline: 1px solid gray; }*/
+
+body {
+	font-family: Helvetica;
+	font-weight: 200;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex-grow: 1;
+}
+
+h1 {
+	font-family: Georgia;
+	color: var(--white);
+	font-size: 3rem;
+	text-align: center;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+a {
+	color: var(--white);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline overline #a8efe3;
+}
+
+header nav, footer nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

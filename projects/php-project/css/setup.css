@@ -1,0 +1,45 @@
+@import 'meyer-reset.css';
+
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	min-height: 100vh;
+}
+
+.inner-column {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+
+p a {
+	display: inline-block;
+	text-decoration: underline;
+}
+
+picture {
+	display: block;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/*SETTINGS*/
+
+body {
+	--black: #111;
+	--white: #9c9b99;
+}
