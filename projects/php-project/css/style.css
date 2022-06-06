@@ -15,20 +15,43 @@ main {
 }
 
 h1 {
-	font-family: Georgia;
 	color: var(--white);
 	font-size: 3rem;
 	text-align: center;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 h2 {
 	font-size: 2rem;
 }
 
+h3 {
+	font-size: 1.3rem;
+}
+
+p {
+	margin-top: 5px;
+}
+
+p + h3 {
+	margin-top: 1rem;
+}
+
+h3 + h3 {
+	margin-top: 0.5rem;
+}
+
 a {
 	color: var(--white);
 	text-decoration: none;
+}
+
+.descriptor {
+	font-style: italic;
+}
+
+article {
+	margin-top: 2rem;
 }
 
 a:hover {
@@ -38,7 +61,7 @@ a:hover {
 header nav, footer nav {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 

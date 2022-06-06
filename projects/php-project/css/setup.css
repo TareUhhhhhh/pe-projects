@@ -1,6 +1,6 @@
 @import 'meyer-reset.css';
 
-* {
+html {
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
@@ -10,7 +10,7 @@ body {
 }
 
 .inner-column {
-	max-width: 900px;
+	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
