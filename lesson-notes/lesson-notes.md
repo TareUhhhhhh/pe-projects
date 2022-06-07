@@ -1,10 +1,11 @@
-6/6 Intro to Forms Notes
+#6/6 Intro to Forms Notes
 
-HTML forms - 
+##HTML forms - 
 
-Basic elements:
+###Basic elements:
+
 Form (everything lives inside of this element)
-method=’post’
+ - method=’post’
 Paragraph (This explains the point of the form – or a title)
 Label (Explains what is being entered into the input field)
 Input (This is where the data is added by the user and it is a self closing tag)
