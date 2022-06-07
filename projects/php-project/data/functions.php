@@ -2,11 +2,11 @@
 
 function wants($beds, $baths, $price, $city, $garage, $sqft, $fence) {
 	?>
+	<h3>Price: $<?php echo number_format($price, 0, '.', ',')?></h3>
+	
 	<h3>Beds: <?=$beds?></h3>
 
 	<h3>Baths: <?=$baths?></h3>
-
-	<h3>Price: $<?php echo number_format($price, 0, '.', ',')?></h3>
 
 	<h3>City: <?=$city?></h3>
 

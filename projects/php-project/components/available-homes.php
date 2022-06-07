@@ -9,7 +9,7 @@
 
 <section class="available">
 <div class="inner-column">
-	<h2>Other Available Homes</h2>
+	<h2>Available Homes</h2>
 
 	<p class='descriptor'>Here are available homes in the area for your buyers to consider!</p>
 
