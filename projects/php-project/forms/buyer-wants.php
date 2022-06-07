@@ -1,10 +1,11 @@
+<section class="submit-wants">
 <?php
-		$price = "Enter info into the form above.";
-		$beds = "Enter info into the form above.";
-		$baths = "Enter info into the form above.";
-		$city = "Enter info into the form above.";
-		$garage = "Enter info into the form above.";
-		$sqft = "Enter info into the form above.";
+		$price = "<span>Enter info into the form.</span>";
+		$beds = "<span>Enter info into the form.</span>";
+		$baths = "<span>Enter info into the form.</span>";
+		$city = "<span>Enter info into the form.</span>";
+		$garage = "<span>Enter info into the form.</span>";
+		$sqft = "<span>Enter info into the form.</span>";
 
 	if ( isset($_POST["submitted"]) ) {
 		echo "Info Submitted.";
@@ -34,9 +35,7 @@
 		}
 	}
 ?>
-
-<section class="submit-wants">
-	<form method="POST">
+	<form method="POST" class='want-form'>
 		<p>What kind of home are you looking for?</p>
 
 		<div class="input price">
