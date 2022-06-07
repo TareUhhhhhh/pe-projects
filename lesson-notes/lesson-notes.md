@@ -4,19 +4,19 @@
 
 ###Basic elements:
 
-Form (everything lives inside of this element)
- - method=’post’
-Paragraph (This explains the point of the form – or a title)
-Label (Explains what is being entered into the input field)
-Input (This is where the data is added by the user and it is a self closing tag)
-Type=’type/format of info to be added’ (this will determine what information can be entered and the format of the input– ie. slider)
-Name=’information’ (entered as the key in an array – key/value pairs)
-Value=’default info’
-Button	(This submits the information that was added)
-type=’submit’
-name=’submitted’ (this is important to recall back later)
+- Form (everything lives inside of this element)
+	- method=’post’
+- Paragraph (This explains the point of the form – or a title)
+- Label (Explains what is being entered into the input field)
+- Input (This is where the data is added by the user and it is a self closing tag)
+	- Type=’type/format of info to be added’ (this will determine what information can be entered and the format of the input– ie. slider)
+	- Name=’information’ (entered as the key in an array – key/value pairs)
+	- Value=’default info’
+- Button	(This submits the information that was added)
+	- type=’submit’
+	- name=’submitted’ (this is important to recall back later)
 
-Add isset function to display “Submitted” message 
+###Add isset function to display “Submitted” message 
 
 Super global variable - 
 Once information has been submitted through an html form, it is stored in a $_POST array where the information can be accessed.
