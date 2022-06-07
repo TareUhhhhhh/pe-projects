@@ -1,8 +1,8 @@
-#6/6 Intro to Forms Notes
+# 6/6 Intro to Forms Notes
 
-##HTML forms - 
+## HTML forms - 
 
-###Basic elements:
+### Basic elements:
 
 - Form (everything lives inside of this element)
 	- method=’post’
@@ -16,20 +16,20 @@
 	- type=’submit’
 	- name=’submitted’ (this is important to recall back later)
 
-###Add isset function to display “Submitted” message 
+- Add isset function to display “Submitted” message 
 
-Super global variable - 
-Once information has been submitted through an html form, it is stored in a $_POST array where the information can be accessed.
-$_POST[‘name’]
-The data in the array is saved as strings – so numbers can’t be multiplied as they are.
-floatval($variable) will translate the string into a number (float)
+- Super global variable - 
+	- Once information has been submitted through an html form, it is stored in a $POST array where the information can be accessed.
+	- $POST[‘name’]
+	- The data in the array is saved as strings – so numbers can’t be multiplied as they are.
+	- floatval($variable) will translate the string into a number (float)
 
 
-Video Notes:
-Placeholder puts “example” information into the input field
-Get request is when we want to retrieve something
-Post request is when we want to add something
-Name is required on the submit so that it will run the code
-‘Min’ and ‘max’ can be set on the input element to avoid negatives or other issues
-Value can be added to input for default information to be set
-Add <?=?> variable to the value input to retain the submitted information after submission
+## Video Notes:
+- Placeholder puts “example” information into the input field
+- Get request is when we want to retrieve something
+- Post request is when we want to add something
+- Name is required on the submit so that it will run the code
+- ‘Min’ and ‘max’ can be set on the input element to avoid negatives or other issues
+- Value can be added to input for default information to be set
+- Add <?=?> variable to the value input to retain the submitted information after submission
