@@ -3,7 +3,7 @@
 INPUT: Name
 PROCESS: Set variable from INPUT
 OUTPUT: "Hello, $name, nice to meet you!" -->
-<head><link rel='stylesheet' href='../css/style.css'></head>
+<head><link rel='stylesheet' href='../../../css/style.css'></head>
 
 <div class="inner-column">
 	<h1>#1 Hello, World</h1>

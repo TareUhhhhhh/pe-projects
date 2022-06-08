@@ -1,4 +1,4 @@
-<head><link rel='stylesheet' href='../css/style.css'></head>
+<head><link rel='stylesheet' href='../../../css/style.css'></head>
 
 <div class="inner-column">
 	<h1>#2 Character Count</h1>
