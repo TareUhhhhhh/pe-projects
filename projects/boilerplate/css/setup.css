@@ -10,6 +10,7 @@ body {
 }
 
 .inner-column {
+	padding: 1rem;
 	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
@@ -41,4 +42,5 @@ img {
 body {
 	--black: #111;
 	--white: #9c9b99;
+	--accent: #be7f7f;
 }
