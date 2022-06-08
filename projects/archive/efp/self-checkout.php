@@ -48,15 +48,14 @@
 		$taxAmount = 0.08;
 		$tax = $subtotal * $taxAmount;
 		$total = $subtotal + $tax;
-		number_format((float)$total, 2, '.', '');
 
 		echo 
 		"<h3>Item One: $oneQuantity at $$onePrice each for a total of $$oneSub</h3>
 			<h3>Item Two: $twoQuantity at $$twoPrice each for a total of $$twoSub</h3>
 			<h3>Item Three: $threeQuantity at $$threePrice each for a total of $$threeSub</h3>
 			<h2>Subtotal: $$subtotal</h2>
-			<h3>Tax: $$tax</h3>
-			<h1>Total: $$total</h1>";
+			<h3>Tax: $" . number_format($tax, 2, '.', ',') . "</h3>
+			<h1>Total: $" . number_format($total, 2, '.', ',') . "</h1>";
 	}
 ?>
 
