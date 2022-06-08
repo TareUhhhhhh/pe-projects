@@ -1,4 +1,4 @@
-<section class="intro">
+<section class="intro" id='intro'>
 <div class="inner-column">
 	<h1 class='intro'>Tara's Formulaic Stuff</h1>
 
@@ -7,9 +7,9 @@
 </section>
 
 
-<section class="more-info">
+<section class="forms" id='forms'>
 <div class="inner-column">
-	<h2 class='more-info'>The Forms</h2>
+	<h2 class='forms'>The Forms</h2>
 
 		<a href="forms/001-hello-world.php" target='hello'>Hello World</a>
 		<a href="forms/002-counting-characters.php" target='count'>Counting Characters</a>
