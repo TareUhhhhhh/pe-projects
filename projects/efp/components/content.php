@@ -15,6 +15,8 @@
 		<a href="forms/002-counting-characters.php" target='count'>Counting Characters</a>
 		<a href="forms/003-printing-quotes.php" target='quotes'>Printing Quotes</a>
 		<a href="forms/004-mad-lib.php" target='mad'>Mad Lib</a>
+		<a href="forms/005-simple-math.php">Simple Math</a>
+		<a href="forms/006-retirement-calculator.php">Retirement Calculator</a>
 
 	<!-- Add foreach loop in the future for files? -->
 
