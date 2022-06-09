@@ -1,7 +1,35 @@
+# 6/8 More EPF practice
+## PHP manual documentation
+### Reading the site:
+ - There is a brief and to the point description at the very top
+ - User Contributed Notes section has examples from users and may or not be helpful
+ 	- Check the years that contributions were submitted
+
+### Function info:
+ - isset: determine if variable has been set (not null - returns true or false)
+ - unset: unset a given variable (destroys specified variable)
+ - strlen: get string length or variable (this will count spaces as characters - does not work on array)
+ - strrev: returns a string with input reversed ("Hello" becomes "olleH")
+ - strtolower: returns string with all lowercase characters ("Tara" becomes "tara")
+ - round: rounds a float (parameters to specify)
+ - trim: remove whitespace (or characters from a string)
+ - explode: split a string by a string ("hello,there" becomes "hello" "there" with , as the separator)
+ - join: alias of implode
+ - implode: join array elements with string (multiple strings in array becoe one string)
+ - substr: returns portion of string specified by offset an length parameters
+ - count: counts the elements within an array
+ - array_push: push new element to the end of an array
+ - array_rand: pick one or more random keys from an array
+ - array_reverse: return array with elements in reverse order
+ - array_slice: extract slice of array (?)
+ - array_unique: removes duplicate values from array
+ - date: format a unix timestamp
+ - mail: sends mail...duh
+
+
+
 # 6/6 Intro to Forms Notes
-
 ## HTML forms - 
-
 ### Basic elements:
 
 - Form (everything lives inside of this element)
