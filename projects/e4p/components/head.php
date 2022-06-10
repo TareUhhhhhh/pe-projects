@@ -7,7 +7,7 @@
 		<title>EFP Exercises</title>
 		<meta name='description' content='A collection of exercises from the mind of Brian Hogan.'>
 		<meta property='og:image' content='images/default.png'>
-		<link rel='stylesheet' href='../css/style.css'>
+		<link rel='stylesheet' href='../../css/style.css'>
 	</head>
 
 	<body>
