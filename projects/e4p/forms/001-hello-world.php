@@ -6,7 +6,9 @@ OUTPUT: "Hello, $name, nice to meet you!" -->
 <head><link rel='stylesheet' href='../../../css/style.css'></head>
 
 <div class="inner-column">
-	<h1>#1 Hello, World</h1>
+	<h1 class='efp' >EFP</h1>
+
+	<h2 class='efp' >#1 Hello, World</h2>
 
 	<?php
 		$name = "Anonymous";
@@ -14,7 +16,7 @@ OUTPUT: "Hello, $name, nice to meet you!" -->
 		if (isset($_POST["name"])) {
 			$name = $_POST["name"];
 
-			$message = "Try again if you want. Enter another name!";
+			$message = "Try again if you want. Enter another name or make one up!";
 		}
 
 		else {
@@ -22,16 +24,16 @@ OUTPUT: "Hello, $name, nice to meet you!" -->
 		}
 	?>
 
-	<h2><?=$message?></h2>
+	<h3 class='efp' ><?=$message?></h3>
 
 
-	<form method="POST">
-		<label>Name: </label>
-		<input type="text" name="name" placeholder="Type your name here" required>
+	<form method="POST" class='efp' >
+		<label class='efp' >Name: </label>
+		<input  class='efp' type="text" name="name" placeholder="Type your name here" required>
 
-		<button method="submit" name="submitted">Submit</button>
+		<button  class='efp' method="submit" name="submitted">Submit</button>
 	</form>
 
-	<p>Hello, <?=$name?>! Nice to meet you!</p>
+	<p class='efp' >Hello, <?=$name?>! Nice to meet you!</p>
 
 </div>

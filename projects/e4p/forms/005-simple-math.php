@@ -19,25 +19,31 @@ Use each converted string number to do 4 different math equations
 		$division = $firstNumber / $secondNumber;
 	}
 ?>
-<h1>EFP</h1>
-<h2>Simple Math</h2>
-<form method='POST'>
-	<h3>Enter two numbers to do some math!</h3>
+<div class="inner-column">
+	<h1 class='efp'>EFP</h1>
+	<h2 class='efp'>#5 Simple Math</h2>
+	<form class='efp' method='POST'>
+		<h3>Enter two numbers to do some math!</h3>
 
-	<label>First number: </label>
-	<input type="number" name='firstNumber' placeholder='#' required>
+		<div class="efp field">
+			<label>First number: </label>
+			<input type="number" name='firstNumber' placeholder='#' required>
+		</div>
 
-	<label>Second number: </label>
-	<input type="number" name='secondNumber' placeholder='#' required>
+		<div class="efp field">
+			<label>Second number: </label>
+			<input type="number" name='secondNumber' placeholder='#' required>
+		</div>
 
-	<button method='submit' name='submitted'>Let's Do Math!</button>
-</form>
+		<button class='efp' method='submit' name='submitted'>Let's Do Math!</button>
+	</form>
 
-<?php
+	<?php
 	if(isset($_POST['submitted'])) {
-?>
-	<h2>Addition: <?=$firstNumber?> + <?=$secondNumber?> = <?=$addition?></h2>
-	<h2>Subtraction: <?=$firstNumber?> - <?=$secondNumber?> = <?=$subtraction?></h2>
-	<h2>Multiplication: <?=$firstNumber?> * <?=$secondNumber?> = <?=$multiplication?></h2>
-	<h2>Division: <?=$firstNumber?> / <?=$secondNumber?> = <?=$division?></h2>
-<?php	} ?>
+	?>
+		<p class='efp'>Addition: <?=$firstNumber?> + <?=$secondNumber?> = <?=$addition?></p>
+		<p class='efp'>Subtraction: <?=$firstNumber?> - <?=$secondNumber?> = <?=$subtraction?></p>
+		<p class='efp'>Multiplication: <?=$firstNumber?> * <?=$secondNumber?> = <?=$multiplication?></p>
+		<p class='efp'>Division: <?=$firstNumber?> / <?=$secondNumber?> = <?=$division?></p>
+	<?php	} ?>
+</div>

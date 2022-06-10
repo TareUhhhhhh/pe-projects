@@ -51,7 +51,6 @@ main {
 	flex-grow: 1;
 }
 
-
 .show-code {
 	display: block;
    font-family: monospace;
@@ -131,7 +130,18 @@ p + a {
 	}
 }
 
+/*FORM STYLING*/
+.efp h1 {
+	margin-top:  0;
+}
 
+.efp .intro {
+	margin-top: 0;
+}
+
+.efp {
+	margin-top: 1rem;
+}
 
 
 
