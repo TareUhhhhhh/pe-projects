@@ -1,4 +1,4 @@
-<head><link rel="stylesheet" href="css/styles/site.css"></head>
+<head><link rel="stylesheet" href="css/site.css"></head>
 
 
 <body>
