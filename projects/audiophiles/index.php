@@ -38,21 +38,34 @@
 
 			
 			<h4 class='tagline em'><?=$tagline?></h4 class='calm-voice em'>
-			<li><?=$description?></li>
+			<h4 class='description'><?=$description?></h4>
 			<h4>Color Options:<?php foreach($colors as $color) { ?>
 			<li><?=$color?></li>
 			<?php } ?></h4>
-			<li><?=$price?></li>
+			
 
-			<?php foreach($features as $feature) { ?>
-			<li><?=$feature?></li>
-			<?php	} ?>
+			<h4 class="features">Features:
+				<?php foreach($features as $feature) { ?>
+					<li><?=$feature?></li>
+				<?php	} ?>
+			</h4>
 
 			<?php if ($sale == true) {
-				echo "On sale now!";
+				echo "<h2 class='sale strong'>On sale now!</h2>";
 			} ?>
+			<H3 class='price strong'><?=$price?></H3>
 
-			<li><?=$stock?></li>
+			<?php 
+				if ($stock < 1) {
+					echo "<h3 class='oos em'>Returning soon!</h3>";
+				}
+				else if ($stock > 5) {
+					echo "<h3 class='in-stock'>In stock</h3>";
+				}
+				else {
+					echo "<h3 class='low-stock strong'>Low stock!</h3>";
+				}
+			?>
 		</article>
 
 <?php } ?>
