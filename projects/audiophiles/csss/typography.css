@@ -1,0 +1,58 @@
+/* Should we pull in @fonts here? */
+
+.loud-voice	{
+	font-family: sans-serif;
+	font-size: 3rem;
+}
+@media (min-width: 600px) {
+	.loud-voice {
+		font-weight: 700; /* or variable font */
+	}
+}
+
+.attention-voice	{
+	font-family: sans-serif;
+	font-size: 1.45rem;
+}
+
+.calm-voice, p, li {
+	font-family: sans-serif;
+	font-size: 1rem;
+	line-height: 1.4;
+}
+
+:is(.calm-voice, p, li) em, .em {
+	font-style: italic;
+}
+
+:is(.calm-voice, p, li) strong {
+	font-weight: 700;
+}
+
+/* these would be scoped to section or to an article element */
+article h2 {
+	font-size: 2rem;
+}
+
+article h3 {
+	font-size: 1.4rem;
+}
+
+article h4 {
+	font-size: 1.3rem;
+}
+
+/* this is just a loose setting for now */
+p + p {
+	margin-top: 1em;
+}
+
+h2 + p {
+	margin-top: 20px;
+}
+
+code {
+	font-family: monospace;
+	font-size: 1.1em;
+	color: green;
+}
