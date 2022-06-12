@@ -30,6 +30,14 @@ main .inner-column {
 	flex-wrap: wrap;
 }
 
+h4 {
+	margin-top: 1rem;
+}
+
+h4 + h4 {
+	/*margin-top: 0.6rem;*/
+}
+
 /*.site-header {
 	position: sticky;
 	top: 0;
