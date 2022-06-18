@@ -34,8 +34,19 @@ body {
 }
 
 header {
-	background: var(--color);
+	background-color: var(--highlight);
 	color: var(--white);
+}
+
+.welcome {
+	background-image: url("https://img.jamesedition.com/listing_images/2022/03/21/15/57/44/b1953fbf-f983-47f9-b140-c6e70481fc2b/je/2200xxsxm.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: var(--white);
+}
+
+.welcome img {
+	display: none;
 }
 
 section:is(.sign-up, .get-involved) inner-column {
@@ -43,12 +54,12 @@ section:is(.sign-up, .get-involved) inner-column {
 }
 
 .sign-up {
-	background-color: var(--color);
-	color: var(--white);
+	background-color: var(--white);
+	color: var(--black);
 }
 
 .sign-up a.button {
-	background-color: var(--highlight);
+	background-color: inherit;
 }
 
 section.get-involved {
@@ -56,8 +67,8 @@ section.get-involved {
 }
 
 section.get-involved .button {
-	background-color: black;
-	color: white;
+	background-color: inherit;
+	color: inherit;
 }
 
 articles-intro header {
@@ -70,8 +81,11 @@ article a.button {
 }
 
 .latest {
-	background-color: var(--highlight);
-	color: ;
+	background-color: var(--color);
+}
+
+:is(.latest) :is(h1, h2, p) {
+	color: var(--white);
 }
 
 header a {
@@ -81,6 +95,10 @@ header a {
 
 :is(header) a:hover {
 	text-decoration: underline overline var(--sprinkle);
+}
+
+article a.button {
+	border: 1px solid var(--sprinkle);
 }
 
 footer {
@@ -93,6 +111,17 @@ footer h3.strong-voice {
 	font-family: serif;
 	font-size: 1.2rem;
 }
+
+:is(call-to-action) :is(h2, p) {
+	color: var(--black);
+}
+
+call-to-action a.button {
+	border: 1px solid var(--sprinkle);
+}
+
+/*LAYOUT*/
+
 
 
 @media (prefers-color-scheme: dark) {

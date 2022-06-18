@@ -7,8 +7,18 @@ graphic-diptych {
 	padding: 10vh 0;
 }
 
+.welcome {
+	height: 60vh;
+}
+
+.welcome h1 {
+	font-size: 3rem;
+	font-weight: 200;
+}
+
 graphic-diptych p {
 	margin-top: 20px;
+	font-size: 1.5rem;
 }
 
 @media (min-width:  700px) {
@@ -17,7 +27,7 @@ graphic-diptych p {
 		align-items: center;
 	}
 
-	graphic-diptych :is(picture, text-content) {
+	/*graphic-diptych :is(picture, text-content) {
 		flex-basis: 50%;
-	}
+	}*/
 }
