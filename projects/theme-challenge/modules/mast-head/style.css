@@ -2,6 +2,7 @@
 mast-head {
 	display: flex;
 	justify-content: space-between;
+	min-height: 15vh;
 	/*border: 4px solid blue;*/
 }
 
@@ -12,7 +13,7 @@ header .site-menu ul {
 }
 
 mast-head .logo {
-	max-width: 45%;
+	max-width: 65%;
 }
 
 mast-head .logo * {
@@ -45,17 +46,20 @@ mast-head a.button {
 	justify-content: flex-end;
 }
 
-@media (min-width:  600px) {
+@media (min-width:  750px) {
 	mast-head {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
 		align-items: center;
+	}
+
+	mast-head .logo {
+		max-width: 90%;
 	}
 
 	header .site-menu ul {
 		flex-direction: row;
 		align-items: center;
-		gap: 2rem;
+		gap: 1rem;
 	}
 }

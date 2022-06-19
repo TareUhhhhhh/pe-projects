@@ -16,6 +16,12 @@ graphic-diptych {
 	font-weight: 200;
 }
 
+graphic-diptych text-content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
 graphic-diptych p {
 	margin-top: 20px;
 	font-size: 1.5rem;
