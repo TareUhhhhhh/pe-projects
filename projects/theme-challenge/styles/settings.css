@@ -23,6 +23,6 @@ html {
 @media (prefers-color-scheme: dark) {
 	html {
 		--paper: #231a1a;
-		--ink: #ffffe2;
+		--ink: var(--white);
 	}
 }

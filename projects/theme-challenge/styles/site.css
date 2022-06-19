@@ -89,13 +89,18 @@ header a {
 	text-transform: uppercase;
 }
 
-:is(header) a:hover {
+header a:hover {
 	text-decoration: underline overline var(--sprinkle);
+	text-decoration-thickness: 2px;
 }
 
-article a.button {
-	border: 1px solid var(--sprinkle);
+header a.button:hover {
+	text-decoration: none;
 }
+
+/*article a.button {
+	border: 1px solid var(--sprinkle);
+}*/
 
 footer {
 	background-color: var(--neutral-stuffs);
@@ -105,11 +110,11 @@ footer {
 footer h3.strong-voice {
 	color: var(--sprinkle);
 	font-family: serif;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 }
 
 :is(call-to-action) :is(h2, p) {
-	color: var(--black);
+	color: var(--ink);
 }
 
 /*call-to-action a.button {
@@ -127,7 +132,7 @@ footer h3.strong-voice {
 	}
 
 	section.sign-up .button {
-		background-color: var(--black);
+		/*background-color: var(--black);*/
 		color: var(--white);
 	}
 
