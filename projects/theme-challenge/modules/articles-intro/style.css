@@ -6,7 +6,11 @@ articles-intro {
 }
 
 articles-intro header {
+	text-align: center;
+}
 
+articles-intro h2.attention-voice {
+	font-size: 2.5rem;
 }
 
 article-grid {
@@ -17,5 +21,12 @@ article-grid {
 article-grid ul {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-	grid-gap: 60px 20px;
+	grid-gap: 60px 25px;
 }
+
+@media (min-width: 923px) {
+	.article-list .article:nth-of-type(3n-1) .article-card {
+		margin-top: 1.5rem;
+	}
+}
+

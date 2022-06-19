@@ -58,10 +58,6 @@ section:is(.sign-up, .get-involved) inner-column {
 	color: var(--black);
 }
 
-.sign-up a.button {
-	background-color: inherit;
-}
-
 section.get-involved {
 	background-color: var(--white);
 }
@@ -116,9 +112,9 @@ footer h3.strong-voice {
 	color: var(--black);
 }
 
-call-to-action a.button {
+/*call-to-action a.button {
 	border: 1px solid var(--sprinkle);
-}
+}*/
 
 /*LAYOUT*/
 
