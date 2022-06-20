@@ -42,6 +42,7 @@ header {
 	background-image: url("https://img.jamesedition.com/listing_images/2022/03/21/15/57/44/b1953fbf-f983-47f9-b140-c6e70481fc2b/je/2200xxsxm.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	color: var(--white);
 }
 
@@ -77,7 +78,7 @@ article a.button {
 }
 
 .latest {
-	background-color: var(--color);
+	background-color: var(--highlight);
 }
 
 :is(.latest) :is(h1, h2, p) {
@@ -122,14 +123,17 @@ footer h3.strong-voice {
 }*/
 
 /*LAYOUT*/
-
+.welcome text-content {
+	padding: 1rem;
+	background-color: hsla(0, 0%, 36%, 0.5);
+}
 
 
 @media (prefers-color-scheme: dark) {
 	section.sign-up {
-		background-color: var(--color);
-		color: var(--black);
-	}
+		background-color: var(--highlight);
+/*		color: var(--highlight);
+*/	}
 
 	section.sign-up .button {
 		/*background-color: var(--black);*/
