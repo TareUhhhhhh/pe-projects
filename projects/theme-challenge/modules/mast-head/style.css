@@ -2,8 +2,6 @@
 mast-head {
 	display: flex;
 	justify-content: space-between;
-	min-height: 15vh;
-	/*border: 4px solid blue;*/
 }
 
 header .site-menu ul {
