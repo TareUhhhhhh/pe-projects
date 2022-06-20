@@ -34,7 +34,7 @@ body {
 }
 
 header {
-	background-color: var(--highlight);
+	background-color: var(--color);
 	color: var(--white);
 }
 
@@ -143,5 +143,9 @@ footer h3.strong-voice {
 	section.get-involved {
 		background-color: var(--highlight);
 		color: var(--black);
+	}
+
+	.latest {
+		background-color: var(--color);
 	}
 }

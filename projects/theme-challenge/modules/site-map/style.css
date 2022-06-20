@@ -16,7 +16,7 @@ site-map .logo {
 }
 
 site-map .logo * {
-	fill: var(--ink);
+	fill: var(--sprinkle);
 }
 
 site-map h3 {

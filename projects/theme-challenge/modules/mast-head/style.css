@@ -15,7 +15,7 @@ mast-head .logo {
 }
 
 mast-head .logo * {
-	fill: var(--ink);
+	fill: var(--sprinkle);
 }
 
 mast-head nav ul {
