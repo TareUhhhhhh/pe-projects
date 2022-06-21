@@ -128,6 +128,10 @@ footer h3.strong-voice {
 	background-color: hsla(0, 0%, 36%, 0.5);
 }
 
+.get-involved call-to-action {
+	align-items: flex-end;
+}
+
 
 @media (prefers-color-scheme: dark) {
 	section.sign-up {
