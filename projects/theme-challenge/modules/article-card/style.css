@@ -30,6 +30,7 @@
 article h1.strong-voice {
 	font-family: var(--serif-light);
 	font-size: 1.9rem;
+	line-height: 1.2;
 }
 
 /*SPACING*/
