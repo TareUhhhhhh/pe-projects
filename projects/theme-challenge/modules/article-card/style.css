@@ -15,7 +15,7 @@
 
 /*FONT*/
 article h1.strong-voice {
-	font-family: "Times";
+	font-family: var(--serif-light);
 	font-size: 1.9rem;
 }
 

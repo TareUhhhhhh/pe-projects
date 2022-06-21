@@ -1,1 +1,8 @@
-fonts.css
+@import 'cormorant-garamond/stylesheet.css';
+
+html {
+	--serif-bold: 'cormorant_garamondbold';
+	--serif-bold-italic: 'cormorant_garamondbold_italic';
+	--serif-light: 'cormorant_garamondlight';
+	--serif-light-italic: 'cormorant_garamondLtIt';
+}
