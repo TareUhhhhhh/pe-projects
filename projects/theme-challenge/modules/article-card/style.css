@@ -13,6 +13,19 @@
 	align-items: center;
 }
 
+/*IMAGES*/
+.article-card picture {
+	aspect-ratio: 3 / 2;
+	width: 100%;
+}
+
+.article-card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: bottom;
+}
+
 /*FONT*/
 article h1.strong-voice {
 	font-family: var(--serif-light);
