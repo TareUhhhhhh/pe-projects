@@ -47,8 +47,13 @@ a:hover .arrow {
 /*FONT*/
 article h1.strong-voice {
 	font-family: var(--serif-light);
-	font-size: 1.9rem;
+	font-size: 2.4rem;
+	font-weight: 700;
 	line-height: 1.2;
+}
+
+article p {
+	font-size: 1.1rem;
 }
 
 /*SPACING*/

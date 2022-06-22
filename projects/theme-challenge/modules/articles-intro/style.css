@@ -10,7 +10,11 @@ articles-intro header {
 }
 
 articles-intro h2.attention-voice {
-	font-size: 2.5rem;
+	font-size: 2.8rem;
+}
+
+articles-intro p {
+	font-size: 1.1rem;
 }
 
 article-grid {
