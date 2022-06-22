@@ -4,14 +4,12 @@ mast-head {
 	justify-content: space-between;
 }
 
-header .site-menu ul {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+header a:not(.home) {
+	display: none;
 }
 
 mast-head .logo {
-	max-width: 65%;
+	max-width: 100px;
 }
 
 mast-head .logo * {
@@ -39,23 +37,28 @@ mast-head a.button {
 }
 
 .user-menu {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+	display: none;
 }
 
-@media (min-width:  750px) {
+@media (min-width:  550px) {
+	header a:not(.home) {
+		display: inline-block;
+	}
+
 	mast-head {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 	}
 
-	mast-head .logo {
-		max-width: 90%;
+	.user-menu {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
 	}
 
 	header .site-menu ul {
+		display: flex;
 		flex-direction: row;
 		align-items: center;
 		gap: 1rem;
