@@ -13,7 +13,12 @@ call-to-action .button {
 	margin-top: 3.5rem;
 	background-color: inherit;
 	text-transform: uppercase;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.07em;
 	text-align: left;
-	padding: 0;
+	padding: 1rem;
+	border: 0.5px solid var(--sprinkle);
+}
+
+p.story {
+	max-width: 55ch;
 }

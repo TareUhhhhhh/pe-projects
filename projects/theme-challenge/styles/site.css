@@ -61,11 +61,12 @@ section:is(.sign-up, .get-involved) inner-column {
 
 section.get-involved {
 	background-color: var(--white);
+	color: var(--ink);
 }
 
 section.get-involved .button {
 	background-color: inherit;
-	color: inherit;
+	color: var(--ink);
 }
 
 articles-intro header {
@@ -127,11 +128,6 @@ footer h3.strong-voice {
 	padding: 1rem;
 	background-color: hsla(0, 0%, 36%, 0.6);
 }
-
-.get-involved call-to-action {
-	align-items: flex-end;
-}
-
 
 @media (prefers-color-scheme: dark) {
 	section.sign-up {

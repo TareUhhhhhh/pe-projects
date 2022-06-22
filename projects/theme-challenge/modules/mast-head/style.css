@@ -33,7 +33,7 @@ mast-head nav a {
 
 mast-head a.button {
 	background-color: inherit;
-	border: 1px solid var(--sprinkle);
+	border: 0.5px solid var(--sprinkle);
 }
 
 .user-menu {
