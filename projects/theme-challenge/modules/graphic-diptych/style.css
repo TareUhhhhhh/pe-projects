@@ -12,7 +12,7 @@ graphic-diptych {
 }
 
 .welcome h1 {
-	font-size: 3.5rem;
+	font-size: 2.6rem;
 	font-weight: 200;
 }
 
@@ -31,6 +31,10 @@ graphic-diptych p {
 	graphic-diptych {
 		flex-direction: row;
 		align-items: center;
+	}
+
+	.welcome h1 {
+		font-size: 3.5rem;
 	}
 
 	/*graphic-diptych :is(picture, text-content) {
