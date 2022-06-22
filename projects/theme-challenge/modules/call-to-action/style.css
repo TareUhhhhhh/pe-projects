@@ -22,3 +22,21 @@ call-to-action .button {
 p.story {
 	max-width: 55ch;
 }
+
+call-to-action h2.attention-voice {
+	font-size: 2.5rem;
+}
+
+call-to-action p {
+	font-size: 1.1rem;
+}
+
+@media (min-width: 700px) {
+	call-to-action h2.attention-voice {
+		font-size: 3rem;
+	}
+
+	call-to-action p {
+		font-size: 1.3rem;
+	}
+}
