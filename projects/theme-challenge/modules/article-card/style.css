@@ -71,6 +71,7 @@ p.teaser {
 }
 
 .article-card a.button {
+	display: none;
 	margin: 20px 0;
 	border: none;
 	padding: 0;
