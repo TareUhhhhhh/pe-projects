@@ -28,9 +28,3 @@ article-grid ul {
 	grid-gap: 60px 25px;
 }
 
-@media (min-width: 923px) {
-	.article-list .article:nth-of-type(3n-1) .article-card {
-		margin-top: 1.5rem;
-	}
-}
-
