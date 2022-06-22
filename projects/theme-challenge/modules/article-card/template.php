@@ -15,6 +15,6 @@
 
 		<p class='teaser'><?=$description?></p>
 
-		<a class='button' href='#'>Call to action</a>
+		<a class='button' href='#'>Call to action <span class='arrow'>&#8594;</span></a>
 	</text-content>
 </article>
