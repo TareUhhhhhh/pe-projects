@@ -6,9 +6,9 @@
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 
-		<title>PSSST (CSS)</title>
-		<meta name='description' content='PSSST (CSS)'>
-		<meta property='og:image' content='A CSS methodology so great, it needed a name.'>
+		<title>Luxury Homes</title>
+		<meta name='description' content='For all the luxury you need'>
+		<meta property='og:image' content='https://www.mckissock.com/wp-content/uploads/2021/04/blog_image_top-luxury-markets@2x.jpg'>
 
 		<link rel='stylesheet' href='styles/site.css'>
 	</head>
