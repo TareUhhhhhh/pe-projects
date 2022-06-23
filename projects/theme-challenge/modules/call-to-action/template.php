@@ -1,8 +1,8 @@
 
 <call-to-action>
-	<h2 class='heading attention-voice'>Hello! This area is to give people a moment to decide...</h2>
+	<h2 class='heading attention-voice'>When you think luxury, think of Luxury Homes</h2>
 
-	<p class='story'>If they want to take some type of action. Maybe it's to tell them about something they can do.</p>
+	<p class='story'>Luxury Homes can hep you find the perfect home in the perfect place.</p>
 
-	<a class='button' href='#'>Call to Action</a>
+	<a class='button' href='#'>Find Homes Now</a>
 </call-to-action>

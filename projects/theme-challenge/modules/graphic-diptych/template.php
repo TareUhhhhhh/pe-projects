@@ -6,9 +6,9 @@
 	</picture>
 	
 	<text-content>
-		<h1 class='loud-voice'>This is a graphic diptych</h1>
+		<h1 class='loud-voice'>Luxury Homes in Luxury Places</h1>
 
-		<p>What a fun thing that we have here</p>
+		<p>All over the world, Luxury Homes are luxurious.</p>
 	</text-content>
 
 </graphic-diptych>

@@ -3,9 +3,9 @@
 
 <articles-intro>
 	<header>
-		<h2 class='attention-voice'>Heading for this section here</h2>
+		<h2 class='attention-voice'>Read up on all the latest in luxury happenings</h2>
 
-		<p>A short introduction explaining why these articles are here to help you understand if you want to read them.</p>
+		<p>Never feel out of the loop with our trends and styles. Plus learn cool new stuff too.</p>
 	</header>
 
 	<article-grid>

@@ -2,29 +2,16 @@
 <mast-head>
 
 	<nav class='site-menu'>
-		<ul>
-			<li>
-				<a class='home' href='#'>
-					<?php include('modules/logo.php'); ?>
-				</a>
-			</li>
-
-			<li>
-				<a href='#'>Some page</a>
-			</li>
-
-			<li>
-				<a href='#'>Some other page</a>
-			</li>
-		</ul>
+		<a class='home' href='#'>
+			<?php include('modules/logo.php'); ?>
+		</a>
+		<a href='#'>Luxury Homes</a>
+		<a href='#'>Sell Your Home</a>
+		<a href="#">About Us</a>
 	</nav>
 
 	<nav class='user-menu'>
-		<ul>
-			<li>
-				<a class='button' href='#'>Sign in</a>
-			</li>
-		</ul>
+		<a class='button' href='#'>Sign in</a>
 	</nav>
 
 </mast-head>
