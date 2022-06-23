@@ -1,24 +1,61 @@
 
 site-map {
 	display: block;
-	/*border: 4px solid green;*/
-
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-	grid-gap: 20px;
-
-	padding: 10vh 0 15vh;
+	display: flex;
+	flex-direction: column;
+	padding: 7vh 0 15vh;
 }
 
 site-map .logo {
 	max-width: 180px;
-	margin-bottom: 20px;
+}
+
+footer.site-menu {
+	display: block;
+}
+
+.logo + a {
+	margin-top: 1rem;
 }
 
 site-map .logo * {
 	fill: var(--sprinkle);
 }
 
-site-map h3 {
-	margin-bottom: 20px;
+site-map h3 + a {
+	margin-top: 0.5rem;
+}
+
+:is(footer) a + a {
+	margin-top: 0.5rem;
+}
+
+.luxury-services-menu {
+	margin-top: 2rem;
+	display: block;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+footer a:hover {
+	text-decoration: underline 1px var(--sprinkle);
+}
+
+@media (min-width: 500px) {
+	.luxury-services-menu {
+		flex-direction: row;
+	}
+}
+
+@media (min-width: 900px) {
+	site-map {
+		flex-direction: row;
+		gap: 2rem;
+		justify-content:space-around;	
+	}
+
+	.luxury-services-menu {
+		margin-top: 0;
+	}
 }

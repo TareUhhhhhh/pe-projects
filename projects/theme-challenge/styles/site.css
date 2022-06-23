@@ -36,6 +36,7 @@ body {
 header {
 	background-color: var(--color);
 	color: var(--white);
+	padding: 0.5rem 0;
 }
 
 .welcome {
@@ -87,8 +88,11 @@ article a.button {
 }
 
 header a {
-	font-size: 1rem;
+	font-family: Helvetica;
+	font-weight: 200;
+	font-size: 0.8rem;
 	text-transform: uppercase;
+	letter-spacing: 0.04em;
 }
 
 header a:hover {
@@ -111,8 +115,14 @@ footer {
 
 footer h3.strong-voice {
 	color: var(--sprinkle);
-	font-family: serif;
-	font-size: 1.4rem;
+	font-family: var(--serif-light);
+	font-size: 1.5rem;
+}
+
+footer a {
+	font-family: Helvetica;
+	font-weight: 200;
+	font-size: 1.1rem;
 }
 
 :is(call-to-action) :is(h2, p) {
