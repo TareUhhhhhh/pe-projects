@@ -16,7 +16,7 @@ mast-head .logo * {
 	fill: var(--sprinkle);
 }
 
-mast-head nav ul {
+mast-head nav {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -57,7 +57,7 @@ mast-head a.button {
 		justify-content: flex-end;
 	}
 
-	header .site-menu ul {
+	header .site-menu {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
