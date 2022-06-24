@@ -146,6 +146,10 @@ footer a {
 	padding: 4vh 0 100px;
 }
 
+.button {
+	display: inline-block;
+}
+
 @media (prefers-color-scheme: dark) {
 	section.sign-up {
 		background-color: var(--highlight);
