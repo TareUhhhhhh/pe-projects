@@ -22,16 +22,25 @@
 }
 
 .strong-voice	{
-	font-family: "Helvetica";
+	font-family: var(--sans);
 	font-weight: 300;
 	font-size:  1rem;
 }
 
 .calm-voice, p, li {
-	font-family: "Helvetica";
-	font-size: 1.3rem;
+	font-family: var(--sans);
+	font-size: 1.2rem;
 	font-weight: 200;
 	line-height: 1.4;
+}
+
+.quiet-voice {
+	font-family: var(--serif-light);
+	font-size: 1rem;
+	font-weight: 200;
+	line-height: 1.2;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
 }
 
 :is(.calm-voice, p, li) em {

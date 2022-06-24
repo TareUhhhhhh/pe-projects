@@ -1,6 +1,7 @@
 @import 'cormorant-garamond/stylesheet.css';
 
 html {
+	--sans: "Helvetica";
 	--serif-bold: 'cormorant_garamondbold';
 	--serif-bold-italic: 'cormorant_garamondbold_italic';
 	--serif-light: 'cormorant_garamondlight';

@@ -1,6 +1,6 @@
 
 html {
-	--black: #111111;
+	--black: hsla(254, 6%, 10%, 1.00);
 	--white: white;
 
 	--neutral-stuffs: #2e2d32;
@@ -22,7 +22,7 @@ html {
 
 @media (prefers-color-scheme: dark) {
 	html {
-		--paper: #231a1a;
+		--paper: var(--black);
 		--ink: var(--white);
 	}
 }
