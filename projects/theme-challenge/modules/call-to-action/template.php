@@ -5,7 +5,7 @@
 	<text-content class='cta'>
 		<h2 class='heading attention-voice'>Connect With a Luxury Homes Agent</h2>
 
-		<p class='story'>Luxury Homes has agents all across the world that can hep you find the perfect home in the perfect place.</p>
+		<p class='story'>Luxury Homes has agents all across the world that can help you find the perfect home in the perfect place.</p>
 
 		<a class='button cta calm-voice' href='#'>Find Homes Now</a>
 	</text-content>
