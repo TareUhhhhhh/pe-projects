@@ -23,11 +23,15 @@ site-map .logo * {
 }
 
 site-map h3 + a {
-	margin-top: 0.5rem;
+	margin-top: 1.5rem;
 }
 
 :is(footer) a + a {
-	margin-top: 0.5rem;
+	margin-top: 0.8rem;
+}
+
+footer a {
+	line-height: 1.2;
 }
 
 .luxury-services-menu {
