@@ -20,12 +20,12 @@ info-graphic {
 }
 
 .info-data h2 {
-	text-align: left;
+
 }
 
 .info-data h3 {
-	text-align: right;
 	padding-top: 0.5rem;
+	padding-left: 6rem;
 }
 
 info-graphic picture {
