@@ -28,8 +28,13 @@ a:hover .arrow {
 }
 
 .article-card:hover img {
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
+
+/*.article-card:hover {
+	border-left: 2px solid var(--sprinkle);
+	border-bottom: 2px solid var(--sprinkle);
+}*/
 
 /*IMAGES*/
 .article-card picture {
