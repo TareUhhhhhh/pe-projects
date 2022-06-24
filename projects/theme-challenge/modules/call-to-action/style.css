@@ -5,7 +5,8 @@ call-to-action {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	padding: 10vh 0;
+	padding: 30% 0 10%;
+	position: relative;
 	min-height: 40vh;
 }
 
@@ -19,8 +20,19 @@ call-to-action .button {
 	border: 0.5px solid var(--sprinkle);
 }
 
+picture.cta {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(0, -40%);
+}
+
 p.story {
 	max-width: 55ch;
+}
+
+text-content.cta {
+	margin-top: 3rem;
 }
 
 call-to-action h2.attention-voice {
@@ -29,6 +41,12 @@ call-to-action h2.attention-voice {
 
 call-to-action p {
 	font-size: 1.1rem;
+}
+
+call-to-action a {
+	padding: 1rem 0;
+	color: var(--ink);
+	font-family: var(--sans);
 }
 
 @media (min-width: 700px) {
