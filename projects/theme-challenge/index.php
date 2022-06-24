@@ -33,14 +33,20 @@
 			</inner-column>
 			</section>
 
+			<section class="info-graphic" id='info-graphic'>
+			<inner-column>
+				<?php include('modules/infographic/template.php') ?>
+			</inner-column>
+			</section>
 
-			<section class='sign-up' id='sign-up'>
+
+<!-- 			<section class='sign-up' id='sign-up'>
 			<inner-column>
 
 				<?php include('modules/call-to-action/template.php'); ?>
 
 			</inner-column>
-			</section>
+			</section> -->
 
 
 			<section class='latest' id='latest'>

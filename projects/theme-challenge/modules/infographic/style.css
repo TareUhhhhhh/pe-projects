@@ -1,0 +1,46 @@
+info-graphic {
+	display: block;
+	/*border: 4px solid orange;*/
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 4vh 0;
+	background-color: var(--paper);
+	background-image: ;
+}
+
+.info-data {
+	margin: 2rem 1rem;
+	border-left: 1px solid var(--sprinkle);
+	padding-left: 2rem;
+}
+
+.info-data div + div{
+	margin-top: 4rem;
+}
+
+.info-data h2 {
+	text-align: left;
+}
+
+.info-data h3 {
+	text-align: right;
+	padding-top: 0.5rem;
+}
+
+info-graphic picture {
+	display: none;
+}
+
+@media (min-width: 600px) {
+	info-graphic {
+		flex-direction: row-reverse;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	info-graphic picture {
+		display: block;
+		flex-basis: 60%;
+	}
+}
