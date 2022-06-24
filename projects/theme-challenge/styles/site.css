@@ -51,6 +51,8 @@ header {
 	display: none;
 }
 
+/*COLORS*/
+
 section:is(.sign-up, .get-involved) inner-column {
 	max-width: var(--tight);
 }
@@ -87,6 +89,16 @@ article a.button {
 	color: var(--white);
 }
 
+footer {
+	background-color: var(--neutral-stuffs);
+	color: var(--white);
+}
+
+:is(call-to-action) :is(h2, p) {
+	color: var(--ink);
+}
+
+/*TEXT*/
 header a {
 	font-family: Helvetica;
 	font-weight: 200;
@@ -96,21 +108,12 @@ header a {
 }
 
 header a:hover {
-	text-decoration: underline overline var(--sprinkle);
+	text-decoration: underline var(--sprinkle);
 	text-decoration-thickness: 2px;
 }
 
 header a.button:hover {
 	text-decoration: none;
-}
-
-/*article a.button {
-	border: 1px solid var(--sprinkle);
-}*/
-
-footer {
-	background-color: var(--neutral-stuffs);
-	color: var(--white);
 }
 
 footer h3.strong-voice {
@@ -125,9 +128,9 @@ footer a {
 	font-size: 1.1rem;
 }
 
-:is(call-to-action) :is(h2, p) {
-	color: var(--ink);
-}
+/*article a.button {
+	border: 1px solid var(--sprinkle);
+}*/
 
 /*call-to-action a.button {
 	border: 1px solid var(--sprinkle);
@@ -137,6 +140,10 @@ footer a {
 .welcome text-content {
 	padding: 1rem;
 	background-color: hsla(0, 0%, 36%, 0.6);
+}
+
+.latest {
+	padding: 4vh 0 100px;
 }
 
 @media (prefers-color-scheme: dark) {
