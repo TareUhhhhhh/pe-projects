@@ -17,6 +17,9 @@
 			include ('contact.php');
 		}
 
+		if ($page == 'detail') {
+			include ('project-detail.php');
+		}
 
 		?>
 </div>

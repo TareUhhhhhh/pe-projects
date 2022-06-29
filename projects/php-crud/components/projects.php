@@ -1,11 +1,9 @@
 <?php
-
 include ('data/project-data.php');
 foreach ($projects as $project) { 
+	$id = $project['id'];
 	$title = $project["title"];
 	$image = $project['image'];
-	$medium = $project['media'];
-	$description = $project['description'];
 ?>
 
 <article class="project">
@@ -15,9 +13,7 @@ foreach ($projects as $project) {
 		<img src="<?=$image?>" alt="<?=$title?>">
 	</picture>
 
-	<h2>Medium Used: <?=$medium?></h2>
-
-	<p><?=$description?></p>
+	<a href="?page=detail&id=<?=$id?>">More Info</a>
 </article>
 
 <?php
