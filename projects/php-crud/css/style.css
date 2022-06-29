@@ -50,7 +50,10 @@ header nav {
 }
 
 
-
+/*PROJECT PAGE*/
+.project picture {
+	max-width: 500px;
+}
 
 
 
