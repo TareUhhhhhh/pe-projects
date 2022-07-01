@@ -16,6 +16,10 @@
 			//save theme to the cookie
 			setcookie( "optedTheme", $theme );
 		} 
+		else {
+			$theme = "dark";
+			setcookie( "optedTheme", $theme );
+		}
 	?>
 
 <html lang='en'>
