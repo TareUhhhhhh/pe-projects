@@ -7,7 +7,7 @@
 
 <h2>Add Your Artistic Creations to Our Growing Collection!</h2>
 
-<form method='POST'>
+<form method='POST' class="add-art">
 	<div class="artist">
 		<label>Your Name</label>
 		<input type="text" name='artist' placeholder="ex. Vincent Van Gogh" required>

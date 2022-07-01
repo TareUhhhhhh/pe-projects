@@ -56,9 +56,16 @@ header nav {
 }
 
 
+/*ADD/CREATE PAGE*/
+.add-art {
+	margin-top: 2rem;
+	border: 1px solid var(--accent);
+	padding: 1rem;
+}
 
-
-
+.add-art div {
+	margin: 1rem 0;
+}
 
 
 
