@@ -8,7 +8,7 @@
 		<meta name='description' content='Combining Real Unique Details'>
 		<meta property='og:image' content='images/default.png'>
 		<link rel='stylesheet' href='css/style.css'>
-		<?php include('router.php'); ?>
+		<?php require('router.php'); ?>
 	</head>
 
 	<body>

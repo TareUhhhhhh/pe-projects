@@ -8,19 +8,6 @@
 
 <section class="content">
 <div class="inner-column">
-	<?php 
-		if ($page == 'projects') {
-			include ('projects.php');
-		} 
-
-		if ($page == 'contact') {
-			include ('contact.php');
-		}
-
-		if ($page == 'detail') {
-			include ('project-detail.php');
-		}
-
-		?>
+	<?php	pullTemplate($page); ?>
 </div>
 </section>	
