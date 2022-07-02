@@ -1,7 +1,28 @@
 <?php
 	if (isset($_POST["submitted"])) {
-		echo "Thanks for sharing your art!";
-	}
+
+		if (isset($_POST["artist"])) {
+			$artist = $_POST["artist"];
+		}
+
+		if (isset($_POST["title"])) {
+			$title = $_POST["title"];
+		}
+
+		if (isset ($_POST["medium"])) {
+			$medium = $_POST["medium"];
+		}
+
+		if (isset($_POST["year"])) {
+			$year = $_POST["year"];
+		}
+
+		if (isset($_POST["image"])) {
+			$image = $_POST["image"];
+		}
+
+		echo "Thanks for sharing " . $title . " with us, " . $artist . "!"; 
+	} 
 ?>
 
 
