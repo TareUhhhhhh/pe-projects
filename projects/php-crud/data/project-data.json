@@ -1,0 +1,59 @@
+[
+	{
+		"id" : 0,
+		"title" : "Galaxy Bear",
+		"image" : "images/galaxy-bear.jpg",
+		"media" : "watercolor",
+		"description" : "This was a really fun project that I enjoyed. It was a bit more of a challenge, but it was really similar to a canvas art piece in our living room."
+	},
+	{
+		"id" : 1,
+		"title" : "Dragonfly",
+		"image" : "images/dragonfly.jpg",
+		"media" : "watercolor",
+		"description" : "This was actually a kids project that I wanted to do along with my son. It turned out super fun!"
+	},
+	{
+		"id" : 2,
+		"title" : "Honeybee",
+		"image" : "images/honeybee.jpg",
+		"media" : "watercolor",
+		"description" : "This was from a kid's tutorial that I decided to do when I was first learning about watercolor and I really love how the fuzzy part looks."
+	},
+	{
+		"id" : 3,
+		"title" : "Butterfly",
+		"image" : "images/butterfly.jpg",
+		"media" : "watercolor",
+		"description" : "I love how this butterfly turned out where the wings look almost see-through like tissue paper."
+	},
+	{
+		"id" : 4,
+		"title" : "Ladybug",
+		"image" : "images/ladybug.jpg",
+		"media" : "watercolor",
+		"description" : "This one turned out nicely, despite my concerns at one point. The light versus dark parts of the shell felt really off while I was working on this one, but by the end I could see how nicely it all came together. It was a nice reminder to keep going and the finished product will come together."
+	},
+	{
+		"id" : 5,
+		"title" : "Seahorse",
+		"image" : "images/seahorse.jpg",
+		"media" : "watercolor",
+		"description" : "One of my favorite projects! I love seahorses and the splatters make this even more interesting."
+	},
+	{
+		"id" : 6,
+		"title" : "Stocking",
+		"image" : "images/stocking.jpg",
+		"media" : "crochet",
+		"description" : "I wanted to have a nice stocking for the holidays and this pattern was perfect for a nice and decorative touch."
+	},
+	{
+		"id" : 7,
+		"title" : "Bye",
+		"image" : "images/bye.jpg",
+		"media" : "cross stitch",
+		"description" : "This was my first cross stitch project. I saw the pattern and it was just fun so I decided that was a nice hobby to pick up."
+	}
+]
+
