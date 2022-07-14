@@ -144,9 +144,20 @@ p + a {
 }
 
 
+/*RESUME PAGE*/
+.resume-entry {
+	border: 1px dashed var(--accent);
+	margin-top: 2rem;
+	padding: 0.5rem;
+}
 
+.resume-entry div+div {
+	margin-top: 1rem;
+}
 
-
+:is(.resume-entry) h2, h3 {
+	display: inline;
+}
 
 
 
