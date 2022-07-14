@@ -1,4 +1,3 @@
-<?php include('header.php')?>
 
 <?php 
 $pageHeading = $pageData["goals"]["title"];
