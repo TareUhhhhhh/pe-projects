@@ -16,6 +16,12 @@ $pageData = [
 			<p>Sometimes the information is directly related to web development, sometimes not so much. However, it all relates back to building new skills and confidence for my next steps!</p>",
 	],
 
+		"resume" => [
+		"title" => "Resume",
+		"content" => "
+			<p>Resume Stuff</p>",
+	],
+
 	"goals" => [
 		"title" => "GOALS!",
 		"content" => 
