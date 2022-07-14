@@ -1,5 +1,6 @@
 <?php
-include ('data/project-data.php');
+$json = file_get_contents('data/project-data.json');
+$projects = json_decode($json, true);
 foreach ($projects as $project) { 
 	$id = $project['id'];
 	$title = $project["title"];
@@ -13,7 +14,7 @@ foreach ($projects as $project) {
 		<img src="<?=$image?>" alt="<?=$title?>">
 	</picture>
 
-	<a href="?page=detail&id=<?=$id?>">More Info</a>
+	<a href="?page=project-detail&id=<?=$id?>">More Info</a>
 </article>
 
 <?php
