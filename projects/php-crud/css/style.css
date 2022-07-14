@@ -20,6 +20,10 @@ h2 {
 	font-size: 2rem;
 }
 
+p {
+	font-size: 1.1rem;
+}
+
 a {
 	color: var(--white);
 	text-decoration: none;
@@ -35,11 +39,19 @@ a:hover {
 	padding: 0.25rem;
 }
 
+h2 {
+	margin-top: 2rem;
+}
+
 p {
-	margin-top: 0.5rem;
-	max-width: 62ch;
+	margin-top: 1rem;
+	max-width: 68ch;
 	line-height: 1.2;
-	letter-spacing: 0.012rem;
+	letter-spacing: 0.01rem;
+}
+
+p + p {
+	margin-top: 0.5rem;
 }
 
 /*LAYOUT*/
@@ -49,10 +61,43 @@ header nav {
 	gap: 10px;
 }
 
+article {
+	display: inline-block;
+}
 
-/*PROJECT PAGE*/
+
+/*PROJECTS PAGE*/
 .project picture {
-	max-width: 500px;
+	max-width: 400px;
+	margin-top: 0.75rem;
+}
+
+.project {
+	border: 0.5px inset var(--accent);
+	padding: 0.75rem;
+}
+
+.projects .inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.project a {
+	margin-top: 1rem;
+}
+
+@media (min-width: 600px) {
+	.projects .inner-column {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	article.project {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
 }
 
 
