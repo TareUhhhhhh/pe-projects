@@ -40,5 +40,10 @@
 		"company": "Commerce Bank",
 		"years": "2008-20010",
 		"title": "Teller"
+	},
+	{
+		"type": "school",
+		"name": "Perpetual Education - Design for the Web",
+		"years": "2021-2022"
 	}
 ]

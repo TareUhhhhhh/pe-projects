@@ -9,9 +9,11 @@ Education Info -->
 	$json = file_get_contents('data/resumeData.json');
 	$resumeData = json_decode($json, true);
 
-	foreach ($resumeData as $entry) { ?>
+	foreach ($resumeData as $entry) { 
 
-	<article class="resume-entry">
+		if ( $entry['type'] == "job" ) { ?>
+
+	<article class="resume-entry job">
 		<div class="company">
 			<!-- <h2 class="company">Company: </h2> -->
 
@@ -31,7 +33,22 @@ Education Info -->
 		</div>
 	</article>
 
-<?php	} ?>
+<?php	} 
+	if ($entry['type'] == "school") { ?>
+	
+	<article class="resume-entry school">
+		<div class="school-name">
+			<h2 class="school-name"><?=$entry['name']?></h2>
+		</div>
+
+		<div class="years-attended">
+			<h3 class="years"><?=$entry['years']?></h3>
+	</article>
+		</div>
+
+<?php	}
+
+} ?>
 
 </div>
 </section>
