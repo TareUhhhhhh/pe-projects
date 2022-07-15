@@ -148,7 +148,7 @@ p + a {
 .resume-entry {
 	border: 1px dashed var(--accent);
 	margin-top: 2rem;
-	padding: 0.5rem;
+	padding: 0.75rem;
 }
 
 .resume-entry div+div {
@@ -157,6 +157,11 @@ p + a {
 
 :is(.resume-entry) h2, h3 {
 	display: inline;
+}
+
+.resume-entry h2 {
+	font-size: 1.6rem;
+	letter-spacing: 0.05em;
 }
 
 
