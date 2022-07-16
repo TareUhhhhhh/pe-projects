@@ -1,5 +1,4 @@
-
-<section class="resume">
+<page-content class="resume">
 <div class="inner-column">
 
 <!-- Get resume info from json file
@@ -51,4 +50,4 @@ Education Info -->
 } ?>
 
 </div>
-</section>
+</page-content>
