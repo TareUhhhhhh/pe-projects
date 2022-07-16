@@ -3,47 +3,79 @@
 		"type": "job",
 		"company": "Checklist TC",
 		"years": "2021-Present",
-		"title": "Transaction Assistant"
+		"title": "Transaction Assistant",
+		"responsibilities": [
+			"Find ways to make transaction timelines more efficient", 
+			"Stay on top of transaction timelines",
+			"Add checklists for all new files"
+		]
 	},
 	{
 		"type": "job",
 		"company": "Just Say Home",
 		"years": "2020-2021",
-		"title": "Executive Assistant"
+		"title": "Executive Assistant",
+		"responsibilities": [
+			"A whole lot of them"
+		]
 	},
 	{
 		"type": "job",
 		"company": "VinSolutions",
 		"years": "2016-2017",
-		"title": "Implementation Launch Consultant"
+		"title": "Implementation Launch Consultant",
+		"responsibilities": [
+			"A whole lot of them"
+		]
 	},
 	{
 		"type": "job",
 		"company": "VinSolutions",
 		"years": "2013-2016",
-		"title": "Tier II Technical Support"
+		"title": "Tier II Technical Support",
+		"responsibilities": [
+			"A whole lot of them"
+		]
 	},
 	{
 		"type": "job",
 		"company": "Side Pockets",
 		"years": "2011-2013",
-		"title": "Server"
+		"title": "Server",
+		"responsibilities": [
+			"A whole lot of them"
+		]
 	},
 	{
 		"type": "job",
 		"company": "Pier 1 Imports",
 		"years": "2006-2008 and 2010-2011",
-		"title": "Sales Associate"
+		"title": "Sales Associate",
+		"responsibilities": [
+			"A whole lot of them"
+		]
 	},
 	{
 		"type": "job",
 		"company": "Commerce Bank",
 		"years": "2008-20010",
-		"title": "Teller"
+		"title": "Teller",
+		"responsibilities": [
+			"A whole lot of them"
+		]
 	},
 	{
 		"type": "school",
 		"name": "Perpetual Education - Design for the Web",
 		"years": "2021-2022"
+	},
+	{
+		"type": "job",
+		"company": "Steak N Shake",
+		"years": "2005-2006",
+		"title": "Server",
+		"responsibilities": [
+			"A whole lot of them"
+		]
 	}
 ]
