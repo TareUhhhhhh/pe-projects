@@ -25,16 +25,26 @@
 		"years": "2016-2017",
 		"title": "Implementation Launch Consultant",
 		"responsibilities": [
-			"A whole lot of them"
+			"Consult with new clients to set up their new CRM product according to individual needs",
+			"Have in-depth knowledge of the CRM system to answer questions regarding functionality and be able to assess individual requirements",
+			"Stay informed about new and changing settings within the CRM",
+			"Understand dealership processes to be able to suggest appropriate settings specific to their needs and day-to-day business style",
+			"Maintain a strict deadline with multiple accounts working simultaneously",
+			"Document progress and keep Salesforce data up-to-date in order to keep teammates up to date on project status"
 		]
 	},
 	{
 		"type": "job",
 		"company": "VinSolutions",
 		"years": "2013-2016",
-		"title": "Tier II Technical Support",
+		"title": "Tier II Certified Technical Support",
 		"responsibilities": [
-			"A whole lot of them"
+			"Key member in successful launch of specialized organization of support department",
+			"Monitor and handle electronically submitted cases",
+			"Troubleshoot software issues across the system",
+			"Use critical thinking skills to diagnose the origin of issues and steps to resolution",
+			"Effectively communicate resolution steps to customers, both verbally and in written format",
+			"Document steps taken to resolve issues for internal and external communication purposes within Salesforce"
 		]
 	},
 	{
@@ -43,16 +53,21 @@
 		"years": "2011-2013",
 		"title": "Server",
 		"responsibilities": [
-			"A whole lot of them"
+			"Ensure each customer receives outstanding service",
+			"Quickly and efficiently meet customer demands ",
+			"Keep up with fast-paced work environment"
 		]
 	},
 	{
 		"type": "job",
 		"company": "Pier 1 Imports",
-		"years": "2006-2008 and 2010-2011",
+		"years": "2006-2008 and 2010-2012",
 		"title": "Sales Associate",
 		"responsibilities": [
-			"A whole lot of them"
+			"Incoming inventory stock coordinator",
+			"Helped to improve organization and efficiency of incoming stock, giving employees on sales floor more time to communicate with customers",
+			"Stay up to date with product knowledge to better assist customers",
+			"Greet and maintain helpful communication with customers"
 		]
 	},
 	{
@@ -61,15 +76,15 @@
 		"years": "2008-2010",
 		"title": "Teller",
 		"responsibilities": [
-			"A whole lot of them"
+			"Interact with customers with a friendly, personable attitude",
+			"Recognize products and services to recommend for customers"
 		]
 	},
 	{
 		"type": "school",
 		"name": "Perpetual Education - Design for the Web",
 		"years": "2021-2022"
-	},
-	{
+	},	{
 		"type": "job",
 		"company": "Steak N Shake",
 		"years": "2005-2006",
