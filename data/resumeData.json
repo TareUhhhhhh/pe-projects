@@ -98,8 +98,14 @@
 		"type": "additionalInfo",
 		 "data": {
 		 	"summary": "Tech-savvy customer service expert with a passion for problem-solving and critical thinking.  Extensive experience communicating with customers, clients, front-end users, co-workers, third parties, management and inter-departmental personnel to effectively relay relevant information ",
-			"objective": "To use my customer service experience, communication, and problem-solving skills to exceed the expectations of clients and deliver the highest quality home buying and selling experiences.",
+			"objective": "To use my customer service experience, communication, and problem-solving skills to exceed the expectations of clients and deliver the highest quality websites possible.",
 			"skills": {
+				"web": [
+					"HTML",
+					"CSS",
+					"PHP",
+					"Wordpress"
+				],
 				"hard": [
 					"Proficient in Microsoft programs such as Excel, PowerPoint and Word",
 					"Experience navigating, troubleshooting and configuring CRM systems",
