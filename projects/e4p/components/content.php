@@ -17,6 +17,8 @@
 		<a href="forms/004-mad-lib.php" target='mad'>Mad Lib</a>
 		<a href="forms/005-simple-math.php" target='math'>Simple Math</a>
 		<a href="forms/006-retirement-calculator.php" target='retire'>Retirement Calculator</a>
+		<a href="forms/007-rectangular-area.php" target='retire'>Rectangular Area</a>
+		<a href="forms/010-self-checkout.php" target='retire'>Self Checkout</a>
 
 	<!-- Add foreach loop in the future for files? -->
 
