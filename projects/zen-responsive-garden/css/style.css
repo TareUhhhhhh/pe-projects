@@ -84,6 +84,29 @@ footer nav {
 	gap: 0.5rem;
 }
 
+/*MEDLEY1-1*/
+
+.medley1-1 .intro {
+	margin-top: 2.5rem;
+}
+
+.medley1-1 p {
+	margin-top: 1rem;
+}
+.medley1-1 article {
+	border-top: 1px solid black;
+	padding-top: 1rem;
+}
+
+:is(.medley1-1) article-grid, image-grid {
+	display: block;
+	margin-top: 2rem;
+}
+
+:is(.medley1-1) article+article, picture+picture {
+	margin-top: 1rem;
+}
+
 @media (min-width: 400px) {
 	header nav {
 		width: 60%;
@@ -111,6 +134,22 @@ footer nav {
 		flex-direction: row;
 		gap: 3rem;
 		margin-top: 1.5rem;
+	}
+
+		/*MEDLEY1-1*/
+	:is(.medley1-1) article-grid, image-grid {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+
+	:is(.medley1-1) article, picture {
+		flex-basis: 45%;
+	}
+
+	:is(.medley1-1) article+article, picture+picture {
+	margin-top: 0;
 	}
 }
 
@@ -155,6 +194,33 @@ footer nav {
 	graphic-diptych .inner-column {
 		align-items: center;
 		gap: 2rem;
+	}
+
+	/*MEDLEY1-1*/
+	.medley1-1 .inner-column {
+		max-width: 1000px;
+		display: flex;
+		flex-direction: row;
+		align-items: stretch;
+		gap: 1rem;
+	}
+
+	:is(.medley1-1) p {
+		font-size: 1.2rem;
+	}
+
+	.medley1-1 image-grid {
+		max-width: 550px;
+		margin-top: 2rem;
+	}
+
+	.medley1-1 image-grid {
+		display: flex;
+		align-items: stretch;
+	}
+
+	.medley1-1 picture {
+		flex-basis: 45%;
 	}
 }
 
