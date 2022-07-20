@@ -23,5 +23,6 @@
 	include('modules/card-gallery.php');
 	include('modules/display-console.php');
 	include('medley/medley1-1.php');
+	include('medley/medley1-2.php');
 	include("modules/footer.php");
 ?>

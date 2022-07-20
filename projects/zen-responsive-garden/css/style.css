@@ -6,6 +6,7 @@
 body {
 	--black: #111;
 	--white: #9c9b99;
+	--thick:  3px;
 	font-family: Helvetica;
 }
 
