@@ -18,7 +18,6 @@
 		$guestSlices = intval($totalSlices) / intval($guests);
 		$guestSlices = intval($guestSlices);
 		$leftover = intval($totalSlices) - (intval($guestSlices) * $guests);
-
 	}
 ?>
 
