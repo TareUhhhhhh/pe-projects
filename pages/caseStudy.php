@@ -1,3 +1,5 @@
+<!-- NOT FUNCTIONING -->
+
 <?php
 	if (isset($_GET["project"])) {
 		$activeProject = $_GET["project"];
@@ -12,9 +14,9 @@
 	//if query string identified = json data slug/title/link, load a case study card with the rest of that projects case study information
 
 
-			//if project slug or title = query string id - load the case study card - on case-study php -->
-		<div class="inner-column">
-			<section class="page-content <?=$activeProject?>">
-				<?php include('pages/caseCard.php'); ?>
-			</section>
-		</div> 
+	//if project slug or title = query string id - load the case study card - on case-study php -->
+<div class="inner-column">
+	<section class="page-content <?=$activeProject?>">
+		<?php include('pages/caseCard.php'); ?>
+	</section>
+</div> 
