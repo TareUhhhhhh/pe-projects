@@ -17,12 +17,11 @@
 			},
 		"sections": [
 			{
-				"type": "genericText",
+				"type": "sectionType",
 				"heading": "heading goes here",
 				"content": "Paragraph information will go here"
 			},
 			{
-
 				"type": "beforeAndAfter",
 				"heading": "Heading here",
 				"beforeImage": "https://peprojects/dev/images/square.jpg",
