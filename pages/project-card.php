@@ -23,8 +23,6 @@
 	<section class="project-description">
 		<p><?=$project["teaser"]?></p>
 
-		<p><?=$project["description"]?></p>
-
 		<a href="?page=project&project=<?=$project["slug"]?>">Case Study</a>
 	</section>
 </project-card>
