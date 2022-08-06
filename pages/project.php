@@ -4,7 +4,7 @@
 
 <section>
 	<div class="inner-column">
-		<h1><?=$project["title"]?></h1>
+		<h2><?=$project["title"]?></h2>
 	</div>
 </section>
 

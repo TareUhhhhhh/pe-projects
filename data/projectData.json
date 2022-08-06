@@ -13,11 +13,11 @@
 			"php": true,
 			"json": false,
 			"svg": false,
-			"animation": false			
+			"animation": false		
 			},
 		"sections": [
 			{
-				"type": "sectionType",
+				"type": "test",
 				"heading": "heading goes here",
 				"content": "Paragraph information will go here"
 			},
