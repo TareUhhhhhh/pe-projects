@@ -16,6 +16,10 @@
 			if(isset($project["sections"])) {
 				foreach($project["sections"] as $section) {
 					$type = $section["type"]; 
+
+					if ($type == "highlights") { 
+						include('highlights.php');
+						}
 					};
 			}
 		?>

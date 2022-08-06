@@ -22,6 +22,10 @@
 				"content": "Paragraph information will go here"
 			},
 			{
+				"type": "highlights",
+				"highlights": ["HTML", "CSS", "PHP"]
+			},
+			{
 				"type": "beforeAndAfter",
 				"heading": "Heading here",
 				"beforeImage": "https://peprojects/dev/images/square.jpg",
