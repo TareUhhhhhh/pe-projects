@@ -36,6 +36,13 @@
 		}
 	}
 
+	function renderSection($section) {
+		$filePath = "pages/sections/$section.php";
+		if ($section && file_exists($filePath)) {
+			include($filePath);
+		}
+	}
+
 	// function enableErrorReporting() {
 	// 	error_reporting(E_ALL);
 	// 	ini_set('display_errors', '1');

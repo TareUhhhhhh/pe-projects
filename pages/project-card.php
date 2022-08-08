@@ -1,10 +1,10 @@
 <?php
 	
-	foreach($project["highlights"] as $highlights){
+	// foreach($project["highlights"] as $highlights){
 	//decode each line to read as true?
 		//	if svg = true, echo svg
 		// if html = true, echo html
-	}
+	// }
 
 ?>
 
@@ -17,8 +17,6 @@
 			<img src='<?=$project["image"]?>'>
 		</picture>
 	</section>
-
-	<!-- <h3><?=$project["highlights"]?></h3> -->
 
 	<section class="project-description">
 		<p><?=$project["teaser"]?></p>
