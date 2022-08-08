@@ -1,13 +1,13 @@
 [
 	{
 		"id": 0,
-		"slug": "gaming",
+		"slug": "tareuhhhhhh-gaming-v2",
 		"title": "TareUhhhhhh Gaming",
 		"teaser": "Theming Project designed to put together a cohesive site after doing market research into a chosen industry.",
 		"description": "I chose to create a website for a video game developer. As an avid gamer myself, a video game theme was the natural choice for me. I narrowed down 4 websites that had aspects that caught my eye and emulated that through colors, line quality and font choice.",
 		"image": "images/skull.svg",
 		"link": "projects/tareuhhhhhh-gaming-v2",
-
+		"gitLink": "tareuhhhhhh-gaming-v2",
 		"sections": [
 			{
 				"type": "test",
@@ -29,12 +29,13 @@
 	},
 	{
 		"id": 1,
-		"slug": "efp",
+		"slug": "e4p",
 		"title": "Exercises For Programmers",
 		"teaser": "A collection of exercises from the book of the same name by Brian Hogan.",
 		"description": "Brian Hogan's book Exercises For Programmers has a wide variety of exercises for all skill levels and any language. It has been a great tool for me to practice my skills across multiple languages.",
 		"image": "images/default.jpg",
-		"link": "projects/efp",
+		"link": "projects/e4p",
+		"gitLink": "e4p",
 		"highlights": {
 			"html": true,
 			"css": true,
@@ -42,16 +43,23 @@
 			"json": true,
 			"svg": false,
 			"animation": false			
-		}
+		},
+		"sections": [
+			{
+				"type": "highlights",
+				"highlights": ["HTML", "CSS", "PHP", "JSON"]
+			}
+		]
 	},
 	{
 		"id": 2,
-		"slug": "responsive-garden",
+		"slug": "zen-responsive-garden",
 		"title": "Responsive Layout Garden",
 		"teaser": "Responsive Layouts Aplenty",
 		"description": "In an effort to truly master building responsive sites and modules, I have cultivated a garden of various layouts that will look their best on screens of all sizes.",
 		"image": "images/default.jpg",
-		"link": "projects/responsiveGarden",
+		"link": "projects/zen-responsive-garden",
+		"gitLink": "zen-responsive-garden",
 		"highlights": {
 			"html": true,
 			"css": true,
@@ -59,7 +67,13 @@
 			"json": true,
 			"svg": false,
 			"animation": false			
-		}
+		},
+		"sections": [
+			{
+				"type": "highlights",
+				"highlights": ["HTML", "CSS", "PHP", "JSON"]
+			}
+		]
 	}
 ]
 
