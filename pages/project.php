@@ -11,6 +11,7 @@
 <section>
 	<div class="inner-column">
 		<?php
+		<a class='project-link' target='<?=$project['slug']?>' href="../<?=$project["link"]?>">Live Site</a>
 
 		//This refers to any sort of repeatable kind of content which can be displayed in the prjectData json file -- need to revisit to figure out how to set this up
 			if(isset($project["sections"])) {
