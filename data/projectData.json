@@ -8,7 +8,7 @@
 		"image": "images/skull.svg",
 		"link": "projects/tareuhhhhhh-gaming-v2",
 		"gitLink": "tareuhhhhhh-gaming-v2",
-		"sections": [
+		"modules": [
 			{
 				"type": "test",
 				"heading": "heading goes here",
@@ -44,7 +44,7 @@
 			"svg": false,
 			"animation": false			
 		},
-		"sections": [
+		"modules": [
 			{
 				"type": "highlights",
 				"highlights": ["HTML", "CSS", "PHP", "JSON"]
@@ -68,7 +68,7 @@
 			"svg": false,
 			"animation": false			
 		},
-		"sections": [
+		"modules": [
 			{
 				"type": "highlights",
 				"highlights": ["HTML", "CSS", "PHP", "JSON"]
