@@ -36,19 +36,19 @@
 		}
 	}
 
-	function renderSection($section) {
-		$filePath = "pages/sections/$section.php";
-		if ($section && file_exists($filePath)) {
+	function renderModule($module) {
+		$filePath = "pages/modules/$module[type].php";
+		if ($module && file_exists($filePath)) {
 			include($filePath);
 		}
 	}
 
-	// function enableErrorReporting() {
-	// 	error_reporting(E_ALL);
-	// 	ini_set('display_errors', '1');
-	// }
+	function enableErrorReporting() {
+		error_reporting(E_ALL);
+		ini_set('display_errors', '1');
+	}
 
-	// enableErrorReporting();
+	enableErrorReporting();
 
 	function show($things) {
 	echo "<code class='show-code'>";

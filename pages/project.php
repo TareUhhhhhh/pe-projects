@@ -13,21 +13,13 @@
 
 		<?php
 		//This refers to any sort of repeatable kind of content which can be displayed in the prjectData json file -- need to revisit to figure out how to set this up
-			if(isset($project["sections"])) {
-				foreach($project["sections"] as $section) {
-					$type = $section["type"];
-
-					if ($type == "highlights") {
-						include('sections/highlights.php');
-					}
-					// renderSection($type);
-					};
+			if(isset($project["modules"])) {
+				foreach($project["modules"] as $module) {
+					renderModule($module);
+				};
 			}
 		?>
 	</div>
 </section>
-
-
-
 
 
