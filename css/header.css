@@ -1,14 +1,15 @@
-header .inner-column {
+/*header .inner-column {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-start;
-}
+}*/
 
 .info-nav, .about-nav {
 	display: flex;
-	flex-direction: column;
-	gap: 15px;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 2rem;
 }
 
 header a {
@@ -17,14 +18,15 @@ header a {
 	font-weight: 200;
 }
 
-@media (min-width: 530px) {
-	header .inner-column {
+@media (min-width: 400px) {
+/*	header .inner-column {
 		justify-content: space-between;
 		align-items: center;
-	}
+	}*/
 
 	.info-nav, .about-nav {
 		flex-direction: row;
-		gap: 40px;
+		justify-content: flex-start;
+		gap: 3rem;
 	}
 }
