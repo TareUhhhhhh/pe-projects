@@ -19,8 +19,7 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-/*	position: relative;
-*/}
+}
 
 .grid {
 	display: grid;
@@ -49,6 +48,10 @@ p + p, h2 + p {
 
 main {
 	flex-grow: 1;
+}
+
+span.right {
+	display: none;
 }
 
 .show-code {
