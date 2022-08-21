@@ -8,10 +8,8 @@
 }
 
 .intro p {
-	font-size: 16px;
-	max-width: 50ch;
+	/*max-width: 50ch;*/
 	line-height: 1.7;
-	letter-spacing: .02em;
 }
 
 .bolded {
