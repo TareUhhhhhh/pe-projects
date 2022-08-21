@@ -6,5 +6,5 @@
 ?>
 
 <?php 
-	include('about.php');
+	include('pages/about.php');
 ?>
