@@ -11,7 +11,7 @@
 
 <project-card>
 	<section class='project-intro'>
-		<h2><?=$project["title"]?></h2>
+		<h2 class='project-title'><?=$project["title"]?></h2>
 
 <!-- 		<picture>
 			<img src='<?=$project["image"]?>'>
@@ -19,9 +19,9 @@
 	</section>
 
 	<section class="project-description">
-		<p><?=$project["teaser"]?></p>
+		<p class='project-teaser'><?=$project["teaser"]?></p>
 
-		<a href="?page=project&project=<?=$project["slug"]?>">Case Study</a>
+		<a class='project-button' href="?page=project&project=<?=$project["slug"]?>">Case Study</a>
 	</section>
 </project-card>
 
