@@ -14,12 +14,12 @@ body.light {
 	--paper: var(--white);
 	--ink: var(--black);	
 	--accent: var(--color-dark);
-	--alternate: var(--color-dark);
+	--alternate: var(--alt-dark);
 }
 
 body.dark {
 	--paper: var(--black);
 	--ink: var(--gray);
 	--accent: var(--color-light);
-	--alternate: var(--color-light);
+	--alternate: var(--alt-light);
 }
