@@ -13,9 +13,9 @@
 	<section class='project-intro'>
 		<h2><?=$project["title"]?></h2>
 
-		<picture>
+<!-- 		<picture>
 			<img src='<?=$project["image"]?>'>
-		</picture>
+		</picture> -->
 	</section>
 
 	<section class="project-description">
