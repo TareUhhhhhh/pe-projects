@@ -38,12 +38,12 @@
 					<a href="?page=writing">Writing</a>
 				</nav>
 
-				<nav class='about-nav'>
+			<!-- 	<nav class='about-nav'>
 					<a href="?page=resume">Resume</a>
 					<a href="?page=about">About</a>
-					<!-- <a href="?page=fun">Fun</a> -->
-					<!-- <a href="?page=contact">Contact</a> -->
-				</nav>
+					<a href="?page=fun">Fun</a>
+					<a href="?page=contact">Contact</a>
+				</nav> -->
 			</div>
 		</header>
 
