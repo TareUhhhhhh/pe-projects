@@ -8,8 +8,6 @@
 
 <section class='project-info'>
 	<div class="inner-column">
-		<a class='project-link' target='<?=$project['title']?>' href="<?=$project["link"]?>">Live Site</a>
-		<a class='github-link' target="<?=$project['gitLink']?>" href="https://github.com/TareUhhhhhh/pe-projects/tree/master/projects/<?=$project['slug']?>">GitHub Link</a>
 
 		<?php
 		//This refers to any sort of repeatable kind of content which can be displayed in the prjectData json file -- need to revisit to figure out how to set this up
@@ -19,6 +17,8 @@
 				};
 			}
 		?>
+ 
+		<?php include('modules/project-links.php'); ?>
 	</div>
 </section>
 
