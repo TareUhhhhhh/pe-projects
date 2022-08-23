@@ -1,4 +1,4 @@
-<!-- NOT FUNCTIONING -->
+<!-- NOT FUNCTIONING GOTO project.php -->
 
 <?php
 	if (isset($_GET["project"])) {

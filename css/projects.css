@@ -63,6 +63,28 @@ project-card h2 {
 	background: var(--accent);
 }
 
+.project-links {
+	display: flex;
+	margin-top: 1rem;
+	gap: 1rem;
+}
+
+.project-links a {
+	background-color: var(--accent);
+	color: var(--paper);
+	padding: 0.5rem 1.5rem;
+	border-radius: 3px;
+}
+
+.screenshot img {
+	max-height: 31vh;
+	width: auto;
+}
+
+.caption {
+	font-family: monospace;
+}
+
 @media (min-width: 500px) {
 	project-grid {
 		flex-direction: column;

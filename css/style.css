@@ -38,7 +38,7 @@ p a {
 	color: var(--inkalt);
 }
 
-a:hover {
+a:hover {	
 	color: var(--alternate);
 }
 
