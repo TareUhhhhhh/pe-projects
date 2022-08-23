@@ -83,6 +83,7 @@ project-card h2 {
 
 .caption {
 	font-family: monospace;
+	padding-top: 1rem;
 }
 
 @media (min-width: 500px) {
@@ -97,6 +98,13 @@ project-card h2 {
 	a.project-button {
 		margin-top: 0;
 	}
+
+	.highlights-list {
+		display: flex;
+		flex-direction: row;
+		gap: 2rem;
+		flex-wrap: wrap;
+	}
 }
 
 @media (min-width: 700px) {
@@ -110,6 +118,8 @@ project-card h2 {
 	.project-teaser {
 		max-width: 48ch;
 	}
+
+
 }
 
 
