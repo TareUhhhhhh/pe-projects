@@ -1,7 +1,6 @@
 <?php
 	$pageHeading = $pageData["$activePage"]["title"];
 	$pageContent = $pageData["$activePage"]["content"];
-
 ?>
 
 <section class="intro <?=$activePage?>">
