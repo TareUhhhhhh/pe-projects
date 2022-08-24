@@ -4,7 +4,3 @@
 	$images = json_decode($file, true);
 	//foreach loop to display images 
 ?>
-
-<?php 
-	include('pages/about.php');
-?>
