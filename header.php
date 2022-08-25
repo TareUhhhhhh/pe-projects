@@ -42,7 +42,7 @@
 					<!-- <a href="?page=resume">Resume</a> -->
 					<a href="?page=about">About</a>
 					<!-- <a href="?page=fun">Fun</a> -->
-					<a href="?page=style-guide">Style Guide</a>
+					<a href="?page=project&project=style-guide">Style Guide</a>
 					<!-- <a href="?page=contact">Contact</a> -->
 				</nav>
 			</div>
