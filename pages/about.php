@@ -1,4 +1,3 @@
-<!-- PAGE NOT IN USE -->
 
 <?php
 	//get json file data

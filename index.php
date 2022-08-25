@@ -11,10 +11,6 @@
 	include('header.php');
 	// include('images/rectangle.svg');
 
-
-	//when $activePage = Projects - echo Projects info
-	//when $activePage = Writing - echo Writing info
-
 	if($activePage != "project") { //If this is not a detail page -- then include intro file
 		include('modules/page-intro.php');
 	}
