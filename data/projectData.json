@@ -116,7 +116,7 @@
 			},
 			{
 				"type": "screenshot",
-				"image": "../images/skull.jpg",
+				"image": "images/skull.jpg",
 				"caption": "This caption goes with the image."
 			}
 		]
