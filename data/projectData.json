@@ -87,6 +87,39 @@
 				"highlights": ["HTML", "CSS", "PHP", "JSON"]
 			}
 		]
+	},
+	{
+		"id": 3,
+		"slug": "style-guide",
+		"title": "Style Guide",
+		"teaser": "Collection of Modules",
+		"description": "This is the style guide.",
+		"image": "images/skull.svg",
+		"link": "pages/style-guide",
+		"gitLink": "style-guide",
+		"modules": [
+			{
+				"type": "text-content",
+				"title": "Text Content Module",
+				"paragraph": ["This would be a paragraph that is typed into the json file.", "There can be multiple paragraphs, as I made an array and a foreach loop to filter in as many paragraphs as necessary."]
+			},
+			{
+				"type": "highlights",
+				"highlights": ["HTML", "CSS", "PHP"]
+			},
+			{
+				"type": "beforeAndAfter",
+				"heading": "Heading here",
+				"beforeImage": "https://peprojects/dev/images/square.jpg",
+				"afterImage": "https://peprojects/dev/images/square.jpg",
+				"content": "Project description info goes here"
+			},
+			{
+				"type": "screenshot",
+				"image": "../images/skull.jpg",
+				"caption": "This caption goes with the image."
+			}
+		]
 	}
 ]
 
