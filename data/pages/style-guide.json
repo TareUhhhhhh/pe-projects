@@ -1,12 +1,5 @@
 {
-	"id": 1,
 	"slug": "style-guide",
-	"title": "Style Guide",
-	"teaser": "Collection of Modules",
-	"description": "This is the style guide.",
-	"image": "images/skull.svg",
-	"link": "pages/style-guide",
-	"gitLink": "style-guide",
 	"modules": [
 		{
 			"type": "page-intro",

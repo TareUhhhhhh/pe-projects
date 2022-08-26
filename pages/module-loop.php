@@ -1,7 +1,14 @@
 <?php
 	$page = $_GET['page'];
-	$json = file_get_contents("data/pages/$page.json");
-	$pageData = json_decode($json, true);
+
+	if ($_GET['page'] == "project") {
+		$pageData = getRecordBySlug($_GET["project"]);
+	}
+	
+	else {
+		$json = file_get_contents("data/pages/$page.json");
+		$pageData = json_decode($json, true);
+	}
 ?>
 
 
@@ -13,7 +20,7 @@
 
 			<?php	
 				$filePath = "modules/$module[type].php";
-
+				
 				if ($module && file_exists($filePath)) {
 					include($filePath);
 				}
