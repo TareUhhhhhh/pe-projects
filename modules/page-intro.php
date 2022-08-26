@@ -1,6 +1,6 @@
 <?php
-	$pageHeading = $pageData["$activePage"]["title"];
-	$pageContent = $pageData["$activePage"]["content"];
+	$pageHeading = $module["title"];
+	$pageContent = $module["subtitle"];
 ?>
 
 <section class="intro <?=$activePage?>">
@@ -9,6 +9,7 @@
 			<h1><?=$pageHeading?></h1>
 			<?=$pageContent?>	
 		</article>	
+		Word
 	</div>
 </section>
 

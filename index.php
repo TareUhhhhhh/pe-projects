@@ -11,9 +11,6 @@
 	include('header.php');
 	// include('images/rectangle.svg');
 
-	if($activePage != "project") { //If this is not a detail page -- then include intro file
-		include('modules/page-intro.php');
-	}
 	renderPage($activePage);
 	include('footer.php');
 ?>
