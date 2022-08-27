@@ -1,3 +1,1 @@
-<?php 
-
-// echo "NEED TO FILL THIS IN!";
+<?php include('module-loop.php'); ?>
