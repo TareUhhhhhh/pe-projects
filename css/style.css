@@ -1,5 +1,6 @@
 @import 'meyer-reset.css';
 @import 'setup.css';
+/*@import 'developer-styles.css';*/
 @import 'typography.css';
 @import 'settings.css';
 @import 'contact.css';
@@ -31,12 +32,7 @@ body {
 	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 15px;
-	border: 1px solid red;
-}
-
-.content {
-	border: 1px solid lime;
+	padding: 1rem;
 }
 
 p a {

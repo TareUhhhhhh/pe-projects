@@ -1,0 +1,15 @@
+* {
+	border: 1px solid blue;
+}
+
+.inner-column {
+	border: 1px solid lime;
+}
+
+section {
+	border: 1px solid purple;
+}
+
+.content {
+	border: 1px solid lime;
+}
