@@ -1,1 +1,36 @@
-about.json
+{
+	"slug": "about",
+	"modules": [
+		{
+			"type": "page-intro",
+			"title": "About",
+			"slug": "about",
+			"subtitle": "<p>Outside of building websites and creating cool/fun/efficiency things, I'm actually a human being! I have interests and hobbies just like anyone else. I like to crochet, cross stitch, play video games, paint with watercolor and acrylics, among many other creative endeavors!</p>"
+		},
+		{
+			"type": "image-gallery",
+			"images": [
+				{
+					"slug": "seahorse",
+					"image": "images/about-me/seahorse.jpeg"
+				},
+				{
+					"slug": "bear",
+					"image": "images/about-me/bear.jpeg"
+				},
+				{
+					"slug": "bee",
+					"image": "images/about-me/bee.jpeg"
+				},
+				{
+					"slug": "bye",
+					"image": "images/about-me/bye.jpeg"
+				},
+				{
+					"slug": "dragonfly",
+					"image": "images/about-me/dragonfly.jpeg"
+				}
+			]
+		}
+	]
+}
