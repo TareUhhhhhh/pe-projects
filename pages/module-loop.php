@@ -17,7 +17,6 @@
 
 		<section class="has-<?=$module['type']?>">
 		<div class="inner-column">
-
 			<?php	
 				$filePath = "modules/$module[type].php";
 				

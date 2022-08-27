@@ -1,17 +1,13 @@
 <?php
 	$pageHeading = $module["title"];
 	$pageContent = $module["subtitle"];
+	$activePage = $module["slug"];
 ?>
 
 <section class="intro <?=$activePage?>">
-	<div class="inner-column">
-		<article class="intro-content">
-			<h1><?=$pageHeading?></h1>
-			<?=$pageContent?>	
-		</article>	
-		Word
-	</div>
+	<article class="intro-content">
+		<h1><?=$pageHeading?></h1>
+		<?=$pageContent?>	
+	</article>	
 </section>
-
-
 
