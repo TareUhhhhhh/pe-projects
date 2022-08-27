@@ -1,7 +1,7 @@
 <?php
 	$pageHeading = $module["title"];
 	$pageContent = $module["subtitle"];
-	$activePage = $module["slug"];
+	$activePage = $pageData["slug"];
 ?>
 
 <section class="intro <?=$activePage?>">
