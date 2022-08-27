@@ -1,13 +1,22 @@
 <?php
-	$page = $_GET['page'];
+	if (isset($_GET['page'])) {
+		$page = $_GET['page'];
 
-	if ($_GET['page'] == "project") {
-		$pageData = getRecordBySlug($_GET["project"]);
+			if ($_GET['page'] == "project") {
+				$pageData = getRecordBySlug($_GET["project"]);
+			}
+
+			else {
+				$json = file_get_contents("data/pages/$page.json");
+				$pageData = json_decode($json, true);
+			}
 	}
-	
-	else {
+
+	else { 
+		$page = "home"; 
+
 		$json = file_get_contents("data/pages/$page.json");
-		$pageData = json_decode($json, true);
+				$pageData = json_decode($json, true);
 	}
 ?>
 
