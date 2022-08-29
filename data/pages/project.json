@@ -1,0 +1,94 @@
+{
+	"type": "project-grid",
+	"projects": [
+		{
+			"id": 0,
+			"slug": "tareuhhhhhh-gaming-v2",
+			"title": "TareUhhhhhh Gaming",
+			"teaser": "Theming Project designed to put together a cohesive site after doing market research into a chosen industry.",
+			"description": "I chose to create a website for a video game developer. As an avid gamer myself, a video game theme was the natural choice for me. I narrowed down 4 websites that had aspects that caught my eye and emulated that through colors, line quality and font choice.",
+			"image": "images/skull.svg",
+			"link": "projects/tareuhhhhhh-gaming-v2",
+			"gitLink": "tareuhhhhhh-gaming-v2",
+			"modules": [
+				{
+					"type": "text-content",
+					"title": "Project Info",
+					"paragraph": ["This project was an exercise in combining as many development ideas I had learned up to this point."]
+				},
+				{
+					"type": "highlights",
+					"highlights": ["HTML", "CSS", "PHP"]
+				},
+				{
+					"type": "beforeAndAfter",
+					"heading": "Heading here",
+					"beforeImage": "https://peprojects/dev/images/square.jpg",
+					"afterImage": "https://peprojects/dev/images/square.jpg",
+					"content": "Project description info goes here"
+				},
+				{
+					"type": "text-content",
+					"title": "Inspiration",
+					"paragraph": [
+						"This project was an exercise in emulating a theme. I like playing video games, specifically I really enjoy horror games, so I researched video game companies that specialize in that genre. I studied them and looked for any similarities and repeated elements.",
+						"Another paragraph"
+					]
+				},
+				{
+					"type": "screenshot",
+					"image": "../../images/skull.jpg",
+					"caption": "This caption goes with the image."
+				}
+			]
+		},
+		{
+			"id": 1,
+			"slug": "e4p",
+			"title": "Exercises For Programmers",
+			"teaser": "A collection of exercises from the book of the same name by Brian Hogan.",
+			"description": "Brian Hogan's book Exercises For Programmers has a wide variety of exercises for all skill levels and any language. It has been a great tool for me to practice my skills across multiple languages.",
+			"image": "images/default.jpg",
+			"link": "projects/e4p",
+			"gitLink": "e4p",
+			"highlights": {
+				"html": true,
+				"css": true,
+				"php": true,
+				"json": true,
+				"svg": false,
+				"animation": false			
+			},
+			"modules": [
+				{
+					"type": "highlights",
+					"highlights": ["HTML", "CSS", "PHP", "JSON"]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"slug": "zen-responsive-garden",
+			"title": "Responsive Layout Garden",
+			"teaser": "Responsive Layouts Aplenty",
+			"description": "In an effort to truly master building responsive sites and modules, I have cultivated a garden of various layouts that will look their best on screens of all sizes.",
+			"image": "images/default.jpg",
+			"link": "projects/zen-responsive-garden",
+			"gitLink": "zen-responsive-garden",
+			"highlights": {
+				"html": true,
+				"css": true,
+				"php": true,
+				"json": true,
+				"svg": false,
+				"animation": false			
+			},
+			"modules": [
+				{
+					"type": "highlights",
+					"highlights": ["HTML", "CSS", "PHP", "JSON"]
+				}
+			]
+		}
+	]
+}
