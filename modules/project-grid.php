@@ -1,6 +1,12 @@
-<?php
-	$projectsJson = file_get_contents('data/projectData.json');
-	$projects = json_decode($projectsJson, true);
+<?php 
+	foreach ($pageData['modules'] as $modules) {
+		if ($modules['type'] == "project-grid") {
+			foreach ($modules['projects'] as $projects) {
+				$projects = $projects;
+			}
+		}
+	}
+
 ?>
 
 <project-grid>
