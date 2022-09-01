@@ -1,4 +1,4 @@
 <section class='project-links'>
-	<a class='project-link' target='<?=$project['title']?>' href="<?=$project["link"]?>">Live Site</a>
-	<a class='github-link' target="<?=$project['gitLink']?>" href="https://github.com/TareUhhhhhh/pe-projects/tree/master/projects/<?=$project['slug']?>">GitHub Link</a>
+	<a class='project-link' target='<?=$module['title']?>' href="<?=$module["siteLink"]?>">Live Site</a>
+	<a class='github-link' target="<?=$module['gitLink']?>" href="<?=$module['gitLink']?>">GitHub Link</a>
 </section>
