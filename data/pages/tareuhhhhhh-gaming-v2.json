@@ -1,0 +1,38 @@
+{
+	"slug": "tareuhhhhhh-gaming-v2",
+	"modules": [
+		{
+			"type": "page-heading",
+			"heading": "TareUhhhhhh Gaming"
+		},
+		{
+			"type": "highlights",
+			"highlights": ["HTML", "CSS", "PHP"]
+		},
+		{
+			"type": "text-content",
+			"title": "Project Info",
+			"paragraph": ["This project was an exercise in combining as many development ideas I had learned up to this point and put together a fully functional website based ."]
+		},
+		{
+			"type": "text-content",
+			"title": "Inspiration",
+			"paragraph": [
+				"This project was an exercise in emulating a theme. I like playing video games, specifically I really enjoy horror games, so I researched video game companies that specialize in that genre. I studied them and looked for any similarities and repeated elements."
+			]
+		},
+		{
+			"type": "unordered-list",
+			"title": "Inspiration Sites",
+			"items": [
+				"<a href='https://www.supermassivegames.com/' target='blank'>Supermassive Games</a>",
+				"<a href='https://www.blooberteam.com/' target='blank'>Bloober Team</a>"
+			]
+		},
+		{
+			"type": "project-links",
+			"gitLink": "https://github.com/TareUhhhhhh/pe-projects/tree/master/projects/tareuhhhhhh-gaming-v2",
+			"siteLink": "https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming-v2/"
+		}
+	]
+}
