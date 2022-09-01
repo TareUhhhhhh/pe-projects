@@ -1,0 +1,23 @@
+{
+	"slug": "zen-responsive-garden",
+	"modules": [
+		{
+			"type": "page-heading",
+			"heading": "Zen Responsive Garden"
+		},
+		{
+			"type": "highlights",
+			"highlights": ["HTML", "CSS", "PHP", "JSON", "Flexbox"]
+		},
+		{
+			"type": "text-content",
+			"title": "Project Info",
+			"paragraph": ["This project is meant as an ever-growing collection of responsive layouts that are functional on all screen sizes. "]
+		},
+		{
+			"type": "project-links",
+			"gitLink": "https://github.com/TareUhhhhhh/pe-projects/tree/master/projects/zen-responsive-garden",
+			"siteLink": "projects/zen-responsive-garden"
+		}
+	]
+}
