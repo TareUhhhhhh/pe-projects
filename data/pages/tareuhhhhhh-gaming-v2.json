@@ -7,7 +7,7 @@
 		},
 		{
 			"type": "highlights",
-			"highlights": ["HTML", "CSS", "PHP"]
+			"highlights": ["HTML", "CSS", "PHP", "Pseudocode"]
 		},
 		{
 			"type": "text-content",
@@ -32,7 +32,7 @@
 		{
 			"type": "project-links",
 			"gitLink": "https://github.com/TareUhhhhhh/pe-projects/tree/master/projects/tareuhhhhhh-gaming-v2",
-			"siteLink": "https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming-v2/"
+			"siteLink": "projects/tareuhhhhhh-gaming-v2"
 		}
 	]
 }
