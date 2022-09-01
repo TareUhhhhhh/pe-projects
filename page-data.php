@@ -1,22 +1,6 @@
 <?php
 $pageData = [
-	"home" => [
-		"title" => "TareUhhhhhh",
-		"content" => "
-			<p>A fun-loving <span class='bolded italic'>nerd</span> that loves to build new things and improve on already existing, <span class='italic'>awesome</span> sites. My ultimate goal is to work with a video game company - creating fun, new games!</p>
-
-			<p>My previous experience working for a CRM software company, in multiple roles and departments, provides a great background for entry-level, <span class='bolded'>front-end web developer</span> roles. I'm local to the Kansas City area, but open to remote positions!</p>",
-	],
-
-	"writing" => [
-		"title" => "Writing",
-		"content" => "
-			<p>Writing on <a href='https://tarahaskamp.substack.com/' target='substack'>Substack</a> has been a means of communicating and expressing any ideas or thoughts that have popped into my head as I have been along this learning journey.</p>
-
-			<p>Sometimes the information is directly related to web development, sometimes not so much. However, it all relates back to building new skills and confidence for my next steps!</p>",
-	],
-
-		"resume" => [
+	"resume" => [
 		"title" => "Resume",
 		"content" => "
 			<p>Resume Stuff</p>",
@@ -56,22 +40,6 @@ $pageData = [
 			</ul>",
 	],
 
-	"projects" => [
-	"title" => "Projects",
-	"content" => "
-		<p>The following case studies are a showcase of work that I have completed. It is a constant work in progress and will be updated as more projects are finished.</p>
-
-		<p>The variety of projects that I have worked on include aspects I've learned about HTML, CSS, responsive layouts, PHP, Javascript and SVG.</p>",
-	],
-
-	"about" => [
-	"title" => "About",
-	"content" => "
-		<p>Outside of building websites and creating cool/fun/efficiency things, I'm actually a human being! I have interests and hobbies just like anyone else.</p>
-
-		<p>I like to crochet, cross stitch, play video games, paint with watercolor and acrylics, among many other creative endeavors!</p>",
-	],
-
 	"contact" => [
 		"title" => "Contact",
 		"content" => "
@@ -86,11 +54,6 @@ $pageData = [
 		<p>I like to have fun and do fun things. That includes making fun stuff!</p>
 		<p>This is where I wanted to display a few of the fun things that I've made. This page is kind of a mix between my Projects and About Me pages. See the work I've done, plus see a bit more of the human side of me. (The fun side!)</p>
 		"
-	],
-
-	"style-guide" => [
-		"title" => "Style Guide",
-		"content" => "Welcome to the Style Guide.",
 	]
 ];
 
