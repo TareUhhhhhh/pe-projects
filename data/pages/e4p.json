@@ -13,7 +13,7 @@
 			"type": "text-content",
 			"title": "Project Info",
 			"paragraph": [
-				"These exercises come from the book of the same name, Exercises for Programmers, by Brian Hogan. The book provides various situations that a programmer may find themselves needing to create an app of some sort. The point is to really get you to think about pseudocode and how to plan out a project before jumping into it head first.",
+				"These exercises come from the book of the same name, <a href='https://pragprog.com/titles/bhwb/exercises-for-programmers/' target='book'>Exercises for Programmers</a>, by Brian Hogan. The book provides various situations that a programmer may find themselves needing to create an app of some sort. The point is to really get you to think about pseudocode and how to plan out a project before jumping into it head first.",
 				"The exercises start out easy to get used to the idea of pseudocode and practicing writing it on a beginner level. He encourages you to consider the input and the output separately. First, you want to think about what the user needs to enter and what they expect at the end. Write everything out in human readable terms and THEN figure out what code is needed to achieve those expectations.",
 				"The pseudocode part is more behind the scenes and specific to the programmer. I like to write things out by hand with a good old-fashioned pen and notebook. Sometimes I add pseudocode to the actual file itself and comment it out so that it isn't on the live site. You can always see that in the Github though!"
 			]
