@@ -8,7 +8,8 @@
 	}
 
 	include('header.php');
-
+	
 	renderPage($activePage);
+	
 	include('footer.php');
 ?>
