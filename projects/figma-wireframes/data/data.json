@@ -1,0 +1,49 @@
+{
+	"data": true,
+	"modules": [
+		{
+			"type": "header",
+			"components": [
+				{
+					"type": "logo"
+				},
+				{
+					"type": "nav"
+				}
+			]
+		},
+		{
+			"type": "hero"
+		},
+		{
+			"type": "video-module"
+		},
+		{
+			"type": "article-module"
+		},
+		{
+			"type": "testimonials"
+		},
+		{
+			"type": "call-to-action"
+		},
+		{
+			"type": "faq"
+		},
+		{
+			"type": "footer"
+		},
+		{
+			"type": "article-grid"
+		},
+		{
+			"type": "upload-content"
+		},
+		{
+			"type": "recent-news"
+		},
+		{
+			"type": "email-signup"
+		}
+	]
+}
