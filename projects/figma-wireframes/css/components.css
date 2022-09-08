@@ -11,3 +11,10 @@
 	align-items: center;
 	gap: 1rem;
 }
+
+/*BUTTON*/
+a.button {
+	display: inline-block;
+	border: 1px solid blue;
+	padding: 0.5rem 1rem;
+}
