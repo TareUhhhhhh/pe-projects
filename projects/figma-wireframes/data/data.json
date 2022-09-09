@@ -32,18 +32,6 @@
 		},
 		{
 			"type": "footer"
-		},
-		{
-			"type": "article-grid"
-		},
-		{
-			"type": "upload-content"
-		},
-		{
-			"type": "recent-news"
-		},
-		{
-			"type": "email-signup"
 		}
 	]
 }
