@@ -47,6 +47,82 @@ hero-module .text-content {
 }
 
 /*VIDEO PLAYER*/
+video-module h2 {
+	margin-top: 1rem;
+}
+
+video-module .text-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .video-player {
 	margin-top: 2rem;
+}
+
+/*ARTICLE*/
+article-display {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.article-list li {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.3rem;
+}
+
+li + li {
+	margin-top: 1rem;
+}
+
+.article-number {
+	display: inline;
+	padding: 1rem;
+	background-color: lightblue;
+	border: .1px solid lightblue;
+	border-radius: 30px;
+}
+
+@media(min-width: 600px) {
+	.article-list li {
+		flex-direction: row;
+	}
+}
+
+/*TESTIMONIAL COMPONENTS*/
+.section-heading {
+	text-align: center;
+}
+
+.review-carousel {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1rem;
+}
+
+.review-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.5rem;
+	text-align: center;
+}
+
+/*CTA*/
+
+call-to-action .button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0.4rem 2rem;
+}
+
+call-to-action svg path {
+	stroke: white;
 }

@@ -45,6 +45,10 @@ p {
 	letter-spacing: 0.012rem;
 }
 
+* + p {
+	margin-top: 1rem;
+}
+
 * {
 	/*margin-top: 2rem;*/
 }
