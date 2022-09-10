@@ -9,6 +9,8 @@
 		<details closed>
 			<summary>
 				<h3>How soon will my order ship?</h3>
+
+				<?php include('sections/components/arrow-right.svg'); ?>
 			</summary>
 
 			<p>It's a surprise!</p>
@@ -17,6 +19,8 @@
 		<details open>
 			<summary>
 				<h3>Are there any warranty exclusions?</h3>
+
+				<?php include('sections/components/arrow-right.svg'); ?>
 			</summary>
 
 			<p>Probably!</p>
@@ -25,6 +29,8 @@
 		<details closed>
 			<summary>
 				<h3>Are there any return exclusions?</h3>
+
+				<?php include('sections/components/arrow-right.svg'); ?>
 			</summary>
 
 			<p>Absolutely</p>
@@ -33,6 +39,8 @@
 		<details closed>
 			<summary>
 				<h3>Will I be charged for a replacement item?</h3>
+
+				<?php include('sections/components/arrow-right.svg'); ?>
 			</summary>
 
 			<p>Well, duh...</p>
@@ -41,6 +49,8 @@
 		<details closed>
 			<summary>
 				<h3>How can I track my orders & payment?</h3>
+
+				<?php include('sections/components/arrow-right.svg'); ?>
 			</summary>
 
 			<p>I would recommend a checkbook or online banking.</p>

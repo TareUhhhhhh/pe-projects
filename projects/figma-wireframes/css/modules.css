@@ -71,3 +71,16 @@ call-to-action {
 	text-align: center;
 	margin-top: 1rem;
 }
+
+/*FOOTER*/
+.has-footer {
+	padding-top: 4rem;
+	background: blue;
+	color: white;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
