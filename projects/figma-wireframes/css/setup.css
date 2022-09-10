@@ -39,8 +39,6 @@ img {
 
 /*SETTINGS*/
 
-body {
-	--black: #111;
-	--white: #9c9b99;
-	--accent: #be7f7f;
+:where(:not(:defined)) {
+	display: block;
 }

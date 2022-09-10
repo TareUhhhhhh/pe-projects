@@ -2,7 +2,7 @@
 	<div class="text-content">
 		<p>Some text on top here like this</p>
 
-		<h1>This is another header on this page</h1>
+		<h2>This is another header on this page</h2>
 
 		<p>Some text on bottom here like this</p>
 	</div>

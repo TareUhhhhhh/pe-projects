@@ -2,9 +2,9 @@
 @import 'setup.css';
 @import 'components.css';
 @import 'modules.css';
+@import 'settings.css';
 
 /** { outline: 1px solid gray; }*/
-
 
 /*TEXT*/
 body {
@@ -14,12 +14,13 @@ body {
 
 h1 {
 	color: var(--white);
-	font-size: 4rem;
-	font-weight: 300;
+	font-size: 3.5rem;
+	font-weight: 500;
 }
 
 h2 {
 	font-size: 2rem;
+	font-weight: 400;
 }
 
 a {
@@ -42,4 +43,8 @@ p {
 	max-width: 62ch;
 	line-height: 1.2;
 	letter-spacing: 0.012rem;
+}
+
+* {
+	/*margin-top: 2rem;*/
 }
