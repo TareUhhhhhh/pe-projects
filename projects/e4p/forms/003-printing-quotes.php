@@ -29,7 +29,7 @@
 			<input type="text" name="name" required>
 		</div>
 
-		<button  class='efp'method="submit" name="submitted">Submit</button>
+		<button  class='efp' method="submit" name="submitted">Submit</button>
 	</form>
 
 	<?php
