@@ -1,0 +1,23 @@
+{
+	"data": true,
+	"modules": [
+		{
+			"type": "hero"
+		},
+		{
+			"type": "recent-news"
+		},
+		{
+			"type": "article-grid"
+		},
+		{
+			"type": "testimonials"
+		},
+		{
+			"type": "faq"
+		},
+		{
+			"type": "email-signup"
+		}
+	]
+}
