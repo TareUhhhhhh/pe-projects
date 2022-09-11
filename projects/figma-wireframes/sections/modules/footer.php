@@ -1,5 +1,7 @@
+</main>
 <footer>
-	<footer-content>
+	<div class="inner-column">
+		<footer-content>
 		<footer-nav>
 			<div class="product-nav">
 				<h4>Product</h4>
@@ -66,5 +68,6 @@
 		<div class="social-links">
 			<?php include('sections/components/social.svg'); ?>
 		</div>
+	</div>
 	</div>
 </footer>

@@ -2,17 +2,6 @@
 	"data": true,
 	"modules": [
 		{
-			"type": "header",
-			"components": [
-				{
-					"type": "logo"
-				},
-				{
-					"type": "nav"
-				}
-			]
-		},
-		{
 			"type": "hero"
 		},
 		{
@@ -29,9 +18,6 @@
 		},
 		{
 			"type": "faq"
-		},
-		{
-			"type": "footer"
 		}
 	]
 }
