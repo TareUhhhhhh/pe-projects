@@ -23,6 +23,13 @@ hero-module {
 	margin: 3rem 2rem;
 }
 
+@media(min-width: 700px) {
+	hero-module {
+		margin: 3rem 2rem;
+		padding: 5rem 7rem;
+	}
+}
+
 /*VIDEO*/
 video-module {
 	margin: 2rem 1rem;
@@ -32,6 +39,7 @@ video-module {
 article-module {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	gap: 1rem;
 	flex-basis: auto;
 }
@@ -64,7 +72,7 @@ call-to-action {
 	align-items: center;
 	align-content: center;
 	background: lightblue;
-	padding: 2rem 3rem;
+	padding: 2rem;
 }
 
 :is(call-to-action) p, h2 {
@@ -72,15 +80,29 @@ call-to-action {
 	margin-top: 1rem;
 }
 
+@media(min-width: 500px) {
+	call-to-action {
+		padding: 4rem 6rem;
+	}
+}
+
+@media(min-width: 700px) {
+	call-to-action {
+		padding: 8rem 8rem;
+	}
+}
+
 /*FOOTER*/
-.has-footer {
+footer {
 	padding-top: 4rem;
 	background: blue;
 	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	flex-wrap: wrap;
 }
 
-footer {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+footer .inner-column {
+	padding: 0;
 }
