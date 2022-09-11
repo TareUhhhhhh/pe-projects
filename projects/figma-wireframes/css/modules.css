@@ -1,5 +1,5 @@
 /*HEADER*/
-header {
+.page-header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -93,16 +93,15 @@ call-to-action {
 }
 
 /*FOOTER*/
-footer {
-	padding-top: 4rem;
-	background: blue;
-	color: white;
+.page-footer {
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
 	flex-wrap: wrap;
 }
 
-footer .inner-column {
-	padding: 0;
+footer {
+	padding-top: 4rem;
+	background: blue;
+	color: white;
 }
