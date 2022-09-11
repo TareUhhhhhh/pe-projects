@@ -39,9 +39,14 @@
 		<form action="_POST" class="subscribe">
 			<label><h3>Subscribe</h3></label>
 
-			<input type="email">
+			<div class="enter">
 
-			<input type="button">
+				<input type="email">
+
+				<button type='submit' class='subscribe' default='enter email here'>
+					<?php include('sections/components/arrow-right.svg');?>
+				</button>
+			</div>
 
 			<p>Gravida sed justo, justo, id est et. Amet tristique convallis sed porttitor nullam eu ut. Duis et odio aliquam bibendum. Metus et lectus id viverra fringilla magna morbi. </p>
 		</form>
