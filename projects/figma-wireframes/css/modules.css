@@ -76,7 +76,6 @@ call-to-action {
 }
 
 :is(call-to-action) p, h2 {
-	text-align: center;
 	margin-top: 1rem;
 }
 
