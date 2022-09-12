@@ -72,6 +72,18 @@ testimonial-module {
 	justify-content: center;
 }
 
+.client {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1rem;
+}
+
+.client-info {
+	text-align: left;
+}
+
 /*CTA*/
 call-to-action {
 	display: flex;
@@ -108,6 +120,5 @@ call-to-action {
 
 footer {
 	padding-top: 4rem;
-	background: blue;
-	color: white;
+	color: gray;
 }

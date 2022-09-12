@@ -13,17 +13,14 @@
 
 			<p>“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”</p>
 
-			<?php include('sections/image.svg'); ?>
-			<h3 class="client-name">Courtney Henry</h3>
-		</div>
+			<div class="client">
+				<?php include('sections/image.svg'); ?>
+				<div class="client-info">
+					<h3 class="client-name">Courtney Henry</h3>
 
-		<div class="review-card">
-			<?php include('sections/components/stars.svg');?>
-
-			<p>“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”</p>
-
-			<?php include('sections/image.svg'); ?>
-			<h3 class="client-name">Courtney Henry</h3>
+					<h4 class="client-title">Marketing Coordinator</h4>
+				</div>
+			</div>
 		</div>
 
 		<?php include('sections/components/arrow-right.svg'); ?>

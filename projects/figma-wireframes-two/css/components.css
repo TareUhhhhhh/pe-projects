@@ -96,7 +96,7 @@ article-grid {
 }
 
 article {
-	border: 1px solid blue;
+	border: 1px solid gray;
 	padding: 1rem;
 	flex-basis: 45%;
 }
@@ -187,6 +187,22 @@ call-to-action svg path {
 	stroke: white;
 }
 
+.links {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+}
+
+.cta.button:nth-of-type(2) {
+	background-color: lightblue;
+	color: blue;
+}
+
+.cta.button:nth-of-type(2) svg path {
+	stroke: blue;
+}
+
 /*FAQ*/
 .section-title {
 	display: flex;
@@ -239,7 +255,8 @@ footer-nav ul {
 
 .subscribe {
 	padding: 2rem;
-	background-color: darkblue;
+	background-color: lightblue;
+	color: black;
 }
 
 .subscribe svg {
@@ -252,7 +269,6 @@ footer-nav ul {
 	flex-direction: row;
 	align-items: center;
 	gap: 1rem;
-	justify-content: ;
 }
 
 .enter input {
@@ -262,7 +278,7 @@ footer-nav ul {
 button.subscribe {
 	display: inline;
 	border: 1px solid white;
-	background-color: navy;
+	background-color: blue;
 	padding: 0.25rem 0.5rem;
 	margin: 0;
 }

@@ -8,10 +8,10 @@
 			"type": "upload-content"
 		},
 		{
-			"type": "article-grid"
+			"type": "testimonials"
 		},
 		{
-			"type": "testimonials"
+			"type": "article-grid"
 		},
 		{
 			"type": "call-to-action"
