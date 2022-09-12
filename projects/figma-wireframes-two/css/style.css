@@ -51,8 +51,8 @@ a:hover {
 p {
 	margin-top: 0.5rem;
 	max-width: 62ch;
-	line-height: 1.2;
-	letter-spacing: 0.012rem;
+	line-height: 1.3;
+	letter-spacing: 0.02rem;
 }
 
 * + p {

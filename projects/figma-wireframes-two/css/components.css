@@ -1,3 +1,13 @@
+.title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title p {
+	text-align: center;
+}
+
 /*NAV*/
 .header-nav {
 	display: none;
@@ -76,10 +86,23 @@ video-module .text-content {
 }
 
 /*ARTICLE*/
-article-display {
+article-grid {
+	margin-top: 1rem;
 	display: flex;
-	flex-direction: column;
-	gap: 2rem;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+article {
+	border: 1px solid blue;
+	padding: 1rem;
+	flex-basis: 45%;
+}
+
+article picture {
+	max-width: 50px;
 }
 
 .article-list {
@@ -108,8 +131,8 @@ li + li {
 }
 
 @media(min-width: 600px) {
-	.article-list li {
-		flex-direction: row;
+	article {
+		flex-basis: 31%;
 	}
 }
 

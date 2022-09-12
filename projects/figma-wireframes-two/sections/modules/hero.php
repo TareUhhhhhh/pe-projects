@@ -7,7 +7,5 @@
 
 	<div class="links">
 		<a href="#" class='button get-started'>Button Link</a>
-
-		<a href="#" class='button start-free'>Button Link</a>
 	</div>
 </hero-module>
