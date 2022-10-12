@@ -1,0 +1,12 @@
+
+.style-guide-page {
+
+}
+
+.style-guide-page .voice {
+	padding:  20px 0;
+}
+
+.style-guide-page .voice * {
+	word-break: break-all;
+}
