@@ -1,42 +1,30 @@
-footer {
+.site-footer {
 	margin-top: 3rem;
 	background: var(--accent);
-	/*overflow: hidden;*/
 	padding: 3vh 0 7vh 0;
 }
 
-footer .inner-column {
+.site-footer .inner-column {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 50px;
 }
 
-footer h2 {
+.site-footer h2 {
 	font-size: 1.5rem;
 }
 
-footer p, footer a {
+.site-footer p, .site-footer a {
 	color: var(--paper);
-	font: Helvetica;
-	font-size: 1.1rem;
-	font-weight: 200;
 }
 
-footer {
-	position: relative;
-	right: 0;
-	top: 0;
-	/*max-width: 56vw;*/
-	/*min-height: 10vh;*/
-}
-
-footer a:hover {
-	color: var(--alternate);
+.site-footer a:hover {
+	color: var(--alt-dark);
 }
 
 @media (min-width: 500px) {
-	footer .inner-column {
+	.site-footer .inner-column {
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;

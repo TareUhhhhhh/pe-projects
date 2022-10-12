@@ -10,16 +10,16 @@ html {
 	--ink: var(--black);
 }
 
-body.light {
-	--paper: var(--white);
-	--ink: var(--black);	
-	--accent: var(--color-dark);
-	--alternate: var(--alt-dark);
-}
-
-body.dark {
+[data-theme="dark"] {
 	--paper: var(--black);
 	--ink: var(--gray);
 	--accent: var(--color-light);
 	--alternate: var(--alt-light);
+}
+
+[data-theme="light"] {
+	--paper: var(--white);
+	--ink: var(--black);	
+	--accent: var(--color-dark);
+	--alternate: var(--alt-dark);
 }

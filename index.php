@@ -1,15 +1,13 @@
-<?php 
+<?php
+	// global functions
 	include("functions.php");
 
-	if (isset($_GET["page"])) {
-		$activePage = $_GET["page"];
-	} else {
-		$activePage = "home";
-	}
+	// the "database"
+	include('page-data.php');
+
 
 	include('header.php');
 	
 	renderPage($activePage);
 	
 	include('footer.php');
-?>

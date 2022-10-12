@@ -1,41 +1,74 @@
 @import 'fonts/ftg-font/stylesheet.css';
 @import 'fonts/raleway/stylesheet.css';
 
-body, ul, li {
+body {
 	font-family: 'Raleway';
 }
 
-h1 {
-	font-family: 'Fredericka the Great';
-	font-size: 4rem;
-}
-
-h2 {
-	font-family: 'Fredericka the Great';
-	font-size: 2.3rem;
-	font-weight: 300;
-}
-
-p, ul, li, a, h3 {
-	font-family: 'Raleway';
-	line-height: 1.5;
-	font-size: 1.2rem;
+.calm-voice, p {
+	font-size: 1rem;
+	line-height: 1.4;
 	font-weight: 200;
 	letter-spacing: .02em;
 	max-width: 62ch;
+	color: red;
 }
+
+@media (min-width:  700px) {
+	.calm-voice, p {
+		font-size: 1.1rem;
+	}
+}
+
+.intro-voice {
+	font-size: 1.2rem;
+	line-height: 1.4;
+	font-weight: 200;
+	letter-spacing: .02em;
+	max-width: 62ch;
+	color: red;
+}
+
+@media (min-width:  700px) {
+	.intro-voice {
+		font-size: 1.3rem;
+	}
+}
+
+.attention-voice {
+	font-family: 'Fredericka the Great';
+	font-size: 2rem;
+	line-height: 1.3;
+	font-weight: 300;
+}
+
+.loud-voice {
+	font-family: 'Fredericka the Great';
+	font-size: 4rem;
+	line-height: 1.3;
+}
+
+.mono-voice {
+	font-family: monospace;
+	font-size: .9rem;
+}
+
 
 h3 {
 	font-size: 1.8rem;
 }
 
-ul {
+/*ul {
 	font-family: 'Raleway';
 	font-size: 1.1rem;
 	font-weight: 200;	
 	max-width: 62ch;
+}*/
+
+p a {
+	color: var(--inkalt);
 }
 
-li + h2 {
-	padding-top: 40px;
+a:hover {	
+	color: var(--alternate);
 }

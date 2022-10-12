@@ -1,13 +1,14 @@
 <?php
 	$pageHeading = $module["title"];
 	$pageContent = $module["subtitle"];
-	$activePage = $pageData["slug"];
 ?>
 
-<section class="intro <?=$activePage?>">
+<section class="intro">
 	<article class="intro-content">
-		<h1><?=$pageHeading?></h1>
-		<?=$pageContent?>	
+
+		<h1 class="loud-voice"><?=$pageHeading?></h1>
+		
+		<?=$pageContent?>
+
 	</article>	
 </section>
-

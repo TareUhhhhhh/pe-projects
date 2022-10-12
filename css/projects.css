@@ -1,131 +1,23 @@
-project-grid {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	gap: 5px;
-}
 
 project-card {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-	margin: 20px 0;
-	color: var(--paper);
-	border-bottom:  1px dashed var(--accent);
-	padding-bottom: 2rem;
-	/*max-width: 300px;*/
-}
 
-project-card picture {
-	max-width: 300px;
-}
-
-project-card p {
-	font-size: 18px;
-}
-
-project-card a {
-	padding: 15px 20px;
-	text-align: center;
-	font-size: 1.2rem;
-	border-radius: 3px;
-	background: var(--ink);
-	color: var(--paper);
-}
-
-project-card a:hover {
-	color: var(--alternate);
-}
-
-project-card h2 {
-	font-size: 1.7rem;
-	max-width: 60ch;
-	padding-bottom: 20px;
-}
-
-.project-description {
-	max-width: 60ch;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	gap: 1rem;
-}
-
-.project-title {
-	color: var(--accent);
-}
-
-.project-teaser {
-	color: var(--ink);
-}
-
-.project-button {
-	background: var(--accent);
-}
-
-.project-links {
-	display: flex;
-	margin-top: 1rem;
-	gap: 1rem;
-}
-
-.project-links a {
-	background-color: var(--accent);
-	color: var(--paper);
-	padding: 0.5rem 1.5rem;
-	border-radius: 3px;
-}
-
-.screenshot img {
-	max-height: 31vh;
-	width: auto;
-}
-
-.caption {
-	font-family: monospace;
-	padding-top: 1rem;
-}
-
-@media (min-width: 500px) {
-	project-grid {
-		flex-direction: column;
-	}
-
-	project-card {
-		/*flex-direction: row;*/
-	}
-
-	a.project-button {
-		margin-top: 0;
-	}
-
-	.highlights-list {
-		display: flex;
-		flex-direction: row;
-		gap: 2rem;
-		flex-wrap: wrap;
-	}
 }
 
 @media (min-width: 700px) {
-	.project-description {
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: flex-start;
-		max-width: 900px;
+	project-card {
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		gap: 0 30px;
+	}
+	project-card .title {
+		grid-column: span 3;
+		color: var(--accent);
 	}
 
-	.project-teaser {
-		max-width: 48ch;
+	project-card .button {
+		align-self: start;
+		justify-self: end;
 	}
-
-
 }
 
-
-
-
-
-
-
-
+/* PROJECT DETAIL PAGE HERE */

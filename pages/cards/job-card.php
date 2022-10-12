@@ -1,24 +1,18 @@
+
 <article class="resume-entry job">
-	<div class="company">
-		<h2 class='company'><?=$company?></h2>
-	</div>
 
-	<div class="job-title">
-		<h3 class="job-title"><?=$jobTitle?></h3>
-	</div>
+	<h1 class='company attention-voice'><?=$company?></h1>
 
-	<div class="years-active">
-		<h3 class="years-active"><?=$yearsActive?></h3>
-	</div>
+	<p class="years-active mono-voice"><?=$yearsActive?></p>
 
-	<div class="responsibilities">
-		<ul class="responsiblities">
-			<?php
-				foreach( $entry['responsibilities'] as $duty) { ?>
+	<p class="job-title"><?=$jobTitle?></p>
 
-					<li><?=$duty?></li>
+	<ul class="responsiblities">
+		<?php foreach( $entry['responsibilities'] as $duty) { ?>
+			<li>
+				<p><?=$duty?></p>
+			</li>
+		<?php	} ?>
+	</ul>
 
-			<?php	} ?>
-		</ul>
-	</div>
 </article>

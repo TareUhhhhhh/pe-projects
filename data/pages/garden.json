@@ -1,0 +1,8 @@
+{
+	"slug": "garden",
+	"modules": [
+		"type": "page-intro",
+		"title": "Responsive Garden",
+		"subtitle": "A collection of responsive layouts."
+	]
+}
