@@ -22,9 +22,15 @@
 		$json = file_get_contents("data/pages/$page.json");
 		$pageData = json_decode($json, true);
 	}
+
+	if(isset($pageData["modules"])) { 
+		foreach($pageData["modules"] as $module) {
+			$moduleName = $module["type"];
+		}
+	}
 ?>
 
-<section class="has-<?=$module['type']?>">
+<section class="has-<?=$moduleName?>">
 <div class="inner-column">
 	<?php if(isset($pageData["modules"])) { ?>
 		<?php	foreach($pageData["modules"] as $module) { ?>
