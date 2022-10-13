@@ -2,27 +2,26 @@
 <div class="inner-column">
 
 	<section class="work-history">
-		<h2 class='section-title'>Work History</h2>
+		<h1 class='section-title attention-voice'>Work History</h1>
 
 		<?php
-		$json = file_get_contents('data/resumeData.json');
-		$resumeData = json_decode($json, true);
+			$json = file_get_contents('data/resumeData.json');
+			$resumeData = json_decode($json, true);
 
-		foreach ($resumeData as $entry) { 
+			foreach ($resumeData as $entry) { 
 
-			if ( $entry['type'] == "job" ) { 
-				$company = $entry['company'];
-				$jobTitle = $entry['title'];
-				$yearsActive = $entry['years'];
+				if ( $entry['type'] == "job" ) { 
+					$company = $entry['company'];
+					$jobTitle = $entry['title'];
+					$yearsActive = $entry['years'];
 
-				include('cards/job-card.php');
-			} 
+					include('cards/job-card.php');
+				} 
 		} ?>
-
 	</section>
 	
 	<section class="education">
-		<h2 class="section-title">Education</h2>
+		<h2 class="section-title attention-voice">Education</h2>
 		<?php
 			foreach ($resumeData as $entry) { 
 				if ($entry['type'] == "school") {
