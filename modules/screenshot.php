@@ -3,5 +3,5 @@
 		<img src="<?=$module['image']?>" alt="">
 	</picture>
 
-	<p class="caption"><?=$module['caption']?></p>
+	<p class="mono-voice"><?=$module['caption']?></p>
 </section>

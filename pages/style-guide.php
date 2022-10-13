@@ -38,7 +38,7 @@
 		
 		<type-patterns>
 
-			<p>Type patterns</p>
+			<h2 class="attention-voice">Type patterns</h2>
 			
 			<?php foreach ($voices as $voice) { ?>
 				<div class="voice">
