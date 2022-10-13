@@ -2,11 +2,6 @@
 	"slug": "style-guide",
 	"modules": [
 		{
-			"type": "page-intro",
-			"title": "Style Guide",
-			"subtitle": "Welcome to the Style Guide."
-		},
-		{
 			"type": "text-content",
 			"title": "Text Content Module",
 			"paragraph": ["This would be a paragraph that is typed into the json file.", "There can be multiple paragraphs, as I made an array and a foreach loop to filter in as many paragraphs as necessary."]

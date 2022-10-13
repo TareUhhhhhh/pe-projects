@@ -1,6 +1,6 @@
 
 <?php
-	$textSpecimen = "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz !@#$%^&*()";
+	$textSpecimen = "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890 !@#$%^&*()";
 
 	$voices = [
 		[
@@ -28,6 +28,13 @@
 
 <section>
 	<div class="inner-column">
+
+		<?php 
+			$module["type"] = "page-intro";
+			$module["title"] = "Style Guide";
+			$module["subtitle"] = "Welcome to the Style Guide.";
+			include("modules/page-intro.php");
+		?>
 		
 		<type-patterns>
 
