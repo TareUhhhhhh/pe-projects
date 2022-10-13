@@ -24,21 +24,19 @@
 	}
 ?>
 
+<section class="has-<?=$module['type']?>">
+<div class="inner-column">
+	<?php if(isset($pageData["modules"])) { ?>
+		<?php	foreach($pageData["modules"] as $module) { ?>
 
-<?php if(isset($pageData["modules"])) { ?>
-	<?php	foreach($pageData["modules"] as $module) { ?>
-
-		<section class="has-<?=$module['type']?>">
-		<div class="inner-column">
-			<?php	
-				$filePath = "modules/$module[type].php";
+			<?php	$filePath = "modules/$module[type].php"; ?>
 				
-				if ($module && file_exists($filePath)) {
-					include($filePath);
-				}
-			?>
-		</div>
-		</section>
-
+				<?php
+					if ($module && file_exists($filePath)) {
+						include($filePath);
+				?>
+			<?php	} ?>
+		<?php } ?>
 	<?php } ?>
-<?php } ?>
+</div>
+</section>
