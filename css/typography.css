@@ -44,7 +44,7 @@ body {
 
 .loud-voice {
 	font-family: 'Fredericka the Great';
-	font-size: 4rem;
+	font-size: 3rem;
 	line-height: 1.3;
 }
 
@@ -71,4 +71,10 @@ p a {
 
 a:hover {	
 	color: var(--alternate);
+}
+
+@media(min-width: 400px) {
+	.loud-voice {
+		font-size: 4rem;
+	}
 }
