@@ -1,6 +1,6 @@
 
 <article class="resume-entry school">
-	<h1 class="school-name attention-voice">
+	<h1 class="school-name important-voice">
 		<?=$entry['name']?>		
 	</h1>
 
