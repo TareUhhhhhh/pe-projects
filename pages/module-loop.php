@@ -30,7 +30,7 @@
 	}
 ?>
 
-<section class="has-<?=$moduleName?>">
+<section>
 <div class="inner-column">
 	<?php if(isset($pageData["modules"])) { ?>
 		<?php	foreach($pageData["modules"] as $module) { ?>
