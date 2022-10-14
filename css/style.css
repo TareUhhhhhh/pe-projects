@@ -26,6 +26,10 @@
 	color: var(--accent);
 }
 
+.list {
+	margin-top: 1rem;
+}
+
 
 html {
 	overflow-y: scroll;
@@ -101,6 +105,10 @@ p + a {
 
 .career-goals {
 	padding-top: 20px;
+}
+
+.page-header {
+	padding: 2rem 0;
 }
 
 .rectangle {
