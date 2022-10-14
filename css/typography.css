@@ -51,6 +51,10 @@ body {
 	font-size: .9rem;
 }
 
+.italic {
+	font-style: italic;
+}
+
 
 h3 {
 	font-size: 1.8rem;
