@@ -3,6 +3,6 @@
 	$slug = $image["slug"];
 ?>
 
-<picture>
+<picture class="<?=$slug?>">
 	<img src='<?=$imgFile?>' alt='<?=$slug?>'>
 </picture>

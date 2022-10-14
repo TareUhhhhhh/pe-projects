@@ -1,22 +1,27 @@
-.has-image-gallery {
+.about-page {
 	margin-top: 1rem;
 }
 
-.has-image-gallery picture {
+.about-page picture {
 	/*display: block;*/
 	max-width: 600px;
 	height: 100%;
 	padding: 5px;
 }
 
-.has-image-gallery .inner-column {
-	column-count: 1;
-	column-gap: 0;
-	max-width: 900px;
+.about-page image-gallery {
+	display: grid;
+	justify-items: center;
 }
 
 @media(min-width: 600px) {
-	.has-image-gallery .inner-column {
-		column-count: 2;
+	.about-page image-gallery {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		gap: 1rem;
+	}
+
+	.seahorse {
+		grid-row: span 2;
 	}
 }

@@ -1,9 +1,11 @@
-<?php
-	if ($module['type'] == "image-gallery") {
-			$images = $module['images'];
-		}
+<image-gallery>
+	<?php
+		if ($module['type'] == "image-gallery") {
+				$images = $module['images'];
+			}
 
-	foreach ($images as $image) {
-		include('image-card.php');
-	}
-?>
+		foreach ($images as $image) {
+			include('image-card.php');
+		}
+	?>
+</image-gallery>
