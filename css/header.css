@@ -19,9 +19,10 @@ site-header a {
 	padding: 10px 14px;
 }
 
-@media (min-width:  900px) {
+@media (min-width:  500px) {
 	site-header {
 		display: flex;
+		flex-direction: row;
 		justify-content: space-between;
 	}
 }
