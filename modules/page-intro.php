@@ -3,12 +3,9 @@
 	$pageContent = $module["subtitle"];
 ?>
 
-<section class="intro">
-	<article class="intro-content">
 
-		<h1 class="loud-voice"><?=$pageHeading?></h1>
-		
-		<?=$pageContent?>
-
-	</article>	
-</section>
+<article class="page-intro">
+	<h1 class="loud-voice"><?=$pageHeading?></h1>
+	
+	<?=$pageContent?>
+</article>

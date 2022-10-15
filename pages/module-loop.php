@@ -29,20 +29,17 @@
 		}
 	}
 ?>
-
-<section>
-<div class="inner-column">
+	
 	<?php if(isset($pageData["modules"])) { ?>
 		<?php	foreach($pageData["modules"] as $module) { ?>
 
-			<?php	$filePath = "modules/$module[type].php"; ?>
-				
-				<?php
-					if ($module && file_exists($filePath)) {
-						include($filePath);
-				?>
-			<?php	} ?>
+				<?php	$filePath = "modules/$module[type].php"; ?>
+					
+					<?php
+						if ($module && file_exists($filePath)) {
+							include($filePath);
+					?>
+				<?php	} ?>
+
 		<?php } ?>
 	<?php } ?>
-</div>
-</section>

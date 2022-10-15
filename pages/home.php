@@ -1,1 +1,5 @@
-<?php include('module-loop.php'); ?>
+<section class="home">
+<div class="inner-column">
+	<?php include('module-loop.php'); ?>
+</div>
+</section>

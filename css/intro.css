@@ -3,11 +3,11 @@
 	font-size: 3rem;
 }
 
-.intro {
+.page-intro {
 	margin: 2rem 0;
 }
 
-.intro p {
+.page-intro p {
 	/*max-width: 50ch;*/
 	line-height: 1.7;
 }
@@ -20,12 +20,12 @@
 	font-style: italic;
 }
 
-.intro h1 + p {
+.page-intro h1 + p {
 	padding-top: 20px;
 }
 
 @media (min-width: 400px) {
-	.intro p {
+	.page-intro p {
 		font-size: 1.3rem;
 		font-weight: 200;
 	}
@@ -35,13 +35,3 @@
 	}
 }
 
-@media (min-width: 530px) {
-	/*.intro h1 {
-		font-size: 4rem;
-	}*/
-
-	.intro p {
-		/*font-size: 1.5rem;*/
-		font-weight: 200;
-	}
-}
