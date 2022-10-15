@@ -176,9 +176,10 @@ p + a {
 
 /*RESUME PAGE*/
 .resume-entry {
-	border: 1px dashed var(--accent);
+	border-bottom: 1px solid var(--accent);
+	border-left: 1px solid var(--accent);
 	margin-top: 2rem;
-	padding: 0.75rem;
+	padding: 1.5rem;
 }
 
 
