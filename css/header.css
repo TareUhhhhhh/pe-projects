@@ -3,24 +3,24 @@
 	
 }
 
-.site-header .inner-column {
+site-header {
 	padding: 0;
 	padding-top: 10px;
 }
 
-.site-header :is(.info-nav, .about-nav) {
+site-header :is(.info-nav, .about-nav) {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	gap: 0 10px;
 }
 
-.site-header a {
-	padding: 5px 14px;
+site-header a {
+	padding: 10px 14px;
 }
 
 @media (min-width:  900px) {
-	.site-header .inner-column {
+	site-header {
 		display: flex;
 		justify-content: space-between;
 	}

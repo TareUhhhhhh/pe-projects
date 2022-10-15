@@ -7,10 +7,9 @@
 
 	<body class="<?=$activePage?>-page">
 
-
 		<header class="site-header">			
-			<div class="inner-column">
-
+		<div class="inner-column">
+			<site-header>
 				<nav class="info-nav">
 					<a href="?">Home</a>
 					<a href="?page=projects">Projects</a>
@@ -21,10 +20,9 @@
 					<a href="?page=about">About</a>
 					<a href="?page=resume">Resume</a>
 				</nav>
-
-			</div>
+			</site-header>
+		</div>
 		</header>
-
 
 		<main>
 			<!-- page content -->
