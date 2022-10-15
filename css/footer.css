@@ -4,27 +4,27 @@
 	padding: 3vh 0 7vh 0;
 }
 
-.site-footer .inner-column {
+site-footer {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 50px;
 }
 
-.site-footer h2 {
+site-footer h2 {
 	font-size: 1.5rem;
 }
 
-.site-footer p, .site-footer a {
+site-footer :is(p, a) {
 	color: var(--paper);
 }
 
-.site-footer a:hover {
+site-footer a:hover {
 	color: var(--alt-dark);
 }
 
 @media (min-width: 500px) {
-	.site-footer .inner-column {
+	site-footer {
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
