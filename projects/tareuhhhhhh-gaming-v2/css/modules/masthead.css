@@ -19,13 +19,18 @@ mast-head nav {
 mast-head .logo {
   /*display: block;*/
   max-width:  40px;
+  padding: 5px;
 }
 
-mast-head a {
+mast-head a:not(.logo) {
   font-family: 'Lato' sans-serif;
   font-size: .7rem;
   font-weight: 200;
-  padding:  5px;
+  padding:  1rem;
+}
+
+mast-head a:hover {
+  border-bottom: 1px solid var(--blue);
 }
 
 .site-menu {
