@@ -33,30 +33,6 @@ mast-head a:hover:not(.logo) {
   border-bottom: 1px solid var(--blue);
 }
 
-.site-menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 5px;
-}
-
-footer site-map {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-footer .site-menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 5px;
-}
-
 @media (min-width: 600px) {
   mast-head {
     /*align-items: center;*/
