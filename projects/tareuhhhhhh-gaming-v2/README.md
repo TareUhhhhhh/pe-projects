@@ -1,38 +1,9 @@
 
-# Hello! This is a README
+# Hello! This is my README
 
-It is written in "markdown." Do you know what that is? If not, ask. : )
+The point of this site is as a portfolio piece to demonstrate knowledge gained in creating a website from scratch, as well as doing market research into a given genre and emulating the theme
 
-# Heading 1
 
-Regular paragraph
+## Case Study
 
-## Heading 2
-
-A paragraph with...
-
-* A list of
-
-* Things like this
-
-## What is the point?
-
-You READ it. "Read Me!"
-
-When you first get to a project, this is the "how to" for getting set up and helpful instruction on how to parse the file structure and get thigns up and running.
-
-## Requirements
-
-1. MAMP
-
-2. A browser
-
-3. A text editor
-
-## HOW TO
-
-READ the index.php file from top to bottom. Every time something is 'included' - go look at that file. Keep going until you've read the whole document. Look at the folder structure. You should understand most of it. Write down any questions you have and ask them. : )
-
-## Further info
-
-You can download a "markdown" viewer with Sublime. You can also read about markdown on [the website](https://daringfireball.net/projects/markdown/).
+You can check out [the case study](https://tareuhhhhhh.com/?page=project&project=tareuhhhhhh-gaming-v2) on my website for more information.
