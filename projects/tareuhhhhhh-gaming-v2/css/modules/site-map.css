@@ -34,7 +34,7 @@ site-map a {
 @media (min-width: 500px) {
   site-map {
     flex-direction: row;
-    gap: 2rem;
+    gap: 4rem;
   }
 }
 
