@@ -1,8 +1,6 @@
 
 <?php include('header.php'); ?>
 
-
-
 <section class='not-found'>
 <inner-column>
 
@@ -20,7 +18,5 @@
 
 </inner-column>
 </section>
-
-
 
 <?php include('footer.php'); ?>
