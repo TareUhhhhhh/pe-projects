@@ -1,1 +1,46 @@
-garden.css
+zen-garden, image-grid {
+	display: block;
+}
+
+zen-garden picture {
+
+}
+
+image-grid {
+	display: grid;
+	gap: 1rem;
+	padding: 2rem 0;
+	border-bottom: 2px solid var(--accent);
+}
+
+@media (min-width: 500px) {
+	zen-garden .first, .third, .fourth {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	zen-garden .second, .fifth, .sixth {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	zen-garden .sixth {
+		grid-template-rows: 1fr 1fr;
+	}
+
+	zen-garden .third picture:nth-of-type(1) {
+		grid-column: span 2;
+		max-height: 20%;
+	}
+
+	zen-garden .fourth picture:nth-of-type(3n-2) {
+		grid-column: span 2;
+	}
+
+	zen-garden .fifth :is(picture:nth-of-type(1), picture:nth-of-type(4)) {
+		grid-column: span 2;
+	}
+
+	zen-garden .sixth picture:nth-of-type(1) {
+		grid-column: span 2;
+		grid-row: span 2;
+	}
+}
