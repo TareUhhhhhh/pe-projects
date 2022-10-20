@@ -14,7 +14,6 @@ call-to-action a {
   font-weight: 200;
   margin-top:  20px;
   text-transform: uppercase;
-  background-color: var(--darkgray);
   padding: 10px 20px;
   border-radius: 3px;
 }

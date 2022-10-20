@@ -9,7 +9,7 @@
 
 	<p class='calm-voice'><?=$ctaText?></p>
 
-	<a href='#'>
+	<a class="button" href='#'>
 		<span><?=$prompt?></span>
 	</a>
 </call-to-action>

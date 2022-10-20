@@ -6,15 +6,22 @@
   font-weight: 700;
   letter-spacing: .05em;
   text-decoration: underline;
-  padding:  10px 0;
   /* should a link look like a "button" though? */
   display: flex;
   flex-direction: row;
-  border:  1px solid black;
-  padding:  10px;
+  border:  1px solid white;
+  padding:  1em 2em;
   text-decoration: none;
   font-family: sans-serif;
   font-weight:  400;
+  background-color: none;
+  transition: 0.5s background-color linear, 0.1s color linear;
+}
+
+.button:hover {
+  background-color: var(--white);
+  color: var(--black);
+  transition: 0.5s background-color linear, 0.1s color linear;
 }
 
 .arrow {
