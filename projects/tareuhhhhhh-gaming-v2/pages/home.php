@@ -40,5 +40,3 @@
 
 </inner-column>
 </section>
-
-	<a class='back-to-top' href="#">Back to top</a>
