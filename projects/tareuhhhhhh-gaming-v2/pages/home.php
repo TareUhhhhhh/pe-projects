@@ -21,8 +21,8 @@
 <section class="our-team">
 	<inner-column>
 		<?php 
-		$pageContent["heading"] = "Meet The Masters";
-		$pageContent["intro"] = "Our team of storytellers, environment creaters and character developers are the best of the best, in our own biased opinion. (That's why we hired them after all!)";
+		$pageContent["heading"] = "Join The Masters";
+		$pageContent["intro"] = "Our team of storytellers, environment creaters and character developers are the best of the best, in our own biased opinion. (That's why we hired them after all!) Join our growing company with ";
 		$pageContent['image'] = "images/gamer.jpg";
 		include("modules/graphic-diptych.php")?>
 	</inner-column>
