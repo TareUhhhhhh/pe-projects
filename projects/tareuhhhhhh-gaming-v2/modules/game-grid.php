@@ -1,5 +1,6 @@
-<game-grid>
+<h1>Other TareUhhhhhh Gaming Titles</h1>
 
+<game-grid>
 	<?php
 		$json = file_get_contents("data/game-grid.json");
 		$pageData = json_decode($json, true);

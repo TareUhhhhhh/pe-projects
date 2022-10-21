@@ -33,6 +33,12 @@
 
 <section class="spotlight">
 <inner-column>
+	
+</inner-column>
+</section>
+
+<section class="other-games">
+<inner-column>
 	<?php include('modules/game-grid.php') ?>
 </inner-column>
 </section>
