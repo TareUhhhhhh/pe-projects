@@ -8,6 +8,8 @@ html {
 	--lightgray: #353944;
 	--blue: #009ed8;
 	--bluish: rgba(27, 88, 115, 0.7);
+	--ink: var(--white);
+	--paper: var(--black);
 }
 /* you can make more! */
 
