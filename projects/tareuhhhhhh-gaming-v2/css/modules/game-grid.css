@@ -1,0 +1,63 @@
+game-grid, game-card {
+	display: block;
+}
+
+game-grid {
+	margin-top: 3rem;
+}
+
+game-card {
+	display: inline-block;
+	background: rgba(0,0,0, .6);
+	padding: 15px;
+}
+
+game-card h1 {
+	font-size: 32px;
+	color: gray;
+}
+
+game-card picture {
+	margin: 1rem 0;
+}
+
+game-card p {
+	max-width: 27ch;
+	padding-bottom: 10px;
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 200;
+	line-height: 1.2;
+}
+
+game-card a {
+	color: rgba(134, 37, 36, 1.00);
+	font-size: 1.4rem;
+	font-weight: 300;
+}
+
+game-card + game-card {
+	margin-top: 20px;
+}
+
+@media (min-width: 500px) {
+	game-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+	}
+
+	game-grid h1 {
+		grid-column: span 2;
+	}
+}
+
+@media (min-width: 900px) {
+	game-grid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	game-grid h1 {
+		grid-column: span 3;
+	}
+}
