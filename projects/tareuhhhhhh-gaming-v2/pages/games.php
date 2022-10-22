@@ -12,7 +12,7 @@
 			include("game-info.php");
 
 			foreach ($games as $game) {
-			include("game-card.php");
+			// include("game-card.php");
 			}
 		?>
 	</inner-column>

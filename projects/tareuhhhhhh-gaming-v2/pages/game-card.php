@@ -1,3 +1,5 @@
+<!-- Probably needs to be nixed for new game list page idea -- parallax scrolling like on Bloober home page -->
+
 <?php 
 		$title = $game["title"];
 		$description = $game["description"];
