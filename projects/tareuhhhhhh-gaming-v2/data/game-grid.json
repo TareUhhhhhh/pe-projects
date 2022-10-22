@@ -1,6 +1,7 @@
 [
 	{
 		"title": "Scare Layers",
+		"slug": "scare-layers",
 		"genres": [
 			"Horror",
 			"FPS",
@@ -11,6 +12,7 @@
 	},
 	{
 		"title": "Spoops and Skills",
+		"slug": "spoops-and-skills",
 		"genres": [
 			"Horror",
 			"FPS",
@@ -20,43 +22,24 @@
 		"teaser": "This is a game that is spoopy...and tests your skills!"
 	},
 	{
-		"title": "Spoops and Skills",
+		"title": "Mary Mint and Joy",
+		"slug": "mary-mint-and-joy",
 		"genres": [
-			"Horror",
-			"FPS",
-			"Adventure"
+			"Adventure",
+			"Puzzle Solving"
 		],
 		"image": "https://picsum.photos/400/200.jpg?random=2",
 		"teaser": "This is a game that is spoopy...and tests your skills!"
 	},
 	{
 		"title": "Spoops and Skills",
+		"slug": "spoops-and-skills",
 		"genres": [
 			"Horror",
 			"FPS",
 			"Adventure"
 		],
 		"image": "https://picsum.photos/400/200.jpg?random=3",
-		"teaser": "This is a game that is spoopy...and tests your skills!"
-	},
-	{
-		"title": "Spoops and Skills",
-		"genres": [
-			"Horror",
-			"FPS",
-			"Adventure"
-		],
-		"image": "https://picsum.photos/400/200.jpg?random=4",
-		"teaser": "This is a game that is spoopy...and tests your skills!"
-	},
-	{
-		"title": "Spoops and Skills",
-		"genres": [
-			"Horror",
-			"FPS",
-			"Adventure"
-		],
-		"image": "https://picsum.photos/400/200.jpg?random=5",
 		"teaser": "This is a game that is spoopy...and tests your skills!"
 	}
 ]
