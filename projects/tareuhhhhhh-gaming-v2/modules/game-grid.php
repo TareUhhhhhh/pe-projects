@@ -9,16 +9,21 @@
 			$title = $game["title"];
 			$image = $game["image"];
 			$teaser = $game["teaser"];
+			$genres = $game["genres"];
 	?>
 
 		<game-card>
-			<h1 class="title"><?=$game["title"]?></h1>
-
 			<picture>
 				<img src="<?=$image?>">
 			</picture>
 
-			<p class="teaser"><?=$teaser?></p>
+			<h1 class="title"><?=$game["title"]?></h1>
+
+			<h2 class="genre">
+				<?php foreach ($genres as $genre) { ?>
+					<?=$genre?> 
+				<?php } ?>
+			</h2>
 		</game-card>
 
 	<?php	} ?>
