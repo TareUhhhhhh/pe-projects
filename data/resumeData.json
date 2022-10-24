@@ -16,7 +16,11 @@
 		"years": "2020-2021",
 		"title": "Executive Assistant",
 		"responsibilities": [
-			"A whole lot of them"
+			"Maintain organization for all transactions under contract.",
+			"Be sure that all paperwork is filled out and signed correctly.",
+			"Maintain communication and timelines for future and active listings.",
+			"Schedule any necessary appointments between clients and third parties.",
+			"Request revies and feedback from clients past closing."
 		]
 	},
 	{
@@ -77,22 +81,15 @@
 		"title": "Teller",
 		"responsibilities": [
 			"Interact with customers with a friendly, personable attitude",
-			"Recognize products and services to recommend for customers"
+			"Recognize products and services to recommend for customers",
+			"Maintain correct balance of money in drawer at all times.",
+			"Quickly and efficiently complete various tasks for customers."
 		]
 	},
 	{
 		"type": "school",
 		"name": "Perpetual Education - <span class='italic'>Design for the Web</span>",
 		"years": "2021-2022"
-	},
-	{
-		"type": "job",
-		"company": "Steak N Shake",
-		"years": "2005-2006",
-		"title": "Server",
-		"responsibilities": [
-			"A whole lot of them"
-		]
 	},
 	{	
 		"type": "additionalInfo",
