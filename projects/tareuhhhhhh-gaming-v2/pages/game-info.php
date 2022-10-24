@@ -29,4 +29,32 @@ $games = [
 		"longDescription" => "A boring artist wants to paint a picture of his wife. He has no talent and instead of admitting defeat he takes out his rage on everyone aound him. Can you survive his wrath?",
 		"image" => "creepy.jpg",
 	],
+	[
+		"id" => "spoops-and-skills",
+		"title" => "Spoops and Skills",
+		"consoles" => [
+			"PC" => true,
+			"PS" => true,
+			"Switch" => false,
+			"Xbox" => false,
+		],
+		"ageRating" => "T",
+		"description" => "Test your skills with some spooky frights!",
+		"longDescription" => "Games all utilize basically the same skills. Play this fun and spooky progressive skills game to bulk up and expand your current skillset.",
+		"image" => "adventure.jpg",
+	],
+	[
+		"id" => "mary-mint-and-joy",
+		"title" => "Mary Mint and Joy",
+		"consoles" => [
+			"PC" => false,
+			"PS" => true,
+			"Switch" => false,
+			"Xbox" => false,
+		],
+		"ageRating" => "E",
+		"description" => "A break from the scary real world to a land of puzzles and fun",
+		"longDescription" => "When you need a few moments (or hours) of puzzle-soliving break from your busy everyday life, enjoy a stroll through the land of Mary Mint and Joy.",
+		"image" => "character.jpg",
+	]
 ];

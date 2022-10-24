@@ -6,16 +6,22 @@
 </inner-column>
 </section>
 
-<section class='get-involved'>
+<section class='spotlight'>
 <inner-column>
 
 	<?php 
 		$ctaHeading = "Our Newest Release";
-		$ctaText = "Action, adventure, drama, thrills, chills and scares! Not the latest Blumhouse film, but an all new game from TareUhhhhhh Gaming! It's called Spoops and Skills!";
+		$ctaText = "Action, adventure, drama, thrills, chills and scares! Not the latest Blumhouse film, but an all new game from TareUhhhhhh Gaming! It's called After Dusk!";
 		$prompt = "Dare to play?";
 		include('modules/call-to-action.php'); 
 	?>
 
+</inner-column>
+</section>
+
+<section class="other-games">
+<inner-column>
+	<?php include('modules/game-grid.php') ?>
 </inner-column>
 </section>
 
@@ -29,20 +35,6 @@
 	?>
 </inner-column>
 </section>
-
-
-<section class="spotlight">
-<inner-column>
-	
-</inner-column>
-</section>
-
-<section class="other-games">
-<inner-column>
-	<?php include('modules/game-grid.php') ?>
-</inner-column>
-</section>
-
 
 <section class='not-ready'>
 <inner-column>

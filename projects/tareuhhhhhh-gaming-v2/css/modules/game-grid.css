@@ -49,7 +49,8 @@ game-card p {
 	line-height: 1.2;
 }
 
-game-card a {
+game-grid a {
+	display: inline-grid;
 	color: rgba(134, 37, 36, 1.00);
 	font-size: 1.4rem;
 	font-weight: 300;
@@ -73,14 +74,4 @@ game-card + game-card {
 	game-card + game-card {
 	margin-top: 0;
 }
-}
-
-@media (min-width: 900px) {
-	game-grid {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-
-	game-grid h1 {
-		grid-column: span 3;
-	}
 }
