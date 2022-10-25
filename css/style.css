@@ -168,6 +168,7 @@ p + a {
 @media (min-width: 800px) {
 	:is(.home-page, .writing-page) svg {
 		display: block;
+		margin-left: auto;
 	}
 
 	.home-page svg {
