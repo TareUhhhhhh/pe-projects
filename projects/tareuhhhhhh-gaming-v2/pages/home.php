@@ -3,6 +3,11 @@
 
 	<?php include('modules/graphic-diptych.php'); ?>
 
+	<video autoplay muted loop class="myVideo">
+	  <source src="images/tree.mp4" type="video/mp4">
+	  	<!-- Video by <a href="https://pixabay.com/users/christianbodhi-9869182/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=video&amp;utm_content=134913">Christian Bodhi</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=video&amp;utm_content=134913">Pixabay</a> -->
+	</video>
+
 </inner-column>
 </section>
 

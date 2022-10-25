@@ -1,22 +1,14 @@
 
 graphic-diptych {
   display: block;
-  padding:  3px;
-  background: rgba(0 0 0 .1);
- /* padding-top: 2vh;
-  padding-bottom: 2vh;*/
-  /* */
-  /*display: flex;*/
-/*  flex-direction: column;
-  gap: 30px;*/
 }
 
 graphic-diptych text-content {
   display: block;
+  position: relative;
   color: white;
-  padding: 20px;
-  /*display: absolute;*/
   z-index: 1;
+  text-align: center;
 }
 
 graphic-diptych picture {
@@ -25,9 +17,18 @@ graphic-diptych picture {
   display: none;
 }
 
+graphic-diptych h1 {
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
 .welcome {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.welcome h1 {
+  text-shadow: 0px 3px 6px rgb(0 0 0 / 80%), 0px 1px 40px #000;
 }
 
 .our-team {
@@ -37,19 +38,12 @@ graphic-diptych picture {
 @media (min-width: 660px) {
   .welcome {
     min-height: 500px;
-    background-image: url('https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming-v2/images/skeleton.jpg');
-    background-repeat: no-repeat;
-    background-position: left center;
     background-attachment: fixed;
     overflow: hidden;
   }
 
-  .welcome img, .our-team img {
-  display: none;
-  }
-
   .welcome text-content, .our-team text-content {
-    background: rgba(0, 0, 0, 0.85);
+    /*background: rgba(0, 0, 0, 0.85);*/
   }
 
   .welcome {
@@ -67,12 +61,4 @@ graphic-diptych picture {
     background-attachment: fixed;
     overflow: hidden;
     }
-
-  graphic-diptych :is(text-content) {
-    width: 50%;
-  }
-
-  graphic-diptych text-content {
-    
-  }
 }
