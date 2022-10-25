@@ -1,8 +1,12 @@
 <graphic-diptych>
 	<text-content>
-		<h1 class='intro-voice'><?=$pageContent["heading"]?></h1>
+		<?php if(isset($pageContent["heading"])) { ?>
+			<h1 class='intro-voice'><?=$pageContent["heading"]?></h1>
+		<?php } ?>
 
-		<p class='calm-voice'><?=$pageContent["intro"]?></p>
+		<?php if(isset($pageContent["intro"])) { ?>
+			<p class='calm-voice'><?=$pageContent["intro"]?></p>
+		<?php } ?>
 	</text-content>
 
 	<picture>
