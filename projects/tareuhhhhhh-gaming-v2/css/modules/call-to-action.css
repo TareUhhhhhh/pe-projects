@@ -18,7 +18,7 @@ call-to-action a {
   border-radius: 3px;
 }
 
-call-to-action .calm-voice {
+/*call-to-action .calm-voice {
   font-size: 22px;
   font-weight: 200;
 }
@@ -26,7 +26,7 @@ call-to-action .calm-voice {
 call-to-action .attention-voice {
   font-size: 46px;
   /*text-align: right;*/
-}
+}*/
 
 @media (min-width: 600px) {
   call-to-action {
