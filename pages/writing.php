@@ -3,3 +3,5 @@
 	<?php include('module-loop.php'); ?>
 </div>
 </section>
+
+<?php include("images/pencil.svg"); ?>
