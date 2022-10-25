@@ -150,8 +150,35 @@ p + a {
 	color: var(--paper);
 }
 
+/*BACKGROUND VISUAL DESIGN*/
+/*If skelly goes as background*/
+/*.home {
+	background-image: url('../images/skully.svg');
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: right;
+}*/
 
-@media (min-width: 500px) {
+:is(.home-page, .writing-page) svg {
+	display: none;
+	max-width: 200px;
+}
+
+
+@media (min-width: 800px) {
+	:is(.home-page, .writing-page) svg {
+		display: block;
+	}
+
+	.home-page svg {
+		fill: var(--accent);
+	}
+
+	.writing-page svg {
+		fill: none;
+		stroke: var(--accent);
+	}
+
 	.theme-select {
 		/*position: absolute;*/
 	}
