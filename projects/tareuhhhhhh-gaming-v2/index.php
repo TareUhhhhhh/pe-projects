@@ -27,7 +27,7 @@
 
 	<section class='newsletter'>
 		<inner-column>
-			<h2 class='attention-voice'>Are you ready for your next scare?</h2>
+			<h2 class='attention-voice'>Ready for your next scare?</h2>
 
 			<p class="calm-voice">Sign up for our newsletter and never miss out on the fun!</p>
 
