@@ -29,7 +29,7 @@
 		<inner-column>
 			<h2 class='attention-voice'>Are you ready for your next scare?</h2>
 
-			<p>Sign up for our newsletter and never miss out on the fun!</p>
+			<p class="calm-voice">Sign up for our newsletter and never miss out on the fun!</p>
 
 			<iframe src="https://tarahaskamp.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 		</inner-column>

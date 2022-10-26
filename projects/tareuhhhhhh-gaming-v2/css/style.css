@@ -171,7 +171,7 @@ iframe {
 
 .site-footer p {
 	font-size: 1.2em;
-	font-weight: 200;
+	font-weight: 300;
 	line-height: 1.2;
 }
 
@@ -187,7 +187,7 @@ iframe {
 /*GAME DETAIL PAGE*/
 .game-detail h1 {
 	font-family: 'Lato' sans-serif;
-	font-weight: 200;
+	font-weight: 300;
 	font-size: 42px;
 	color: white;
 }

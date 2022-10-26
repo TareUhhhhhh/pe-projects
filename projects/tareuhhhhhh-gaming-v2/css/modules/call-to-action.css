@@ -11,7 +11,7 @@ call-to-action {
 
 call-to-action a {
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 300;
   margin-top:  20px;
   text-transform: uppercase;
   padding: 10px 20px;
@@ -20,7 +20,7 @@ call-to-action a {
 
 /*call-to-action .calm-voice {
   font-size: 22px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 call-to-action .attention-voice {

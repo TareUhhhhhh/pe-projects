@@ -6,13 +6,13 @@
 
 .loud-voice	{
 	font-family: 'Lato' sans-serif;
-	font-weight: 100;
+	font-weight: 300;
 	font-size: clamp(48px, 5vw, 60px);
 }
 
 .intro-voice	{
 	font-family: 'Lato' sans-serif;
-	font-weight: 100;
+	font-weight: 300;
 	font-size: clamp(28px, 5vw, 60px);
 	text-transform: uppercase;
 	word-spacing: 6px;
@@ -20,7 +20,7 @@
 
 .attention-voice	{
 	font-family: 'Lato' sans-serif;
-	font-weight: 200;
+	font-weight: 300;
 	font-size: clamp(24px, 3.5vw, 48px);
 	text-transform: uppercase;
 	/*letter-spacing: -3px;*/
@@ -34,7 +34,7 @@
 .calm-voice {
 	font-family: 'Lato' sans-serif;
 	font-size: 16px;
-	font-weight: 200;
+	font-weight: 300;
 	line-height: 1.4;
 }
 
