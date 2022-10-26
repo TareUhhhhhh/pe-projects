@@ -61,6 +61,18 @@ h2 + p {
 	}
 
 	p {
+		max-width: 90%;
+	}
+}
+
+@media (min-width: 750px) {
+	p {
+		max-width: 80%;
+	}
+}
+
+@media (min-width: 900px) {
+	p {
 		max-width: 60%;
 	}
 }
