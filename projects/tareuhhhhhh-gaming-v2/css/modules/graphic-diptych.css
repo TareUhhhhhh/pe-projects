@@ -29,6 +29,8 @@ graphic-diptych h1 {
 .welcome {
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 40vh;
 }
 
 .welcome h1 {
@@ -53,8 +55,6 @@ graphic-diptych h1 {
   .welcome {
     flex-direction: row;
     align-items: center;
-    /*justify-content: flex-end;*/
-    /*min-height: 40vh;*/
   }
 
   .our-team {
