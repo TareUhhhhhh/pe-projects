@@ -4,12 +4,12 @@ const todoApp = {
 	tasks: [],
 	idNum: 0,
 
-	print: function(note = "") {
+	print(note = "") {
 		console.log(`--${note}`);
 		console.log("tasks: ", this.tasks);
 	},
 
-	add: function(task) {
+	add(task) {
 		const todo = {
 			id: this.idNum++,
 			task: task,
@@ -18,13 +18,13 @@ const todoApp = {
 		this.print(`Added "${task}"`);
 	},
 
-	remove: function(id) {
+	remove(id) {
 		this.print(`Removed ${this.tasks[id].task}`);
 		this.tasks.splice(id, 1);
 		// delete tasks[id];
 	},
 
-	complete: function(id) {
+	complete(id) {
 		this.tasks[id].complete = true;
 		this.print(`Completed ${this.tasks[id].task}`);
 	},
