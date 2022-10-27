@@ -1,37 +1,40 @@
 
-const todos = [];
-var count = 0;
+const todoApp = {
 
-function update(note = "") {
-	console.log(`--${note}`);
-	console.log("todos: ", todos);
+	tasks: [],
+	idNum: 0,
+
+	print: function(note = "") {
+		console.log(`--${note}`);
+		console.log("tasks: ", this.tasks);
+	},
+
+	add: function(task) {
+		const todo = {
+			id: this.idNum++,
+			task: task,
+		};
+		this.tasks.push(todo);
+		this.print(`Added "${task}"`);
+	},
+
+	remove: function(id) {
+		this.print(`Removed ${this.tasks[id].task}`);
+		this.tasks.splice(id, 1);
+		// delete tasks[id];
+	},
+
+	complete: function(id) {
+		this.tasks[id].complete = true;
+		this.print(`Completed ${this.tasks[id].task}`);
+	},
 }
 
-function add(content) {
-	const todo = {
-		id: count++,
-		content: content,
-	};
-	todos.push(todo);
-	update(`Added "${content}"`);
-}
+todoApp.add("Go to the store");
+todoApp.add("Order birthday cake");
+todoApp.add("Invite friends to party");
 
-function remove(id) {
-	update(`Removed ${todos[id].content}`);
-	// todos.splice(id, 1);
-	delete todos[id];
-}
+todoApp.remove(2);
+todoApp.complete(1);
 
-function complete(id) {
-	todos[id].complete = true;
-	update(`Completed ${todos[id].content}`);
-}
-
-add("Go to the store");
-add("Order birthday cake");
-add("Invite friends to party");
-
-remove(2);
-complete(1);
-
-add("Drink a glass of whiskey");
+todoApp.add("Drink a glass of whiskey");
