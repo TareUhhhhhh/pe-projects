@@ -54,7 +54,7 @@ $games = [
 		],
 		"ageRating" => "E",
 		"description" => "A break from the scary real world to a land of puzzles and fun",
-		"longDescription" => "When you need a few moments (or hours) of puzzle-soliving break from your busy everyday life, enjoy a stroll through the land of Mary Mint and Joy.",
+		"longDescription" => "When you need a few moments (or hours) of puzzle-solving to take a break from your busy everyday life, enjoy a stroll through the land of Mary Mint and Joy.",
 		"image" => "character.jpg",
 	]
 ];
