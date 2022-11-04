@@ -14,7 +14,6 @@ currently-looking {
 }
 
 :is(currently-looking) ul {
-	list-style: none;
 	list-style-type: none;
 	margin-left: 0;
 }
@@ -57,6 +56,11 @@ currently-looking {
 		grid-column: span 2;
 		grid-row: span 2;
 	}
+
+	.current-list {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
 @media(min-width: 900px) {
@@ -70,7 +74,12 @@ currently-looking {
 		gap: 4rem;
 	}
 
+	.current-list {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
 	:is(.intro-content) :is(p, a) {
-	margin-top: 4rem;
-}
+		margin-top: 4rem;
+	}
 }
