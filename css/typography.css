@@ -56,6 +56,10 @@ body {
 	font-size: 1.4rem;
 }
 
+.medium-voice {
+	font-size: 1.7rem;
+}
+
 .italic {
 	font-style: italic;
 }
@@ -78,6 +82,14 @@ p a {
 
 a:hover {	
 	color: var(--alternate);
+}
+
+li ul {
+	margin-top: 0rem;
+}
+
+li + li {
+	padding-top: 0.5rem;
 }
 
 @media(min-width: 400px) {

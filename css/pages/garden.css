@@ -1,9 +1,5 @@
-zen-garden, image-grid {
+zen-garden, image-grid, currently-looking {
 	display: block;
-}
-
-zen-garden picture {
-
 }
 
 image-grid {
@@ -11,6 +7,24 @@ image-grid {
 	gap: 1rem;
 	padding: 2rem 0;
 	border-bottom: 2px solid var(--accent);
+}
+
+currently-looking {
+	margin-top: 3rem;
+}
+
+:is(currently-looking) ul {
+	list-style: none;
+	list-style-type: none;
+	margin-left: 0;
+}
+
+.intro-content p {
+	margin-top: 1rem;
+}
+
+.current-list h2 {
+	margin-top: 1.3rem;
 }
 
 @media (min-width: 500px) {
@@ -43,4 +57,20 @@ image-grid {
 		grid-column: span 2;
 		grid-row: span 2;
 	}
+}
+
+@media(min-width: 900px) {
+	currently-looking .attention-voice {
+		font-size: 4rem;
+	}
+
+	currently-looking {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 4rem;
+	}
+
+	:is(.intro-content) :is(p, a) {
+	margin-top: 4rem;
+}
 }

@@ -1,5 +1,6 @@
-<zen-garden>
+<zen-garden id="garden">
 <div class="inner-column">
+
 	<image-grid class="first">
 		<picture>
 			<img src="https://picsum.photos/1200/700?random=1">
@@ -139,5 +140,12 @@
 			<img src="https://picsum.photos/1200/700?random=32">
 		</picture>
 	</image-grid>
+
+	<currently-looking>
+		<h1>Stranger Ipsum Below</h1>
+
+		<p>Bitchin' Mouth-breather. Do you know anything about sensory deprivation tanks? Specifically how to build one? Nobody normal ever accomplished anything meaningful in this world. You’re pretty cute, you know that? Mistakes have been made. He’s a sensitive kid. Lonnie used to say he was queer. Called him a fag. Is he? He’s missing, is what he is!</p>
+	</currently-looking>
+
 </div>
 </zen-garden>
