@@ -141,10 +141,62 @@
 		</picture>
 	</image-grid>
 
-	<currently-looking>
-		<h1>Stranger Ipsum Below</h1>
+	<currently-looking id="looking">
+		<div class="intro-content">
+			<h1 class="attention-voice">Stranger Ipsum Below</h1>
 
-		<p>Bitchin' Mouth-breather. Do you know anything about sensory deprivation tanks? Specifically how to build one? Nobody normal ever accomplished anything meaningful in this world. You’re pretty cute, you know that? Mistakes have been made. He’s a sensitive kid. Lonnie used to say he was queer. Called him a fag. Is he? He’s missing, is what he is!</p>
+			<p class="calm-voice">Bitchin' Mouth-breather. Do you know anything about sensory deprivation tanks? Specifically how to build one? Nobody normal ever accomplished anything meaningful in this world. You’re pretty cute, you know that? Mistakes have been made.</p>
+
+			<a href="#looking" class="button">Click Here</a>
+		</div>
+
+		<ul class="current-list calm-voice">
+			<li>
+				<h2 class="medium-voice">List Items 1</h2>
+
+				<ul>
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+				</ul>
+			</li>
+
+			<li>
+				<h2 class="medium-voice">List Items 2</h2>
+
+				<ul>
+					<li>Item 1</li>
+				</ul>
+			</li>
+
+			<li>
+				<h2 class="medium-voice">List Items 3</h2>
+
+				<ul>
+					<li>Item 1</li>
+					<li>Item 2</li>
+				</ul>
+			</li>
+
+			<li>
+				<h2 class="medium-voice">List Items 4</h1>
+
+				<ul>
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+				</ul>
+			</li>
+
+			<li>
+				<h2 class="medium-voice">List Items 5</h1>
+
+				<ul>
+					<li>Item 1</li>
+				</ul>
+			</li>
+		</ul>
+
 	</currently-looking>
 
 </div>
