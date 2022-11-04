@@ -16,7 +16,7 @@
 
 			<p class="calm-voice">This is a paragraph for the card of this module. These are just random words to get more words to fill out the page.</p>
 
-			<a href="#" class="button">This is button #1</a>
+			<a href="#" class="button">This is button #2</a>
 		</loftie-card>
 
 		<loftie-card>
@@ -26,6 +26,6 @@
 
 			<p class="calm-voice">This is a paragraph for the card of this module. These are just random words to get more words to fill out the page.</p>
 
-			<a href="#" class="button">This is button #1</a>
+			<a href="#" class="button">This is button #3</a>
 		</loftie-card>
 </loftie-module>

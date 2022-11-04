@@ -1,4 +1,4 @@
-zen-garden, image-grid, currently-looking {
+zen-garden, image-grid, currently-looking, loftie-module, loftie-card {
 	display: block;
 }
 
@@ -12,6 +12,8 @@ image-grid {
 /*CURRENTLY LOOKING*/
 currently-looking {
 	margin-top: 3rem;
+	padding: 2rem 0;
+	border-bottom: 2px solid var(--accent);
 }
 
 :is(currently-looking) ul {
@@ -28,6 +30,11 @@ currently-looking {
 }
 
 /*LOFTIE MODULES*/
+loftie-module {
+	padding: 2rem 0;
+	border-bottom: 2px solid var(--accent);
+}
+
 loftie-card {
 	margin-top: 2rem;
 	display: flex;
