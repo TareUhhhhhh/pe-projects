@@ -172,7 +172,9 @@ p + a {
 	}
 
 	.home-page svg {
-		fill: var(--accent);
+		fill: none;
+		stroke: var(--accent);
+		stroke-width: 2px;
 	}
 
 	.writing-page svg {
