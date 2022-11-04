@@ -9,6 +9,7 @@ image-grid {
 	border-bottom: 2px solid var(--accent);
 }
 
+/*CURRENTLY LOOKING*/
 currently-looking {
 	margin-top: 3rem;
 }
@@ -24,6 +25,18 @@ currently-looking {
 
 .current-list h2 {
 	margin-top: 1.3rem;
+}
+
+/*LOFTIE MODULES*/
+loftie-card {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+loftie-card h1 {
+	margin-top: 1rem;
 }
 
 @media (min-width: 500px) {
@@ -60,6 +73,14 @@ currently-looking {
 	.current-list {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media(min-width: 700px) {
+	loftie-module {
+		display: flex;
+		flex-direction: row;
+		gap: 2rem;
 	}
 }
 
