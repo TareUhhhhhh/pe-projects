@@ -44,4 +44,51 @@
 			<a href="#loftie" class="button">Shop the Bundle</a>
 		</text-content>
 	</loftie-cta>
+
+	<loftie-list>
+		<picture><img src="https://picsum.photos/1200/1600?random=4"></picture>
+
+		<text-content>
+			<ul>
+				<li>
+					<details>
+						<summary class="calm-voice bold">No more feeling like the bad guy</summary>
+						<p>Here is some <em class="italic">secret, hidden</em> information</p>
+					</details>
+				</li>
+
+				<li>
+					<details>
+						<summary class="calm-voice bold">Dreamy Sleep Stories</summary>
+
+						<p>Here is some more <em class="italic">secret, hidden</em> information</p>
+					</details>
+				</li>
+
+				<li>
+					<details>
+						<summary class="calm-voice bold">Wake the imagination</summary>
+
+						<p>Here is even more <em class="italic">secret, hidden</em> information</p>
+					</details>
+				</li>
+
+				<li>
+					<details>
+						<summary class="calm-voice bold">Night (De)light</summary>
+
+						<p>Here is additionally even more <em class="italic">secret, hidden</em> information</p>
+					</details>
+				</li>
+
+				<li>
+					<details>
+						<summary class="calm-voice bold">Perfect for toddlers or teens</summary>
+
+						<p>Here is the last bit of <em class="italic">secret, hidden</em> information -- for now</p>
+					</details>
+				</li>
+			</ul>
+		</text-content>
+	</loftie-list>
 </loftie-modules>

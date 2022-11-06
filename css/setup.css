@@ -38,6 +38,10 @@ section + section {
 	margin-top: 2.3rem;
 }
 
+details p {
+	padding: 5px 15px;
+}
+
 
 
 

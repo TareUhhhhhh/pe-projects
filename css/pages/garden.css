@@ -1,4 +1,4 @@
-zen-garden, image-grid, currently-looking, loftie-module, loftie-card, loftie-cards, loftie-cta {
+zen-garden, image-grid, currently-looking, loftie-module, loftie-card, loftie-cards, loftie-cta, loftie-list {
 	display: block;
 }
 
@@ -30,7 +30,7 @@ currently-looking {
 }
 
 /*LOFTIE MODULES*/
-loftie-modules, loftie-cards, loftie-cta {
+loftie-modules, loftie-cards, loftie-cta, loftie-list {
 	padding: 2rem 0;
 	border-bottom: 2px solid var(--accent);
 }
@@ -46,7 +46,7 @@ loftie-card h1 {
 	margin-top: 1rem;
 }
 
-loftie-cta {
+loftie-cta, loftie-list {
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
@@ -61,6 +61,15 @@ loftie-cta text-content {
 
 loftie-cta h2.attention-voice {
 	font-family: "Raleway";
+}
+
+loftie-list li {
+	list-style-type: none;
+	padding: 15px;
+}
+
+:is(loftie-list) li + li {
+	border-top: 1px solid var(--accent);
 }
 
 @media (min-width: 500px) {
@@ -107,14 +116,14 @@ loftie-cta h2.attention-voice {
 		gap: 2rem;
 	}
 
-	loftie-cta {
+	loftie-cta, loftie-list {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		gap: 3rem;
 	}
 
-	loftie-cta picture {
+	:is(loftie-cta, loftie-list) picture {
 		flex-basis: 50%;
 	}
 }
