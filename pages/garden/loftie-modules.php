@@ -33,5 +33,15 @@
 
 	<loftie-cta>
 		<picture><img src="https://picsum.photos/1200?random=2"></picture>
+
+		<text-content>
+			<h1 class="medium-voice italic">Don't Know Where to Start?</h1>
+
+			<h2 class="attention-voice">Shop & Save 25%</h2>
+
+			<p>Exceptional items for everyday wellness.</p>
+
+			<a href="#loftie" class="button">Shop the Bundle</a>
+		</text-content>
 	</loftie-cta>
 </loftie-modules>
