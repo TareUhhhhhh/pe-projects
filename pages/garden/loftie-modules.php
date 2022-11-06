@@ -1,4 +1,5 @@
-<loftie-module id="loftie">
+<loftie-modules id="loftie">
+	<loftie-cards>
 		<loftie-card>
 			<picture><img src="https://picsum.photos/1200/1600?random=1"></picture>
 
@@ -28,4 +29,9 @@
 
 			<a href="#" class="button">This is button #3</a>
 		</loftie-card>
-</loftie-module>
+	</loftie-cards>
+
+	<loftie-cta>
+		<picture><img src="https://picsum.photos/1200?random=2"></picture>
+	</loftie-cta>
+</loftie-modules>

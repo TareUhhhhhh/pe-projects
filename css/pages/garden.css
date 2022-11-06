@@ -30,7 +30,7 @@ currently-looking {
 }
 
 /*LOFTIE MODULES*/
-loftie-module {
+loftie-modules, loftie-cards {
 	padding: 2rem 0;
 	border-bottom: 2px solid var(--accent);
 }
@@ -84,7 +84,7 @@ loftie-card h1 {
 }
 
 @media(min-width: 700px) {
-	loftie-module {
+	loftie-cards {
 		display: flex;
 		flex-direction: row;
 		gap: 2rem;
