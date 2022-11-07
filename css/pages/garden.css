@@ -81,6 +81,10 @@ loftie-list li {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 
+	zen-garden .fifth {
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	}
+
 	zen-garden .sixth {
 		grid-template-rows: 1fr 1fr;
 	}
@@ -94,8 +98,14 @@ loftie-list li {
 		grid-column: span 2;
 	}
 
-	zen-garden .fifth :is(picture:nth-of-type(1), picture:nth-of-type(4)) {
+	zen-garden .fifth :is(picture:nth-of-type(1), picture:nth-of-type(9)) {
 		grid-column: span 2;
+		grid-row: span 2;
+	}
+
+	zen-garden .fifth :is(picture:nth-of-type(9)) {
+		grid-column: 2 / 4;
+		grid-row: 3 / 5;
 	}
 
 	zen-garden .sixth picture:nth-of-type(1) {

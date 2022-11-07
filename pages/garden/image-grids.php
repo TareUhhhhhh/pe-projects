@@ -94,10 +94,6 @@
 	<picture>
 		<img src="https://picsum.photos/1200/700?random=22">
 	</picture>
-
-	<picture>
-		<img src="https://picsum.photos/1200/700?random=23">
-	</picture>
 </image-grid>
 
 <image-grid class="sixth">
