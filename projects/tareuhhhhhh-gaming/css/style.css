@@ -42,13 +42,6 @@ body {
 	background-color: var(--darkgray);
 }
 
-
-/*
-	This the area where you work out your styles 
-	If it makes sense, you can break these out into their own files.
-*/
-
-
 /* SITE SECTIONS */
 .site-header {
 	position: sticky;
@@ -61,13 +54,7 @@ body {
 	padding: 14px;
 }
 
-
-
-
-
-
-
-/* OK! SITE STYLES! */
+/* SITE STYLES! */
 .site-header {
   background-color: var(--lightgray);
   color: var(--white);
@@ -78,16 +65,10 @@ body {
   
 }
 
-
-/* things kinda just start grouping up... and you'll know when something should be grouped into another file - most of the time */
-
-
 .get-involved {
 	background-color: rgba(1, 158, 216, .50);
 	color: white;
-
-  /*background-image:  url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");*/
-} /* interesting way to include the whole image in your CSS */
+} 
 
 .get-involved inner-column {
 	/*max-width:  700px;*/
@@ -95,11 +76,6 @@ body {
 
 .get-involved a {
 	background-color: var(--lightgray);
-}
-
-
-.stuff {
-  
 }
 
 .help-us {
