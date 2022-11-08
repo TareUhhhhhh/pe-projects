@@ -32,10 +32,8 @@
 @import 'modules/site-map.css';
 @import 'modules/game-grid.css';
 
-/* should everything/nothing be in it's own file? */
 
-
-/* ACTUAL SITE STYLES */
+/* SITE STYLES */
 html {
 	background-color: var(--white);
 }
@@ -47,12 +45,6 @@ body {
 a picture {
 	width: 100%;
 }
-
-/*
-	This the area where you work out your styles 
-	If it makes sense, you can break these out into their own files.
-*/
-
 
 /* SITE SECTIONS */
 @media (min-width: 600px) {
@@ -68,9 +60,7 @@ a picture {
 	padding: 0 4px;
 }
 
-
-
-/* OK! SITE STYLES! */
+/* SITE STYLES! */
 .site-header {
   background-color: var(--lightgray);
   color: var(--white);
