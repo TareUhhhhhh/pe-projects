@@ -7,7 +7,8 @@
 
 	<?php include("garden/loftie-modules.php"); ?>
 
-	<?php include("garden/scrolling-credits.php"); ?>
+	<?php include("garden/in-dev.php"); ?>
 
+	<?php include("garden/scrolling-credits.php"); ?>
 </div>
 </zen-garden>

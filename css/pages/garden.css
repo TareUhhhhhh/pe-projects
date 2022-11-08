@@ -1,5 +1,10 @@
-zen-garden, image-grid, currently-looking, loftie-module, loftie-card, loftie-cards, loftie-cta, loftie-list, scrolling-credits, credits-text, credits-area {
+zen-garden, image-grid, currently-looking, loftie-module, loftie-card, loftie-cards, loftie-cta, loftie-list, scrolling-credits, credits-text, credits-area, in-dev, heading-text {
 	display: block;
+}
+
+loftie-modules, loftie-cards, loftie-cta, loftie-list, in-dev, scrolling-credits {
+	padding: 2rem 0;
+	border-bottom: 2px solid var(--accent);
 }
 
 image-grid {
@@ -30,11 +35,6 @@ currently-looking {
 }
 
 /*LOFTIE MODULES*/
-loftie-modules, loftie-cards, loftie-cta, loftie-list {
-	padding: 2rem 0;
-	border-bottom: 2px solid var(--accent);
-}
-
 loftie-card {
 	margin-top: 2rem;
 	display: flex;
@@ -70,6 +70,12 @@ loftie-list li {
 
 :is(loftie-list) li + li {
 	border-top: 1px solid var(--accent);
+}
+
+/*IN-DEV*/
+in-dev .calm-voice {
+	text-indent: 70px;
+	max-width: 40ch;
 }
 
 /*SCROLLING CREDITS*/
@@ -184,6 +190,22 @@ credits-text .calm-voice {
 
 	:is(loftie-cta, loftie-list) picture, text-content {
 		flex-basis: 50%;
+	}
+
+	in-dev {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+
+	in-dev heading-text {
+		grid-column: 1 / 2;
+	}
+
+	in-dev p {
+		text-align: right;
+		grid-column: 2 / 3;
+		grid-row: 2 / 3;
 	}
 
 	scrolling-credits .my-video {
