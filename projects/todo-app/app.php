@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-	<head></head>
+	<head><link rel="stylesheet" href="app.css"></head>
 
 	<body>
 		<header></header>
