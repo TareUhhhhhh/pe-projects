@@ -1,34 +1,50 @@
+function FoodEntry(restaurant, item, reorder) {
+	this.restaurant = restaurant;
+	this.item = item;
+	this.reorder = reorder;
+
+	// this.entry = function() {
+	// 	console.log("Restaurant: ", restaurant);
+	// 	console.log("Menu Item: ", item);
+	// 	console.log("Reorder? ", reorder);
+	// }
+}
+
+const food = new FoodEntry("Brewtop", "Chicken Fingers", false);
+
+console.log(food);
+
+
 const todoApp = {
 
 	tasks: [], //Creates the array that gets stored in memory
 	numId: 0,
 
-	update: function(note = "") {
+	update(note = "") {
 		console.log(`------ ${note}`);
 		console.log("tasks: ", this.tasks);
 	},
 
-	add: function(content) {
+	add(content) {
 		const task = {			// This creates an object rather than just inserting an item
 			id: this.numId++,
 			content: content,
 		}
-		
-		this.tasks.push(task); //This pushes the (task) into the tasks[] array -- or the object when applicable
+		this.tasks = [...this.tasks, task]; //Adds new task into the array of previous tasks
 		this.update(`Added: ${content}`); //This will print out the information every time an item is added
 	},
 
-	remove: function(id) {
+	remove(id) {
 		this.update(`Removed: ${tasks[id].content}`);
 		this.tasks.splice(id, 1); //This will remove based on the systematically assigned index number -- the paernthesis indicate the (start, end) of the values -- so entering the id of the item to be removed is the "start" and it only spans 1 so that is also the "end"
 	},
 
-	complete: function(id) {
+	complete(id) {
 		this.tasks[id].complete = true;
-		this.update(`Completed ${tasks[id].content}`);
+		this.update(`Completed ${this.tasks[id].content}`);
 	},
 
-	change: function(id, newTask) {
+	change(id, newTask) {
 		this.update(`Task updated: ${newTask}`);
 		this.tasks[id].content = newTask;
 	},
@@ -39,6 +55,8 @@ todoApp.add("shower");
 todoApp.add("eat");
 
 todoApp.change(1, "bathe");
+
+todoApp.complete(0);
 
 
 
