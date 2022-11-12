@@ -1,11 +1,76 @@
+const data = localStorage;
 
-localStorage.setItem("user", "Tara");
+var tasks = []; // this needs to be the global object that all tasks are assigned to - then local storage will always have this object of task list assigned as the tasks
+var counter = 0;
 
-const user = localStorage.getItem("user");
+const $form = document.querySelector("form");
+const $input = document.querySelector("input");
+const $output = document.querySelector("output");
 
-const message = `Current User: ${user}`;
+function store() {
+	data.setItem(`Tasks`, JSON.stringify({tasks: tasks}));
+}
 
-document.body.textContent = message;
+function add(task) {
+	var task = {
+		id: counter++,
+		task,
+		complete: false,
+	}
+
+	tasks = [...tasks, task];
+	renderTasks(tasks);
+}
+
+// function remove(id) {
+// 	const filtered = tasks.filter( function(todo) {
+// 		return todo.id != id;
+// 	});
+
+// 	tasks = [...filtered];
+// }
+
+// function complete(id) {
+// 	 for (let i = 0; i < tasks.length; i++) {
+// 	 	if (tasks[i].id == id) {
+// 	 		tasks[i].complete = true;
+// 	 	}
+// 	 }
+// }
+
+function renderTask(task) {
+	return `
+		<task-card>
+			<h2>${task.content}</h2>
+		</task-card>
+	`;
+}
+
+function renderTasks(tasks) {
+	var template = "";
+	tasks.forEach( function(task) {
+		template += renderTask(task);
+	});
+	$output.innerHTML = template;
+}
+
+$form.addEventListener("submit", function(event) {
+	event.preventDefault();
+
+	add($input.value);
+	$input.value = "";
+
+	console.log("tasks ", tasks);
+})
+
+
+// localStorage.setItem("user", "Tara");
+
+// const user = localStorage.getItem("user");
+
+// const message = `Current User: ${user}`;
+
+// document.body.textContent = message;
 
 
 
