@@ -11,15 +11,15 @@
 </section>
 
 <section class="games">
-	<inner-column>
+	<all-games>
 		<?php
-			include("game-info.php");
+		include("game-info.php");
 
-			foreach ($games as $game) {
-			include("game-card.php");
-			}
-		?>
-	</inner-column>
+		foreach ($games as $game) {
+		include("game-display.php");
+		}
+	?>
+	</all-games>
 </section>
 	
 

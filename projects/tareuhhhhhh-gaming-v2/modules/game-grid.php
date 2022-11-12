@@ -1,3 +1,5 @@
+<!-- Home page section -->
+
 <h1>Other TareUhhhhhh Gaming Titles</h1>
 
 <game-grid>
