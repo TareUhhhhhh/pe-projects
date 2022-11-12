@@ -18,6 +18,8 @@
 /* TYPOGRAPHY */
 @import 'typography.css';
 
+/* PAGES */
+@import 'games.css';
 
 /* COMPONENTS */
 @import 'components.css';
