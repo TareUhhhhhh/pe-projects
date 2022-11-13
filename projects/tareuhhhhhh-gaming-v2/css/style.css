@@ -68,6 +68,7 @@ a picture {
   color: var(--white);
   text-transform: uppercase;
   letter-spacing: .1em;
+  z-index: 2;
 }
 
 .welcome {

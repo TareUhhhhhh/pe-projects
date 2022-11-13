@@ -1,5 +1,5 @@
 section.games {
-/*	margin-top: 2rem;*/
+	background-color: hsla(208, 1%, 40%, 0.3);
 }
 
 game-display {
@@ -12,9 +12,10 @@ game-display {
 game-display {
 	min-height: 500px;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: rgb(0 0 0 / 20%);
-/*	text-shadow: 0px 3px 6px rgb(247 247 247 / 80%), 0px 1px 40px #000;*/
+
+	color: white;
+	text-shadow: 0px 3px 6px rgb(0 0 0 / 80%), 0px 1px 40px #000;
 }

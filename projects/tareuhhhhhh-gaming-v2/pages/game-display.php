@@ -9,13 +9,11 @@
 
 <game-display style="background-image: url(images/<?=$image?>);">
 <inner-column>
-	<h1 class='attention-voice title'><?=$title?></h1>
+		<h1 class='attention-voice title'><?=$title?></h1>
 
-	<p class='calm-voice description'><?=$description?></p>
+		<p class='calm-voice description'><?=$description?></p>
 
-	<a class="calm-voice" href="?page=detail&game=<?=$id?>">More Info</a>
-
-	<!-- <picture><img src="images/<?=$image?>"></picture> -->
+		<a class="calm-voice" href="?page=detail&game=<?=$id?>">More Info</a>
 </inner-column>
 </game-display>
 
