@@ -3,9 +3,7 @@ section.games {
 }
 
 game-display {
-	border: 1px solid lime;
 	display: block;
-/*	margin-top: 2rem;*/
 	min-height: 400px;
 }
 
@@ -16,10 +14,6 @@ game-display {
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-
 	color: white;
 	text-shadow: 0px 3px 6px rgb(0 0 0 / 80%), 0px 1px 40px #000;
 }
@@ -27,7 +21,7 @@ game-display {
 game-display inner-column {
 	display: flex;
 	flex-direction: column;
-	align-content: center
+	align-content: center;
 }
 
 game-display text-content {
@@ -36,4 +30,12 @@ game-display text-content {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+}
+
+div.shadow {
+	min-height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgb(0 0 0 / 60%);
 }
