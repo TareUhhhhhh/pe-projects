@@ -23,6 +23,12 @@
 			"title": "Responsive Layout Garden",
 			"teaser": "In an effort to truly master building responsive sites and modules, I have cultivated a garden of various layouts that will look their best on screens of all sizes.",
 			"slug": "zen-responsive-garden"
+		},
+		{
+			"type": "project-card",
+			"title": "Personal Website",
+			"teaser": "",
+			"slug": "personal-site"
 		}
 	]
 }
