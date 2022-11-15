@@ -7,14 +7,14 @@
 		},
 		{
 			"type": "highlights",
-			"highlights": ["HTML", "CSS", "PHP", "JSON", "Flexbox", "SVG"]
+			"highlights": ["HTML", "CSS", "PHP", "JSON", "Flexbox", "SVG", "Affinity Designer"]
 		},
 		{
 			"type": "text-content",
 			"title": "Project Info",
 			"paragraph": [
-				"This project is meant as an ever-growing collection of responsive layouts that are functional on all screen sizes. The inspiration can come from anywhere. Some of them are pretty basic overall and exist as a reference. Sometimes inspiration can come from a website that I found. Even real life can have cool and unexpected sources of inspiration.",
-				"The more points of inspiration I can find, the more I can grow this garden of modules. Then it's great to use for future projects as ideas for page layout design."
+				"Rather than using an existing, premade template to plug in my words, I have built this site for myself from the ground up.",
+				"The background designs are also of my own making with Affinity."
 			]
 		}
 	]
