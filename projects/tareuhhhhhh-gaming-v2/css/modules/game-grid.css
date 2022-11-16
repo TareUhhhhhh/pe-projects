@@ -3,7 +3,7 @@ all-ganes, game-grid, game-card {
 }
 
 game-grid {
-	margin-top: 3rem;
+	margin: 3rem 0;
 	display: grid;
 	gap: 2rem;
 }
@@ -24,7 +24,6 @@ game-grid h2 {
 game-card picture {
 	margin: 1rem 0;
 	overflow: hidden;
-	max-height: 300px;
 }
 
 game-card img {
@@ -47,7 +46,7 @@ game-card p {
 }
 
 game-grid a {
-	display: inline-grid;
+	display: inline;
 	color: rgba(134, 37, 36, 1.00);
 	font-size: 1.4rem;
 	font-weight: 300;
@@ -67,4 +66,16 @@ game-card + game-card {
 	game-grid h1 {
 		grid-column: span 2;
 	}
+
+	game-card picture {
+	height: 200px;
+	max-width: 400px;
+}
+
+game-card img {
+	height: auto;
+	max-width: 600px;
+	object-fit: cover;
+	position: bottom;
+}
 }
