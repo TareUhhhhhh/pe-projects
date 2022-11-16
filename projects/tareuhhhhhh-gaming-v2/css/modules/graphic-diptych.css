@@ -39,6 +39,22 @@ graphic-diptych h1 {
 
 .our-team {
   background: rgba(0, 0, 0, 0.5);
+  min-height: 300px;
+}
+
+.our-team graphic-diptych {
+  margin: 4rem 0;
+}
+
+.our-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.our-team {
+  background-color: rgb(0 0 0 / 60%);
+  height: 100%;
 }
 
 @media (min-width: 660px) {

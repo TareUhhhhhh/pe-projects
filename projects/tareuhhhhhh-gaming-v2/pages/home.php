@@ -32,6 +32,7 @@
 </section>
 
 <section class="our-team">
+<div class="shadow">
 <inner-column>
 	<?php 
 		$pageContent["heading"] = "Join The Masters";
@@ -40,6 +41,7 @@
 		include("modules/graphic-diptych.php")
 	?>
 </inner-column>
+</div>
 </section>
 
 <section class='not-ready'>
