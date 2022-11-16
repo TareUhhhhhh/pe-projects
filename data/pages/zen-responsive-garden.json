@@ -7,7 +7,7 @@
 		},
 		{
 			"type": "highlights",
-			"highlights": ["HTML", "CSS", "PHP", "JSON", "Flexbox"]
+			"highlights": ["HTML", "CSS", "PHP", "JSON", "Flexbox", "CSS Grid"]
 		},
 		{
 			"type": "text-content",
