@@ -1,6 +1,6 @@
 <!-- Home page section -->
 
-<h1>Other TareUhhhhhh Gaming Titles</h1>
+<h1 class="info-voice">Other Titles</h1>
 
 <game-grid>
 	<?php
