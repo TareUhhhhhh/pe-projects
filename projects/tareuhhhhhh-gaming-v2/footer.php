@@ -1,4 +1,4 @@
-
+<?php include("pages/game-info.php"); ?>
 			<!-- STUFF -->
 		</main>
 

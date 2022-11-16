@@ -35,5 +35,4 @@
 		</inner-column>
 	</section>
 
-
 <?=include('footer.php'); ?>
