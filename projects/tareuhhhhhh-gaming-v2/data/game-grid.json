@@ -7,7 +7,7 @@
 			"FPS",
 			"Adventure"
 		],
-		"image": "https://picsum.photos/400/200.jpg",
+		"image": "images/creepy.jpg",
 		"teaser": "Not many things are scarier than a global pandemic. Are you brave enough to find out what is?"
 	},
 	{
@@ -18,7 +18,7 @@
 			"FPS",
 			"Adventure"
 		],
-		"image": "https://picsum.photos/400/200.jpg?random=1",
+		"image": "images/adventure.jpg",
 		"teaser": "This is a game that is spoopy...and tests your skills!"
 	},
 	{
@@ -28,16 +28,16 @@
 			"Adventure",
 			"Puzzle Solving"
 		],
-		"image": "https://picsum.photos/400/200.jpg?random=2",
+		"image": "images/character.jpg",
 		"teaser": "This is a game that is spoopy...and tests your skills!"
 	},
 	{
-		"title": "Spoops and Skills",
-		"slug": "spoops-and-skills",
+		"title": "Sticks",
+		"slug": "sticks",
 		"genres": [
-			"Horror",
-			"FPS",
-			"Adventure"
+			"Education",
+			"Math",
+			"Counting"
 		],
 		"image": "images/sticks.jpg",
 		"teaser": "A fun game to help kids learn math and build counting skills."

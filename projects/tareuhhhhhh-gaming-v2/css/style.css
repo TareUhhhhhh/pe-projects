@@ -173,8 +173,15 @@ iframe {
 }
 
 .other-games h1{
-	font-size: 1.3rem;
 	color: var(--blue);
+}
+
+.other-games picture {
+	max-height: 300px;
+}
+
+.other-game img {
+	object-position: center;
 }
 
 /*GAME DETAIL PAGE*/

@@ -18,11 +18,13 @@ game-grid h2 {
 	color: var(--ink);
 	font-weight: 300;
 	padding-top: 0.5rem;
+
 }
 
 game-card picture {
 	margin: 1rem 0;
 	overflow: hidden;
+	max-height: 300px;
 }
 
 game-card img {
@@ -55,7 +57,7 @@ game-card + game-card {
 	margin-top: 300px;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 650px) {
 	game-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
