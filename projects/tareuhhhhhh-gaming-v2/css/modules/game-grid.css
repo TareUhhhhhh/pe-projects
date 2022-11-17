@@ -69,13 +69,13 @@ game-card + game-card {
 
 	game-card picture {
 	height: 200px;
-	max-width: 400px;
-}
+	max-width: 500px;
+	}
 
-game-card img {
-	height: auto;
-	max-width: 600px;
-	object-fit: cover;
-	position: bottom;
-}
+	game-card img {
+		height: auto;
+		max-width: 800px;
+		object-fit: cover;
+		position: bottom;
+	}
 }
