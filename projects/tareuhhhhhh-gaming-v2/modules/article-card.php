@@ -9,9 +9,9 @@
 
 <article-card>
 
-	<picture>
-		<img src='<?=$thumbnail?>' loading='lazy' alt='$todo'>
-	</picture>
+<!-- 	<picture>
+		<img src='<?=$thumbnail?>' loading='lazy'>
+	</picture> -->
 
 	<h2 class='attention-voice'><?=$article["heading"]?></h2>
 

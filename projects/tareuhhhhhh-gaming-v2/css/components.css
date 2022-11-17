@@ -16,6 +16,7 @@
   font-weight:  400;
   background-color: none;
   transition: 0.5s background-color linear, 0.1s color linear;
+  margin-top: 2rem;
 }
 
 .button:hover {

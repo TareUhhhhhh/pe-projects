@@ -88,8 +88,8 @@ a picture {
 	bottom: 0;
 }
 
-section {
-	position: relative;
+section.stuff {
+	background-color: rgba(240, 240, 240, 0.07);
 }
 
 

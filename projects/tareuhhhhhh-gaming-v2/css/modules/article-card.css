@@ -4,17 +4,17 @@ article-card {
 /*  padding-top: 40px;
   padding-bottom: 40px;*/
   /* */
+  background-color: var(--blue);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  position: relative;
-  max-width: 300px;
+  justify-content: space-between;
+  max-width: 400px;
+  padding: 1rem;
 }
 
 article-card img {
-  content: url('https://peprojects.dev/alpha-3/tara/projects/tareuhhhhhh-gaming/images/gaming.jpg');
-  opacity: 20%;
-  background-color: var(--blue);
+  opacity: 0%;
   max-width: 100%;
 }
 
@@ -24,14 +24,12 @@ article-card:hover {
 
 article-card h2 {
   max-width: 99%;
-  position: absolute;
   top: 10%;
   left: 10px;
 }
 
 article-card p {
   max-width: 80%;
-  position: absolute;
   top: 25%;
   left: 10px;
 }
@@ -48,9 +46,5 @@ article-card a {
   text-transform: uppercase;
   background-color: var(--blue);
   border-radius: 3px;
-  padding: 5px 10px;
-  position: absolute;
-  top: 68%;
-  left: 10px;
   color: var(--darkgray);
 }
