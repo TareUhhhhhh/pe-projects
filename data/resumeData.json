@@ -5,8 +5,11 @@
 		"years": "2021-Present",
 		"title": "Transaction Assistant",
 		"responsibilities": [
-			"Find ways to make transaction timelines more efficient", 
-			"Stay on top of transaction timelines"
+			"Assist transaction coordinator in staying on top of transaction timelines",
+			"Maintain timelines for 20-40 transactions",
+			"Build and adjust daily task lists for maximum efficiency and accuracy",
+			"Assist with social media events as needed",
+			"Utilize Monday.com CRM, Folio email assistant, Evernote, ToDoist and various real estate programs to keep track of file information"
 		]
 	},
 	{
@@ -15,11 +18,14 @@
 		"years": "2020-2021",
 		"title": "Executive Assistant",
 		"responsibilities": [
+			"Maintain transaction timelines for all contracts",
 			"Maintain organization for all transactions under contract.",
-			"Be sure that all paperwork is filled out and signed correctly.",
-			"Maintain communication and timelines for future and active listings.",
-			"Schedule any necessary appointments between clients and third parties.",
-			"Request revies and feedback from clients past closing."
+			"Field any incoming questions from clients, cooperating agents and leads",
+			"Ensure accurate documentation for all contracts",
+			"Write up amendments and contracts as needed",
+			"Schedule appointments for clients, as well as real estate agent",
+			"Maintain communication and timelines for future and active listings",
+			"Request reviews and feedback from clients past closing"
 		]
 	},
 	{
@@ -44,7 +50,7 @@
 		"responsibilities": [
 			"Key member in successful launch of specialized organization of support department",
 			"Monitor and handle electronically submitted cases",
-			"Troubleshoot software issues across the system",
+			"Troubleshoot frontend software issues",
 			"Use critical thinking skills to diagnose the origin of issues and steps to resolution",
 			"Effectively communicate resolution steps to customers, both verbally and in written format",
 			"Document steps taken to resolve issues for internal and external communication purposes within Salesforce"
@@ -70,14 +76,17 @@
 		"responsibilities": [
 			"Interact with customers with a friendly, personable attitude",
 			"Recognize products and services to recommend for customers",
-			"Maintain correct balance of money in drawer at all times.",
-			"Quickly and efficiently complete various tasks for customers."
+			"Maintain correct balance of money in drawer at all times",
+			"Quickly and efficiently complete various tasks for customers"
 		]
 	},
 	{
 		"type": "school",
 		"name": "Perpetual Education - <span class='italic'>Design for the Web</span>",
-		"years": "2021-2022"
+		"years": "2021-2022",
+		"responsibilities": [
+			""
+		]
 	},
 	{	
 		"type": "additionalInfo",
@@ -89,14 +98,17 @@
 					"HTML",
 					"CSS",
 					"PHP",
-					"Wordpress"
+					"Wordpress",
+					"Javascript"
 				],
 				"hard": [
 					"Proficient in Microsoft programs such as Excel, PowerPoint and Word",
 					"Experience navigating, troubleshooting and configuring CRM systems",
 					"Retail experience with various Point of Sale programs",
 					"Extensive experience working with Salesforce",
-					"Experience working in Zendesk"
+					"Experience working in Zendesk",
+					"Experience working with Affinity Designer and Figma",
+					"Working knowledge of FTP"
 				],
 				"soft": [
 					"Ability to work well within a team and individually",
