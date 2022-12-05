@@ -1,3 +1,12 @@
+<?php
+if( isset($_GET["page"])) {
+	$page = $_GET["page"];
+}
+else {
+	$page = home;
+}
+?>
+
 <section class="efp intro" id='intro'>
 <div class="inner-column">
 	<intro-content>
@@ -7,3 +16,17 @@
 	</intro-content>
 </div>
 </section>
+
+
+<?php
+if ($page == "home") {
+	include('forms.php');
+}
+else {
+	$filepath = "forms/$page.php";
+	include($filepath);
+}
+// If page = form ; display that form (include filename.php)
+// 
+
+ ?>
