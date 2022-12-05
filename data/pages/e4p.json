@@ -1,5 +1,5 @@
 {
-	"slug": "e4p",
+	"slug": "efp",
 	"modules": [
 		{
 			"type": "page-heading",
@@ -20,8 +20,8 @@
 		},
 		{
 			"type": "project-links",
-			"gitLink": "https://github.com/TareUhhhhhh/pe-projects/tree/master/projects/e4p",
-			"siteLink": "projects/e4p"
+			"gitLink": "https://github.com/TareUhhhhhh/pe-projects/tree/master/projects/efp",
+			"siteLink": "projects/efp"
 		}
 	]
 }
