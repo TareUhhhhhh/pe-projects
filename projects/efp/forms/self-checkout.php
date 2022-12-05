@@ -38,49 +38,49 @@
 ?>
 
 <div class="inner-column">
-	<h2 class="efp">#10 Self Checkout</h2>
+	<h2 class="efp attention-voice">#10 Self Checkout</h2>
 
 	<form method="POST" class="efp">
-		<h3>Let's go shopping! Enter number of items, each items price and your tax amount to calculate groceries! (We have defaulted tax rate to 7% if you skip that entry)</h3>
+		<h3 class="info-voice">Let's go shopping! Enter number of items, each items price and your tax amount to calculate groceries! (We have defaulted tax rate to 7% if you skip that entry)</h3>
 
 		<div class="efp field">
-			<label>Item #1 Price: </label>
+			<label class="calm-voice">Item #1 Price: </label>
 
 			<input type="number" name='onePrice' required>
 		</div>
 
 		<div class="efp field">
-			<label>Item #1 Quantity: </label>
+			<label class="calm-voice">Item #1 Quantity: </label>
 
 			<input type="number" name='oneQuantity' required>
 		</div>
 
 		<div class="efp field">
-			<label>Item #2 Price: </label>
+			<label class="calm-voice">Item #2 Price: </label>
 
 			<input type="number" name='twoPrice' required>
 		</div>
 
 		<div class="efp field">
-			<label>Item #2 Quantity</label>
+			<label class="calm-voice">Item #2 Quantity</label>
 
 			<input type="number" name='twoQuantity' required>
 		</div>
 
 		<div class="efp field">
-			<label>Item #3 Price: </label>
+			<label class="calm-voice">Item #3 Price: </label>
 
 			<input type="number" name='threePrice' required>
 		</div>
 
 		<div class="efp field">
-			<label>Item #3 Quantity: </label>
+			<label class="calm-voice">Item #3 Quantity: </label>
 
 			<input type="number" name='threeQuantity' required>
 		</div>
 
 		<div class="efp field">
-			<label>Tax Rate: </label>
+			<label class="calm-voice">Tax Rate: </label>
 
 			<input type="number" name='taxRate' value='7'>
 		</div>

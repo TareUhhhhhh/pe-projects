@@ -1,5 +1,5 @@
 <div class="inner-column">
-	<h2 class='efp' >#1 Hello, World</h2>
+	<h2 class='efp attention-voice' >#1 Hello, World</h2>
 
 	<?php
 		$name = "Anonymous";
@@ -15,11 +15,11 @@
 		}
 	?>
 
-	<h3 class='efp' ><?=$message?></h3>
+	<h3 class='efp info-voice' ><?=$message?></h3>
 
 
 	<form method="POST" class='efp' >
-		<label class='efp' >Name: </label>
+		<label class='efp calm-voice' >Name: </label>
 		<input  class='efp' type="text" name="name" placeholder="Type your name here" required>
 
 		<button  class='efp' method="submit" name="submitted">Submit</button>

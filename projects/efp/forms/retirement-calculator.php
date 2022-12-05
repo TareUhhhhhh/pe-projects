@@ -12,17 +12,17 @@
 ?>
 
 <div class="inner-column">
-	<h2 class='efp'>#6 Retirement Calculator</h2>
+	<h2 class='efp attention-voice'>#6 Retirement Calculator</h2>
 	<form class='efp' method='POST'>
-		<h3 class='efp'>Enter your current age and the age you want to retire, and find out when that can happen!</h3>
+		<h3 class='efp info-voice'>Enter your current age and the age you want to retire, and find out when that can happen!</h3>
 
 		<div class="efp field">
-			<label>What is your current age?</label>
+			<label class="calm-voice">What is your current age?</label>
 			<input type="number" name='currentAge' min='0' required value=<?php if(isset($_POST["currentAge"])) { echo $currentAge;}?>>
 		</div>
 
 		<div class="efp field">
-			<label>What age do you want to retire?</label>
+			<label class="calm-voice">What age do you want to retire?</label>
 			<input type="number" name='retireAge' min='0' required value=<?php if(isset($_POST["retireAge"])){echo $retireAge;}?>>
 		</div>
 

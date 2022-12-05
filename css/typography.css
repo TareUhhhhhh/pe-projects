@@ -56,8 +56,15 @@ body {
 	font-size: 1.4rem;
 }
 
+.info-voice {
+	font-size: 1.2rem;
+	font-weight: 200;
+	line-height: 1.1;
+}
+
 .medium-voice {
 	font-size: 1.7rem;
+	line-height: 1.1;
 }
 
 .italic {
@@ -65,9 +72,9 @@ body {
 }
 
 
-h3 {
+/*h3 {
 	font-size: 1.8rem;
-}
+}*/
 
 /*ul {
 	font-family: 'Raleway';

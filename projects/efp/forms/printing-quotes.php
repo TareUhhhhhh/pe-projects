@@ -1,7 +1,5 @@
-<head><link rel='stylesheet' href='../../../css/style.css'></head>
-
 <div class="inner-column">
-	<h2 class='efp'>#3 Printing Quotes</h2>
+	<h2 class='efp attention-voice'>#3 Printing Quotes</h2>
 
 	<?php
 		if (isset($_POST["submitted"])) {
@@ -15,15 +13,15 @@
 	?>
 
 	<form method="POST">
-		<h3 class='efp'>Enter quote info below and the page will display it.</h3>
+		<h3 class='efp info-voice'>Enter quote info below and the page will display it.</h3>
 
 		<div class="efp field">
-			<label>Type Quote: </label>
+			<label class="calm-voice">Type Quote: </label>
 			<input type="text" name="quote" required>
 		</div>
 
 		<div class="efp field">
-			<label>Who said it?</label>
+			<label class="calm-voice">Who said it?</label>
 			<input type="text" name="name" required>
 		</div>
 

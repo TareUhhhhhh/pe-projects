@@ -27,13 +27,13 @@
 ?>
 
 <div class="inner-column">
-	<h2 class="efp">#9 Paint Calculator</h2>
+	<h2 class="efp attention-voice">#9 Paint Calculator</h2>
 
 	<form method="POST">
-		<h3 class="efp">Enter room dimensions to calculate how much paint is needed to paint the ceiling.</h3>
+		<h3 class="efp info-voice">Enter room dimensions to calculate how much paint is needed to paint the ceiling.</h3>
 
 		<div class="efp field">
-			<label>Room width: </label>
+			<label class="calm-voice">Room width: </label>
 
 			<input type="number" name='widthFeet' placeholder='feet' value='<?=$widthFeet?>' min='1' step='1' required>
 
@@ -41,7 +41,7 @@
 		</div>
 
 		<div class="efp field">
-			<label>Room Length: </label>
+			<label class="calm-voice">Room Length: </label>
 
 			<input type="number" name='lengthFeet' placeholder='feet' value='<?=$lengthFeet?>' min='1' step='1' required>
 

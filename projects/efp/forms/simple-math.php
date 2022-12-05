@@ -13,17 +13,17 @@
 	}
 ?>
 <div class="inner-column">
-	<h2 class='efp'>#5 Simple Math</h2>
+	<h2 class='efp attention-voice'>#5 Simple Math</h2>
 	<form class='efp' method='POST'>
-		<h3>Enter two numbers to do some math!</h3>
+		<h3 class="info-voice">Enter two numbers to do some math!</h3>
 
 		<div class="efp field">
-			<label>First number: </label>
+			<label class="calm-voice">First number: </label>
 			<input type="number" name='firstNumber' placeholder='#' required>
 		</div>
 
 		<div class="efp field">
-			<label>Second number: </label>
+			<label class="calm-voice">Second number: </label>
 			<input type="number" name='secondNumber' placeholder='#' required>
 		</div>
 
