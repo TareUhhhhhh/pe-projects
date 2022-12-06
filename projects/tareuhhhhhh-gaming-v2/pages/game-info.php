@@ -56,5 +56,17 @@ $games = [
 		"description" => "A break from the scary real world to a land of puzzles and fun",
 		"longDescription" => "When you need a few moments (or hours) of puzzle-solving to take a break from your busy everyday life, enjoy a stroll through the land of Mary Mint and Joy.",
 		"image" => "character.jpg",
+	],
+	[
+		"id" => "sticks",
+		"title" => "Sticks",
+		"consoles" => [
+			"mobile" => true,
+			"PC" => true
+		],
+		"ageRating" => "E",
+		"description" => "A fun, simple and educational math game.",
+		"longDescription" => "Play a friend or play the computer. Your goal is to make your opponent lose all of their sticks!",
+		"image" => "sticks.jpg"
 	]
 ];
