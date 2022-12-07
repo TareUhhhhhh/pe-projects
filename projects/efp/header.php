@@ -7,7 +7,7 @@
 		<title>Exercises for Programmers</title>
 		<meta name='description' content='Practice from the book by Brian Hogan'>
 		<meta property='og:image' content='images/default.png'>
-		<link rel='stylesheet' href='../../css/style.css'>
+		<link rel='stylesheet' href='css/efp.css'>
 	</head>
 
 	<body>
