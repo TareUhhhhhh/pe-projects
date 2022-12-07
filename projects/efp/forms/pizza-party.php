@@ -20,11 +20,13 @@
 ?>
 
 <div class="inner-column">
-	<h2 class="efp attention-voice">#8 Pizza Party</h2>
+	<section class="info">
+		<h2 class="efp attention-voice">#8 Pizza Party</h2>
+
+		<h3 class="efp info-voice">Enter how many people are attending your pizza party, and how many pizzas you will order. We will calculate how many slices each person can have plus how many leftovers there will be.</h3>
+	</section>
 
 	<form method='POST'>
-		<h3 class="efp info-voice">Enter how many people are attending your pizza party, and how many pizzas you will order. We will calculate how many slices each person can have plus how many leftovers there will be.</h3>
-
 		<div class="efp field">
 			<label class="calm-voice">Number of guests: </label>
 
@@ -43,12 +45,12 @@
 			<input type="number" name='slices' value='<?=$slices?>' min='2' step='1' required>
 		</div>
 
-		<button class="efp" input='submit' name='submitted'>Calculate</button>
+		<button  input='submit' name='submitted'>Calculate</button>
 
 		<?php if (isset($_POST['submitted'])) { ?>
-			<p class="efp">Each guest can have <?=$guestSlices?> slices.</p>
+			<p >Each guest can have <?=$guestSlices?> slices.</p>
 
-			<p class="efp">There will be <?=$leftover?> extra slice(s).</p>
+			<p >There will be <?=$leftover?> extra slice(s).</p>
 		<?php } ?>
 
 

@@ -19,20 +19,20 @@
 		<h3 class='efp info-voice' ><?=$message?></h3>
 	</section>
 
-	<section class="php-version">	
+	<section class="php-version display">	
 		<h3 class="medium-voice">PHP</h3>
 
-		<form method="POST" class='efp' >
-			<label for="name1" class='efp calm-voice' >Name: </label>
-			<input  class='efp' type="text" id="name1" placeholder="Type your name here" required>
+		<form method="POST">
+			<label for="name1" class='calm-voice'>Name: </label>
+			<input   type="text" id="name1" placeholder="Type your name here" required>
 
-			<button  class='efp' method="submit" name="submitted">Submit</button>
+			<button method="submit" name="submitted">Submit</button>
 		</form>
 
-		<p class='efp' >Hello, <?=$name?>! Nice to meet you!</p>
+		<p  >Hello, <?=$name?>! Nice to meet you!</p>
 	</section>
 
-	<section class="js-version">
+	<section class="js-version display">
 		<h3 class="medium-voice">JS</h3>
 
 		<form id="hello" method="POST">

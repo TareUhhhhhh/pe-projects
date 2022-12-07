@@ -38,11 +38,13 @@
 ?>
 
 <div class="inner-column">
-	<h2 class="efp attention-voice">#10 Self Checkout</h2>
+	<section class="info">
+		<h2 class="efp attention-voice">#10 Self Checkout</h2>
 
-	<form method="POST" class="efp">
 		<h3 class="info-voice">Let's go shopping! Enter number of items, each items price and your tax amount to calculate groceries! (We have defaulted tax rate to 7% if you skip that entry)</h3>
+	</section>
 
+	<form method="POST" >
 		<div class="efp field">
 			<label class="calm-voice">Item #1 Price: </label>
 
@@ -85,14 +87,14 @@
 			<input type="number" name='taxRate' value='7'>
 		</div>
 
-		<button class='efp' method='submit' name='submitted'>Calculate</button>
+		<button  method='submit' name='submitted'>Calculate</button>
 	</form>
 
 	<?php if ( isset($_POST['submitted']))	{?>
-		<p class="efp">Subtotal: <?=$subtotal?></p>
+		<p >Subtotal: <?=$subtotal?></p>
 
-		<p class="efp">Total Tax: <?=$taxSub?></p>
+		<p >Total Tax: <?=$taxSub?></p>
 
-		<p class="efp">Total: <?=$total?></p>
+		<p >Total: <?=$total?></p>
 <?php } ?>
 </div>

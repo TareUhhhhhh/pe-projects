@@ -6,10 +6,16 @@ form {
 
 button {
 	display: block;
-	margin-top: 4rem;
+	margin-top: 1.5rem;
 	padding: 0.5rem 2rem;
 }
 
 label {
 	display: block;
+	margin-top: 0.75rem;
+}
+
+.display + .display {
+	border-top: 1px solid black;
+	padding-top: 1rem;
 }

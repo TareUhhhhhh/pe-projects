@@ -31,11 +31,13 @@
 		}
 	?>
 	
-	<h2 class='efp attention-voice'>#4 Mad Lib</h2>
+	<section class="info">
+		<h2 class='efp attention-voice'>#4 Mad Lib</h2>
 
-	<form class='efp'method="POST">
 		<h3 class='efp info-voice'><?=$descriptor?></h3>
+	</section>
 
+	<form method="POST">
 		<div class="efp field">
 			<label class="calm-voice">Noun: </label>
 			<input type="text" name="noun" placeholder="Person place or thing!" required>
@@ -61,7 +63,7 @@
 			<input type="number" name="number" placeholder="#" min=0 required>
 		</div>
 
-		<button class='efp' type="submit" name="submitted">Give me my story!</button>
+		<button  type="submit" name="submitted">Give me my story!</button>
 	</form>
 
 	<?php

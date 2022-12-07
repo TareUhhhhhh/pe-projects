@@ -13,10 +13,13 @@
 	}
 ?>
 <div class="inner-column">
-	<h2 class='efp attention-voice'>#5 Simple Math</h2>
-	<form class='efp' method='POST'>
-		<h3 class="info-voice">Enter two numbers to do some math!</h3>
+	<section class="info">
+		<h2 class='efp attention-voice'>#5 Simple Math</h2>
 
+		<h3 class="info-voice">Enter two numbers to do some math!</h3>
+	</section>
+
+	<form  method='POST'>
 		<div class="efp field">
 			<label class="calm-voice">First number: </label>
 			<input type="number" name='firstNumber' placeholder='#' required>
@@ -27,15 +30,15 @@
 			<input type="number" name='secondNumber' placeholder='#' required>
 		</div>
 
-		<button class='efp' method='submit' name='submitted'>Let's Do Math!</button>
+		<button  method='submit' name='submitted'>Let's Do Math!</button>
 	</form>
 
 	<?php
 	if(isset($_POST['submitted'])) {
 	?>
-		<p class='efp'>Addition: <?=$firstNumber?> + <?=$secondNumber?> = <?=$addition?></p>
-		<p class='efp'>Subtraction: <?=$firstNumber?> - <?=$secondNumber?> = <?=$subtraction?></p>
-		<p class='efp'>Multiplication: <?=$firstNumber?> * <?=$secondNumber?> = <?=$multiplication?></p>
-		<p class='efp'>Division: <?=$firstNumber?> / <?=$secondNumber?> = <?=$division?></p>
+		<p >Addition: <?=$firstNumber?> + <?=$secondNumber?> = <?=$addition?></p>
+		<p >Subtraction: <?=$firstNumber?> - <?=$secondNumber?> = <?=$subtraction?></p>
+		<p >Multiplication: <?=$firstNumber?> * <?=$secondNumber?> = <?=$multiplication?></p>
+		<p >Division: <?=$firstNumber?> / <?=$secondNumber?> = <?=$division?></p>
 	<?php	} ?>
 </div>
