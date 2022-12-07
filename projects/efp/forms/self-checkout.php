@@ -41,45 +41,57 @@
 	<section class="info">
 		<h2 class="efp attention-voice">#10 Self Checkout</h2>
 
-		<h3 class="info-voice">Let's go shopping! Enter number of items, each items price and your tax amount to calculate groceries! (We have defaulted tax rate to 7% if you skip that entry)</h3>
+		<h3 class="info-voice">Let's go shopping! Enter the number of each item, its price and your tax amount to calculate your total! (We have defaulted tax rate to 7% if you skip that entry)</h3>
 	</section>
 
 	<form method="POST" >
-		<div class="efp field">
-			<label class="calm-voice">Item #1 Price: </label>
+		<section class="item">
+			<h3 class="calm-voice">Item #1</h3>
 
-			<input type="number" name='onePrice' required>
-		</div>
+			<div class="efp field">
+				<label class="calm-voice">Price: </label>
 
-		<div class="efp field">
-			<label class="calm-voice">Item #1 Quantity: </label>
+				<input type="number" name='onePrice' required>
+			</div>
 
-			<input type="number" name='oneQuantity' required>
-		</div>
+			<div class="efp field">
+				<label class="calm-voice">Quantity: </label>
 
-		<div class="efp field">
-			<label class="calm-voice">Item #2 Price: </label>
+				<input type="number" name='oneQuantity' required>
+			</div>
+		</section>
 
-			<input type="number" name='twoPrice' required>
-		</div>
+		<section class="item">
+			<h3 class="calm-voice">Item #2</h3>
 
-		<div class="efp field">
-			<label class="calm-voice">Item #2 Quantity</label>
+			<div class="efp field">
+				<label class="calm-voice">Price: </label>
 
-			<input type="number" name='twoQuantity' required>
-		</div>
+				<input type="number" name='twoPrice' required>
+			</div>
 
-		<div class="efp field">
-			<label class="calm-voice">Item #3 Price: </label>
+			<div class="efp field">
+				<label class="calm-voice">Quantity</label>
 
-			<input type="number" name='threePrice' required>
-		</div>
+				<input type="number" name='twoQuantity' required>
+			</div>
+		</section>
 
-		<div class="efp field">
-			<label class="calm-voice">Item #3 Quantity: </label>
+		<section class="item">
+			<h3 class="calm-voice">Item #3</h3>
 
-			<input type="number" name='threeQuantity' required>
-		</div>
+			<div class="efp field">
+				<label class="calm-voice">Price: </label>
+
+				<input type="number" name='threePrice' required>
+			</div>
+
+			<div class="efp field">
+				<label class="calm-voice">Quantity: </label>
+
+				<input type="number" name='threeQuantity' required>
+			</div>
+		</section>
 
 		<div class="efp field">
 			<label class="calm-voice">Tax Rate: </label>

@@ -12,7 +12,7 @@ else {
 	<intro-content>
 		<h1 class='intro loud-voice'>Tara's Formulaic Stuff</h1>
 
-		<p class='intro normal-voice'>This is where I keep my collection of example forms. The information and inspiration for these forms comes from the book Exercises for Programmers by Brian Hogan.</p>
+		<p class='intro calm-voice'>This is where I keep my collection of example forms. The information and inspiration for these forms comes from the book Exercises for Programmers by Brian Hogan.</p>
 	</intro-content>
 </div>
 </section>
