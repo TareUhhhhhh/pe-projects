@@ -1,0 +1,15 @@
+@import '../../../css/style.css';
+
+form {
+	margin-top: 2rem;
+}
+
+button {
+	display: block;
+	margin-top: 4rem;
+	padding: 0.5rem 2rem;
+}
+
+label {
+	display: block;
+}
