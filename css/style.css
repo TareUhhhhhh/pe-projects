@@ -187,20 +187,6 @@ p + a {
 	}
 }
 
-/*FORM STYLING*/
-.efp h1 {
-	margin-top:  0;
-}
-
-.efp .intro {
-	margin-top: 0;
-}
-
-.efp {
-	margin-top: 1rem;
-}
-
-
 /*RESUME PAGE*/
 .resume-entry {
 	border-bottom: 1px solid var(--accent);
