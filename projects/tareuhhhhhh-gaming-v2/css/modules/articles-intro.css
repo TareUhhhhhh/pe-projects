@@ -1,13 +1,14 @@
 
 articles-intro {
   display: block;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
   color: white;
 }
 
-articles-intro .attention-voice {
-  /*letter-spacing: -1px;*/
+articles-intro header .attention-voice {
+  letter-spacing: -1px;
+  font-size: 4rem;
 }
 
 articles-intro header {
@@ -15,14 +16,11 @@ articles-intro header {
 }
 
 articles-intro .intro {
-  font-size: 22px;
+  font-size: 1.3rem;
   max-width: 30em;
 }
 
 articles-intro article-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  grid-gap: 1em;
   overflow: hidden;
 }
 
