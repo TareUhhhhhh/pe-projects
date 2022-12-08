@@ -24,3 +24,10 @@ articles-intro article-grid {
   overflow: hidden;
 }
 
+@media (min-width:600px) {
+  articles-intro article-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
