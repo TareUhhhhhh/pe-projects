@@ -2,11 +2,11 @@
 
 * {
 	font-family: 'Lato', sans-serif;
-	font-weight: 200;
+	font-weight: 300;
 }
 
 .loud-voice	{
-	font-size: clamp(48px, 5vw, 60px);
+	font-size: clamp(48px, 5vw, 72px);
 }
 
 .intro-voice	{
@@ -20,7 +20,6 @@
 	text-transform: uppercase;
 	/*letter-spacing: -3px;*/
 	word-spacing: 1px;
-	font-weight: 200;
 }
 
 .calm-voice {
