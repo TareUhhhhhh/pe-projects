@@ -36,10 +36,6 @@
 
 
 /* SITE STYLES */
-html {
-	background-color: var(--white);
-}
-
 body {
 	background-color: var(--darkgray);
 }
@@ -118,10 +114,6 @@ section.stuff {
 	position: relative;
 }
 
-.get-involved inner-column {
-	/*max-width:  700px;*/
-}
-
 .call-to-action {
 	position: relative;
 }
@@ -158,9 +150,18 @@ form input {
 	padding: 0.5rem;
 }
 
-.email-signup button {
-	padding: 0.5rem 2rem;
+form.signin {
+	display: inline-block;
+	max-width: 50%;
+	background-color: var(--white);
+	padding: 1rem;
 }
+
+div.field {
+	padding-top: 1rem;
+}
+
+/*SIGN IN PAGE*/
 
 .site-footer {
 	background-color: var(--darkgray);

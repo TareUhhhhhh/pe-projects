@@ -26,6 +26,11 @@
   text-shadow: none;
 }
 
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+}
+
 .arrow {
   /* maybe icons in here? Any reusable smaller things */  
 }

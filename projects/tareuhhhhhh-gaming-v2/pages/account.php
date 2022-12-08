@@ -6,6 +6,25 @@
 	<video autoplay muted loop class="myVideo">
 	  <source src="images/world.mp4" type="video/mp4">
 	</video>
+</inner-column>
+</section>
 
+<section class="signin">
+<inner-column>
+	<form class="signin" method="POST">
+		<div class="field">
+			<label for="username">Username: </label>
+
+			<input type="text" for="username">
+		</div>
+
+		<div class="field">
+			<label for="password">Password: </label>
+
+			<input type="password" for="password">
+		</div>
+
+		<button input="submit">Sign In</button>
+	</form>
 </inner-column>
 </section>

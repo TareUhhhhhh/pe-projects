@@ -43,4 +43,4 @@
 		</inner-column>
 	</section>
 
-<?=include('footer.php'); ?>
+<?php include('footer.php'); ?>

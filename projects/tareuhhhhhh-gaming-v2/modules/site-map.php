@@ -1,6 +1,5 @@
 
 <site-map>
-	
 	<nav class='user-menu'>
 		<h3>Account Menu</h3>
 
@@ -22,5 +21,4 @@
 			<a href="?page=detail&game=<?=$link?>"><?=$title?></a>
 		<?php } ?>
 	</nav>
-
 </site-map>
