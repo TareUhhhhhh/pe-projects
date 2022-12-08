@@ -4,7 +4,7 @@
 
 
 		<footer class='site-footer'>
-			<a class='back-to-top' href="#">Back to top</a>
+			<!-- <a class='back-to-top' href="#">Back to top</a> -->
 			
 			<inner-column>
 

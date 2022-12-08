@@ -49,7 +49,7 @@ site-map a {
   nav.game-menu {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: 0.25rem;
   }
 
   .game-menu h3 {
