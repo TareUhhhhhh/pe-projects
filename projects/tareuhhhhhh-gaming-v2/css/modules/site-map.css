@@ -7,6 +7,10 @@ site-map {
   flex-direction: column;
 }
 
+site-map h3 {
+  font-size: 1.6rem;
+}
+
 .site-menu {
   display: flex;
   flex-direction: row;
@@ -35,6 +39,21 @@ site-map a {
   site-map {
     flex-direction: row;
     gap: 4rem;
+  }
+
+  .user-menu {
+    display: grid;
+    gap: 1rem;
+  }
+
+  nav.game-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .game-menu h3 {
+    grid-column: span 2;
   }
 }
 

@@ -5,6 +5,10 @@
 		<h3>Account Menu</h3>
 
 		<a href='?page=account'>Sign-in</a>
+
+		<a href='?page=account'>Account Info</a>
+
+		<a href='?page=account'>Sign Up</a>
 	</nav>
 
 	<nav class='game-menu'>
