@@ -17,8 +17,4 @@
 
 	<p class='calm-voice'><?=$article["description"]?></p>
 
-	<a class='button' href='#'>
-		<span>Read more</span>
-	</a>
-
 </article-card>
