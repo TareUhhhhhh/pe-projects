@@ -122,7 +122,6 @@ section.stuff {
 	/*max-width:  700px;*/
 }
 
-
 .call-to-action {
 	position: relative;
 }
@@ -141,12 +140,6 @@ section.stuff {
 	border-radius: 3px;
 }
 
-iframe {
-	margin-top: 40px;
-	max-width: 300px;
-	max-height: 120px;
-}
-
 .not-ready {
   background-color: rgba(207, 118, 161, 0.6);
   color: white;
@@ -154,6 +147,19 @@ iframe {
 
 .newsletter {
 	color: white;
+}
+
+form.email-signup {
+	margin-top: 1rem;
+	gap: 1rem;
+}
+
+form input {
+	padding: 0.5rem;
+}
+
+.email-signup button {
+	padding: 0.5rem 2rem;
 }
 
 .site-footer {
@@ -206,8 +212,6 @@ iframe {
 	letter-spacing: 0.03em;
 	max-width: 52ch;
 }
-
-
 
 @media (min-width: 600px) {
 	.game-detail inner-column {

@@ -31,7 +31,15 @@
 
 			<p class="calm-voice">Sign up for our newsletter and never miss out on the fun!</p>
 
-			<iframe src="https://tarahaskamp.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+			<form class="email-signup" method="POST">
+				<div class="field">
+					<!-- <label for="email">Email Address: </label> -->
+
+					<input type="email" placeholder="enter email here">
+
+					<button input="submit">Submit</button>
+				</div>
+			</form>
 		</inner-column>
 	</section>
 
