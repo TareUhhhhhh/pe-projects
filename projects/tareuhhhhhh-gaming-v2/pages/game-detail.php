@@ -32,6 +32,8 @@
 <inner-column>
 	<text-content>
 			<p class='important-voice description'><?=$detail["longDescription"]?></p>
+
+			<a class="button" href="#">Buy Now</a>
 		</text-content>
 </inner-column>
 </section>

@@ -1,14 +1,11 @@
 
 /* COMPONENTS */
 .button {
+  display: inline-block;
   text-transform: uppercase;
   color: inherit;
   font-weight: 700;
   letter-spacing: .05em;
-  text-decoration: underline;
-  /* should a link look like a "button" though? */
-  display: flex;
-  flex-direction: row;
   border:  1px solid white;
   padding:  1em 2em;
   text-decoration: none;

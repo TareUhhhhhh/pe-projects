@@ -17,7 +17,7 @@ mast-head nav {
 }
 
 mast-head .logo {
-  /*display: block;*/
+  display: block;
   max-width:  40px;
   padding: 5px;
 }
