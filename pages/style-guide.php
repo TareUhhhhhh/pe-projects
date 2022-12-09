@@ -56,5 +56,7 @@
 </section>
 
 
-<!-- then al of the page modules -->
-<?php include('module-loop.php'); ?>
+<!-- then all of the page modules -->
+<div class="inner-column">
+	<?php include('module-loop.php'); ?>
+</div>
