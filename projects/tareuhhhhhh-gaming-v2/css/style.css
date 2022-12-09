@@ -141,6 +141,7 @@ section.stuff {
 	color: white;
 }
 
+/*FORMS AND SIGN IN PAGE*/
 form.email-signup {
 	margin-top: 1rem;
 	gap: 1rem;
@@ -150,19 +151,41 @@ form input {
 	padding: 0.5rem;
 }
 
+section.signin {
+	background-color: var(--lightgray);
+}
+
+sign-in {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
 form.signin {
 	display: inline-block;
-	max-width: 50%;
-	background-color: var(--white);
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	background-color: var(--darkgray);
 	padding: 1rem;
+	max-width: 300px;
+	color: var(--white);
 }
 
-div.field {
+.signin div.field {
 	padding-top: 1rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
 }
 
-/*SIGN IN PAGE*/
+.signin button {
+	background-color: var(--gray);
+}
 
+/*FOOTER*/
 .site-footer {
 	background-color: var(--darkgray);
 	background: rgba(0, 0, 0, 0.4);

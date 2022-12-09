@@ -11,20 +11,22 @@
 
 <section class="signin">
 <inner-column>
-	<form class="signin" method="POST">
-		<div class="field">
-			<label for="username">Username: </label>
+	<sign-in>
+		<form class="signin" method="POST">
+			<div class="field">
+				<label for="username">Username: </label>
 
-			<input type="text" for="username">
-		</div>
+				<input type="text" for="username">
+			</div>
 
-		<div class="field">
-			<label for="password">Password: </label>
+			<div class="field">
+				<label for="password">Password: </label>
 
-			<input type="password" for="password">
-		</div>
+				<input type="password" for="password">
+			</div>
 
-		<button input="submit">Sign In</button>
-	</form>
+			<button class="button" input="submit">Sign In</button>
+		</form>
+	</sign-in>
 </inner-column>
 </section>
