@@ -23,8 +23,9 @@
 }
 
 .important-voice {
-	font-size: 1.6rem;
+	font-size: 1.3rem;
 	line-height: 1.3;
+	font-weight: 200;
 }
 
 .calm-voice {
