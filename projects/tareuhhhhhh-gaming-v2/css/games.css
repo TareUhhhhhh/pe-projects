@@ -61,4 +61,7 @@ section.game-detail {
 
 .game-info {
 	color: var(--white);
+	min-height: 300px;
+	background-color: var(--lightgray);
+	text-align: center;
 }
