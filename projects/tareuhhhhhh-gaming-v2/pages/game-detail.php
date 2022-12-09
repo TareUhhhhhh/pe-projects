@@ -31,7 +31,7 @@
 <section class="game-info">
 <inner-column>
 	<text-content>
-			<p class='calm-voice description'><?=$detail["longDescription"]?></p>
+			<p class='important-voice description'><?=$detail["longDescription"]?></p>
 		</text-content>
 </inner-column>
 </section>

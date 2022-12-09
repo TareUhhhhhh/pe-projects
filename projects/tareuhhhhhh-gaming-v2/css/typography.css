@@ -22,6 +22,11 @@
 	word-spacing: 1px;
 }
 
+.important-voice {
+	font-size: 1.6rem;
+	line-height: 1.3;
+}
+
 .calm-voice {
 	font-size: 1.1rem;
 	line-height: 1.4;
