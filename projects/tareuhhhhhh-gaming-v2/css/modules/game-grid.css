@@ -22,8 +22,9 @@ game-grid h2 {
 }
 
 game-card picture {
-	margin: 1rem 0;
-	overflow: hidden;
+  height: 0; /* trick */
+  padding-bottom: 50%; /* emulate desired ratio */
+  overflow: hidden;
 }
 
 game-card img {
@@ -31,7 +32,7 @@ game-card img {
 }
 
 game-card:hover :is(img) {
-	transform: scale(1.5);
+	transform: scale(1.2);
 	overflow: hidden;
 	transition: 1s;
 }

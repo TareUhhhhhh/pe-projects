@@ -7,7 +7,7 @@
 			"FPS",
 			"Adventure"
 		],
-		"image": "images/creepy.jpg",
+		"image": "images/skeleton.jpg",
 		"teaser": "Not many things are scarier than a global pandemic. Are you brave enough to find out what is?"
 	},
 	{
@@ -18,7 +18,7 @@
 			"FPS",
 			"Adventure"
 		],
-		"image": "images/adventure.jpg",
+		"image": "images/forest.jpg",
 		"teaser": "This is a game that is spoopy...and tests your skills!"
 	},
 	{
@@ -28,7 +28,7 @@
 			"Adventure",
 			"Puzzle Solving"
 		],
-		"image": "images/character.jpg",
+		"image": "images/masks.jpg",
 		"teaser": "This is a game that is spoopy...and tests your skills!"
 	},
 	{
