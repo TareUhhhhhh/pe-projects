@@ -65,3 +65,7 @@ section.game-detail {
 	background-color: var(--lightgray);
 	text-align: center;
 }
+
+.game-info p {
+	margin-top: 2rem;
+}
