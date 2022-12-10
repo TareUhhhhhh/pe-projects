@@ -23,7 +23,7 @@
 	<section class="info">
 		<h2 class="efp attention-voice">#8 Pizza Party</h2>
 
-		<h3 class="efp info-voice">Enter how many people are attending your pizza party, and how many pizzas you will order. We will calculate how many slices each person can have plus how many leftovers there will be.</h3>
+		<h3 class="efp intro-voice">Enter how many people are attending your pizza party, and how many pizzas you will order. We will calculate how many slices each person can have plus how many leftovers there will be.</h3>
 	</section>
 
 	<form method='POST'>

@@ -2,7 +2,7 @@
 	<section class="info">
 		<h2 class='attention-voice'>#2 Character Count</h2>
 
-		<h3 class='info-voice'>Type some stuff and find out how many characters there are.</h3>
+		<h3 class='intro-voice'>Type some stuff and find out how many characters there are.</h3>
 	</section>
 
 	<section class="php-version">

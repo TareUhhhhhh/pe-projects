@@ -41,7 +41,7 @@
 	<section class="info">
 		<h2 class="efp attention-voice">#10 Self Checkout</h2>
 
-		<h3 class="info-voice">Let's go shopping! Enter the number of each item, its price and your tax amount to calculate your total! (We have defaulted tax rate to 7% if you skip that entry)</h3>
+		<h3 class="intro-voice">Let's go shopping! Enter the number of each item, its price and your tax amount to calculate your total! (We have defaulted tax rate to 7% if you skip that entry)</h3>
 	</section>
 
 	<form method="POST" >

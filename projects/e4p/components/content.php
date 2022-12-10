@@ -13,7 +13,7 @@
 
 	<ol>
 		<li>
-			<a class="normal-voice" class="info-voice" href="forms/001-hello-world.php" target='hello'>1. Hello World</a>
+			<a class="normal-voice" class="intro-voice" href="forms/001-hello-world.php" target='hello'>1. Hello World</a>
 		</li>
 
 		<li>

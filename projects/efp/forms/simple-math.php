@@ -16,7 +16,7 @@
 	<section class="info">
 		<h2 class='efp attention-voice'>#5 Simple Math</h2>
 
-		<h3 class="info-voice">Enter two numbers to do some math!</h3>
+		<h3 class="intro-voice">Enter two numbers to do some math!</h3>
 	</section>
 
 	<form  method='POST'>

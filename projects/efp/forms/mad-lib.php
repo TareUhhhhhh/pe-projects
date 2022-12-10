@@ -34,7 +34,7 @@
 	<section class="info">
 		<h2 class='efp attention-voice'>#4 Mad Lib</h2>
 
-		<h3 class='efp info-voice'><?=$descriptor?></h3>
+		<h3 class='efp intro-voice'><?=$descriptor?></h3>
 	</section>
 
 	<form method="POST">

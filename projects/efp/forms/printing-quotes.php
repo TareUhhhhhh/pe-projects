@@ -2,7 +2,7 @@
 	<section class="info">
 		<h2 class='attention-voice'>#3 Printing Quotes</h2>
 
-		<h3 class='info-voice'>Enter quote info below and the page will display it.</h3>
+		<h3 class='intro-voice'>Enter quote info below and the page will display it.</h3>
 	</section>
 
 	<?php

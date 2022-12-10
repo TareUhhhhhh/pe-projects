@@ -16,9 +16,9 @@
 	<section class="info">
 		<h2 class='efp attention-voice'>#7 Rectangular Area</h2>
 
-		<h3 class="info-voice">Enter Room Dimensions to Find Out the Area</h3>
+		<h3 class="intro-voice">Enter Room Dimensions to Find Out the Area</h3>
 
-		<h4 class="info-voice">*Use consistent units</h2>
+		<h4 class="intro-voice">*Use consistent units</h2>
 	</section>
 
 	<form  method='POST'>

@@ -16,7 +16,7 @@
 			}
 		?>
 
-		<h3 class='efp info-voice' ><?=$message?></h3>
+		<h3 class='efp intro-voice' ><?=$message?></h3>
 	</section>
 
 	<section class="php-version display">	

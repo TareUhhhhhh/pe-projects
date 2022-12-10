@@ -15,7 +15,7 @@
 	<section class="info">
 		<h2 class='efp attention-voice'>#6 Retirement Calculator</h2>
 
-		<h3 class='efp info-voice'>Enter your current age and the age you want to retire, and find out when that can happen!</h3>
+		<h3 class='efp intro-voice'>Enter your current age and the age you want to retire, and find out when that can happen!</h3>
 	</section>
 
 	<form  method='POST'>

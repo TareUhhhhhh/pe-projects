@@ -30,7 +30,7 @@
 	<h2 class="efp attention-voice">#9 Paint Calculator</h2>
 
 	<form method="POST">
-		<h3 class="efp info-voice">Enter room dimensions to calculate how much paint is needed to paint the ceiling.</h3>
+		<h3 class="efp intro-voice">Enter room dimensions to calculate how much paint is needed to paint the ceiling.</h3>
 
 		<div class="efp field">
 			<label class="calm-voice">Room width: </label>
