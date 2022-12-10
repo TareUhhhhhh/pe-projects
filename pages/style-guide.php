@@ -12,16 +12,24 @@
 			"class" => "intro-voice",
 		],
 		[
+			"name" => "Medium Voice",
+			"class" => "medium-voice",
+		],
+		[
+			"name" => "Mono voice",
+			"class" => "mono-voice",
+		],
+		[
+			"name" => "Important Voice",
+			"class" => "important-voice",
+		],
+		[
 			"name" => "Attention voice",
 			"class" => "attention-voice",
 		],
 		[
 			"name" => "Loud voice",
 			"class" => "loud-voice",
-		],
-		[
-			"name" => "Mono voice",
-			"class" => "mono-voice",
 		],
 	];
 ?>
