@@ -66,6 +66,15 @@ section.game-detail {
 	text-align: center;
 }
 
+text-content {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .game-info p {
-	margin-top: 2rem;
+	margin: 2rem auto;
+	max-width: 64ch;
+	text-align: center;
+	line-height: 1.4;
 }
