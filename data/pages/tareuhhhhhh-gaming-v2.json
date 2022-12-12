@@ -12,15 +12,20 @@
 		{
 			"type": "text-content",
 			"title": "Project Info",
-			"paragraph": ["This project was an exercise in combining as many development ideas I had learned up to this point and put together a fully functional website based ."]
+			"paragraph": [
+				"This project was an exercise in combining as many development ideas I had learned up to this point and put together a fully functional website based on a theme of our own choosing.",
+				"The original challenge was presented to us with a base template. It was strictly for adding styled features and working with an existing template. It was pretty bare bones, so I started over and created this version. I added separate pages using URL routing and styled them as needed."
+			]
 		},
 		{
 			"type": "text-content",
 			"title": "Inspiration",
 			"paragraph": [
-				"This project was an exercise in emulating a theme. I like playing video games, specifically I really enjoy horror games, so I researched video game companies that specialize in that genre. I studied them and looked for any similarities and repeated elements.",
-				"My site features scrolling parallax background images, which was an inspiration from Bloober Team. They also feature links that appear to be oversized buttons with a simple border and no background, which is a style I liked, so I wanted to incorporate that.",
-				"The Supermassive Games website tends to show more similarities because the inspiration I drew from that site anchors everything together. I chose a very similar font and very thin font weight. I also emulated the hover underline they have for their header nav bar."
+				"This project was an exercise in emulating a theme. I like playing video games, specifically I really enjoy horror games. So I researched video game companies that specialize in that genre. I studied them and looked for any similarities and repeated elements.",
+				"Most of the sites had some sort of video or animated backgrounds, so I used stock video content for the header on each of the pages.",
+				"The Games page features scrolling parallax background images, which was an inspiration from Bloober Team. They also feature links that appear to be oversized buttons with a simple border and no background, which is a style I liked, so I wanted to incorporate that.",
+				"The Supermassive Games website tends to show more similarities because the inspiration I drew from that site anchors everything together. I chose a very similar font and very thin font weight. I also emulated the hover underline they have for their header nav bar. The game detail pages also pulled inspiration from Supermassive with the large image that spans across the page.",
+				"From Ubisoft, I took inspiration for the footer. The other two sites didn't have much in terms of a built out footer, so I had to widen my search for that piece."
 			]
 		},
 		{
