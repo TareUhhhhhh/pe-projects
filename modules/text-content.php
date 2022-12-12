@@ -1,9 +1,9 @@
 
 <section class="content">
 
-	<h3 class="section-title attention-voice">
-		<?=$module['title']?>
-	</h3>
+	<?php if(isset($module['title'])) { ?>
+		<h3 class="section-title attention-voice"><?=$module['title']?></h3>
+	<?php } ?>
 
 	<?php
 		foreach ($module['paragraph'] as $paragraph) { 
