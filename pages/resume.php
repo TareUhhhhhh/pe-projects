@@ -1,6 +1,8 @@
 <page-content class="resume">
 <div class="inner-column">
 
+	<?php include('module-loop.php');?>
+
 	<section class="work-history">
 		<h1 class='section-title attention-voice'>Work History</h1>
 

@@ -1,0 +1,10 @@
+{
+	"slug": "resume",
+	"modules": [
+		{
+			"type": "page-intro",
+			"title": "Resume",
+			"subtitle": "<p>Feel free to check out my <a href='pages/resume.html' target='resume'>Google Doc</a> resume as well. It's a bit easier to print if you had any reason to do that!</p>"
+		}
+	]
+}
