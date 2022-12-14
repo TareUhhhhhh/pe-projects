@@ -23,9 +23,7 @@
 </section>
 
 <section class="location">
-<div class="inner-column">
 	<?php include('modules/components/map.php'); ?>
-</div>
 </section>
 
 <section-get-in-touch>
