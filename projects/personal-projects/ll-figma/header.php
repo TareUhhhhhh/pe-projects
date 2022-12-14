@@ -18,19 +18,18 @@
 		<header>
 		<div class="inner-column">
 			<mast-head>
-				<?php include('images/logos/logo-blue.svg'); ?>
+				<a href="#"><?php include('images/logos/logo-blue.svg'); ?></a>
 
 				<nav>
-					<ul>
+					<ul class="myLinks">
 						<li><a href="#"><?php include('images/icons/nav/home.svg'); ?>Home</a></li>
 						<li><a href="#"><?php include('images/icons/nav/record.svg'); ?>Records</a></li>
 						<li><a href="#"><?php include('images/icons/nav/music-note.svg'); ?>Music</a></li>
 						<li><a href="#"><?php include('images/icons/nav/people.svg'); ?>Artists</a></li>
 						<li><a href="#"><?php include('images/icons/nav/calendar.svg'); ?>Concerts</a></li>
+						<li><a href="#" class="button">Sign Up</a></li>
 					</ul>
 				</nav>
-
-				<a href="#" class="button">Sign Up</a>
 			</mast-head>
 		</div>
 		</header>
