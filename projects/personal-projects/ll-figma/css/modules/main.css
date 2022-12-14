@@ -17,6 +17,17 @@ section.hero {
 	background-color: var(--light-gray);
 }
 
+release-slider {
+	display: block;
+}
+
+slider-card {
+	display: block;
+	margin-top: 1rem;
+	background-color: var(--white);
+	padding: 1.5rem 0.75rem;
+}
+
 /*LOCATION*/
 find-us {
 	display: block;
