@@ -3,9 +3,16 @@
 @import 'structure.css';
 @import 'settings.css';
 @import 'typography.css';
-@import 'footer.css';
+/*MODULES*/
+@import 'modules/header.css';
+@import 'modules/hero.css';
+@import 'modules/footer.css';
 
 nav a {
+	display: inline-block;
+}
+
+.logo {
 	display: inline-block;
 }
 
