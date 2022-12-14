@@ -38,3 +38,21 @@ find-us iframe {
 	min-width: 100%;
 	min-height: 400px;
 }
+
+/*CONTACT*/
+form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+div.message {
+	grid-column: span 2;
+}
+
+div.form-field {
+	margin-top: 0.75rem;
+}
+
+input {
+	padding: 0.5rem;
+}
