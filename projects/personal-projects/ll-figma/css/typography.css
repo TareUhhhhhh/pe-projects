@@ -1,24 +1,32 @@
-/* Should we pull in @fonts here? */
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+}
 
 .loud-voice	{
-	font-family: sans-serif;
 	font-size: clamp(36px, 5vw, 64px);
-}
-@media (min-width: 600px) {
-	.loud-voice {
-		font-weight: 700;
-	}
+	font-weight: 700;
 }
 
 .attention-voice	{
-	font-family: sans-serif;
-	font-size: 30px;
+	font-size: 2rem;
+	font-weight: 700;
 }
 
 .calm-voice, p, li {
-	font-family: sans-serif;
 	font-size: 1rem;
 	line-height: 1.4;
+}
+
+.title-voice {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.info-voice {
+	color: var(--green);
+	font-weight: 500;
 }
 
 .upper {

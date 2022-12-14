@@ -9,7 +9,9 @@
 		<title>Synder Recordings</title>
 		<meta name='description' content='Figma Coding Challenge made by TareUhhhhhh'>
 		<meta property='og:image' content='images/turntable.jpg'>
-
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 		<link rel='stylesheet' href='css/style.css'>
 	</head>
 
