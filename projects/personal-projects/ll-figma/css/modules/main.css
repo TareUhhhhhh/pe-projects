@@ -1,11 +1,24 @@
+/*HERO*/
 section.hero {
 	background-image: url(../../images/turntable.jpg);
 	background-color: var(--blue);
 	color: var(--white);
 }
 
-:is(.video) a, svg {
+:is(.video) svg {
 	display: inline-block;
+	padding: 1rem;
 	background-color: var(--white);
 	border-radius: 50px;
+}
+
+/*LOCATION*/
+find-us {
+	display: block;
+	min-height: 400px;
+}
+
+find-us iframe {
+	min-width: 100%;
+	min-height: 400px;
 }
