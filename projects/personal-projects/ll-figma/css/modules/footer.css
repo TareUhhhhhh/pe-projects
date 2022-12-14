@@ -1,3 +1,12 @@
 footer {
 	background-color: var(--blue);
+	color: var(--white);
+}
+
+social-nav a {
+	display: inline-block;
+}
+
+social-nav svg {
+	fill: var(--white);
 }
