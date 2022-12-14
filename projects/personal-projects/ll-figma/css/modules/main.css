@@ -41,8 +41,10 @@ find-us iframe {
 
 /*CONTACT*/
 form {
+	margin-top: 1rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
 }
 
 div.message {
@@ -50,9 +52,9 @@ div.message {
 }
 
 div.form-field {
-	margin-top: 0.75rem;
+	margin-top: 1rem;
 }
 
-input {
+input, select {
 	padding: 0.5rem;
 }
