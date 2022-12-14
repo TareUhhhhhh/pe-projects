@@ -1,0 +1,11 @@
+section.hero {
+	background-image: url(../../images/turntable.jpg);
+	background-color: var(--blue);
+	color: var(--white);
+}
+
+:is(.video) a, svg {
+	display: inline-block;
+	background-color: var(--white);
+	border-radius: 50px;
+}
