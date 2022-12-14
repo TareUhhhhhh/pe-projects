@@ -23,8 +23,8 @@
 		<h3 class="medium-voice">PHP</h3>
 
 		<form method="POST">
-			<label for="name1" class='calm-voice'>Name: </label>
-			<input   type="text" id="name1" placeholder="Type your name here" required>
+			<label for="name" class='calm-voice'>Name: </label>
+			<input   type="text" name="name" id="name" placeholder="Type your name here" required>
 
 			<button method="submit" name="submitted">Submit</button>
 		</form>
@@ -36,8 +36,9 @@
 		<h3 class="medium-voice">JS</h3>
 
 		<form id="hello" method="POST">
-			<label for="name2" class="calm-voice">Enter Name</label>
-			<input type="text" id="name2" placeholder="Type your name here">
+			<label for="name2" name="name2" class="calm-voice">Enter Name</label>
+
+			<input type="text" id="name2" name="name2" placeholder="Type your name here">
 
 			<button type="submit">Submit</button>
 		</form>

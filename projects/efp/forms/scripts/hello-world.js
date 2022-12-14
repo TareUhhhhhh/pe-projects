@@ -8,10 +8,8 @@ const name = form.elements['name2'];
 
 var nameId = name.value;
 
-console.log(nameId);
+const message = "Hello there, " + nameId;
 
 form.addEventListener('submit', (event) => {
-	const message = "Hello there, " + nameId + "!";
-
 	alert(message);
 });
