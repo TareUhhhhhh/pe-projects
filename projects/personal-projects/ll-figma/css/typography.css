@@ -19,6 +19,10 @@ body {
 	line-height: 1.4;
 }
 
+.quiet-voice {
+	font-size: 0.9rem;
+}
+
 .title-voice {
 	font-size: 1.5rem;
 	font-weight: 700;
