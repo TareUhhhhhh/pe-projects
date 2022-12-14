@@ -1,0 +1,17 @@
+@import 'reset.css';
+@import 'setup.css';
+@import 'structure.css';
+@import 'settings.css';
+@import 'typography.css';
+@import 'footer.css';
+
+nav a {
+	display: inline-block;
+}
+
+.button {
+	display: inline-block;
+	background-color: var(--pale-green);
+	color: var(--green);
+	padding: 1rem 2rem;
+}

@@ -1,0 +1,11 @@
+body {
+	--white: #FFFFFF;
+	--black: #000000;
+	--gray: #777777;
+	--light-gray: #F6F6F6;
+	--blue: #001D5D;
+	--pale-blue: #B8BFCF;
+	--green: #42A418;
+	--pale-green: #D9F0D0;
+	--shadow: #000000 5%;
+}
