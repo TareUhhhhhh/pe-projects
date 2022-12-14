@@ -37,12 +37,10 @@ p, p + p {
 	margin-top: 1em;
 }
 
-h2 + p {
-	margin-top: 20px;
+h2, picture, p {
+	margin-top: 1rem;
 }
 
-code {
-	font-family: monospace;
-	font-size: 1.1em;
-	color: green;
+h3, h4 {
+	margin-top: 0.5rem;
 }
