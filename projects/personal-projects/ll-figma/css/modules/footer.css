@@ -3,14 +3,45 @@ footer {
 	color: var(--white);
 }
 
+footer a {
+	margin-top: 0.57rem;
+}
+
 footer nav {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 2rem 0;
 	border-bottom: 1px solid var(--white);
+}
+
+location-info {
+	margin: 2rem 0;
+	grid-column: span 2;
+/*	text-align: center;*/
+}
+
+@media(min-width: 600px) {
+	footer nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
 }
 
 end-note {
 	display:flex;
 	flex-direction: column;
+	text-align: center;
+	align-items: center;
 	margin-top: 2rem;
+}
+
+@media(min-width: 500px) {
+	end-note {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
 }
 
 legal-nav {
@@ -32,4 +63,23 @@ social-nav a {
 
 social-nav svg {
 	fill: var(--white);
+}
+
+artists-nav, records-nav {
+	margin-top: 2rem;
+}
+
+@media(min-width: 500px) {
+	legal-nav {
+		flex-direction: row;
+		gap: 2rem;
+	}
+
+	social-nav {
+		margin: 0;
+	}
+
+	artists-nav, records-nav {
+		margin-top: 0;
+	}
 }
