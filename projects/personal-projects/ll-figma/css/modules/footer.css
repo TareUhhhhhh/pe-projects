@@ -3,6 +3,29 @@ footer {
 	color: var(--white);
 }
 
+footer nav {
+	border-bottom: 1px solid var(--white);
+}
+
+end-note {
+	display:flex;
+	flex-direction: column;
+	margin-top: 2rem;
+}
+
+legal-nav {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+social-nav {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+	margin-top: 2rem;
+}
+
 social-nav a {
 	display: inline-block;
 }
