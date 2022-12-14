@@ -5,7 +5,7 @@
 @import 'typography.css';
 /*MODULES*/
 @import 'modules/header.css';
-@import 'modules/hero.css';
+@import 'modules/main.css';
 @import 'modules/footer.css';
 
 nav a {

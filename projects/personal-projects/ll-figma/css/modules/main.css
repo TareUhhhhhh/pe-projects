@@ -12,6 +12,11 @@ section.hero {
 	border-radius: 50px;
 }
 
+/*NEW RELEASES*/
+.new-releases {
+	background-color: var(--light-gray);
+}
+
 /*LOCATION*/
 find-us {
 	display: block;
