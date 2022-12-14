@@ -1,0 +1,22 @@
+mast-head {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: sticky;
+	left: 0px;
+	top: 0px;
+}
+
+ul.myLinks {
+	display: block;
+}
+
+:is(header nav) svg {
+	display: none;
+}
+
+@media(min-width: 600px) {
+	header nav svg {
+		display: inline-block;
+	}
+}
