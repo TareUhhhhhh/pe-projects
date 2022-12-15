@@ -26,6 +26,5 @@ nav a {
 
 @media(min-width: 600px) {
 	picture {
-		max-width: 50%;
 	}
 }

@@ -31,19 +31,28 @@ hero-banner, graphic-diptych :is(p) {
 }
 
 /*SPOTLIGHT*/
-graphic-diptych {
-	display: flex;
-	flex-direction: column;	
-}
-
 @media(min-width: 700px) {
 	graphic-diptych {
-		flex-direction: row;	
-		align-items: center;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 		gap: 1rem;
 	}
 
+	graphic-diptych :is(h2, p, a) {
+		grid-column: 2 / 3;
+	}
+
+	graphic-diptych a {
+		justify-self: start;
+	}
+
+	graphic-diptych picture {
+		grid-row: span 3;
+	}
+
 	graphic-diptych img {
+		width: 100%;
+		height: 100%;
 		object-fit: cover;
 	}
 }
