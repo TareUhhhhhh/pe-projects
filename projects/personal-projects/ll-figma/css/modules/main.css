@@ -53,6 +53,17 @@ graphic-diptych {
 	background-color: var(--light-gray);
 }
 
+.new-releases text-content {
+	text-align: center;
+	margin: 50px 0;	
+}
+
+.new-releases text-content p {
+	margin: 1rem auto;
+	text-align: center;
+	max-width: 70ch;
+}
+
 release-slider {
 	display: block;
 }
@@ -61,7 +72,7 @@ slider-card {
 	display: block;
 	margin-top: 1rem;
 	background-color: var(--white);
-	padding: 1.5rem 0.75rem;
+	padding: 1.5em 0.75em;
 }
 
 /*LOCATION*/
