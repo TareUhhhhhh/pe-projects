@@ -10,7 +10,7 @@ body {
 }
 
 .attention-voice	{
-	font-size: 2rem;
+	font-size: clamp(28px, 3vw, 40px);
 	font-weight: 700;
 }
 
