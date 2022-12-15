@@ -55,7 +55,7 @@
 		<div class="form-field message">
 			<label for="message" class="quiet-voice">Message</label>
 
-			<input type="textarea" name="message" id="message" rows="4" columns="50">
+			<textarea type="textarea" name="message" id="message" rows="4" columns="50"></textarea>
 		</div>
 
 		<button input='submit' name='submitted' class="button">Learn More</button>

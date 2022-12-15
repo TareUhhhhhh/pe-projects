@@ -111,6 +111,13 @@ div.form-field {
 	margin-top: 1rem;
 }
 
-input, select {
+input, select, textarea {
+	margin-top: 5px;
 	padding: 0.5rem;
+}
+
+textarea {
+	grid-column: span 2;
+	display: block;
+  	resize: vertical;
 }
