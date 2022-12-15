@@ -1,18 +1,33 @@
 /*HERO*/
 section.hero {
-	min-height: 500px;
 	background-image: url(../../images/turntable.jpg);
 	background-size: cover;
-	background-position: bottom;
-	background-color: var(--blue);
+	background-position: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: multiply;
 	color: var(--white);
 }
 
 :is(.video) svg {
-	display: inline-block;
 	padding: 1rem;
 	background-color: var(--white);
 	border-radius: 50px;
+}
+
+hero-banner {
+	display: block;
+	margin: 200px 0;
+}
+
+hero-banner, graphic-diptych :is(p) {
+	max-width: 500px;
+}
+
+.watch-video {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	margin-top: 1rem;
 }
 
 /*SPOTLIGHT*/
