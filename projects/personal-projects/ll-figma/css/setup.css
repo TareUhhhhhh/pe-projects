@@ -33,3 +33,7 @@ svg {
 a > svg {
 	display: inline;
 }
+
+text-content {
+	display: block;
+}
