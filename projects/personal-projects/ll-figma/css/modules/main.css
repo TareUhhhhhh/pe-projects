@@ -15,6 +15,24 @@ section.hero {
 	border-radius: 50px;
 }
 
+/*SPOTLIGHT*/
+graphic-diptych {
+	display: flex;
+	flex-direction: column;	
+}
+
+@media(min-width: 700px) {
+	graphic-diptych {
+		flex-direction: row;	
+		align-items: center;
+		gap: 1rem;
+	}
+
+	graphic-diptych img {
+		object-fit: cover;
+	}
+}
+
 /*NEW RELEASES*/
 .new-releases {
 	background-color: var(--light-gray);
