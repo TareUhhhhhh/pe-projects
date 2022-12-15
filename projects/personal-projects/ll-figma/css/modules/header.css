@@ -16,6 +16,13 @@ ul.link-list {
 }
 
 @media(min-width: 600px) {
+	ul.link-list {
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+		justify-content: center;
+	}
+
 	header nav svg {
 		display: inline-block;
 	}
