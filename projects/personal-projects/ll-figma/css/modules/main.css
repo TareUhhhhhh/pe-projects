@@ -84,6 +84,22 @@ slider-card {
 	padding: 1.5em 0.75em;
 }
 
+@media(min-width: 600px) {
+	release-slider {
+		max-width: 1200px;
+		overflow: hidden;
+		display: flex;
+		flex-direction: row;
+		gap: 1rem;
+	}
+
+	slider-card {
+		display: flex;
+		flex-direction: row;
+		gap: 1rem;
+	}
+}
+
 /*LOCATION*/
 find-us {
 	display: block;
