@@ -1,6 +1,9 @@
 /*HERO*/
 section.hero {
+	min-height: 500px;
 	background-image: url(../../images/turntable.jpg);
+	background-size: cover;
+	background-position: bottom;
 	background-color: var(--blue);
 	color: var(--white);
 }
