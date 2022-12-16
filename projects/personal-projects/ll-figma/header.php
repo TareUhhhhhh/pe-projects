@@ -20,10 +20,11 @@
 		<header class="site-header">
 		<div class="inner-column">
 			<mast-head>
-				<a href="#" class="logo"><?php include('images/logos/logo-blue.svg'); ?></a>
+				
 
 				<nav class="site-menu">
 					<ul class="link-list">
+						<li><a href="#"><a href="#" class="logo"><?php include('images/logos/logo-blue.svg'); ?></a></a></li>
 						<li><a href="#"><?php include('images/icons/nav/home.svg'); ?>Home</a></li>
 						<li><a href="#"><?php include('images/icons/nav/record.svg'); ?>Records</a></li>
 						<li><a href="#"><?php include('images/icons/nav/music-note.svg'); ?>Music</a></li>
