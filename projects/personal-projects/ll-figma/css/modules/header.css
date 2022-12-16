@@ -1,14 +1,13 @@
 header {
 	padding: 10px 0;
-	background-color: var(--light);
+	background-color: var(--white);
 }
 
 mast-head {
 	display: block;
 	position: sticky;
 	left: 0px;
-	top: 0px;
-}
+	top: 0px;}
 
 ul.link-list {
 	display: block;

@@ -8,5 +8,5 @@ body {
 	--green: #42A418;
 	--pale-green: #D9F0D0;
 	--shadow: rgba(0, 0, 0, 0.05);
-	--light: rgba(255, 255, 255, 1);
+	--light: rgba(255, 255, 255, 0.5);
 }
