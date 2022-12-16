@@ -130,7 +130,7 @@ section.get-in-touch {
 }
 
 form {
-	margin-top: 1rem;
+	margin: 1rem 0;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 1rem;
@@ -141,6 +141,7 @@ div.message {
 }
 
 div.form-field {
+	display: grid;
 	margin-top: 1rem;
 }
 
