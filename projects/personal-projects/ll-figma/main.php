@@ -26,8 +26,8 @@
 	<?php include('modules/components/map.php'); ?>
 </section>
 
-<section-get-in-touch>
+<section class="get-in-touch">
 <div class="inner-column">
 	<?php include('modules/contact-us.php'); ?>
 </div>
-</section-get-in-touch>
+</section class="get-in-touch">

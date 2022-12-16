@@ -47,7 +47,7 @@ section.spotlight {
 	graphic-diptych {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: 1rem;
+		gap: 30px;
 		margin: 50px 0;
 	}
 
@@ -125,6 +125,10 @@ find-us iframe {
 }
 
 /*CONTACT*/
+section.get-in-touch {
+	overflow: hidden;
+}
+
 form {
 	margin-top: 1rem;
 	display: grid;
@@ -157,6 +161,10 @@ textarea {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 2rem;
+	}
+
+	contact-us .inner-column {
+		overflow: hidden;
 	}
 
 	contact-us picture {
