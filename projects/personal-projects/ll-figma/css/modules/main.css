@@ -17,13 +17,12 @@ section.hero {
 
 hero-banner {
 	display: block;
-/*	margin: 100px 0;*/
+	z-index: 2;
 }
 
 @media(min-width: 600px) {
 	hero-banner {
 		display: block;
-/*		margin: 200px 0;*/
 	}
 }
 
@@ -36,6 +35,24 @@ hero-banner, graphic-diptych :is(p) {
 	flex-direction: row;
 	gap: 1rem;
 	margin-top: 1rem;
+}
+
+.hero picture {
+	animation: zoom-in-out 3s ease infinite;
+}
+
+@keyframes zoom-in-out {
+	0% {
+		transform: scale(1, 1);
+	}
+
+	50% {
+		transform: scale(1.5, 1.5);
+	}
+
+	100% {
+		transform: scale(1, 1);
+	}
 }
 
 /*SPOTLIGHT*/
