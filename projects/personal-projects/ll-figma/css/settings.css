@@ -7,5 +7,6 @@ body {
 	--pale-blue: #B8BFCF;
 	--green: #42A418;
 	--pale-green: #D9F0D0;
-	--shadow: #000000 5%;
+	--shadow: rgba(0, 0, 0, 0.05);
+	--light: rgba(255, 255, 255, 1);
 }
