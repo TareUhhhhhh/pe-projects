@@ -1,4 +1,3 @@
-<script>
 function menuFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
@@ -7,4 +6,14 @@ function menuFunction() {
     x.style.display = "block";
   }
 }
-</script>
+
+var body = document.querySelector('body');
+
+document.addEventListener('click', function(event) {
+
+  console.log(event.target);
+
+  if ( event.target.matches('.toggle') ) {
+    body.classList.toggle('small-menu-open');
+  }
+});
