@@ -124,7 +124,7 @@ slider-card {
 	opacity: 50%;
 }
 
-.carousel-cell:active {
+slider-card:active {
 	opacity: 100%;
 }
 
