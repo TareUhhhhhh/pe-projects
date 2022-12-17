@@ -1,4 +1,4 @@
-<slider-card>
+<slider-card class="carousel-cell">
 	<picture><img src="images/trapsoul.jpg" alt=""></picture>
 
 	<card-text>

@@ -71,6 +71,7 @@
 			</end-note>
 		</div>
 		</footer>
+		<script src="scripts/flickity-min.js"></script>
 		<script src="scripts/scripts.js"></script>
 	</body>
 
