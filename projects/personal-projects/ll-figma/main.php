@@ -1,6 +1,6 @@
 <section class="hero">
 <div class="inner-column">
-	<?php include('modules/hero.php'); ?>
+	<?php include('modules/hero-banner.php'); ?>
 </div>
 </section>
 
