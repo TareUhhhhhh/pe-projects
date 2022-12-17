@@ -48,11 +48,3 @@ body {
 p, p + p {
 	margin-top: 1em;
 }
-
-h2, picture, p {
-	margin-top: 1rem;
-}
-
-h3, h4 {
-	margin-top: 0.5rem;
-}
