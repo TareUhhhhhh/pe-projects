@@ -124,7 +124,7 @@ slider-card {
 	opacity: 50%;
 }
 
-slider-card:active {
+slider-card.is-selected {
 	opacity: 100%;
 }
 
