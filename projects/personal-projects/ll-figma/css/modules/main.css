@@ -59,8 +59,12 @@ hero-banner .play-button {
 }
 
 /*SPOTLIGHT*/
-section.spotlight {
+.spotlight {
 	padding: 50px 0;
+}
+
+graphic-diptych p {
+	max-width: 60ch;
 }
 
 @media(min-width: 700px) {
@@ -92,12 +96,12 @@ section.spotlight {
 
 /*NEW RELEASES*/
 .new-releases {
+	padding: 50px 0;
 	background-color: var(--light-gray);
 }
 
 .new-releases text-content {
 	text-align: center;
-	padding: 50px 0;	
 }
 
 .new-releases text-content p {
@@ -108,28 +112,40 @@ section.spotlight {
 
 release-slider {
 	display: block;
+	padding: 50px;
 }
 
 slider-card {
 	display: block;
-	margin-top: 1rem;
+	margin: 0 10px;
+	padding: 2em 1em;
+	width: 80%;
 	background-color: var(--white);
-	padding: 1.5em 0.75em;
+	opacity: 50%;
+}
+
+.carousel-cell:active {
+	opacity: 100%;
+}
+
+card-text h4 {
+	margin-top: 1em;
 }
 
 @media(min-width: 600px) {
-	release-slider {
-		max-width: 1200px;
-		overflow: hidden;
-		display: flex;
-		flex-direction: row;
-		gap: 1rem;
+	slider-card {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 25px;
+		width: 50%;
 	}
 
-	slider-card {
-		display: flex;
-		flex-direction: row;
-		gap: 1rem;
+	slider-card picture {
+		grid-column: span 1;
+	}
+
+	slider-card card-text {
+		grid-column: span 2;
 	}
 }
 
