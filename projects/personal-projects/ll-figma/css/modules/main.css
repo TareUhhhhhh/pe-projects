@@ -67,6 +67,10 @@ hero-banner .play-button {
 	padding: 50px 0;
 }
 
+graphic-diptych h2 {
+	margin-top: 1rem;
+}
+
 graphic-diptych p {
 	max-width: 60ch;
 }
@@ -81,6 +85,10 @@ graphic-diptych p {
 
 	graphic-diptych :is(h2, p, a) {
 		grid-column: 2 / 3;
+	}
+
+	graphic-diptych h2 {
+		margin-top: 0;
 	}
 
 	graphic-diptych a {
