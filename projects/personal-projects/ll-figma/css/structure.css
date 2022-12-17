@@ -11,15 +11,9 @@ main {
 
 .inner-column {
 	display: block;
-	max-width: 1100px; 
+	max-width: 1170px; 
 	margin: 0 auto;
 	padding: 0 15px; 
-}
-
-@media(min-width: 700px) {
-	.inner-column {
-		padding: 0 50px; 
-	}
 }
 
 .site-header {
