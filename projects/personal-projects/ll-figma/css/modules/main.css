@@ -1,15 +1,18 @@
 /*HERO*/
-section.hero {
+.hero {
 	background-image: url(../../images/turntable.jpg);
 	background-size: cover;
 	background-position: center;
 	background-color: rgba(0, 0, 0, 0.4);
 	background-blend-mode: multiply;
 	color: var(--white);
-	padding: 100px 0;
 }
 
-:is(.video) svg {
+.hero .inner-column {
+	max-width: 950px;
+}
+
+.video-link svg {
 	padding: 1rem;
 	background-color: var(--white);
 	border-radius: 50px;
@@ -17,24 +20,24 @@ section.hero {
 
 hero-banner {
 	display: block;
-	z-index: 2;
+	padding: clamp(100px, 20vh, 175px);
+}
+
+hero-banner p {
+	max-width: 60ch;
+}
+
+hero-banner .play-button {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	margin-top: 1rem;
 }
 
 @media(min-width: 600px) {
 	hero-banner {
 		display: block;
 	}
-}
-
-hero-banner, graphic-diptych :is(p) {
-	max-width: 500px;
-}
-
-.watch-video {
-	display: flex;
-	flex-direction: row;
-	gap: 1rem;
-	margin-top: 1rem;
 }
 
 .hero picture {
