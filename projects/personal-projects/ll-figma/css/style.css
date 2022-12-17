@@ -6,7 +6,12 @@
 /*MODULES*/
 @import 'modules/header.css';
 @import 'modules/main.css';
+@import 'modules/slider.css';
 @import 'modules/footer.css';
+
+body {
+	overflow-x: hidden;
+}
 
 nav a {
 	display: inline-block;
