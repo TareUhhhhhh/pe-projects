@@ -144,7 +144,7 @@ card-text h4 {
 	margin-top: 1em;
 }
 
-@media(min-width: 600px) {
+@media(min-width: 700px) {
 	slider-card {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
