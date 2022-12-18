@@ -30,9 +30,9 @@
 						<li><a href="#"><?php include('images/icons/nav/people.svg'); ?>Artists</a></li>
 						<li><a href="#"><?php include('images/icons/nav/calendar.svg'); ?>Concerts</a></li>
 						<li><a href="#" class="button">Sign Up</a></li>
-					</ul>
 
-					<button class="button toggle upper">Close</button>
+						<li><button class="button toggle upper">Close</button></li>
+					</ul>
 				</nav>
 			</mast-head>
 		</div>

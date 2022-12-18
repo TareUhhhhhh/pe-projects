@@ -10,16 +10,58 @@ mast-head {
 	top: 0px;
 }
 
-ul.link-list {
-	display: block;
+.site-menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.site-menu.toggle {
+	margin: 20px 0;
 }
 
 :is(header nav) svg {
 	display: none;
 }
 
-button.toggle {
-	margin: 20px 0;
+@media(max-width: 834px) {
+	.link-list {
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 35vh;
+		padding-top: 2em;
+		/* */
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1em;
+/*		justify-content: center;*/
+		/* */
+		opacity: 0;
+		pointer-events: none;
+/*		transform: translate(-100%, 0); /* another fun option */*/
+		transform: scale(.5);
+		/* */
+		transition: 0s;
+	}
+
+	.link-list a {
+		min-width: 200px;
+		text-align: center;
+	}
+
+	body.small-menu-open .link-list {
+		background-color: var(--pale-blue);
+		opacity: 1;
+		pointer-events: initial;
+		transform: translate(0, 0); /* another fun option */
+/*		transform: scale(1);*/
+		transition: .2s;
+	}
 }
 
 @media(min-width: 835px) {
