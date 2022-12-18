@@ -44,7 +44,7 @@ https://flickity.metafizzy.co
 
 .flickity-button {
   position: absolute;
-  background: hsla(0, 0%, 100%, 0.75);
+  background: var(--pale-blue);
   border: none;
   color: #333;
 }
@@ -71,7 +71,7 @@ https://flickity.metafizzy.co
 }
 
 .flickity-button-icon {
-  fill: currentColor;
+  fill: var(--blue);
 }
 
 /* ---- previous/next buttons ---- */
