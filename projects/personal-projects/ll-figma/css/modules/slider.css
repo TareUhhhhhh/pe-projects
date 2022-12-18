@@ -47,11 +47,13 @@ https://flickity.metafizzy.co
   background: var(--pale-blue);
   border: none;
   color: #333;
+  transition: 0.5s;
 }
 
 .flickity-button:hover {
-  background: white;
+  background: var(--blue);
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .flickity-button:focus {
@@ -72,6 +74,10 @@ https://flickity.metafizzy.co
 
 .flickity-button-icon {
   fill: var(--blue);
+}
+
+.flickity-button:hover .flickity-button-icon {
+  fill: var(--pale-blue);
 }
 
 /* ---- previous/next buttons ---- */
