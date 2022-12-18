@@ -85,11 +85,51 @@ https://flickity.metafizzy.co
 }
 
 .flickity-prev-next-button.previous { 
-  left: 10px; 
+  left: 30%; 
 }
 
 .flickity-prev-next-button.next { 
-  right: 10px; 
+  right: 30%; 
+}
+
+@media(min-width: 500px) {
+  .flickity-prev-next-button.previous { 
+    left: 38%; 
+  }
+
+  .flickity-prev-next-button.next { 
+    right: 38%; 
+  }
+}
+
+@media(min-width: 700px) {
+  .flickity-prev-next-button.previous { 
+    left: 40%; 
+  }
+
+  .flickity-prev-next-button.next { 
+    right: 40%; 
+  }
+}
+
+@media(min-width: 900px) {
+  .flickity-prev-next-button.previous { 
+    left: 43%; 
+  }
+
+  .flickity-prev-next-button.next { 
+    right: 43%; 
+  }
+}
+
+@media(min-width: 1100px) {
+  .flickity-prev-next-button.previous { 
+    left: 45%; 
+  }
+
+  .flickity-prev-next-button.next { 
+    right: 45%; 
+  }
 }
 
 /* right to left */
