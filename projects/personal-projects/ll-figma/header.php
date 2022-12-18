@@ -24,12 +24,12 @@
 					<a href="#" class="logo"><?php include('images/logos/logo-blue.svg'); ?></a>
 					<button class="button toggle upper">Menu</button>
 					<ul class="link-list">
-						<li><a href="#"><?php include('images/icons/nav/home.svg'); ?>Home</a></li>
-						<li><a href="#"><?php include('images/icons/nav/record.svg'); ?>Records</a></li>
-						<li><a href="#"><?php include('images/icons/nav/music-note.svg'); ?>Music</a></li>
-						<li><a href="#"><?php include('images/icons/nav/people.svg'); ?>Artists</a></li>
-						<li><a href="#"><?php include('images/icons/nav/calendar.svg'); ?>Concerts</a></li>
-						<li><a href="#" class="button">Sign Up</a></li>
+						<li><a href="#" class="toggle"><?php include('images/icons/nav/home.svg'); ?>Home</a></li>
+						<li><a href="#" class="toggle"><?php include('images/icons/nav/record.svg'); ?>Records</a></li>
+						<li><a href="#" class="toggle"><?php include('images/icons/nav/music-note.svg'); ?>Music</a></li>
+						<li><a href="#" class="toggle"><?php include('images/icons/nav/people.svg'); ?>Artists</a></li>
+						<li><a href="#" class="toggle"><?php include('images/icons/nav/calendar.svg'); ?>Concerts</a></li>
+						<li><a href="#" class="button toggle">Sign Up</a></li>
 
 						<li><button class="button toggle upper">Close</button></li>
 					</ul>
