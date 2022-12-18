@@ -75,6 +75,10 @@ graphic-diptych p {
 	max-width: 60ch;
 }
 
+graphic-diptych a {
+	margin-top: 1rem;
+}
+
 @media(min-width: 700px) {
 	graphic-diptych {
 		display: grid;
@@ -147,13 +151,18 @@ card-text h4 {
 @media(min-width: 700px) {
 	slider-card {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: repeat(3, 1fr);
 		gap: 25px;
-		width: 50%;
 	}
 
 	slider-card picture {
 		grid-column: span 1;
+	}
+
+	slider-card img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
 	}
 
 	slider-card card-text {
