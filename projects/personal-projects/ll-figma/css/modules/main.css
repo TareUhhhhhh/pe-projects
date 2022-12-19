@@ -217,8 +217,8 @@ div.form-field {
 
 input, select, textarea {
 	display: block;
-	margin-top: 5px;
-	padding: 0.5rem;
+	margin-top: 6px;
+	padding: 16px 10px;
 	border: 1px solid var(--gray);
 }
 
@@ -227,9 +227,6 @@ input, select, textarea {
 }
 
 :is(input, select, textarea):hover {
-	display: block;
-	margin-top: 5px;
-	padding: 0.5rem;
 	border: 1px solid var(--blue);
 }
 
