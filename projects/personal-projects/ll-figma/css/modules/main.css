@@ -97,6 +97,7 @@ graphic-diptych a {
 
 	graphic-diptych a {
 		justify-self: start;
+		align-self: end;
 	}
 
 	graphic-diptych picture {
