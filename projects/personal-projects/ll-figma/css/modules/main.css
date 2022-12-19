@@ -144,7 +144,7 @@ slider-card.is-selected {
 	opacity: 100%;
 }
 
-card-text h4 {
+card-text :is(h3, h4) {
 	margin-top: 1em;
 }
 
@@ -156,7 +156,7 @@ card-text h4 {
 	}
 
 	slider-card picture {
-		grid-column: span 1;
+		grid-row: span 1;
 	}
 
 	slider-card img {
@@ -167,6 +167,10 @@ card-text h4 {
 
 	slider-card card-text {
 		grid-column: span 2;
+	}
+
+	card-text h3 {
+		margin-top: 0;
 	}
 }
 
