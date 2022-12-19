@@ -40,6 +40,10 @@
 	border-radius: 50px;
 }
 
+.play-button {
+	font-weight: 700;
+}
+
 hero-banner {
 	display: block;
 	padding: 100px 0;
