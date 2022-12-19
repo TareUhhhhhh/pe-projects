@@ -7,18 +7,21 @@
 
 	if(isset($_POST['submitted'])) {
 		$message = "Thank you!";
+	}
+	else {
+		$message = "";
+	}
 
-		if (isset($_POST['first'])) {
-			$first = $_POST['first'];
-		}
+	if (isset($_POST['first'])) {
+		$first = $_POST['first'];
+	}
 
-		if (isset($_POST['last'])) {
-			$last = $_POST['last'];
-		}
+	if (isset($_POST['last'])) {
+		$last = $_POST['last'];
+	}
 
-		if (isset($_POST['email'])) {
-			$email = $_POST['email'];
-		}
+	if (isset($_POST['email'])) {
+		$email = $_POST['email'];
 	}
 ?>
 
