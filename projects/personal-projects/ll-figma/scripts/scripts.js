@@ -1,3 +1,7 @@
+setTimeout(function(){
+    document.body.className="";
+},500);
+
 function menuFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
