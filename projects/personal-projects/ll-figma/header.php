@@ -8,7 +8,7 @@
 
 		<title>Synder Recordings</title>
 		<meta name='description' content='Figma Coding Challenge made by TareUhhhhhh for Lifted Logic'>
-		<meta property='og:image' content='images/turntable.jpg'>
+		<meta property='og:image' content='https://peprojects.dev/alpha-3/tara/projects/personal-projects/ll-figma/images/turntable.jpg'>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
