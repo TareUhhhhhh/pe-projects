@@ -70,6 +70,13 @@ mast-head {
 		gap: 60px;
 	}
 
+	nav .link-list a {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 5px;
+	}
+
 	ul.link-list {
 		display: flex;
 		flex-direction: row;
