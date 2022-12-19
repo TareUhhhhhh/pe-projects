@@ -211,6 +211,19 @@ input, select, textarea {
 	display: block;
 	margin-top: 5px;
 	padding: 0.5rem;
+	border: 1px solid var(--gray);
+	color: var(--gray);
+}
+
+:is(input, select, textarea):hover {
+	display: block;
+	margin-top: 5px;
+	padding: 0.5rem;
+	border: 1px solid var(--blue);
+}
+
+input:hover {
+	color: var(--blue);
 }
 
 textarea {
