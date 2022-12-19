@@ -9,6 +9,10 @@
 @import 'modules/slider.css';
 @import 'modules/footer.css';
 
+* {
+	border-radius: 2px;
+}
+
 body {
 	overflow-x: hidden;
 }
