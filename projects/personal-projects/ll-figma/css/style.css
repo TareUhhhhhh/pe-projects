@@ -33,3 +33,7 @@ nav a {
 	box-shadow: 300px 0 0 0 var(--green) inset, -300px 0 0 0 var(--green) inset;
 	color: var(--pale-green);
 }
+
+main {
+	overflow-x: hidden;
+}
