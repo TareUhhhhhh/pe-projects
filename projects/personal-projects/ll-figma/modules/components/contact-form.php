@@ -1,32 +1,30 @@
 
 <?php
-	if (isset($_POST['first'])) {
-		$first = $_POST['first'];
-	}
-	else {
-		$first = "First Name";
-	}
+	$message = "";
+	$first = "First Name";
+	$last = "Last Name";
+	$email = "Email Address";
 
-	if (isset($_POST['last'])) {
-		$last = $_POST['last'];
-	}
-	else {
-		$last = "Last Name";
-	}
+	if(isset($_POST['submitted'])) {
+		$message = "Thank you!";
 
-	if (isset($_POST['email'])) {
-		$email = $_POST['email'];
-	}
-	else {
-		$email = "Email Address";
-	}
+		if (isset($_POST['first'])) {
+			$first = $_POST['first'];
+		}
 
+		if (isset($_POST['last'])) {
+			$last = $_POST['last'];
+		}
 
+		if (isset($_POST['email'])) {
+			$email = $_POST['email'];
+		}
+	}
 ?>
 
 
 
-<form class="contact-form" action="POST">
+<form class="contact-form" method="POST">
 	<div class="form-field">
 		<label for="first-name" class="quiet-voice">First Name</label>
 		<input type="text" id="first-name" placeholder="<?=$first?>" required>
@@ -53,10 +51,14 @@
 	</div>
 
 	<div class="form-field message">
-		<label for="message" class="quiet-voice">Message</label>
+		<label for="message" class="quiet-voice" placeholder="Type your message here...">Message (optional)</label>
 
 		<textarea type="textarea" name="message" id="message" rows="4" columns="50"></textarea>
 	</div>
 
-	<button input='submit' name='submitted' class="button">Learn More</button>
+	<button type="submit" name="submitted" class="button">Learn More</button>
+
+	<?php if(isset($_POST['submitted'])) { ?>
+		<p><?=$message?></p>
+	<?php } ?>
 </form>
