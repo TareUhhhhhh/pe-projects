@@ -63,7 +63,7 @@
 			<input type="number" name="number" placeholder="#" min=0 required>
 		</div>
 
-		<button  type="submit" name="submitted">Give me my story!</button>
+		<button type="submit" name="submitted">Give me my story!</button>
 	</form>
 
 	<?php
