@@ -3,6 +3,16 @@ header {
 	background-color: var(--white);
 }
 
+header a {
+	color: var(--blue);
+	stroke: var(--blue);
+}
+
+header a:hover {
+	color: var(--gray);
+	stroke: var(--gray);
+}
+
 mast-head {
 	display: block;
 	position: sticky;

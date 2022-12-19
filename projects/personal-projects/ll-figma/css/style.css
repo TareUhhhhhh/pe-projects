@@ -23,10 +23,6 @@ body.preload *{
 	transition:background-color 0s, opacity 0s, color 0s, width 0s, height 0s, padding 0s, margin 0s !important;
 }
 
-footer nav a {
-	display: inline-block;
-}
-
 .logo {
 	display: inline-block;
 }

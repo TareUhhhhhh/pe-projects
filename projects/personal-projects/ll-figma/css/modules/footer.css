@@ -4,7 +4,12 @@ footer {
 }
 
 footer a {
+	display: inline-block;
 	margin-top: 0.57rem;
+}
+
+footer a:hover {
+	color: var(--pale-blue);
 }
 
 footer nav {
