@@ -27,7 +27,7 @@
 	background-color: rgba(0, 0, 0, 0.4);
 	background-blend-mode: multiply;
 	z-index: -1;
-	animation: zoom-in-out 15s ease-in-out infinite;
+	animation: zoom-in-out 30s ease-in-out infinite;
 }
 
 .hero .inner-column {
