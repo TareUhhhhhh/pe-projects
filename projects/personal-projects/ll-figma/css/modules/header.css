@@ -65,6 +65,13 @@ mast-head {
 		text-align: center;
 	}
 
+	.link-list button {
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin: 10px 15px;
+	}
+
 	body.small-menu-open .link-list {
 		background-color: var(--pale-blue);
 		opacity: 1;
