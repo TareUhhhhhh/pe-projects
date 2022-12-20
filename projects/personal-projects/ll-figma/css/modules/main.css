@@ -274,6 +274,10 @@ textarea {
   	resize: vertical;
 }
 
+.contact-form .button {
+	margin-top: 1rem;
+}
+
 @media(min-width: 800px) {
 	contact-us {
 		display: grid;
