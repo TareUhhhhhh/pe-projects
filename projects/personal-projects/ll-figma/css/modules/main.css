@@ -44,8 +44,18 @@
 	font-weight: 700;
 }
 
-.play-button:hover {
-	opacity: 60%;
+@keyframes spin {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.play-button:hover svg {
+	animation: spin 1s ease;
 }
 
 hero-banner {
