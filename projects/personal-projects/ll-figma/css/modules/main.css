@@ -44,6 +44,10 @@
 	font-weight: 700;
 }
 
+.play-button:hover {
+	opacity: 60%;
+}
+
 hero-banner {
 	display: block;
 	padding: 100px 0;
