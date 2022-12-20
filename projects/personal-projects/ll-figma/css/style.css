@@ -33,7 +33,7 @@ body.preload *{
 	color: var(--green);
 	font-size: 1rem;
 	font-weight: 500;
-	padding: 1rem 2rem;
+	padding: 0.5em 2em;
 	transition:all 0.4s, color 0.1s 0.1s;
 }
 
