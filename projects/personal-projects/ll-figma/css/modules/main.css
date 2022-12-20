@@ -219,6 +219,21 @@ form {
 	}
 }
 
+@media(min-width: 800px) {
+	.contact-form {
+		display: block;
+		max-width: 80%;
+	}
+}
+
+@media(min-width: 900px) {
+	.contact-form {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+	}
+}
+
 div.message {
 	grid-column: span 2;
 }
@@ -255,7 +270,7 @@ textarea {
   	resize: vertical;
 }
 
-@media(min-width: 600px) {
+@media(min-width: 800px) {
 	contact-us {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -282,5 +297,11 @@ textarea {
 	contact-form {
 		padding: 40px 0;
 		grid-row: 1;
+	}
+}
+
+@media(min-width: 1170px) {
+	contact-us {
+		overflow: hidden;
 	}
 }
