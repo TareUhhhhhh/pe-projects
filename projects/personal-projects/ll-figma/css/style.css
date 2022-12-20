@@ -9,10 +9,6 @@
 @import 'modules/slider.css';
 @import 'modules/footer.css';
 
-* {
-	border-radius: 2px;
-}
-
 body {
 	overflow-x: hidden;
 }
@@ -34,6 +30,7 @@ body.preload *{
 	font-size: 1rem;
 	font-weight: 500;
 	padding: 0.5em 2em;
+	border-radius: 2px;
 	transition:all 0.4s, color 0.1s 0.1s;
 }
 

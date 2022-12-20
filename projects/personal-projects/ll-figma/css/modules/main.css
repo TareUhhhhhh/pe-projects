@@ -211,6 +211,10 @@ form {
 	margin: 1rem 0;
 }
 
+form * {
+	border-radius: 2px;
+}
+
 @media(min-width: 400px) {
 	.contact-form {
 		display: grid;
