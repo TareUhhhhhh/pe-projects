@@ -1,6 +1,7 @@
 footer {
 	background-color: var(--blue);
 	color: var(--white);
+	padding-top: 2rem;
 }
 
 footer a {
@@ -16,7 +17,6 @@ footer nav {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	padding: 2rem 0;
-	border-bottom: 1px solid var(--white);
 }
 
 location-info {
@@ -25,12 +25,8 @@ location-info {
 /*	text-align: center;*/
 }
 
-@media(min-width: 600px) {
-	footer nav {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-	}
+footer-content {
+	border-bottom: 1px solid var(--white);
 }
 
 end-note {
@@ -41,7 +37,7 @@ end-note {
 	padding: 30px 0;
 }
 
-@media(min-width: 500px) {
+@media(min-width: 700px) {
 	end-note {
 		flex-direction: row;
 		justify-content: space-between;
@@ -78,7 +74,19 @@ artists-nav, records-nav {
 	margin-top: 2rem;
 }
 
-@media(min-width: 500px) {
+@media(min-width: 650px) {
+	footer nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	artists-nav, records-nav {
+		margin-top: 0;
+	}
+}
+
+@media(min-width: 700px) {
 	legal-nav {
 		flex-direction: row;
 		gap: 2rem;
@@ -87,8 +95,16 @@ artists-nav, records-nav {
 	social-nav {
 		margin: 0;
 	}
+}
 
-	artists-nav, records-nav {
-		margin-top: 0;
+@media(min-width: 900px) {
+	footer-content {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		gap: 20px;
+	}
+
+	footer nav {
+		grid-column: span 4;
 	}
 }
