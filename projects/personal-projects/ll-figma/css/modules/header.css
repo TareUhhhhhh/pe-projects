@@ -31,7 +31,7 @@ mast-head {
 	margin: 20px 0;
 }
 
-@media(max-width: 659px) {
+@media(max-width: 674px) {
 	.link-list {
 		display: block;
 		position: fixed;
@@ -82,7 +82,7 @@ mast-head {
 	}
 }
 
-@media(min-width: 660px) {
+@media(min-width: 675px) {
 	.site-menu {
 		display: flex;
 		flex-direction: row;
