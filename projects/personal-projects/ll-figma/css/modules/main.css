@@ -205,9 +205,14 @@ contact-us picture {
 
 form {
 	margin: 1rem 0;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 1rem;
+}
+
+@media(min-width: 400px) {
+	.contact-form {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+	}
 }
 
 div.message {
