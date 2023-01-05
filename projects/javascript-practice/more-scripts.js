@@ -63,17 +63,20 @@ var message = show + " is a show with many characters. " + characters.maleCharac
 console.log(show + " is a show with many characters. " + characters.maleCharacters + " are the male characters. " + characters.femaleCharacters + " are the female characters.");
 
 // // Create variables again
-
+let game = "Skyrim";
+let playerName = "Astrid";	
 
 // // Create the message AS a variable
+let gameMessage = playerName + " is playing " + game + ".";
 
-
-// // Log the message variable to the console
-
+// // Log the message variable to the console -- to check and make sure it is working and debug
+console.log(gameMessage);
 
 
 // // Add the message to the page html
-
+p = document.createElement("p");
+p.textContent = gameMessage;
+document.body.appendChild(p);
 
 // // Function to create paragraphs
 
