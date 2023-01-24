@@ -15,11 +15,17 @@ function compare(first, second) {
 compare(firstNumber, secondNumber);
 
 //
+function max(a, b) {
+	if (a > b) return a;
+	return b;
+}
+
 let number = max(4,4);
 console.log(number);
 
-
+//Conditional Statement
 function max(a, b) {
-	if (a > b) return a;
-	else return b;
+	return (a, b) ? a : b;
 }
+
+console.log(number);
