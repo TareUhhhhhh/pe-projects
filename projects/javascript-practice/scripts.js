@@ -38,7 +38,7 @@ function petGreeting() {
 	}
 }
 
-// petGreeting();
+petGreeting();
 
 //array
 var thisArray = ["apetite", "bug smash", "caterpillar", "dingus"];
