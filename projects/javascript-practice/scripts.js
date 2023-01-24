@@ -5,7 +5,7 @@ var mood = "Versatile";
 console.log("Name: ", name, "Age: ", age, "Mood: ", mood);
 
 //function
-function shoutName() {
+function shoutName(name) {
 	console.log("My name is " + name + "!");
 }
 
@@ -13,8 +13,6 @@ shoutName("Tara");
 
 //nested function
 function petGreeting() {
-	var petName = prompt("What is your pets name?");
-
 	function animal() {
 		var petType = prompt("What kind of animal is " + petName + "?");
 
@@ -28,14 +26,11 @@ function petGreeting() {
 		}
 	}
 
+	var petName = prompt("What is your pets name?");
+
 	if (petName) {
 			animal();
 		}
-
-	else {
-		alert("I think you forgot something.");
-		petGreeting();
-	}
 }
 
 petGreeting();
@@ -102,7 +97,7 @@ function loggs(item, index) {
 	console.log(index, item);
 }
 
-// myFaves.forEach( loggs );
+myFaves.forEach( loggs );
 
 myFavorites.forEach( function(item) {
 	if (item.type != "prop") {
@@ -119,7 +114,7 @@ console.log(animals);
 function buildList(item, heading) {
 	var h1 = document.createElement(h1);
 	h1.textContent = "heading";
-	document.body.apendChild(h1);
+	document.body.appendChild(h1);
 	var ul = document.createElement(ul);
 
 	item.forEach( function(item) {
