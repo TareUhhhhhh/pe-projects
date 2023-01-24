@@ -1,5 +1,5 @@
 let firstNumber = 5;
-let secondNumber = 9;
+let secondNumber = 5;
 
 function compare(first, second) {
 	if (first > second) {
@@ -13,3 +13,13 @@ function compare(first, second) {
 }
 
 compare(firstNumber, secondNumber);
+
+//
+let number = max(4,4);
+console.log(number);
+
+
+function max(a, b) {
+	if (a > b) return a;
+	else return b;
+}
