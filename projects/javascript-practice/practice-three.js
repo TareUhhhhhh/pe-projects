@@ -15,17 +15,40 @@ function compare(first, second) {
 compare(firstNumber, secondNumber);
 
 //
+let number = max(4,4);
+console.log(number);
+
 function max(a, b) {
 	if (a > b) return a;
 	return b;
 }
-
-let number = max(4,4);
-console.log(number);
 
 //Conditional Statement
 function max(a, b) {
 	return (a, b) ? a : b;
 }
 
-console.log(number);
+//Check speed function
+
+// Speedlimit = 70
+// 5 over = 1 point (each)
+// 12 points = suspended
+
+function checkSpeed(speed) {
+	const speedLimit = 70;
+	const speedPerPoint = 5;
+
+	if (speed <= speedLimit) message = "Good job!";
+	else {
+		const points = Math.floor((speed -  speedLimit) / speedPerPoint);
+		message = "Points: " + points;
+
+		if (points >= 12) {
+			message = "License suspended, buddy!";
+		}
+	}
+
+	console.log(message);
+}
+
+checkSpeed(72);
