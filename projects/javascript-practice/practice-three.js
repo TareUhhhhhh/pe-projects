@@ -65,3 +65,22 @@ function showNumbers(limit) {
 		else console.log(i, "Even")
 	}
 }
+
+// Count Truthy / Falsy
+// Falsy = undefined, null, '', 0, false, NaN
+// Call function to count the number of truth statements in an array
+// Function must look at each value and determine if it is truthy or falsy
+// i++ for each truthy value
+const stuffArray = [4, 0, true, '', null, 'seven'];
+truthyCount(stuffArray);
+
+function truthyCount(array) {
+	let count = 0;
+	
+	for (let element of array) {
+		if (element) 
+			count++;
+	}
+	
+	console.log(count);
+}
