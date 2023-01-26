@@ -41,7 +41,7 @@ function checkSpeed(speed) {
 	if (speed <= speedLimit) message = "Good job!";
 	else {
 		const points = Math.floor((speed -  speedLimit) / speedPerPoint);
-		message = "Points: " + points;
+		message = "Slow down! Points: " + points;
 
 		if (points >= 12) {
 			message = "License suspended, buddy!";
@@ -52,3 +52,16 @@ function checkSpeed(speed) {
 }
 
 checkSpeed(72);
+
+
+// Number display
+
+showNumbers(8);
+
+function showNumbers(limit) {
+	for( i = 0; i <= limit; i++ ) {
+		if (i%2 != 0)
+			console.log(i, "Odd")
+		else console.log(i, "Even")
+	}
+}
