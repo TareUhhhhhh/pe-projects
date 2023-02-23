@@ -1,3 +1,7 @@
-This is a template to be used for easily starting projects.
+# Once Upon a Chef Website Copy
+---
+[Inspiration Link](https://www.onceuponachef.com/recipes/asparagus-soup-with-lemon-and-parmesan.html)
 
-Each page will have it's own json data and the module loop will read that data to produce the page.
+## For practice building sites
+
+I liked the gallery at the top of this page and wanted to emulate the layout of this site. Food blog sites are notorious for a LOT of stuff and information and pictures everywhere. 
