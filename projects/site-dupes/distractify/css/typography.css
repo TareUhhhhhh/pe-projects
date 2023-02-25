@@ -21,3 +21,11 @@
 .info-voice, .mono-voice {
 	font-family: monospace;
 }
+
+.caps {
+	text-transform: uppercase;
+}
+
+.strong {
+	font-weight: 600;
+}
