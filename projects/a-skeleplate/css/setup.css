@@ -25,6 +25,7 @@ a {
 
 p a {
 	display: inline-block;
+	padding: 0;
 	text-decoration: underline;
 }
 
