@@ -1,15 +1,15 @@
 <section class="site-intro" id="site-intro">
 <div class="inner-column">
-	<h1 class="page-title">This is a "Skeleton Template"</h1>
+	<h1 class="loud-voice page-title">This is a "Skeleton Template"</h1>
 
-	<p>This is how a site will look with some text on it.</p>
+	<p class="normal-voice">This is how a site will look with some text on it.</p>
 </div>
 </section>
 
 <section class="card-gallery">
 <div class="inner-column">
 	<gallery-intro>
-		<h2>This is how a section would look with some link cards</h2>
+		<h2 class="attention-voice">This is how a section would look with some link cards</h2>
 	</gallery-intro>
 
 	<card-gallery>
