@@ -39,6 +39,11 @@ img {
 	height: auto;
 }
 
+/*CUSTOM ELEMENTS*/
+gallery-intro, card-gallery, link-card {
+	display: block;
+}
+
 /*SETTINGS*/
 
 body {
