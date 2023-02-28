@@ -41,13 +41,16 @@ p {
 	letter-spacing: 0.012rem;
 }
 
+link-card {
+	margin-top: 1.6rem;
+}
+
 /*LAYOUT*/
 header nav {
 	display: flex;
 	flex-direction: row;
 	gap: 10px;
 }
-
 
 
 
