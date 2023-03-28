@@ -7,7 +7,7 @@ body {
 }
 
 .calm-voice, p {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	line-height: 1.4;
 	font-weight: 200;
 	letter-spacing: .02em;
@@ -16,7 +16,7 @@ body {
 
 @media (min-width:  700px) {
 	.calm-voice, p {
-		font-size: 1.1rem;
+		font-size: 1.3rem;
 	}
 }
 
