@@ -16,6 +16,7 @@ site-header :is(.info-nav, .about-nav) {
 }
 
 site-header a {
+	font-size: 1.3rem;
 	padding: 10px 14px;
 }
 
