@@ -40,7 +40,7 @@
 		<?php 
 			$module["type"] = "page-intro";
 			$module["title"] = "Style Guide";
-			$module["subtitle"] = "<p>Welcome to the Style Guide.</p>";
+			$module["subtitle"] = "";
 			include("modules/page-intro.php");
 		?>
 		
