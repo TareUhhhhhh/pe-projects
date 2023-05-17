@@ -1,0 +1,26 @@
+{
+	"slug": "prodigy-challenge",
+	"modules": [
+		{
+			"type": "page-heading",
+			"heading": "Prodigy UX/UI Challenge"
+		},
+		{
+			"type": "highlights",
+			"highlights": ["Figma", "Responsive Design", "HTML", "CSS", "PHP", "JSON"]
+		},
+		{
+			"type": "text-content",
+			"title": "Project Info",
+			"paragraph": [
+				"Thanks to the good old Internet always paying attention to what we do, I stumbled across a Seven-Day Digital UX/UI design challenge. Having learned a bit about UX/UI in my bootcamp, I figured it could be helpful to complete the challenge and learn a bit more.",
+				"I truly think that a developer can only be more valuable from having a solid understanding of the concepts that go into creating web designs. (Plus, major bonus, then I've got plenty of my own Figma designs that I can use myself to practice and build out my portfolio!)",
+				"So below are the projects featured in the challenge. I will include the Figma link to my creation for each design, as well as a link to the site I actually created based off of the Figma file, when applicable. The very first design, for example was literally just creating a search bar. Not much to build out from that one."
+			]
+		},
+		{
+			"type": "project-links",
+			"figmaLink": "https://www.figma.com/file/nd5PIVKAqHsdiDBY3HHeWo/Challenge-1---Booking.com?type=design&node-id=0-1&t=wdZjOA4VmzQWCdjv-0"
+		}
+	]
+}

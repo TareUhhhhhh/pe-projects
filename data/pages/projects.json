@@ -29,6 +29,12 @@
 			"title": "Personal Website",
 			"teaser": "This site that you are looking at currently was built by hand. By me. No template necessary.",
 			"slug": "personal-site"
+		},
+		{
+			"type": "project-card",
+			"title": "Prodigy UX/UI Challenge",
+			"teaser": "I Stumbled across an online UX/UI challenge and figured I should give it a go to learn some additional skills.",
+			"slug": "prodigy-challenge"
 		}
 	]
 }
