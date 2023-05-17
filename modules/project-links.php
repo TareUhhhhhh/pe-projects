@@ -1,4 +1,8 @@
 <section class='project-links'>
+	<?php if(isset($module['figmaLink'])) { ?>
+		<a class='button github-link' target="<?=$module['figmaLink']?>" href="<?=$module['figmaLink']?>">Figma Link</a>
+	<?php } ?>
+
 	<?php if (isset($module["siteLink"])) { ?>
 		<a class='button project-link' target='<?=$module['slug']?>' href="<?=$module["siteLink"]?>">Live Site</a>
 	<?php } ?>
