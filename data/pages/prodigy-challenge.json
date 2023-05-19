@@ -19,6 +19,14 @@
 			]
 		},
 		{
+			"type": "text-content",
+			"section-heading": "Booking.com",
+			"paragraph": [
+				"The first challenge was to recreate the Booking.com search bar. It's a pretty small and simple challenge, but it's an easy start for day 1!",
+				"While this is just for a search bar and not enough to create a new page, it was a great addition for my responsive layout garden."
+			]
+		},
+		{
 			"type": "project-links",
 			"figmaLink": "https://www.figma.com/file/nd5PIVKAqHsdiDBY3HHeWo/Challenge-1---Booking.com?type=design&node-id=0-1&t=wdZjOA4VmzQWCdjv-0"
 		}
