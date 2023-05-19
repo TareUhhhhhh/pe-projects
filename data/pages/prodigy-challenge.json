@@ -29,6 +29,15 @@
 		{
 			"type": "project-links",
 			"figmaLink": "https://www.figma.com/file/nd5PIVKAqHsdiDBY3HHeWo/Challenge-1---Booking.com?type=design&node-id=0-1&t=wdZjOA4VmzQWCdjv-0"
+		},
+		{
+			"type": "text-content",
+			"section-heading": "Airbnb",
+			"paragraph": [
+				"Day Two brought about a sticky booking module from Airbnb.",
+				""
+			]
 		}
+
 	]
 }
