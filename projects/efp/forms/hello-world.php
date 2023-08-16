@@ -32,17 +32,17 @@
 		<p  >Hello, <?=$name?>! Nice to meet you!</p>
 	</section>
 
-	<section class="js-version display">
+<!-- 	<section class="js-version display">
 		<h3 class="medium-voice">JS</h3>
 
 		<form id="hello" method="POST">
-			<label for="name2" name="name2" class="calm-voice">Enter Name</label>
+			<label for="jsName" name="jsName" class="calm-voice">Enter Name</label>
 
-			<input type="text" id="name2" name="name2" placeholder="Type your name here">
+			<input type="text" id="jsName" name="jsName" placeholder="Type your name here">
 
 			<button type="submit">Submit</button>
 		</form>
 		<script src="forms/scripts/hello-world.js"></script>
-	</section>
+	</section> -->
 
 </div>
