@@ -4,11 +4,11 @@ const form = document.getElementById('hello');
 // 	event.preventDefault();
 // });
 
-const name = form.elements['name2'];
+let name2 = form.elements['jsName'];
 
-var nameId = name.value;
+const nameId = name2.value;
 
-const message = "Hello there, " + nameId;
+const message = "Hello there, " + nameId + "!";
 
 form.addEventListener('submit', (event) => {
 	alert(message);
