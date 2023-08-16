@@ -23,7 +23,7 @@
 			"section-heading": "Booking.com",
 			"paragraph": [
 				"The first challenge was to recreate the Booking.com search bar. It's a pretty small and simple challenge, but it's an easy start for day 1!",
-				"While this is just for a search bar and not enough to create a new page, it was a great addition for my responsive layout garden."
+				"The challenge itself presented only one format, which of course would be for a wide screen desktop view. I took the challenge a step further and decided to also create a versoin for small screens by stacking the fields on top of each other in order to make it responsive."
 			]
 		},
 		{
