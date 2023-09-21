@@ -1,0 +1,27 @@
+{
+	"slug": "personal-projects/ll-figma",
+	"modules": [
+		{
+			"type": "page-heading",
+			"heading": "Coding Challenge"
+		},
+		{
+			"type": "highlights",
+			"highlights": ["HTML", "CSS", "PHP", "Javascript", "Figma", "Pseudocode"]
+		},
+		{
+			"type": "text-content",
+			"title": "Project Info",
+			"paragraph": [
+				" ",
+				" ",
+				" "
+			]
+		},
+		{
+			"type": "project-links",
+			"gitLink": "https://github.com/TareUhhhhhh/pe-projects/tree/main/projects/personal-projects/ll-figma",
+			"siteLink": "projects/personal-projects/ll-figma"
+		}
+	]
+}
