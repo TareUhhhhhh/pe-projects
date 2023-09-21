@@ -14,6 +14,12 @@
 		},
 		{
 			"type": "project-card",
+			"title": "Coding Challenge",
+			"teaser": "For a ob interview, I was prompted to do a Coding Challenge to prove my skills. And I nailed it, if I do say so myself.",
+			"slug": "coding-challenge"
+		},
+		{
+			"type": "project-card",
 			"title": "Exercises For Programmers",
 			"teaser": "A collection of exercises from the book of the same name by Brian Hogan.",
 			"slug": "e4p"
