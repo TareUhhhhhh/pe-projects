@@ -14,7 +14,7 @@
 			"title": "Project Info",
 			"paragraph": [
 				"As a standard part of many interviews, I was presented with a Coding Challenge by a company that I interviewed with. They provided a link to a Figma design, as well as a few additional requirements.",
-				"Some standard 'Dos and Donts' included not using a CSS framework and of course, making sure the page is responsive. This requires a little prior knowledge and ability to create responsive websites on your own. (Thank you <a target='new-tab' href='https://perpetual.education'>Perpetual Education</a> for all of the knowledge in that area!)",
+				"Some standard 'Dos and Donts' included not using a CSS framework and of course, making sure the page is responsive. This requires a little prior knowledge and ability to create responsive websites on your own, as the Figma file doesn't provide any small screen design.",
 				"This was a great challenge that I was excited to tackle head on. I had a complete design in front of me to work from, but with some of their requirements, I had the freedom to make some of my own decisions with how to set up the page.",
 				"For a detailed look at the Project Summary, feel free to check out <a href='https://docs.google.com/document/d/e/2PACX-1vR3Jos9YeNPY2VhAWJkS9HU1uAA2hZFG1tg4-CNXpWxqhFpiYzEC9c3mJjiV7TRlrM9iMmWQZX5JwWR/pub'>this document</a> I wrote up at the conclusion of the challenge. "
 			]
