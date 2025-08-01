@@ -18,7 +18,7 @@
 
 				<nav class="about-nav">
 					<a href="?page=about">About</a>
-					<a href="?page=resume">Resume</a>
+<!-- 					<a href="?page=resume">Resume</a> -->
 				</nav>
 			</site-header>
 		</div>
